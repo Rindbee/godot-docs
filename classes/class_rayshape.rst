@@ -9,30 +9,30 @@
 RayShape
 ========
 
-**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape <class_Shape>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Ray shape for 3D collisions.
 
 Description
 -----------
 
-Ray shape for 3D collisions, which can be set into a :ref:`PhysicsBody<class_PhysicsBody>` or :ref:`Area<class_Area>`. A ray is not really a collision body; instead, it tries to separate itself from whatever is touching its far endpoint. It's often useful for characters.
+Ray shape for 3D collisions, which can be set into a :ref:`PhysicsBody <class_PhysicsBody>` or :ref:`Area <class_Area>`. A ray is not really a collision body; instead, it tries to separate itself from whatever is touching its far endpoint. It's often useful for characters.
 
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`length<class_RayShape_property_length>`                 | ``1.0``   |
-+---------------------------+---------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`   | :ref:`slips_on_slope<class_RayShape_property_slips_on_slope>` | ``false`` |
-+---------------------------+---------------------------------------------------------------+-----------+
++----------------------------+----------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`length <class_RayShape_property_length>`                 | ``1.0``   |
++----------------------------+----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`   | :ref:`slips_on_slope <class_RayShape_property_slips_on_slope>` | ``false`` |
++----------------------------+----------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_RayShape_property_length:
 
-- :ref:`float<class_float>` **length**
+- :ref:`float <class_float>` **length**
 
 +-----------+-------------------+
 | *Default* | ``1.0``           |
@@ -48,7 +48,7 @@ The ray's length.
 
 .. _class_RayShape_property_slips_on_slope:
 
-- :ref:`bool<class_bool>` **slips_on_slope**
+- :ref:`bool <class_bool>` **slips_on_slope**
 
 +-----------+---------------------------+
 | *Default* | ``false``                 |

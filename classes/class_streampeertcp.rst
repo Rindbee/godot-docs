@@ -9,7 +9,7 @@
 StreamPeerTCP
 =============
 
-**Inherits:** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`StreamPeer <class_StreamPeer>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 TCP stream peer.
 
@@ -21,21 +21,21 @@ TCP stream peer. This object can be used to connect to TCP servers, or also is r
 Methods
 -------
 
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>`    | :ref:`connect_to_host<class_StreamPeerTCP_method_connect_to_host>` **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)** |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                     | :ref:`disconnect_from_host<class_StreamPeerTCP_method_disconnect_from_host>` **(** **)**                                                    |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`              | :ref:`get_connected_host<class_StreamPeerTCP_method_get_connected_host>` **(** **)** const                                                  |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                    | :ref:`get_connected_port<class_StreamPeerTCP_method_get_connected_port>` **(** **)** const                                                  |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Status<enum_StreamPeerTCP_Status>` | :ref:`get_status<class_StreamPeerTCP_method_get_status>` **(** **)**                                                                        |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                  | :ref:`is_connected_to_host<class_StreamPeerTCP_method_is_connected_to_host>` **(** **)** const                                              |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                     | :ref:`set_no_delay<class_StreamPeerTCP_method_set_no_delay>` **(** :ref:`bool<class_bool>` enabled **)**                                    |
-+------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>`    | :ref:`connect_to_host <class_StreamPeerTCP_method_connect_to_host>` **(** :ref:`String <class_String>` host, :ref:`int <class_int>` port **)** |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                      | :ref:`disconnect_from_host <class_StreamPeerTCP_method_disconnect_from_host>` **(** **)**                                                      |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`              | :ref:`get_connected_host <class_StreamPeerTCP_method_get_connected_host>` **(** **)** const                                                    |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                    | :ref:`get_connected_port <class_StreamPeerTCP_method_get_connected_port>` **(** **)** const                                                    |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Status <enum_StreamPeerTCP_Status>` | :ref:`get_status <class_StreamPeerTCP_method_get_status>` **(** **)**                                                                          |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                  | :ref:`is_connected_to_host <class_StreamPeerTCP_method_is_connected_to_host>` **(** **)** const                                                |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                      | :ref:`set_no_delay <class_StreamPeerTCP_method_set_no_delay>` **(** :ref:`bool <class_bool>` enabled **)**                                     |
++-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -65,9 +65,9 @@ Method Descriptions
 
 .. _class_StreamPeerTCP_method_connect_to_host:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:`String <class_String>` host, :ref:`int <class_int>` port **)**
 
-Connects to the specified ``host:port`` pair. A hostname will be resolved if valid. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` on failure.
+Connects to the specified ``host:port`` pair. A hostname will be resolved if valid. Returns :ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>` on success or :ref:`@GlobalScope.FAILED <class_@GlobalScope_constant_FAILED>` on failure.
 
 ----
 
@@ -81,7 +81,7 @@ Disconnects from host.
 
 .. _class_StreamPeerTCP_method_get_connected_host:
 
-- :ref:`String<class_String>` **get_connected_host** **(** **)** const
+- :ref:`String <class_String>` **get_connected_host** **(** **)** const
 
 Returns the IP of this peer.
 
@@ -89,7 +89,7 @@ Returns the IP of this peer.
 
 .. _class_StreamPeerTCP_method_get_connected_port:
 
-- :ref:`int<class_int>` **get_connected_port** **(** **)** const
+- :ref:`int <class_int>` **get_connected_port** **(** **)** const
 
 Returns the port of this peer.
 
@@ -97,15 +97,15 @@ Returns the port of this peer.
 
 .. _class_StreamPeerTCP_method_get_status:
 
-- :ref:`Status<enum_StreamPeerTCP_Status>` **get_status** **(** **)**
+- :ref:`Status <enum_StreamPeerTCP_Status>` **get_status** **(** **)**
 
-Returns the status of the connection, see :ref:`Status<enum_StreamPeerTCP_Status>`.
+Returns the status of the connection, see :ref:`Status <enum_StreamPeerTCP_Status>`.
 
 ----
 
 .. _class_StreamPeerTCP_method_is_connected_to_host:
 
-- :ref:`bool<class_bool>` **is_connected_to_host** **(** **)** const
+- :ref:`bool <class_bool>` **is_connected_to_host** **(** **)** const
 
 Returns ``true`` if this peer is currently connected to a host, ``false`` otherwise.
 
@@ -113,7 +113,7 @@ Returns ``true`` if this peer is currently connected to a host, ``false`` otherw
 
 .. _class_StreamPeerTCP_method_set_no_delay:
 
-- void **set_no_delay** **(** :ref:`bool<class_bool>` enabled **)**
+- void **set_no_delay** **(** :ref:`bool <class_bool>` enabled **)**
 
 Disables Nagle's algorithm to improve latency for small packets.
 

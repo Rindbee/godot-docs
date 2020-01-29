@@ -9,34 +9,34 @@
 VisualScriptFunctionCall
 ========================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`String<class_String>`                                   | :ref:`base_script<class_VisualScriptFunctionCall_property_base_script>`           |              |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`String<class_String>`                                   | :ref:`base_type<class_VisualScriptFunctionCall_property_base_type>`               | ``"Object"`` |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`           | :ref:`basic_type<class_VisualScriptFunctionCall_property_basic_type>`             |              |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`       | :ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>`               | ``0``        |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`String<class_String>`                                   | :ref:`function<class_VisualScriptFunctionCall_property_function>`                 | ``""``       |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`NodePath<class_NodePath>`                               | :ref:`node_path<class_VisualScriptFunctionCall_property_node_path>`               |              |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>` | :ref:`rpc_call_mode<class_VisualScriptFunctionCall_property_rpc_call_mode>`       | ``0``        |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`String<class_String>`                                   | :ref:`singleton<class_VisualScriptFunctionCall_property_singleton>`               |              |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`int<class_int>`                                         | :ref:`use_default_args<class_VisualScriptFunctionCall_property_use_default_args>` |              |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                                       | :ref:`validate<class_VisualScriptFunctionCall_property_validate>`                 | ``true``     |
-+---------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------+
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`String <class_String>`                                   | :ref:`base_script <class_VisualScriptFunctionCall_property_base_script>`           |               |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`StringName <class_StringName>`                           | :ref:`base_type <class_VisualScriptFunctionCall_property_base_type>`               | ``@"Object"`` |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>`           | :ref:`basic_type <class_VisualScriptFunctionCall_property_basic_type>`             |               |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`CallMode <enum_VisualScriptFunctionCall_CallMode>`       | :ref:`call_mode <class_VisualScriptFunctionCall_property_call_mode>`               | ``0``         |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`StringName <class_StringName>`                           | :ref:`function <class_VisualScriptFunctionCall_property_function>`                 | ``@""``       |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`NodePath <class_NodePath>`                               | :ref:`node_path <class_VisualScriptFunctionCall_property_node_path>`               |               |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`RPCCallMode <enum_VisualScriptFunctionCall_RPCCallMode>` | :ref:`rpc_call_mode <class_VisualScriptFunctionCall_property_rpc_call_mode>`       | ``0``         |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`StringName <class_StringName>`                           | :ref:`singleton <class_VisualScriptFunctionCall_property_singleton>`               |               |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`int <class_int>`                                         | :ref:`use_default_args <class_VisualScriptFunctionCall_property_use_default_args>` |               |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
+| :ref:`bool <class_bool>`                                       | :ref:`validate <class_VisualScriptFunctionCall_property_validate>`                 | ``true``      |
++----------------------------------------------------------------+------------------------------------------------------------------------------------+---------------+
 
 Enumerations
 ------------
@@ -96,7 +96,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_base_script:
 
-- :ref:`String<class_String>` **base_script**
+- :ref:`String <class_String>` **base_script**
 
 +----------+------------------------+
 | *Setter* | set_base_script(value) |
@@ -108,10 +108,10 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_base_type:
 
-- :ref:`String<class_String>` **base_type**
+- :ref:`StringName <class_StringName>` **base_type**
 
 +-----------+----------------------+
-| *Default* | ``"Object"``         |
+| *Default* | ``@"Object"``        |
 +-----------+----------------------+
 | *Setter*  | set_base_type(value) |
 +-----------+----------------------+
@@ -122,7 +122,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_basic_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **basic_type**
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **basic_type**
 
 +----------+-----------------------+
 | *Setter* | set_basic_type(value) |
@@ -134,7 +134,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_call_mode:
 
-- :ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>` **call_mode**
+- :ref:`CallMode <enum_VisualScriptFunctionCall_CallMode>` **call_mode**
 
 +-----------+----------------------+
 | *Default* | ``0``                |
@@ -148,10 +148,10 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_function:
 
-- :ref:`String<class_String>` **function**
+- :ref:`StringName <class_StringName>` **function**
 
 +-----------+---------------------+
-| *Default* | ``""``              |
+| *Default* | ``@""``             |
 +-----------+---------------------+
 | *Setter*  | set_function(value) |
 +-----------+---------------------+
@@ -162,7 +162,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_node_path:
 
-- :ref:`NodePath<class_NodePath>` **node_path**
+- :ref:`NodePath <class_NodePath>` **node_path**
 
 +----------+----------------------+
 | *Setter* | set_base_path(value) |
@@ -174,7 +174,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_rpc_call_mode:
 
-- :ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>` **rpc_call_mode**
+- :ref:`RPCCallMode <enum_VisualScriptFunctionCall_RPCCallMode>` **rpc_call_mode**
 
 +-----------+--------------------------+
 | *Default* | ``0``                    |
@@ -188,7 +188,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_singleton:
 
-- :ref:`String<class_String>` **singleton**
+- :ref:`StringName <class_StringName>` **singleton**
 
 +----------+----------------------+
 | *Setter* | set_singleton(value) |
@@ -200,7 +200,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_use_default_args:
 
-- :ref:`int<class_int>` **use_default_args**
+- :ref:`int <class_int>` **use_default_args**
 
 +----------+-----------------------------+
 | *Setter* | set_use_default_args(value) |
@@ -212,7 +212,7 @@ Property Descriptions
 
 .. _class_VisualScriptFunctionCall_property_validate:
 
-- :ref:`bool<class_bool>` **validate**
+- :ref:`bool <class_bool>` **validate**
 
 +-----------+---------------------+
 | *Default* | ``true``            |

@@ -9,7 +9,7 @@
 LinkButton
 ==========
 
-**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`BaseButton <class_BaseButton>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Simple button used to represent a link to some resource.
 
@@ -21,34 +21,34 @@ This kind of button is primarily used when the interaction with the button cause
 Properties
 ----------
 
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
-| :ref:`FocusMode<enum_Control_FocusMode>`            | enabled_focus_mode                                    | **O:** ``0`` |
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
-| :ref:`FocusMode<enum_Control_FocusMode>`            | focus_mode                                            | **O:** ``0`` |
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
-| :ref:`CursorShape<enum_Control_CursorShape>`        | mouse_default_cursor_shape                            | **O:** ``2`` |
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
-| :ref:`String<class_String>`                         | :ref:`text<class_LinkButton_property_text>`           | ``""``       |
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
-| :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` | :ref:`underline<class_LinkButton_property_underline>` | ``0``        |
-+-----------------------------------------------------+-------------------------------------------------------+--------------+
++------------------------------------------------------+--------------------------------------------------------+--------------+
+| :ref:`FocusMode <enum_Control_FocusMode>`            | enabled_focus_mode                                     | **O:** ``0`` |
++------------------------------------------------------+--------------------------------------------------------+--------------+
+| :ref:`FocusMode <enum_Control_FocusMode>`            | focus_mode                                             | **O:** ``0`` |
++------------------------------------------------------+--------------------------------------------------------+--------------+
+| :ref:`CursorShape <enum_Control_CursorShape>`        | mouse_default_cursor_shape                             | **O:** ``2`` |
++------------------------------------------------------+--------------------------------------------------------+--------------+
+| :ref:`String <class_String>`                         | :ref:`text <class_LinkButton_property_text>`           | ``""``       |
++------------------------------------------------------+--------------------------------------------------------+--------------+
+| :ref:`UnderlineMode <enum_LinkButton_UnderlineMode>` | :ref:`underline <class_LinkButton_property_underline>` | ``0``        |
++------------------------------------------------------+--------------------------------------------------------+--------------+
 
 Theme Properties
 ----------------
 
-+---------------------------------+--------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | focus              |                              |
-+---------------------------------+--------------------+------------------------------+
-| :ref:`Font<class_Font>`         | font               |                              |
-+---------------------------------+--------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color         | Color( 0.88, 0.88, 0.88, 1 ) |
-+---------------------------------+--------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_hover   | Color( 0.94, 0.94, 0.94, 1 ) |
-+---------------------------------+--------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_pressed | Color( 1, 1, 1, 1 )          |
-+---------------------------------+--------------------+------------------------------+
-| :ref:`int<class_int>`           | underline_spacing  | 2                            |
-+---------------------------------+--------------------+------------------------------+
++----------------------------------+--------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | focus              |                              |
++----------------------------------+--------------------+------------------------------+
+| :ref:`Font <class_Font>`         | font               |                              |
++----------------------------------+--------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color         | Color( 0.88, 0.88, 0.88, 1 ) |
++----------------------------------+--------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_hover   | Color( 0.94, 0.94, 0.94, 1 ) |
++----------------------------------+--------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_pressed | Color( 1, 1, 1, 1 )          |
++----------------------------------+--------------------+------------------------------+
+| :ref:`int <class_int>`           | underline_spacing  | 2                            |
++----------------------------------+--------------------+------------------------------+
 
 Enumerations
 ------------
@@ -74,7 +74,7 @@ Property Descriptions
 
 .. _class_LinkButton_property_text:
 
-- :ref:`String<class_String>` **text**
+- :ref:`String <class_String>` **text**
 
 +-----------+-----------------+
 | *Default* | ``""``          |
@@ -84,11 +84,13 @@ Property Descriptions
 | *Getter*  | get_text()      |
 +-----------+-----------------+
 
+The button's text that will be displayed inside the button's area.
+
 ----
 
 .. _class_LinkButton_property_underline:
 
-- :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` **underline**
+- :ref:`UnderlineMode <enum_LinkButton_UnderlineMode>` **underline**
 
 +-----------+---------------------------+
 | *Default* | ``0``                     |
@@ -97,4 +99,6 @@ Property Descriptions
 +-----------+---------------------------+
 | *Getter*  | get_underline_mode()      |
 +-----------+---------------------------+
+
+Determines when to show the underline. See :ref:`UnderlineMode <enum_LinkButton_UnderlineMode>` for options.
 

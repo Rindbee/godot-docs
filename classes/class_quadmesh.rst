@@ -9,28 +9,28 @@
 QuadMesh
 ========
 
-**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PrimitiveMesh <class_PrimitiveMesh>` **<** :ref:`Mesh <class_Mesh>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Class representing a square mesh.
 
 Description
 -----------
 
-Class representing a square :ref:`PrimitiveMesh<class_PrimitiveMesh>`. This flat mesh does not have a thickness. By default, this mesh is aligned on the X and Y axes; this default rotation is more suited for use with billboarded materials. Unlike :ref:`PlaneMesh<class_PlaneMesh>`, this mesh doesn't provide subdivision options.
+Class representing a square :ref:`PrimitiveMesh <class_PrimitiveMesh>`. This flat mesh does not have a thickness. By default, this mesh is aligned on the X and Y axes; this default rotation is more suited for use with billboarded materials. Unlike :ref:`PlaneMesh <class_PlaneMesh>`, this mesh doesn't provide subdivision options.
 
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`size<class_QuadMesh_property_size>` | ``Vector2( 1, 1 )`` |
-+-------------------------------+-------------------------------------------+---------------------+
++--------------------------------+--------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`size <class_QuadMesh_property_size>` | ``Vector2( 1, 1 )`` |
++--------------------------------+--------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_QuadMesh_property_size:
 
-- :ref:`Vector2<class_Vector2>` **size**
+- :ref:`Vector2 <class_Vector2>` **size**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 1, 1 )`` |

@@ -9,48 +9,48 @@
 HeightMapShape
 ==============
 
-**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape <class_Shape>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Height map shape for 3D physics (Bullet only).
 
 Description
 -----------
 
-Height map shape resource, which can be added to a :ref:`PhysicsBody<class_PhysicsBody>` or :ref:`Area<class_Area>`.
+Height map shape resource, which can be added to a :ref:`PhysicsBody <class_PhysicsBody>` or :ref:`Area <class_Area>`.
 
 Properties
 ----------
 
-+-------------------------------------------+-----------------------------------------------------------+---------------------------------+
-| :ref:`PoolRealArray<class_PoolRealArray>` | :ref:`map_data<class_HeightMapShape_property_map_data>`   | ``PoolRealArray( 0, 0, 0, 0 )`` |
-+-------------------------------------------+-----------------------------------------------------------+---------------------------------+
-| :ref:`int<class_int>`                     | :ref:`map_depth<class_HeightMapShape_property_map_depth>` | ``2``                           |
-+-------------------------------------------+-----------------------------------------------------------+---------------------------------+
-| :ref:`int<class_int>`                     | :ref:`map_width<class_HeightMapShape_property_map_width>` | ``2``                           |
-+-------------------------------------------+-----------------------------------------------------------+---------------------------------+
++------------------------------------------------------+------------------------------------------------------------+--------------------------------------+
+| :ref:`PackedFloat32Array <class_PackedFloat32Array>` | :ref:`map_data <class_HeightMapShape_property_map_data>`   | ``PackedFloat32Array( 0, 0, 0, 0 )`` |
++------------------------------------------------------+------------------------------------------------------------+--------------------------------------+
+| :ref:`int <class_int>`                               | :ref:`map_depth <class_HeightMapShape_property_map_depth>` | ``2``                                |
++------------------------------------------------------+------------------------------------------------------------+--------------------------------------+
+| :ref:`int <class_int>`                               | :ref:`map_width <class_HeightMapShape_property_map_width>` | ``2``                                |
++------------------------------------------------------+------------------------------------------------------------+--------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_HeightMapShape_property_map_data:
 
-- :ref:`PoolRealArray<class_PoolRealArray>` **map_data**
+- :ref:`PackedFloat32Array <class_PackedFloat32Array>` **map_data**
 
-+-----------+---------------------------------+
-| *Default* | ``PoolRealArray( 0, 0, 0, 0 )`` |
-+-----------+---------------------------------+
-| *Setter*  | set_map_data(value)             |
-+-----------+---------------------------------+
-| *Getter*  | get_map_data()                  |
-+-----------+---------------------------------+
++-----------+--------------------------------------+
+| *Default* | ``PackedFloat32Array( 0, 0, 0, 0 )`` |
++-----------+--------------------------------------+
+| *Setter*  | set_map_data(value)                  |
++-----------+--------------------------------------+
+| *Getter*  | get_map_data()                       |
++-----------+--------------------------------------+
 
-Height map data, pool array must be of :ref:`map_width<class_HeightMapShape_property_map_width>` \* :ref:`map_depth<class_HeightMapShape_property_map_depth>` size.
+Height map data, pool array must be of :ref:`map_width <class_HeightMapShape_property_map_width>` \* :ref:`map_depth <class_HeightMapShape_property_map_depth>` size.
 
 ----
 
 .. _class_HeightMapShape_property_map_depth:
 
-- :ref:`int<class_int>` **map_depth**
+- :ref:`int <class_int>` **map_depth**
 
 +-----------+----------------------+
 | *Default* | ``2``                |
@@ -60,13 +60,13 @@ Height map data, pool array must be of :ref:`map_width<class_HeightMapShape_prop
 | *Getter*  | get_map_depth()      |
 +-----------+----------------------+
 
-Depth of the height map data. Changing this will resize the :ref:`map_data<class_HeightMapShape_property_map_data>`.
+Depth of the height map data. Changing this will resize the :ref:`map_data <class_HeightMapShape_property_map_data>`.
 
 ----
 
 .. _class_HeightMapShape_property_map_width:
 
-- :ref:`int<class_int>` **map_width**
+- :ref:`int <class_int>` **map_width**
 
 +-----------+----------------------+
 | *Default* | ``2``                |
@@ -76,5 +76,5 @@ Depth of the height map data. Changing this will resize the :ref:`map_data<class
 | *Getter*  | get_map_width()      |
 +-----------+----------------------+
 
-Width of the height map data. Changing this will resize the :ref:`map_data<class_HeightMapShape_property_map_data>`.
+Width of the height map data. Changing this will resize the :ref:`map_data <class_HeightMapShape_property_map_data>`.
 

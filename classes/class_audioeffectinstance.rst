@@ -9,9 +9,9 @@
 AudioEffectInstance
 ===================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`AudioEffectSpectrumAnalyzerInstance<class_AudioEffectSpectrumAnalyzerInstance>`
+**Inherited By:** :ref:`AudioEffectSpectrumAnalyzerInstance <class_AudioEffectSpectrumAnalyzerInstance>`
 
 
 

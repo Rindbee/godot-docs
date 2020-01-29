@@ -9,9 +9,9 @@
 CSGPrimitive
 ============
 
-**Inherits:** :ref:`CSGShape<class_CSGShape>` **<** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`CSGShape <class_CSGShape>` **<** :ref:`GeometryInstance <class_GeometryInstance>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`CSGBox<class_CSGBox>`, :ref:`CSGCylinder<class_CSGCylinder>`, :ref:`CSGMesh<class_CSGMesh>`, :ref:`CSGPolygon<class_CSGPolygon>`, :ref:`CSGSphere<class_CSGSphere>`, :ref:`CSGTorus<class_CSGTorus>`
+**Inherited By:** :ref:`CSGBox <class_CSGBox>`, :ref:`CSGCylinder <class_CSGCylinder>`, :ref:`CSGMesh <class_CSGMesh>`, :ref:`CSGPolygon <class_CSGPolygon>`, :ref:`CSGSphere <class_CSGSphere>`, :ref:`CSGTorus <class_CSGTorus>`
 
 Base class for CSG primitives.
 
@@ -23,16 +23,16 @@ Parent class for various CSG primitives. It contains code and functionality that
 Properties
 ----------
 
-+-------------------------+---------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`invert_faces<class_CSGPrimitive_property_invert_faces>` | ``false`` |
-+-------------------------+---------------------------------------------------------------+-----------+
++--------------------------+----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`invert_faces <class_CSGPrimitive_property_invert_faces>` | ``false`` |
++--------------------------+----------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CSGPrimitive_property_invert_faces:
 
-- :ref:`bool<class_bool>` **invert_faces**
+- :ref:`bool <class_bool>` **invert_faces**
 
 +-----------+-------------------------+
 | *Default* | ``false``               |

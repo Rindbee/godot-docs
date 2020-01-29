@@ -9,7 +9,7 @@
 OpenSimplexNoise
 ================
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Noise generator based on Open Simplex.
 
@@ -37,45 +37,45 @@ This resource allows you to configure and sample a fractal noise space. Here is 
 Properties
 ----------
 
-+---------------------------+-----------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`lacunarity<class_OpenSimplexNoise_property_lacunarity>`   | ``2.0``  |
-+---------------------------+-----------------------------------------------------------------+----------+
-| :ref:`int<class_int>`     | :ref:`octaves<class_OpenSimplexNoise_property_octaves>`         | ``3``    |
-+---------------------------+-----------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`period<class_OpenSimplexNoise_property_period>`           | ``64.0`` |
-+---------------------------+-----------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`persistence<class_OpenSimplexNoise_property_persistence>` | ``0.5``  |
-+---------------------------+-----------------------------------------------------------------+----------+
-| :ref:`int<class_int>`     | :ref:`seed<class_OpenSimplexNoise_property_seed>`               | ``0``    |
-+---------------------------+-----------------------------------------------------------------+----------+
++----------------------------+------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`lacunarity <class_OpenSimplexNoise_property_lacunarity>`   | ``2.0``  |
++----------------------------+------------------------------------------------------------------+----------+
+| :ref:`int <class_int>`     | :ref:`octaves <class_OpenSimplexNoise_property_octaves>`         | ``3``    |
++----------------------------+------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`period <class_OpenSimplexNoise_property_period>`           | ``64.0`` |
++----------------------------+------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`persistence <class_OpenSimplexNoise_property_persistence>` | ``0.5``  |
++----------------------------+------------------------------------------------------------------+----------+
+| :ref:`int <class_int>`     | :ref:`seed <class_OpenSimplexNoise_property_seed>`               | ``0``    |
++----------------------------+------------------------------------------------------------------+----------+
 
 Methods
 -------
 
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Image<class_Image>` | :ref:`get_image<class_OpenSimplexNoise_method_get_image>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**                                                                |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_1d<class_OpenSimplexNoise_method_get_noise_1d>` **(** :ref:`float<class_float>` x **)**                                                                                        |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_2d<class_OpenSimplexNoise_method_get_noise_2d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)**                                                           |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_2dv<class_OpenSimplexNoise_method_get_noise_2dv>` **(** :ref:`Vector2<class_Vector2>` pos **)**                                                                                |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_3d<class_OpenSimplexNoise_method_get_noise_3d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**                              |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_3dv<class_OpenSimplexNoise_method_get_noise_3dv>` **(** :ref:`Vector3<class_Vector3>` pos **)**                                                                                |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_noise_4d<class_OpenSimplexNoise_method_get_noise_4d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Image<class_Image>` | :ref:`get_seamless_image<class_OpenSimplexNoise_method_get_seamless_image>` **(** :ref:`int<class_int>` size **)**                                                                             |
-+---------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Image <class_Image>` | :ref:`get_image <class_OpenSimplexNoise_method_get_image>` **(** :ref:`int <class_int>` width, :ref:`int <class_int>` height **)**                                                                  |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_1d <class_OpenSimplexNoise_method_get_noise_1d>` **(** :ref:`float <class_float>` x **)**                                                                                           |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_2d <class_OpenSimplexNoise_method_get_noise_2d>` **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y **)**                                                             |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_2dv <class_OpenSimplexNoise_method_get_noise_2dv>` **(** :ref:`Vector2 <class_Vector2>` pos **)**                                                                                   |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_3d <class_OpenSimplexNoise_method_get_noise_3d>` **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y, :ref:`float <class_float>` z **)**                               |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_3dv <class_OpenSimplexNoise_method_get_noise_3dv>` **(** :ref:`Vector3 <class_Vector3>` pos **)**                                                                                   |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_noise_4d <class_OpenSimplexNoise_method_get_noise_4d>` **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y, :ref:`float <class_float>` z, :ref:`float <class_float>` w **)** |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Image <class_Image>` | :ref:`get_seamless_image <class_OpenSimplexNoise_method_get_seamless_image>` **(** :ref:`int <class_int>` size **)**                                                                                |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_OpenSimplexNoise_property_lacunarity:
 
-- :ref:`float<class_float>` **lacunarity**
+- :ref:`float <class_float>` **lacunarity**
 
 +-----------+-----------------------+
 | *Default* | ``2.0``               |
@@ -85,13 +85,13 @@ Property Descriptions
 | *Getter*  | get_lacunarity()      |
 +-----------+-----------------------+
 
-Difference in period between :ref:`octaves<class_OpenSimplexNoise_property_octaves>`.
+Difference in period between :ref:`octaves <class_OpenSimplexNoise_property_octaves>`.
 
 ----
 
 .. _class_OpenSimplexNoise_property_octaves:
 
-- :ref:`int<class_int>` **octaves**
+- :ref:`int <class_int>` **octaves**
 
 +-----------+--------------------+
 | *Default* | ``3``              |
@@ -101,13 +101,15 @@ Difference in period between :ref:`octaves<class_OpenSimplexNoise_property_octav
 | *Getter*  | get_octaves()      |
 +-----------+--------------------+
 
-Number of OpenSimplex noise layers that are sampled to get the fractal noise.
+Number of OpenSimplex noise layers that are sampled to get the fractal noise. Higher values result in more detailed noise but take more time to generate.
+
+**Note:** The maximum allowed value is 9.
 
 ----
 
 .. _class_OpenSimplexNoise_property_period:
 
-- :ref:`float<class_float>` **period**
+- :ref:`float <class_float>` **period**
 
 +-----------+-------------------+
 | *Default* | ``64.0``          |
@@ -123,7 +125,7 @@ Period of the base octave. A lower period results in a higher-frequency noise (m
 
 .. _class_OpenSimplexNoise_property_persistence:
 
-- :ref:`float<class_float>` **persistence**
+- :ref:`float <class_float>` **persistence**
 
 +-----------+------------------------+
 | *Default* | ``0.5``                |
@@ -139,7 +141,7 @@ Contribution factor of the different octaves. A ``persistence`` value of 1 means
 
 .. _class_OpenSimplexNoise_property_seed:
 
-- :ref:`int<class_int>` **seed**
+- :ref:`int <class_int>` **seed**
 
 +-----------+-----------------+
 | *Default* | ``0``           |
@@ -156,7 +158,7 @@ Method Descriptions
 
 .. _class_OpenSimplexNoise_method_get_image:
 
-- :ref:`Image<class_Image>` **get_image** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**
+- :ref:`Image <class_Image>` **get_image** **(** :ref:`int <class_int>` width, :ref:`int <class_int>` height **)**
 
 Generate a noise image with the requested ``width`` and ``height``, based on the current noise parameters.
 
@@ -164,7 +166,7 @@ Generate a noise image with the requested ``width`` and ``height``, based on the
 
 .. _class_OpenSimplexNoise_method_get_noise_1d:
 
-- :ref:`float<class_float>` **get_noise_1d** **(** :ref:`float<class_float>` x **)**
+- :ref:`float <class_float>` **get_noise_1d** **(** :ref:`float <class_float>` x **)**
 
 Returns the 1D noise value ``[-1,1]`` at the given x-coordinate.
 
@@ -174,7 +176,7 @@ Returns the 1D noise value ``[-1,1]`` at the given x-coordinate.
 
 .. _class_OpenSimplexNoise_method_get_noise_2d:
 
-- :ref:`float<class_float>` **get_noise_2d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)**
+- :ref:`float <class_float>` **get_noise_2d** **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y **)**
 
 Returns the 2D noise value ``[-1,1]`` at the given position.
 
@@ -182,7 +184,7 @@ Returns the 2D noise value ``[-1,1]`` at the given position.
 
 .. _class_OpenSimplexNoise_method_get_noise_2dv:
 
-- :ref:`float<class_float>` **get_noise_2dv** **(** :ref:`Vector2<class_Vector2>` pos **)**
+- :ref:`float <class_float>` **get_noise_2dv** **(** :ref:`Vector2 <class_Vector2>` pos **)**
 
 Returns the 2D noise value ``[-1,1]`` at the given position.
 
@@ -190,7 +192,7 @@ Returns the 2D noise value ``[-1,1]`` at the given position.
 
 .. _class_OpenSimplexNoise_method_get_noise_3d:
 
-- :ref:`float<class_float>` **get_noise_3d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**
+- :ref:`float <class_float>` **get_noise_3d** **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y, :ref:`float <class_float>` z **)**
 
 Returns the 3D noise value ``[-1,1]`` at the given position.
 
@@ -198,7 +200,7 @@ Returns the 3D noise value ``[-1,1]`` at the given position.
 
 .. _class_OpenSimplexNoise_method_get_noise_3dv:
 
-- :ref:`float<class_float>` **get_noise_3dv** **(** :ref:`Vector3<class_Vector3>` pos **)**
+- :ref:`float <class_float>` **get_noise_3dv** **(** :ref:`Vector3 <class_Vector3>` pos **)**
 
 Returns the 3D noise value ``[-1,1]`` at the given position.
 
@@ -206,7 +208,7 @@ Returns the 3D noise value ``[-1,1]`` at the given position.
 
 .. _class_OpenSimplexNoise_method_get_noise_4d:
 
-- :ref:`float<class_float>` **get_noise_4d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)**
+- :ref:`float <class_float>` **get_noise_4d** **(** :ref:`float <class_float>` x, :ref:`float <class_float>` y, :ref:`float <class_float>` z, :ref:`float <class_float>` w **)**
 
 Returns the 4D noise value ``[-1,1]`` at the given position.
 
@@ -214,7 +216,7 @@ Returns the 4D noise value ``[-1,1]`` at the given position.
 
 .. _class_OpenSimplexNoise_method_get_seamless_image:
 
-- :ref:`Image<class_Image>` **get_seamless_image** **(** :ref:`int<class_int>` size **)**
+- :ref:`Image <class_Image>` **get_seamless_image** **(** :ref:`int <class_int>` size **)**
 
 Generate a tileable noise image, based on the current noise parameters. Generated seamless images are always square (``size`` × ``size``).
 

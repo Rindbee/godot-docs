@@ -9,32 +9,32 @@
 VisibilityEnabler
 =================
 
-**Inherits:** :ref:`VisibilityNotifier<class_VisibilityNotifier>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisibilityNotifier <class_VisibilityNotifier>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Enables certain nodes only when visible.
 
 Description
 -----------
 
-The VisibilityEnabler will disable :ref:`RigidBody<class_RigidBody>` and :ref:`AnimationPlayer<class_AnimationPlayer>` nodes when they are not visible. It will only affect other nodes within the same scene as the VisibilityEnabler itself.
+The VisibilityEnabler will disable :ref:`RigidBody <class_RigidBody>` and :ref:`AnimationPlayer <class_AnimationPlayer>` nodes when they are not visible. It will only affect other nodes within the same scene as the VisibilityEnabler itself.
 
 Properties
 ----------
 
-+-------------------------+----------------------------------------------------------------------------+----------+
-| :ref:`bool<class_bool>` | :ref:`freeze_bodies<class_VisibilityEnabler_property_freeze_bodies>`       | ``true`` |
-+-------------------------+----------------------------------------------------------------------------+----------+
-| :ref:`bool<class_bool>` | :ref:`pause_animations<class_VisibilityEnabler_property_pause_animations>` | ``true`` |
-+-------------------------+----------------------------------------------------------------------------+----------+
++--------------------------+-----------------------------------------------------------------------------+----------+
+| :ref:`bool <class_bool>` | :ref:`freeze_bodies <class_VisibilityEnabler_property_freeze_bodies>`       | ``true`` |
++--------------------------+-----------------------------------------------------------------------------+----------+
+| :ref:`bool <class_bool>` | :ref:`pause_animations <class_VisibilityEnabler_property_pause_animations>` | ``true`` |
++--------------------------+-----------------------------------------------------------------------------+----------+
 
 Methods
 -------
 
-+-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`is_enabler_enabled<class_VisibilityEnabler_method_is_enabler_enabled>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** const              |
-+-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`set_enabler<class_VisibilityEnabler_method_set_enabler>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)** |
-+-------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`is_enabler_enabled <class_VisibilityEnabler_method_is_enabler_enabled>` **(** :ref:`Enabler <enum_VisibilityEnabler_Enabler>` enabler **)** const               |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`set_enabler <class_VisibilityEnabler_method_set_enabler>` **(** :ref:`Enabler <enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool <class_bool>` enabled **)** |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -49,18 +49,18 @@ Enumerations
 
 enum **Enabler**:
 
-- **ENABLER_PAUSE_ANIMATIONS** = **0** --- This enabler will pause :ref:`AnimationPlayer<class_AnimationPlayer>` nodes.
+- **ENABLER_PAUSE_ANIMATIONS** = **0** --- This enabler will pause :ref:`AnimationPlayer <class_AnimationPlayer>` nodes.
 
-- **ENABLER_FREEZE_BODIES** = **1** --- This enabler will freeze :ref:`RigidBody<class_RigidBody>` nodes.
+- **ENABLER_FREEZE_BODIES** = **1** --- This enabler will freeze :ref:`RigidBody <class_RigidBody>` nodes.
 
-- **ENABLER_MAX** = **2** --- Represents the size of the :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enum.
+- **ENABLER_MAX** = **2** --- Represents the size of the :ref:`Enabler <enum_VisibilityEnabler_Enabler>` enum.
 
 Property Descriptions
 ---------------------
 
 .. _class_VisibilityEnabler_property_freeze_bodies:
 
-- :ref:`bool<class_bool>` **freeze_bodies**
+- :ref:`bool <class_bool>` **freeze_bodies**
 
 +-----------+----------------------+
 | *Default* | ``true``             |
@@ -70,13 +70,13 @@ Property Descriptions
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-If ``true``, :ref:`RigidBody<class_RigidBody>` nodes will be paused.
+If ``true``, :ref:`RigidBody <class_RigidBody>` nodes will be paused.
 
 ----
 
 .. _class_VisibilityEnabler_property_pause_animations:
 
-- :ref:`bool<class_bool>` **pause_animations**
+- :ref:`bool <class_bool>` **pause_animations**
 
 +-----------+----------------------+
 | *Default* | ``true``             |
@@ -86,22 +86,22 @@ If ``true``, :ref:`RigidBody<class_RigidBody>` nodes will be paused.
 | *Getter*  | is_enabler_enabled() |
 +-----------+----------------------+
 
-If ``true``, :ref:`AnimationPlayer<class_AnimationPlayer>` nodes will be paused.
+If ``true``, :ref:`AnimationPlayer <class_AnimationPlayer>` nodes will be paused.
 
 Method Descriptions
 -------------------
 
 .. _class_VisibilityEnabler_method_is_enabler_enabled:
 
-- :ref:`bool<class_bool>` **is_enabler_enabled** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** const
+- :ref:`bool <class_bool>` **is_enabler_enabled** **(** :ref:`Enabler <enum_VisibilityEnabler_Enabler>` enabler **)** const
 
-Returns whether the enabler identified by given :ref:`Enabler<enum_VisibilityEnabler_Enabler>` constant is active.
+Returns whether the enabler identified by given :ref:`Enabler <enum_VisibilityEnabler_Enabler>` constant is active.
 
 ----
 
 .. _class_VisibilityEnabler_method_set_enabler:
 
-- void **set_enabler** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**
+- void **set_enabler** **(** :ref:`Enabler <enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool <class_bool>` enabled **)**
 
-Sets active state of the enabler identified by given :ref:`Enabler<enum_VisibilityEnabler_Enabler>` constant.
+Sets active state of the enabler identified by given :ref:`Enabler <enum_VisibilityEnabler_Enabler>` constant.
 

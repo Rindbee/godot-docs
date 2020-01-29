@@ -9,9 +9,9 @@
 SpatialGizmo
 ============
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>`
+**Inherited By:** :ref:`EditorSpatialGizmo <class_EditorSpatialGizmo>`
 
 
 

@@ -9,45 +9,45 @@
 WebRTCDataChannel
 =================
 
-**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PacketPeer <class_PacketPeer>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`WebRTCDataChannelGDNative<class_WebRTCDataChannelGDNative>`
+**Inherited By:** :ref:`WebRTCDataChannelGDNative <class_WebRTCDataChannelGDNative>`
 
 
 
 Properties
 ----------
 
-+----------------------------------------------------+----------------------------------------------------------------+-------+
-| :ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>` | :ref:`write_mode<class_WebRTCDataChannel_property_write_mode>` | ``1`` |
-+----------------------------------------------------+----------------------------------------------------------------+-------+
++-----------------------------------------------------+-----------------------------------------------------------------+-------+
+| :ref:`WriteMode <enum_WebRTCDataChannel_WriteMode>` | :ref:`write_mode <class_WebRTCDataChannel_property_write_mode>` | ``1`` |
++-----------------------------------------------------+-----------------------------------------------------------------+-------+
 
 Methods
 -------
 
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| void                                                     | :ref:`close<class_WebRTCDataChannel_method_close>` **(** **)**                                             |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                                    | :ref:`get_id<class_WebRTCDataChannel_method_get_id>` **(** **)** const                                     |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`                              | :ref:`get_label<class_WebRTCDataChannel_method_get_label>` **(** **)** const                               |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                                    | :ref:`get_max_packet_life_time<class_WebRTCDataChannel_method_get_max_packet_life_time>` **(** **)** const |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                                    | :ref:`get_max_retransmits<class_WebRTCDataChannel_method_get_max_retransmits>` **(** **)** const           |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`                              | :ref:`get_protocol<class_WebRTCDataChannel_method_get_protocol>` **(** **)** const                         |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` | :ref:`get_ready_state<class_WebRTCDataChannel_method_get_ready_state>` **(** **)** const                   |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                                  | :ref:`is_negotiated<class_WebRTCDataChannel_method_is_negotiated>` **(** **)** const                       |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                                  | :ref:`is_ordered<class_WebRTCDataChannel_method_is_ordered>` **(** **)** const                             |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>`                    | :ref:`poll<class_WebRTCDataChannel_method_poll>` **(** **)**                                               |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                                  | :ref:`was_string_packet<class_WebRTCDataChannel_method_was_string_packet>` **(** **)** const               |
-+----------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| void                                                      | :ref:`close <class_WebRTCDataChannel_method_close>` **(** **)**                                             |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                                    | :ref:`get_id <class_WebRTCDataChannel_method_get_id>` **(** **)** const                                     |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`                              | :ref:`get_label <class_WebRTCDataChannel_method_get_label>` **(** **)** const                               |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                                    | :ref:`get_max_packet_life_time <class_WebRTCDataChannel_method_get_max_packet_life_time>` **(** **)** const |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                                    | :ref:`get_max_retransmits <class_WebRTCDataChannel_method_get_max_retransmits>` **(** **)** const           |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`                              | :ref:`get_protocol <class_WebRTCDataChannel_method_get_protocol>` **(** **)** const                         |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`ChannelState <enum_WebRTCDataChannel_ChannelState>` | :ref:`get_ready_state <class_WebRTCDataChannel_method_get_ready_state>` **(** **)** const                   |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                                  | :ref:`is_negotiated <class_WebRTCDataChannel_method_is_negotiated>` **(** **)** const                       |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                                  | :ref:`is_ordered <class_WebRTCDataChannel_method_is_ordered>` **(** **)** const                             |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>`                    | :ref:`poll <class_WebRTCDataChannel_method_poll>` **(** **)**                                               |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                                  | :ref:`was_string_packet <class_WebRTCDataChannel_method_was_string_packet>` **(** **)** const               |
++-----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -91,7 +91,7 @@ Property Descriptions
 
 .. _class_WebRTCDataChannel_property_write_mode:
 
-- :ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>` **write_mode**
+- :ref:`WriteMode <enum_WebRTCDataChannel_WriteMode>` **write_mode**
 
 +-----------+-----------------------+
 | *Default* | ``1``                 |
@@ -116,7 +116,7 @@ Closes this data channel, notifying the other peer.
 
 .. _class_WebRTCDataChannel_method_get_id:
 
-- :ref:`int<class_int>` **get_id** **(** **)** const
+- :ref:`int <class_int>` **get_id** **(** **)** const
 
 Returns the id assigned to this channel during creation (or auto-assigned during negotiation).
 
@@ -126,7 +126,7 @@ If the channel is not negotiated out-of-band the id will only be available after
 
 .. _class_WebRTCDataChannel_method_get_label:
 
-- :ref:`String<class_String>` **get_label** **(** **)** const
+- :ref:`String <class_String>` **get_label** **(** **)** const
 
 Returns the label assigned to this channel during creation.
 
@@ -134,7 +134,7 @@ Returns the label assigned to this channel during creation.
 
 .. _class_WebRTCDataChannel_method_get_max_packet_life_time:
 
-- :ref:`int<class_int>` **get_max_packet_life_time** **(** **)** const
+- :ref:`int <class_int>` **get_max_packet_life_time** **(** **)** const
 
 Returns the ``maxPacketLifeTime`` value assigned to this channel during creation.
 
@@ -144,7 +144,7 @@ Will be ``65535`` if not specified.
 
 .. _class_WebRTCDataChannel_method_get_max_retransmits:
 
-- :ref:`int<class_int>` **get_max_retransmits** **(** **)** const
+- :ref:`int <class_int>` **get_max_retransmits** **(** **)** const
 
 Returns the ``maxRetransmits`` value assigned to this channel during creation.
 
@@ -154,7 +154,7 @@ Will be ``65535`` if not specified.
 
 .. _class_WebRTCDataChannel_method_get_protocol:
 
-- :ref:`String<class_String>` **get_protocol** **(** **)** const
+- :ref:`String <class_String>` **get_protocol** **(** **)** const
 
 Returns the sub-protocol assigned to this channel during creation. An empty string if not specified.
 
@@ -162,15 +162,15 @@ Returns the sub-protocol assigned to this channel during creation. An empty stri
 
 .. _class_WebRTCDataChannel_method_get_ready_state:
 
-- :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` **get_ready_state** **(** **)** const
+- :ref:`ChannelState <enum_WebRTCDataChannel_ChannelState>` **get_ready_state** **(** **)** const
 
-Returns the current state of this channel, see :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`.
+Returns the current state of this channel, see :ref:`ChannelState <enum_WebRTCDataChannel_ChannelState>`.
 
 ----
 
 .. _class_WebRTCDataChannel_method_is_negotiated:
 
-- :ref:`bool<class_bool>` **is_negotiated** **(** **)** const
+- :ref:`bool <class_bool>` **is_negotiated** **(** **)** const
 
 Returns ``true`` if this channel was created with out-of-band configuration.
 
@@ -178,7 +178,7 @@ Returns ``true`` if this channel was created with out-of-band configuration.
 
 .. _class_WebRTCDataChannel_method_is_ordered:
 
-- :ref:`bool<class_bool>` **is_ordered** **(** **)** const
+- :ref:`bool <class_bool>` **is_ordered** **(** **)** const
 
 Returns ``true`` if this channel was created with ordering enabled (default).
 
@@ -186,7 +186,7 @@ Returns ``true`` if this channel was created with ordering enabled (default).
 
 .. _class_WebRTCDataChannel_method_poll:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **poll** **(** **)**
 
 Reserved, but not used for now.
 
@@ -194,7 +194,7 @@ Reserved, but not used for now.
 
 .. _class_WebRTCDataChannel_method_was_string_packet:
 
-- :ref:`bool<class_bool>` **was_string_packet** **(** **)** const
+- :ref:`bool <class_bool>` **was_string_packet** **(** **)** const
 
-Returns ``true`` if the last received packet was transferred as text. See :ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`.
+Returns ``true`` if the last received packet was transferred as text. See :ref:`write_mode <class_WebRTCDataChannel_property_write_mode>`.
 

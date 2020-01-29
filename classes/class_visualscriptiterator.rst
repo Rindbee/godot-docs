@@ -9,14 +9,14 @@
 VisualScriptIterator
 ====================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Steps through items in a given input.
 
 Description
 -----------
 
-This node steps through each item in a given input. Input can be any sequence data type, such as an :ref:`Array<class_Array>` or :ref:`String<class_String>`. When each item has been processed, execution passed out the ``exit`` Sequence port.
+This node steps through each item in a given input. Input can be any sequence data type, such as an :ref:`Array <class_Array>` or :ref:`String <class_String>`. When each item has been processed, execution passed out the ``exit`` Sequence port.
 
 **Input Ports:**
 

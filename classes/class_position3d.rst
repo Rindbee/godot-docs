@@ -9,12 +9,12 @@
 Position3D
 ==========
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Generic 3D position hint for editing.
 
 Description
 -----------
 
-Generic 3D position hint for editing. It's just like a plain :ref:`Spatial<class_Spatial>`, but it displays as a cross in the 3D editor at all times.
+Generic 3D position hint for editing. It's just like a plain :ref:`Spatial <class_Spatial>`, but it displays as a cross in the 3D editor at all times.
 

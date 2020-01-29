@@ -9,16 +9,16 @@
 VisualShaderNodeTransformFunc
 =============================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+--------------------------------------------------------------+------------------------------------------------------------------------+-------+
-| :ref:`Function<enum_VisualShaderNodeTransformFunc_Function>` | :ref:`function<class_VisualShaderNodeTransformFunc_property_function>` | ``0`` |
-+--------------------------------------------------------------+------------------------------------------------------------------------+-------+
++---------------------------------------------------------------+-------------------------------------------------------------------------+-------+
+| :ref:`Function <enum_VisualShaderNodeTransformFunc_Function>` | :ref:`function <class_VisualShaderNodeTransformFunc_property_function>` | ``0`` |
++---------------------------------------------------------------+-------------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -40,7 +40,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeTransformFunc_property_function:
 
-- :ref:`Function<enum_VisualShaderNodeTransformFunc_Function>` **function**
+- :ref:`Function <enum_VisualShaderNodeTransformFunc_Function>` **function**
 
 +-----------+---------------------+
 | *Default* | ``0``               |

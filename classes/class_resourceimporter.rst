@@ -9,9 +9,9 @@
 ResourceImporter
 ================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`EditorImportPlugin<class_EditorImportPlugin>`
+**Inherited By:** :ref:`EditorImportPlugin <class_EditorImportPlugin>`
 
 
 

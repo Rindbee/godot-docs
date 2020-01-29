@@ -9,34 +9,34 @@
 CryptoKey
 =========
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A cryptographic key (RSA).
 
 Description
 -----------
 
-The CryptoKey class represents a cryptographic key. Keys can be loaded and saved like any other :ref:`Resource<class_Resource>`.
+The CryptoKey class represents a cryptographic key. Keys can be loaded and saved like any other :ref:`Resource <class_Resource>`.
 
-They can be used to generate a self-signed :ref:`X509Certificate<class_X509Certificate>` via :ref:`Crypto.generate_self_signed_certificate<class_Crypto_method_generate_self_signed_certificate>` and as private key in :ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>` along with the appropriate certificate.
+They can be used to generate a self-signed :ref:`X509Certificate <class_X509Certificate>` via :ref:`Crypto.generate_self_signed_certificate <class_Crypto_method_generate_self_signed_certificate>` and as private key in :ref:`StreamPeerSSL.accept_stream <class_StreamPeerSSL_method_accept_stream>` along with the appropriate certificate.
 
 **Note:** Not available in HTML5 exports.
 
 Methods
 -------
 
-+---------------------------------------+---------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`load<class_CryptoKey_method_load>` **(** :ref:`String<class_String>` path **)** |
-+---------------------------------------+---------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`save<class_CryptoKey_method_save>` **(** :ref:`String<class_String>` path **)** |
-+---------------------------------------+---------------------------------------------------------------------------------------+
++----------------------------------------+-----------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`load <class_CryptoKey_method_load>` **(** :ref:`String <class_String>` path **)** |
++----------------------------------------+-----------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`save <class_CryptoKey_method_save>` **(** :ref:`String <class_String>` path **)** |
++----------------------------------------+-----------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_CryptoKey_method_load:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **load** **(** :ref:`String <class_String>` path **)**
 
 Loads a key from ``path`` ("\*.key" file).
 
@@ -44,7 +44,7 @@ Loads a key from ``path`` ("\*.key" file).
 
 .. _class_CryptoKey_method_save:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **save** **(** :ref:`String <class_String>` path **)**
 
 Saves a key to the given ``path`` (should be a "\*.key" file).
 

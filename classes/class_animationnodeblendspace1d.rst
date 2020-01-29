@@ -9,20 +9,20 @@
 AnimationNodeBlendSpace1D
 =========================
 
-**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AnimationRootNode <class_AnimationRootNode>` **<** :ref:`AnimationNode <class_AnimationNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Blends linearly between two of any number of :ref:`AnimationNode<class_AnimationNode>` of any type placed on a virtual axis.
+Blends linearly between two of any number of :ref:`AnimationNode <class_AnimationNode>` of any type placed on a virtual axis.
 
 Description
 -----------
 
-A resource to add to an :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`.
+A resource to add to an :ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`.
 
-This is a virtual axis on which you can add any type of :ref:`AnimationNode<class_AnimationNode>` using :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
+This is a virtual axis on which you can add any type of :ref:`AnimationNode <class_AnimationNode>` using :ref:`add_blend_point <class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
 
-Outputs the linear blend of the two :ref:`AnimationNode<class_AnimationNode>`\ s closest to the node's current value.
+Outputs the linear blend of the two :ref:`AnimationNode <class_AnimationNode>`\ s closest to the node's current value.
 
-You can set the extents of the axis using the :ref:`min_space<class_AnimationNodeBlendSpace1D_property_min_space>` and :ref:`max_space<class_AnimationNodeBlendSpace1D_property_max_space>`.
+You can set the extents of the axis using the :ref:`min_space <class_AnimationNodeBlendSpace1D_property_min_space>` and :ref:`max_space <class_AnimationNodeBlendSpace1D_property_max_space>`.
 
 Tutorials
 ---------
@@ -32,41 +32,41 @@ Tutorials
 Properties
 ----------
 
-+-----------------------------+--------------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`   | :ref:`max_space<class_AnimationNodeBlendSpace1D_property_max_space>`     | ``1.0``     |
-+-----------------------------+--------------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`   | :ref:`min_space<class_AnimationNodeBlendSpace1D_property_min_space>`     | ``-1.0``    |
-+-----------------------------+--------------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`   | :ref:`snap<class_AnimationNodeBlendSpace1D_property_snap>`               | ``0.1``     |
-+-----------------------------+--------------------------------------------------------------------------+-------------+
-| :ref:`String<class_String>` | :ref:`value_label<class_AnimationNodeBlendSpace1D_property_value_label>` | ``"value"`` |
-+-----------------------------+--------------------------------------------------------------------------+-------------+
++------------------------------+---------------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`   | :ref:`max_space <class_AnimationNodeBlendSpace1D_property_max_space>`     | ``1.0``     |
++------------------------------+---------------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`   | :ref:`min_space <class_AnimationNodeBlendSpace1D_property_min_space>`     | ``-1.0``    |
++------------------------------+---------------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`   | :ref:`snap <class_AnimationNodeBlendSpace1D_property_snap>`               | ``0.1``     |
++------------------------------+---------------------------------------------------------------------------+-------------+
+| :ref:`String <class_String>` | :ref:`value_label <class_AnimationNodeBlendSpace1D_property_value_label>` | ``"value"`` |
++------------------------------+---------------------------------------------------------------------------+-------------+
 
 Methods
 -------
 
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                              | :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>` **(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)** |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                             | :ref:`get_blend_point_count<class_AnimationNodeBlendSpace1D_method_get_blend_point_count>` **(** **)** const                                                                                                        |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`AnimationRootNode<class_AnimationRootNode>` | :ref:`get_blend_point_node<class_AnimationNodeBlendSpace1D_method_get_blend_point_node>` **(** :ref:`int<class_int>` point **)** const                                                                              |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>`                         | :ref:`get_blend_point_position<class_AnimationNodeBlendSpace1D_method_get_blend_point_position>` **(** :ref:`int<class_int>` point **)** const                                                                      |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                              | :ref:`remove_blend_point<class_AnimationNodeBlendSpace1D_method_remove_blend_point>` **(** :ref:`int<class_int>` point **)**                                                                                        |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                              | :ref:`set_blend_point_node<class_AnimationNodeBlendSpace1D_method_set_blend_point_node>` **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**                            |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                              | :ref:`set_blend_point_position<class_AnimationNodeBlendSpace1D_method_set_blend_point_position>` **(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**                                             |
-+---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                               | :ref:`add_blend_point <class_AnimationNodeBlendSpace1D_method_add_blend_point>` **(** :ref:`AnimationRootNode <class_AnimationRootNode>` node, :ref:`float <class_float>` pos, :ref:`int <class_int>` at_index=-1 **)** |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                             | :ref:`get_blend_point_count <class_AnimationNodeBlendSpace1D_method_get_blend_point_count>` **(** **)** const                                                                                                           |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`AnimationRootNode <class_AnimationRootNode>` | :ref:`get_blend_point_node <class_AnimationNodeBlendSpace1D_method_get_blend_point_node>` **(** :ref:`int <class_int>` point **)** const                                                                                |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>`                         | :ref:`get_blend_point_position <class_AnimationNodeBlendSpace1D_method_get_blend_point_position>` **(** :ref:`int <class_int>` point **)** const                                                                        |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                               | :ref:`remove_blend_point <class_AnimationNodeBlendSpace1D_method_remove_blend_point>` **(** :ref:`int <class_int>` point **)**                                                                                          |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                               | :ref:`set_blend_point_node <class_AnimationNodeBlendSpace1D_method_set_blend_point_node>` **(** :ref:`int <class_int>` point, :ref:`AnimationRootNode <class_AnimationRootNode>` node **)**                             |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                               | :ref:`set_blend_point_position <class_AnimationNodeBlendSpace1D_method_set_blend_point_position>` **(** :ref:`int <class_int>` point, :ref:`float <class_float>` pos **)**                                              |
++----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AnimationNodeBlendSpace1D_property_max_space:
 
-- :ref:`float<class_float>` **max_space**
+- :ref:`float <class_float>` **max_space**
 
 +-----------+----------------------+
 | *Default* | ``1.0``              |
@@ -76,13 +76,13 @@ Property Descriptions
 | *Getter*  | get_max_space()      |
 +-----------+----------------------+
 
-The blend space's axis's upper limit for the points' position. See :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
+The blend space's axis's upper limit for the points' position. See :ref:`add_blend_point <class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
 
 ----
 
 .. _class_AnimationNodeBlendSpace1D_property_min_space:
 
-- :ref:`float<class_float>` **min_space**
+- :ref:`float <class_float>` **min_space**
 
 +-----------+----------------------+
 | *Default* | ``-1.0``             |
@@ -92,13 +92,13 @@ The blend space's axis's upper limit for the points' position. See :ref:`add_ble
 | *Getter*  | get_min_space()      |
 +-----------+----------------------+
 
-The blend space's axis's lower limit for the points' position. See :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
+The blend space's axis's lower limit for the points' position. See :ref:`add_blend_point <class_AnimationNodeBlendSpace1D_method_add_blend_point>`.
 
 ----
 
 .. _class_AnimationNodeBlendSpace1D_property_snap:
 
-- :ref:`float<class_float>` **snap**
+- :ref:`float <class_float>` **snap**
 
 +-----------+-----------------+
 | *Default* | ``0.1``         |
@@ -114,7 +114,7 @@ Position increment to snap to when moving a point on the axis.
 
 .. _class_AnimationNodeBlendSpace1D_property_value_label:
 
-- :ref:`String<class_String>` **value_label**
+- :ref:`String <class_String>` **value_label**
 
 +-----------+------------------------+
 | *Default* | ``"value"``            |
@@ -131,7 +131,7 @@ Method Descriptions
 
 .. _class_AnimationNodeBlendSpace1D_method_add_blend_point:
 
-- void **add_blend_point** **(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)**
+- void **add_blend_point** **(** :ref:`AnimationRootNode <class_AnimationRootNode>` node, :ref:`float <class_float>` pos, :ref:`int <class_int>` at_index=-1 **)**
 
 Adds a new point that represents a ``node`` on the virtual axis at a given position set by ``pos``. You can insert it at a specific index using the ``at_index`` argument. If you use the default value for ``at_index``, the point is inserted at the end of the blend points array.
 
@@ -139,7 +139,7 @@ Adds a new point that represents a ``node`` on the virtual axis at a given posit
 
 .. _class_AnimationNodeBlendSpace1D_method_get_blend_point_count:
 
-- :ref:`int<class_int>` **get_blend_point_count** **(** **)** const
+- :ref:`int <class_int>` **get_blend_point_count** **(** **)** const
 
 Returns the number of points on the blend axis.
 
@@ -147,15 +147,15 @@ Returns the number of points on the blend axis.
 
 .. _class_AnimationNodeBlendSpace1D_method_get_blend_point_node:
 
-- :ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** **(** :ref:`int<class_int>` point **)** const
+- :ref:`AnimationRootNode <class_AnimationRootNode>` **get_blend_point_node** **(** :ref:`int <class_int>` point **)** const
 
-Returns the :ref:`AnimationNode<class_AnimationNode>` referenced by the point at index ``point``.
+Returns the :ref:`AnimationNode <class_AnimationNode>` referenced by the point at index ``point``.
 
 ----
 
 .. _class_AnimationNodeBlendSpace1D_method_get_blend_point_position:
 
-- :ref:`float<class_float>` **get_blend_point_position** **(** :ref:`int<class_int>` point **)** const
+- :ref:`float <class_float>` **get_blend_point_position** **(** :ref:`int <class_int>` point **)** const
 
 Returns the position of the point at index ``point``.
 
@@ -163,7 +163,7 @@ Returns the position of the point at index ``point``.
 
 .. _class_AnimationNodeBlendSpace1D_method_remove_blend_point:
 
-- void **remove_blend_point** **(** :ref:`int<class_int>` point **)**
+- void **remove_blend_point** **(** :ref:`int <class_int>` point **)**
 
 Removes the point at index ``point`` from the blend axis.
 
@@ -171,15 +171,15 @@ Removes the point at index ``point`` from the blend axis.
 
 .. _class_AnimationNodeBlendSpace1D_method_set_blend_point_node:
 
-- void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**
+- void **set_blend_point_node** **(** :ref:`int <class_int>` point, :ref:`AnimationRootNode <class_AnimationRootNode>` node **)**
 
-Changes the :ref:`AnimationNode<class_AnimationNode>` referenced by the point at index ``point``.
+Changes the :ref:`AnimationNode <class_AnimationNode>` referenced by the point at index ``point``.
 
 ----
 
 .. _class_AnimationNodeBlendSpace1D_method_set_blend_point_position:
 
-- void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**
+- void **set_blend_point_position** **(** :ref:`int <class_int>` point, :ref:`float <class_float>` pos **)**
 
 Updates the position of the point at index ``point`` on the blend axis.
 

@@ -9,7 +9,7 @@
 ResourceFormatLoaderCrypto
 ==========================
 
-**Inherits:** :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`ResourceFormatLoader <class_ResourceFormatLoader>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 

@@ -9,14 +9,14 @@
 InputEventMouseMotion
 =====================
 
-**Inherits:** :ref:`InputEventMouse<class_InputEventMouse>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEventMouse <class_InputEventMouse>` **<** :ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Input event type for mouse motion events.
 
 Description
 -----------
 
-Contains mouse and pen motion information. Supports relative, absolute positions and speed. See :ref:`Node._input<class_Node_method__input>`.
+Contains mouse and pen motion information. Supports relative, absolute positions and speed. See :ref:`Node._input <class_Node_method__input>`.
 
 Tutorials
 ---------
@@ -26,22 +26,22 @@ Tutorials
 Properties
 ----------
 
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`float<class_float>`     | :ref:`pressure<class_InputEventMouseMotion_property_pressure>` | ``0.0``             |
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`relative<class_InputEventMouseMotion_property_relative>` | ``Vector2( 0, 0 )`` |
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`speed<class_InputEventMouseMotion_property_speed>`       | ``Vector2( 0, 0 )`` |
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`tilt<class_InputEventMouseMotion_property_tilt>`         | ``Vector2( 0, 0 )`` |
-+-------------------------------+----------------------------------------------------------------+---------------------+
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`float <class_float>`     | :ref:`pressure <class_InputEventMouseMotion_property_pressure>` | ``0.0``             |
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`relative <class_InputEventMouseMotion_property_relative>` | ``Vector2( 0, 0 )`` |
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`speed <class_InputEventMouseMotion_property_speed>`       | ``Vector2( 0, 0 )`` |
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`tilt <class_InputEventMouseMotion_property_tilt>`         | ``Vector2( 0, 0 )`` |
++--------------------------------+-----------------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventMouseMotion_property_pressure:
 
-- :ref:`float<class_float>` **pressure**
+- :ref:`float <class_float>` **pressure**
 
 +-----------+---------------------+
 | *Default* | ``0.0``             |
@@ -57,7 +57,7 @@ Represents the pressure the user puts on the pen. Ranges from ``0.0`` to ``1.0``
 
 .. _class_InputEventMouseMotion_property_relative:
 
-- :ref:`Vector2<class_Vector2>` **relative**
+- :ref:`Vector2 <class_Vector2>` **relative**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -73,7 +73,7 @@ The mouse position relative to the previous position (position at the last frame
 
 .. _class_InputEventMouseMotion_property_speed:
 
-- :ref:`Vector2<class_Vector2>` **speed**
+- :ref:`Vector2 <class_Vector2>` **speed**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -89,7 +89,7 @@ The mouse speed in pixels per second.
 
 .. _class_InputEventMouseMotion_property_tilt:
 
-- :ref:`Vector2<class_Vector2>` **tilt**
+- :ref:`Vector2 <class_Vector2>` **tilt**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |

@@ -9,65 +9,65 @@
 VehicleWheel
 ============
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Physics object that simulates the behavior of a wheel.
 
 Description
 -----------
 
-This node needs to be used as a child node of :ref:`VehicleBody<class_VehicleBody>` and simulates the behavior of one of its wheels. This node also acts as a collider to detect if the wheel is touching a surface.
+This node needs to be used as a child node of :ref:`VehicleBody <class_VehicleBody>` and simulates the behavior of one of its wheels. This node also acts as a collider to detect if the wheel is touching a surface.
 
 Properties
 ----------
 
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`brake<class_VehicleWheel_property_brake>`                               | ``0.0``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`damping_compression<class_VehicleWheel_property_damping_compression>`   | ``0.83``   |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`damping_relaxation<class_VehicleWheel_property_damping_relaxation>`     | ``0.88``   |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`engine_force<class_VehicleWheel_property_engine_force>`                 | ``0.0``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`steering<class_VehicleWheel_property_steering>`                         | ``0.0``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`suspension_max_force<class_VehicleWheel_property_suspension_max_force>` | ``6000.0`` |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`suspension_stiffness<class_VehicleWheel_property_suspension_stiffness>` | ``5.88``   |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`suspension_travel<class_VehicleWheel_property_suspension_travel>`       | ``5.0``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`bool<class_bool>`   | :ref:`use_as_steering<class_VehicleWheel_property_use_as_steering>`           | ``false``  |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`bool<class_bool>`   | :ref:`use_as_traction<class_VehicleWheel_property_use_as_traction>`           | ``false``  |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`wheel_friction_slip<class_VehicleWheel_property_wheel_friction_slip>`   | ``10.5``   |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`wheel_radius<class_VehicleWheel_property_wheel_radius>`                 | ``0.5``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`wheel_rest_length<class_VehicleWheel_property_wheel_rest_length>`       | ``0.15``   |
-+---------------------------+-------------------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`wheel_roll_influence<class_VehicleWheel_property_wheel_roll_influence>` | ``0.1``    |
-+---------------------------+-------------------------------------------------------------------------------+------------+
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`brake <class_VehicleWheel_property_brake>`                               | ``0.0``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`damping_compression <class_VehicleWheel_property_damping_compression>`   | ``0.83``   |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`damping_relaxation <class_VehicleWheel_property_damping_relaxation>`     | ``0.88``   |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`engine_force <class_VehicleWheel_property_engine_force>`                 | ``0.0``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`steering <class_VehicleWheel_property_steering>`                         | ``0.0``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`suspension_max_force <class_VehicleWheel_property_suspension_max_force>` | ``6000.0`` |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`suspension_stiffness <class_VehicleWheel_property_suspension_stiffness>` | ``5.88``   |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`suspension_travel <class_VehicleWheel_property_suspension_travel>`       | ``5.0``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`bool <class_bool>`   | :ref:`use_as_steering <class_VehicleWheel_property_use_as_steering>`           | ``false``  |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`bool <class_bool>`   | :ref:`use_as_traction <class_VehicleWheel_property_use_as_traction>`           | ``false``  |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`wheel_friction_slip <class_VehicleWheel_property_wheel_friction_slip>`   | ``10.5``   |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`wheel_radius <class_VehicleWheel_property_wheel_radius>`                 | ``0.5``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`wheel_rest_length <class_VehicleWheel_property_wheel_rest_length>`       | ``0.15``   |
++----------------------------+--------------------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`wheel_roll_influence <class_VehicleWheel_property_wheel_roll_influence>` | ``0.1``    |
++----------------------------+--------------------------------------------------------------------------------+------------+
 
 Methods
 -------
 
-+---------------------------+---------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_rpm<class_VehicleWheel_method_get_rpm>` **(** **)** const             |
-+---------------------------+---------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_skidinfo<class_VehicleWheel_method_get_skidinfo>` **(** **)** const   |
-+---------------------------+---------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`   | :ref:`is_in_contact<class_VehicleWheel_method_is_in_contact>` **(** **)** const |
-+---------------------------+---------------------------------------------------------------------------------+
++----------------------------+----------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_rpm <class_VehicleWheel_method_get_rpm>` **(** **)** const             |
++----------------------------+----------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_skidinfo <class_VehicleWheel_method_get_skidinfo>` **(** **)** const   |
++----------------------------+----------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`   | :ref:`is_in_contact <class_VehicleWheel_method_is_in_contact>` **(** **)** const |
++----------------------------+----------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VehicleWheel_property_brake:
 
-- :ref:`float<class_float>` **brake**
+- :ref:`float <class_float>` **brake**
 
 +-----------+------------------+
 | *Default* | ``0.0``          |
@@ -77,13 +77,13 @@ Property Descriptions
 | *Getter*  | get_brake()      |
 +-----------+------------------+
 
-Slows down the wheel by applying a braking force. The wheel is only slowed down if it is in contact with a surface. The force you need to apply to adequately slow down your vehicle depends on the :ref:`RigidBody.mass<class_RigidBody_property_mass>` of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 30 range for hard braking.
+Slows down the wheel by applying a braking force. The wheel is only slowed down if it is in contact with a surface. The force you need to apply to adequately slow down your vehicle depends on the :ref:`RigidBody.mass <class_RigidBody_property_mass>` of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 30 range for hard braking.
 
 ----
 
 .. _class_VehicleWheel_property_damping_compression:
 
-- :ref:`float<class_float>` **damping_compression**
+- :ref:`float <class_float>` **damping_compression**
 
 +-----------+--------------------------------+
 | *Default* | ``0.83``                       |
@@ -99,7 +99,7 @@ The damping applied to the spring when the spring is being compressed. This valu
 
 .. _class_VehicleWheel_property_damping_relaxation:
 
-- :ref:`float<class_float>` **damping_relaxation**
+- :ref:`float <class_float>` **damping_relaxation**
 
 +-----------+-------------------------------+
 | *Default* | ``0.88``                      |
@@ -109,13 +109,13 @@ The damping applied to the spring when the spring is being compressed. This valu
 | *Getter*  | get_damping_relaxation()      |
 +-----------+-------------------------------+
 
-The damping applied to the spring when relaxing. This value should be between 0.0 (no damping) and 1.0. This value should always be slightly higher than the :ref:`damping_compression<class_VehicleWheel_property_damping_compression>` property. For a :ref:`damping_compression<class_VehicleWheel_property_damping_compression>` value of 0.3, try a relaxation value of 0.5.
+The damping applied to the spring when relaxing. This value should be between 0.0 (no damping) and 1.0. This value should always be slightly higher than the :ref:`damping_compression <class_VehicleWheel_property_damping_compression>` property. For a :ref:`damping_compression <class_VehicleWheel_property_damping_compression>` value of 0.3, try a relaxation value of 0.5.
 
 ----
 
 .. _class_VehicleWheel_property_engine_force:
 
-- :ref:`float<class_float>` **engine_force**
+- :ref:`float <class_float>` **engine_force**
 
 +-----------+-------------------------+
 | *Default* | ``0.0``                 |
@@ -125,7 +125,7 @@ The damping applied to the spring when relaxing. This value should be between 0.
 | *Getter*  | get_engine_force()      |
 +-----------+-------------------------+
 
-Accelerates the wheel by applying an engine force. The wheel is only speed up if it is in contact with a surface. The :ref:`RigidBody.mass<class_RigidBody_property_mass>` of the vehicle has an effect on the acceleration of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 50 range for acceleration.
+Accelerates the wheel by applying an engine force. The wheel is only speed up if it is in contact with a surface. The :ref:`RigidBody.mass <class_RigidBody_property_mass>` of the vehicle has an effect on the acceleration of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 50 range for acceleration.
 
 **Note:** The simulation does not take the effect of gears into account, you will need to add logic for this if you wish to simulate gears.
 
@@ -135,7 +135,7 @@ A negative value will result in the wheel reversing.
 
 .. _class_VehicleWheel_property_steering:
 
-- :ref:`float<class_float>` **steering**
+- :ref:`float <class_float>` **steering**
 
 +-----------+---------------------+
 | *Default* | ``0.0``             |
@@ -151,7 +151,7 @@ The steering angle for the wheel. Setting this to a non-zero value will result i
 
 .. _class_VehicleWheel_property_suspension_max_force:
 
-- :ref:`float<class_float>` **suspension_max_force**
+- :ref:`float <class_float>` **suspension_max_force**
 
 +-----------+---------------------------------+
 | *Default* | ``6000.0``                      |
@@ -161,13 +161,13 @@ The steering angle for the wheel. Setting this to a non-zero value will result i
 | *Getter*  | get_suspension_max_force()      |
 +-----------+---------------------------------+
 
-The maximum force the spring can resist. This value should be higher than a quarter of the :ref:`RigidBody.mass<class_RigidBody_property_mass>` of the :ref:`VehicleBody<class_VehicleBody>` or the spring will not carry the weight of the vehicle. Good results are often obtained by a value that is about 3× to 4× this number.
+The maximum force the spring can resist. This value should be higher than a quarter of the :ref:`RigidBody.mass <class_RigidBody_property_mass>` of the :ref:`VehicleBody <class_VehicleBody>` or the spring will not carry the weight of the vehicle. Good results are often obtained by a value that is about 3× to 4× this number.
 
 ----
 
 .. _class_VehicleWheel_property_suspension_stiffness:
 
-- :ref:`float<class_float>` **suspension_stiffness**
+- :ref:`float <class_float>` **suspension_stiffness**
 
 +-----------+---------------------------------+
 | *Default* | ``5.88``                        |
@@ -183,7 +183,7 @@ This value defines the stiffness of the suspension. Use a value lower than 50 fo
 
 .. _class_VehicleWheel_property_suspension_travel:
 
-- :ref:`float<class_float>` **suspension_travel**
+- :ref:`float <class_float>` **suspension_travel**
 
 +-----------+------------------------------+
 | *Default* | ``5.0``                      |
@@ -199,7 +199,7 @@ This is the distance the suspension can travel. As Godot units are equivalent to
 
 .. _class_VehicleWheel_property_use_as_steering:
 
-- :ref:`bool<class_bool>` **use_as_steering**
+- :ref:`bool <class_bool>` **use_as_steering**
 
 +-----------+----------------------------+
 | *Default* | ``false``                  |
@@ -209,13 +209,13 @@ This is the distance the suspension can travel. As Godot units are equivalent to
 | *Getter*  | is_used_as_steering()      |
 +-----------+----------------------------+
 
-If ``true``, this wheel will be turned when the car steers. This value is used in conjunction with :ref:`VehicleBody.steering<class_VehicleBody_property_steering>` and ignored if you are using the per-wheel :ref:`steering<class_VehicleWheel_property_steering>` value instead.
+If ``true``, this wheel will be turned when the car steers. This value is used in conjunction with :ref:`VehicleBody.steering <class_VehicleBody_property_steering>` and ignored if you are using the per-wheel :ref:`steering <class_VehicleWheel_property_steering>` value instead.
 
 ----
 
 .. _class_VehicleWheel_property_use_as_traction:
 
-- :ref:`bool<class_bool>` **use_as_traction**
+- :ref:`bool <class_bool>` **use_as_traction**
 
 +-----------+----------------------------+
 | *Default* | ``false``                  |
@@ -225,13 +225,13 @@ If ``true``, this wheel will be turned when the car steers. This value is used i
 | *Getter*  | is_used_as_traction()      |
 +-----------+----------------------------+
 
-If ``true``, this wheel transfers engine force to the ground to propel the vehicle forward. This value is used in conjunction with :ref:`VehicleBody.engine_force<class_VehicleBody_property_engine_force>` and ignored if you are using the per-wheel :ref:`engine_force<class_VehicleWheel_property_engine_force>` value instead.
+If ``true``, this wheel transfers engine force to the ground to propel the vehicle forward. This value is used in conjunction with :ref:`VehicleBody.engine_force <class_VehicleBody_property_engine_force>` and ignored if you are using the per-wheel :ref:`engine_force <class_VehicleWheel_property_engine_force>` value instead.
 
 ----
 
 .. _class_VehicleWheel_property_wheel_friction_slip:
 
-- :ref:`float<class_float>` **wheel_friction_slip**
+- :ref:`float <class_float>` **wheel_friction_slip**
 
 +-----------+--------------------------+
 | *Default* | ``10.5``                 |
@@ -249,7 +249,7 @@ It's best to set this to 1.0 when starting out.
 
 .. _class_VehicleWheel_property_wheel_radius:
 
-- :ref:`float<class_float>` **wheel_radius**
+- :ref:`float <class_float>` **wheel_radius**
 
 +-----------+-------------------+
 | *Default* | ``0.5``           |
@@ -265,7 +265,7 @@ The radius of the wheel in meters.
 
 .. _class_VehicleWheel_property_wheel_rest_length:
 
-- :ref:`float<class_float>` **wheel_rest_length**
+- :ref:`float <class_float>` **wheel_rest_length**
 
 +-----------+-----------------------------------+
 | *Default* | ``0.15``                          |
@@ -281,7 +281,7 @@ This is the distance in meters the wheel is lowered from its origin point. Don't
 
 .. _class_VehicleWheel_property_wheel_roll_influence:
 
-- :ref:`float<class_float>` **wheel_roll_influence**
+- :ref:`float <class_float>` **wheel_roll_influence**
 
 +-----------+---------------------------+
 | *Default* | ``0.1``                   |
@@ -298,7 +298,7 @@ Method Descriptions
 
 .. _class_VehicleWheel_method_get_rpm:
 
-- :ref:`float<class_float>` **get_rpm** **(** **)** const
+- :ref:`float <class_float>` **get_rpm** **(** **)** const
 
 Returns the rotational speed of the wheel in revolutions per minute.
 
@@ -306,7 +306,7 @@ Returns the rotational speed of the wheel in revolutions per minute.
 
 .. _class_VehicleWheel_method_get_skidinfo:
 
-- :ref:`float<class_float>` **get_skidinfo** **(** **)** const
+- :ref:`float <class_float>` **get_skidinfo** **(** **)** const
 
 Returns a value between 0.0 and 1.0 that indicates whether this wheel is skidding. 0.0 is skidding (the wheel has lost grip, e.g. icy terrain), 1.0 means not skidding (the wheel has full grip, e.g. dry asphalt road).
 
@@ -314,7 +314,7 @@ Returns a value between 0.0 and 1.0 that indicates whether this wheel is skiddin
 
 .. _class_VehicleWheel_method_is_in_contact:
 
-- :ref:`bool<class_bool>` **is_in_contact** **(** **)** const
+- :ref:`bool <class_bool>` **is_in_contact** **(** **)** const
 
 Returns ``true`` if this wheel is in contact with a surface.
 

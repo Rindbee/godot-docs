@@ -9,19 +9,19 @@
 HBoxContainer
 =============
 
-**Inherits:** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`BoxContainer <class_BoxContainer>` **<** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Horizontal box container.
 
 Description
 -----------
 
-Horizontal box container. See :ref:`BoxContainer<class_BoxContainer>`.
+Horizontal box container. See :ref:`BoxContainer <class_BoxContainer>`.
 
 Theme Properties
 ----------------
 
-+-----------------------+------------+---+
-| :ref:`int<class_int>` | separation | 4 |
-+-----------------------+------------+---+
++------------------------+------------+---+
+| :ref:`int <class_int>` | separation | 4 |
++------------------------+------------+---+
 

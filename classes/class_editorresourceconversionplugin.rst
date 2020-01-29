@@ -9,29 +9,29 @@
 EditorResourceConversionPlugin
 ==============================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+---------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Resource<class_Resource>` | :ref:`_convert<class_EditorResourceConversionPlugin_method__convert>` **(** :ref:`Resource<class_Resource>` resource **)** virtual |
-+---------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`     | :ref:`_converts_to<class_EditorResourceConversionPlugin_method__converts_to>` **(** **)** virtual                                  |
-+---------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Resource <class_Resource>` | :ref:`_convert <class_EditorResourceConversionPlugin_method__convert>` **(** :ref:`Resource <class_Resource>` resource **)** virtual |
++----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`     | :ref:`_converts_to <class_EditorResourceConversionPlugin_method__converts_to>` **(** **)** virtual                                   |
++----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_EditorResourceConversionPlugin_method__convert:
 
-- :ref:`Resource<class_Resource>` **_convert** **(** :ref:`Resource<class_Resource>` resource **)** virtual
+- :ref:`Resource <class_Resource>` **_convert** **(** :ref:`Resource <class_Resource>` resource **)** virtual
 
 ----
 
 .. _class_EditorResourceConversionPlugin_method__converts_to:
 
-- :ref:`String<class_String>` **_converts_to** **(** **)** virtual
+- :ref:`String <class_String>` **_converts_to** **(** **)** virtual
 

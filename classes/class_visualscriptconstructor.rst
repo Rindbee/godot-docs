@@ -9,7 +9,7 @@
 VisualScriptConstructor
 =======================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A Visual Script node which calls a base type constructor.
 
@@ -21,38 +21,38 @@ A Visual Script node which calls a base type constructor. It can be used for typ
 Methods
 -------
 
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Dictionary<class_Dictionary>`                 | :ref:`get_constructor<class_VisualScriptConstructor_method_get_constructor>` **(** **)** const                                                              |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` | :ref:`get_constructor_type<class_VisualScriptConstructor_method_get_constructor_type>` **(** **)** const                                                    |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                                | :ref:`set_constructor<class_VisualScriptConstructor_method_set_constructor>` **(** :ref:`Dictionary<class_Dictionary>` constructor **)**                    |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                                                | :ref:`set_constructor_type<class_VisualScriptConstructor_method_set_constructor_type>` **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)** |
-+-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Dictionary <class_Dictionary>`                 | :ref:`get_constructor <class_VisualScriptConstructor_method_get_constructor>` **(** **)** const                                                               |
++------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` | :ref:`get_constructor_type <class_VisualScriptConstructor_method_get_constructor_type>` **(** **)** const                                                     |
++------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                                 | :ref:`set_constructor <class_VisualScriptConstructor_method_set_constructor>` **(** :ref:`Dictionary <class_Dictionary>` constructor **)**                    |
++------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                                 | :ref:`set_constructor_type <class_VisualScriptConstructor_method_set_constructor_type>` **(** :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type **)** |
++------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_VisualScriptConstructor_method_get_constructor:
 
-- :ref:`Dictionary<class_Dictionary>` **get_constructor** **(** **)** const
+- :ref:`Dictionary <class_Dictionary>` **get_constructor** **(** **)** const
 
 ----
 
 .. _class_VisualScriptConstructor_method_get_constructor_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **get_constructor_type** **(** **)** const
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **get_constructor_type** **(** **)** const
 
 ----
 
 .. _class_VisualScriptConstructor_method_set_constructor:
 
-- void **set_constructor** **(** :ref:`Dictionary<class_Dictionary>` constructor **)**
+- void **set_constructor** **(** :ref:`Dictionary <class_Dictionary>` constructor **)**
 
 ----
 
 .. _class_VisualScriptConstructor_method_set_constructor_type:
 
-- void **set_constructor_type** **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**
+- void **set_constructor_type** **(** :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type **)**
 

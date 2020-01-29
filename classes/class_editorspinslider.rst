@@ -9,29 +9,29 @@
 EditorSpinSlider
 ================
 
-**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Range <class_Range>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+------------------------------------------+-------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                  | :ref:`flat<class_EditorSpinSlider_property_flat>`           | ``false``    |
-+------------------------------------------+-------------------------------------------------------------+--------------+
-| :ref:`FocusMode<enum_Control_FocusMode>` | focus_mode                                                  | **O:** ``2`` |
-+------------------------------------------+-------------------------------------------------------------+--------------+
-| :ref:`String<class_String>`              | :ref:`label<class_EditorSpinSlider_property_label>`         | ``""``       |
-+------------------------------------------+-------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                  | :ref:`read_only<class_EditorSpinSlider_property_read_only>` | ``false``    |
-+------------------------------------------+-------------------------------------------------------------+--------------+
++-------------------------------------------+--------------------------------------------------------------+--------------+
+| :ref:`bool <class_bool>`                  | :ref:`flat <class_EditorSpinSlider_property_flat>`           | ``false``    |
++-------------------------------------------+--------------------------------------------------------------+--------------+
+| :ref:`FocusMode <enum_Control_FocusMode>` | focus_mode                                                   | **O:** ``2`` |
++-------------------------------------------+--------------------------------------------------------------+--------------+
+| :ref:`String <class_String>`              | :ref:`label <class_EditorSpinSlider_property_label>`         | ``""``       |
++-------------------------------------------+--------------------------------------------------------------+--------------+
+| :ref:`bool <class_bool>`                  | :ref:`read_only <class_EditorSpinSlider_property_read_only>` | ``false``    |
++-------------------------------------------+--------------------------------------------------------------+--------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_EditorSpinSlider_property_flat:
 
-- :ref:`bool<class_bool>` **flat**
+- :ref:`bool <class_bool>` **flat**
 
 +-----------+-----------------+
 | *Default* | ``false``       |
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. _class_EditorSpinSlider_property_label:
 
-- :ref:`String<class_String>` **label**
+- :ref:`String <class_String>` **label**
 
 +-----------+------------------+
 | *Default* | ``""``           |
@@ -59,7 +59,7 @@ Property Descriptions
 
 .. _class_EditorSpinSlider_property_read_only:
 
-- :ref:`bool<class_bool>` **read_only**
+- :ref:`bool <class_bool>` **read_only**
 
 +-----------+----------------------+
 | *Default* | ``false``            |

@@ -1,13 +1,16 @@
+..  _about-index:
+..  _sec-general:
+
 About
-=====
+#####
 
 .. toctree::
-   :maxdepth: 1
-   :name: toc-about
+    :maxdepth: 1
+    :name: toc-about
 
-   introduction
-   faq
-   docs_changelog
+    introduction
+    faq
+    docs_changelog
 
 .. history
 .. authors

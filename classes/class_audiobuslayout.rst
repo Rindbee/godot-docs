@@ -9,12 +9,12 @@
 AudioBusLayout
 ==============
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Stores information about the audio buses.
 
 Description
 -----------
 
-Stores position, muting, solo, bypass, effects, effect position, volume, and the connections between buses. See :ref:`AudioServer<class_AudioServer>` for usage.
+Stores position, muting, solo, bypass, effects, effect position, volume, and the connections between buses. See :ref:`AudioServer <class_AudioServer>` for usage.
 

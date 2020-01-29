@@ -9,28 +9,28 @@
 VisualScriptEngineSingleton
 ===========================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-A Visual Script node returning a singleton from :ref:`@GlobalScope<class_@GlobalScope>`.
+A Visual Script node returning a singleton from :ref:`@GlobalScope <class_@GlobalScope>`.
 
 Description
 -----------
 
-A Visual Script node returning a singleton from :ref:`@GlobalScope<class_@GlobalScope>`.
+A Visual Script node returning a singleton from :ref:`@GlobalScope <class_@GlobalScope>`.
 
 Properties
 ----------
 
-+-----------------------------+----------------------------------------------------------------------+--------+
-| :ref:`String<class_String>` | :ref:`constant<class_VisualScriptEngineSingleton_property_constant>` | ``""`` |
-+-----------------------------+----------------------------------------------------------------------+--------+
++------------------------------+-----------------------------------------------------------------------+--------+
+| :ref:`String <class_String>` | :ref:`constant <class_VisualScriptEngineSingleton_property_constant>` | ``""`` |
++------------------------------+-----------------------------------------------------------------------+--------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptEngineSingleton_property_constant:
 
-- :ref:`String<class_String>` **constant**
+- :ref:`String <class_String>` **constant**
 
 +-----------+----------------------+
 | *Default* | ``""``               |

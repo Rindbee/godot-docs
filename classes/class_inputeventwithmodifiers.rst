@@ -9,16 +9,16 @@
 InputEventWithModifiers
 =======================
 
-**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`InputEventGesture<class_InputEventGesture>`, :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouse<class_InputEventMouse>`
+**Inherited By:** :ref:`InputEventGesture <class_InputEventGesture>`, :ref:`InputEventKey <class_InputEventKey>`, :ref:`InputEventMouse <class_InputEventMouse>`
 
 Base class for keys events with modifiers.
 
 Description
 -----------
 
-Contains keys events information with modifiers support like ``Shift`` or ``Alt``. See :ref:`Node._input<class_Node_method__input>`.
+Contains keys events information with modifiers support like ``Shift`` or ``Alt``. See :ref:`Node._input <class_Node_method__input>`.
 
 Tutorials
 ---------
@@ -28,24 +28,24 @@ Tutorials
 Properties
 ----------
 
-+-------------------------+----------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`alt<class_InputEventWithModifiers_property_alt>`         | ``false`` |
-+-------------------------+----------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`command<class_InputEventWithModifiers_property_command>` | ``false`` |
-+-------------------------+----------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`control<class_InputEventWithModifiers_property_control>` | ``false`` |
-+-------------------------+----------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`meta<class_InputEventWithModifiers_property_meta>`       | ``false`` |
-+-------------------------+----------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`shift<class_InputEventWithModifiers_property_shift>`     | ``false`` |
-+-------------------------+----------------------------------------------------------------+-----------+
++--------------------------+-----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`alt <class_InputEventWithModifiers_property_alt>`         | ``false`` |
++--------------------------+-----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`command <class_InputEventWithModifiers_property_command>` | ``false`` |
++--------------------------+-----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`control <class_InputEventWithModifiers_property_control>` | ``false`` |
++--------------------------+-----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`meta <class_InputEventWithModifiers_property_meta>`       | ``false`` |
++--------------------------+-----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`shift <class_InputEventWithModifiers_property_shift>`     | ``false`` |
++--------------------------+-----------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventWithModifiers_property_alt:
 
-- :ref:`bool<class_bool>` **alt**
+- :ref:`bool <class_bool>` **alt**
 
 +-----------+----------------+
 | *Default* | ``false``      |
@@ -61,7 +61,7 @@ State of the ``Alt`` modifier.
 
 .. _class_InputEventWithModifiers_property_command:
 
-- :ref:`bool<class_bool>` **command**
+- :ref:`bool <class_bool>` **command**
 
 +-----------+--------------------+
 | *Default* | ``false``          |
@@ -77,7 +77,7 @@ State of the ``Command`` modifier.
 
 .. _class_InputEventWithModifiers_property_control:
 
-- :ref:`bool<class_bool>` **control**
+- :ref:`bool <class_bool>` **control**
 
 +-----------+--------------------+
 | *Default* | ``false``          |
@@ -93,7 +93,7 @@ State of the ``Ctrl`` modifier.
 
 .. _class_InputEventWithModifiers_property_meta:
 
-- :ref:`bool<class_bool>` **meta**
+- :ref:`bool <class_bool>` **meta**
 
 +-----------+--------------------+
 | *Default* | ``false``          |
@@ -109,7 +109,7 @@ State of the ``Meta`` modifier.
 
 .. _class_InputEventWithModifiers_property_shift:
 
-- :ref:`bool<class_bool>` **shift**
+- :ref:`bool <class_bool>` **shift**
 
 +-----------+------------------+
 | *Default* | ``false``        |

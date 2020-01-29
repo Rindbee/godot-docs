@@ -9,12 +9,12 @@
 AudioEffectBandLimitFilter
 ==========================
 
-**Inherits:** :ref:`AudioEffectFilter<class_AudioEffectFilter>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffectFilter <class_AudioEffectFilter>` **<** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a band limit filter to the audio bus.
 
 Description
 -----------
 
-Limits the frequencies in a range around the :ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>` and allows frequencies outside of this range to pass.
+Limits the frequencies in a range around the :ref:`AudioEffectFilter.cutoff_hz <class_AudioEffectFilter_property_cutoff_hz>` and allows frequencies outside of this range to pass.
 

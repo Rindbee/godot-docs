@@ -9,69 +9,69 @@
 MenuButton
 ==========
 
-**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Button <class_Button>` **<** :ref:`BaseButton <class_BaseButton>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-Special button that brings up a :ref:`PopupMenu<class_PopupMenu>` when clicked.
+Special button that brings up a :ref:`PopupMenu <class_PopupMenu>` when clicked.
 
 Description
 -----------
 
-Special button that brings up a :ref:`PopupMenu<class_PopupMenu>` when clicked.
+Special button that brings up a :ref:`PopupMenu <class_PopupMenu>` when clicked.
 
-New items can be created inside this :ref:`PopupMenu<class_PopupMenu>` using ``get_popup().add_item("My Item Name")``. You can also create them directly from the editor. To do so, select the ``MenuButton`` node, then in the toolbar at the top of the 2D editor, click **Items** then click **Add** in the popup. You will be able to give each items new properties.
+New items can be created inside this :ref:`PopupMenu <class_PopupMenu>` using ``get_popup().add_item("My Item Name")``. You can also create them directly from the editor. To do so, select the ``MenuButton`` node, then in the toolbar at the top of the 2D editor, click **Items** then click **Add** in the popup. You will be able to give each items new properties.
 
 Properties
 ----------
 
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`ActionMode<enum_BaseButton_ActionMode>` | action_mode                                                       | **O:** ``0``    |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`FocusMode<enum_Control_FocusMode>`      | enabled_focus_mode                                                | **O:** ``0``    |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`bool<class_bool>`                       | flat                                                              | **O:** ``true`` |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`FocusMode<enum_Control_FocusMode>`      | focus_mode                                                        | **O:** ``0``    |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`bool<class_bool>`                       | :ref:`switch_on_hover<class_MenuButton_property_switch_on_hover>` | ``false``       |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
-| :ref:`bool<class_bool>`                       | toggle_mode                                                       | **O:** ``true`` |
-+-----------------------------------------------+-------------------------------------------------------------------+-----------------+
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`ActionMode <enum_BaseButton_ActionMode>` | action_mode                                                        | **O:** ``0``    |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`FocusMode <enum_Control_FocusMode>`      | enabled_focus_mode                                                 | **O:** ``0``    |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`bool <class_bool>`                       | flat                                                               | **O:** ``true`` |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`FocusMode <enum_Control_FocusMode>`      | focus_mode                                                         | **O:** ``0``    |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`bool <class_bool>`                       | :ref:`switch_on_hover <class_MenuButton_property_switch_on_hover>` | ``false``       |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
+| :ref:`bool <class_bool>`                       | toggle_mode                                                        | **O:** ``true`` |
++------------------------------------------------+--------------------------------------------------------------------+-----------------+
 
 Methods
 -------
 
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-| :ref:`PopupMenu<class_PopupMenu>` | :ref:`get_popup<class_MenuButton_method_get_popup>` **(** **)** const                                                    |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
-| void                              | :ref:`set_disable_shortcuts<class_MenuButton_method_set_disable_shortcuts>` **(** :ref:`bool<class_bool>` disabled **)** |
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------+
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| :ref:`PopupMenu <class_PopupMenu>` | :ref:`get_popup <class_MenuButton_method_get_popup>` **(** **)** const                                                     |
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| void                               | :ref:`set_disable_shortcuts <class_MenuButton_method_set_disable_shortcuts>` **(** :ref:`bool <class_bool>` disabled **)** |
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
 Theme Properties
 ----------------
 
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | disabled            |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | focus               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Font<class_Font>`         | font                |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_disabled | Color( 1, 1, 1, 0.3 )        |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | hover               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`int<class_int>`           | hseparation         | 3                            |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | normal              |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | pressed             |                              |
-+---------------------------------+---------------------+------------------------------+
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | disabled            |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | focus               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Font <class_Font>`         | font                |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_disabled | Color( 1, 1, 1, 0.3 )        |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | hover               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`int <class_int>`           | hseparation         | 3                            |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | normal              |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | pressed             |                              |
++----------------------------------+---------------------+------------------------------+
 
 Signals
 -------
@@ -80,14 +80,14 @@ Signals
 
 - **about_to_show** **(** **)**
 
-Emitted when :ref:`PopupMenu<class_PopupMenu>` of this MenuButton is about to show.
+Emitted when :ref:`PopupMenu <class_PopupMenu>` of this MenuButton is about to show.
 
 Property Descriptions
 ---------------------
 
 .. _class_MenuButton_property_switch_on_hover:
 
-- :ref:`bool<class_bool>` **switch_on_hover**
+- :ref:`bool <class_bool>` **switch_on_hover**
 
 +-----------+----------------------------+
 | *Default* | ``false``                  |
@@ -104,15 +104,15 @@ Method Descriptions
 
 .. _class_MenuButton_method_get_popup:
 
-- :ref:`PopupMenu<class_PopupMenu>` **get_popup** **(** **)** const
+- :ref:`PopupMenu <class_PopupMenu>` **get_popup** **(** **)** const
 
-Returns the :ref:`PopupMenu<class_PopupMenu>` contained in this button.
+Returns the :ref:`PopupMenu <class_PopupMenu>` contained in this button.
 
 ----
 
 .. _class_MenuButton_method_set_disable_shortcuts:
 
-- void **set_disable_shortcuts** **(** :ref:`bool<class_bool>` disabled **)**
+- void **set_disable_shortcuts** **(** :ref:`bool <class_bool>` disabled **)**
 
 If ``true``, shortcuts are disabled and cannot be used to trigger the button.
 

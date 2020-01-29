@@ -9,47 +9,47 @@
 PackedDataContainer
 ===================
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-------------------------------------------+--------------------------------------------------------------+-----------------------+
-| :ref:`PoolByteArray<class_PoolByteArray>` | :ref:`__data__<class_PackedDataContainer_property___data__>` | ``PoolByteArray(  )`` |
-+-------------------------------------------+--------------------------------------------------------------+-----------------------+
++------------------------------------------------+---------------------------------------------------------------+-------------------------+
+| :ref:`PackedByteArray <class_PackedByteArray>` | :ref:`__data__ <class_PackedDataContainer_property___data__>` | ``PackedByteArray(  )`` |
++------------------------------------------------+---------------------------------------------------------------+-------------------------+
 
 Methods
 -------
 
-+---------------------------------------+----------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`pack<class_PackedDataContainer_method_pack>` **(** :ref:`Variant<class_Variant>` value **)** |
-+---------------------------------------+----------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                 | :ref:`size<class_PackedDataContainer_method_size>` **(** **)** const                               |
-+---------------------------------------+----------------------------------------------------------------------------------------------------+
++----------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`pack <class_PackedDataContainer_method_pack>` **(** :ref:`Variant <class_Variant>` value **)** |
++----------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                 | :ref:`size <class_PackedDataContainer_method_size>` **(** **)** const                                |
++----------------------------------------+------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_PackedDataContainer_property___data__:
 
-- :ref:`PoolByteArray<class_PoolByteArray>` **__data__**
+- :ref:`PackedByteArray <class_PackedByteArray>` **__data__**
 
-+-----------+-----------------------+
-| *Default* | ``PoolByteArray(  )`` |
-+-----------+-----------------------+
++-----------+-------------------------+
+| *Default* | ``PackedByteArray(  )`` |
++-----------+-------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_PackedDataContainer_method_pack:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **pack** **(** :ref:`Variant<class_Variant>` value **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **pack** **(** :ref:`Variant <class_Variant>` value **)**
 
 ----
 
 .. _class_PackedDataContainer_method_size:
 
-- :ref:`int<class_int>` **size** **(** **)** const
+- :ref:`int <class_int>` **size** **(** **)** const
 

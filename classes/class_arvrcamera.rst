@@ -9,7 +9,7 @@
 ARVRCamera
 ==========
 
-**Inherits:** :ref:`Camera<class_Camera>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Camera <class_Camera>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 A camera node with a few overrules for AR/VR applied, such as location tracking.
 

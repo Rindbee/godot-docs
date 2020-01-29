@@ -9,12 +9,12 @@
 IP_Unix
 =======
 
-**Inherits:** :ref:`IP<class_IP>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`IP <class_IP>` **<** :ref:`Object <class_Object>`
 
-UNIX IP support. See :ref:`IP<class_IP>`.
+UNIX IP support. See :ref:`IP <class_IP>`.
 
 Description
 -----------
 
-UNIX-specific implementation of IP support functions. See :ref:`IP<class_IP>`.
+UNIX-specific implementation of IP support functions. See :ref:`IP <class_IP>`.
 

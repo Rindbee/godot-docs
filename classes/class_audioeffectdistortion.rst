@@ -9,7 +9,7 @@
 AudioEffectDistortion
 =====================
 
-**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a distortion audio effect to an Audio bus.
 
@@ -25,17 +25,17 @@ By distorting the waveform the frequency content change, which will often make t
 Properties
 ----------
 
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`                    | :ref:`drive<class_AudioEffectDistortion_property_drive>`           | ``0.0``     |
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`                    | :ref:`keep_hf_hz<class_AudioEffectDistortion_property_keep_hf_hz>` | ``16000.0`` |
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
-| :ref:`Mode<enum_AudioEffectDistortion_Mode>` | :ref:`mode<class_AudioEffectDistortion_property_mode>`             | ``0``       |
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`                    | :ref:`post_gain<class_AudioEffectDistortion_property_post_gain>`   | ``0.0``     |
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>`                    | :ref:`pre_gain<class_AudioEffectDistortion_property_pre_gain>`     | ``0.0``     |
-+----------------------------------------------+--------------------------------------------------------------------+-------------+
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`                    | :ref:`drive <class_AudioEffectDistortion_property_drive>`           | ``0.0``     |
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`                    | :ref:`keep_hf_hz <class_AudioEffectDistortion_property_keep_hf_hz>` | ``16000.0`` |
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
+| :ref:`Mode <enum_AudioEffectDistortion_Mode>` | :ref:`mode <class_AudioEffectDistortion_property_mode>`             | ``0``       |
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`                    | :ref:`post_gain <class_AudioEffectDistortion_property_post_gain>`   | ``0.0``     |
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>`                    | :ref:`pre_gain <class_AudioEffectDistortion_property_pre_gain>`     | ``0.0``     |
++-----------------------------------------------+---------------------------------------------------------------------+-------------+
 
 Enumerations
 ------------
@@ -69,7 +69,7 @@ Property Descriptions
 
 .. _class_AudioEffectDistortion_property_drive:
 
-- :ref:`float<class_float>` **drive**
+- :ref:`float <class_float>` **drive**
 
 +-----------+------------------+
 | *Default* | ``0.0``          |
@@ -85,7 +85,7 @@ Distortion power. Value can range from 0 to 1.
 
 .. _class_AudioEffectDistortion_property_keep_hf_hz:
 
-- :ref:`float<class_float>` **keep_hf_hz**
+- :ref:`float <class_float>` **keep_hf_hz**
 
 +-----------+-----------------------+
 | *Default* | ``16000.0``           |
@@ -101,7 +101,7 @@ High-pass filter, in Hz. Frequencies higher than this value will not be affected
 
 .. _class_AudioEffectDistortion_property_mode:
 
-- :ref:`Mode<enum_AudioEffectDistortion_Mode>` **mode**
+- :ref:`Mode <enum_AudioEffectDistortion_Mode>` **mode**
 
 +-----------+-----------------+
 | *Default* | ``0``           |
@@ -117,7 +117,7 @@ Distortion type.
 
 .. _class_AudioEffectDistortion_property_post_gain:
 
-- :ref:`float<class_float>` **post_gain**
+- :ref:`float <class_float>` **post_gain**
 
 +-----------+----------------------+
 | *Default* | ``0.0``              |
@@ -133,7 +133,7 @@ Increases or decreases the volume after the effect. Value can range from -80 to 
 
 .. _class_AudioEffectDistortion_property_pre_gain:
 
-- :ref:`float<class_float>` **pre_gain**
+- :ref:`float <class_float>` **pre_gain**
 
 +-----------+---------------------+
 | *Default* | ``0.0``             |

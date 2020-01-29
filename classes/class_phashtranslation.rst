@@ -9,7 +9,7 @@
 PHashTranslation
 ================
 
-**Inherits:** :ref:`Translation<class_Translation>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Translation <class_Translation>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Optimized translation.
 
@@ -21,16 +21,16 @@ Optimized translation. Uses real-time compressed translations, which results in 
 Methods
 -------
 
-+------+----------------------------------------------------------------------------------------------------------------+
-| void | :ref:`generate<class_PHashTranslation_method_generate>` **(** :ref:`Translation<class_Translation>` from **)** |
-+------+----------------------------------------------------------------------------------------------------------------+
++------+------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`generate <class_PHashTranslation_method_generate>` **(** :ref:`Translation <class_Translation>` from **)** |
++------+------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_PHashTranslation_method_generate:
 
-- void **generate** **(** :ref:`Translation<class_Translation>` from **)**
+- void **generate** **(** :ref:`Translation <class_Translation>` from **)**
 
-Generates and sets an optimized translation from the given :ref:`Translation<class_Translation>` resource.
+Generates and sets an optimized translation from the given :ref:`Translation <class_Translation>` resource.
 

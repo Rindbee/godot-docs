@@ -9,7 +9,7 @@
 VisualShaderNodeScalarSwitch
 ============================
 
-**Inherits:** :ref:`VisualShaderNodeSwitch<class_VisualShaderNodeSwitch>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNodeSwitch <class_VisualShaderNodeSwitch>` **<** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 

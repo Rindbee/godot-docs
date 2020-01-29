@@ -9,14 +9,14 @@
 InputEventMouseButton
 =====================
 
-**Inherits:** :ref:`InputEventMouse<class_InputEventMouse>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEventMouse <class_InputEventMouse>` **<** :ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Input event type for mouse button events.
 
 Description
 -----------
 
-Contains mouse click information. See :ref:`Node._input<class_Node_method__input>`.
+Contains mouse click information. See :ref:`Node._input <class_Node_method__input>`.
 
 Tutorials
 ---------
@@ -26,22 +26,22 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+------------------------------------------------------------------------+-----------+
-| :ref:`int<class_int>`     | :ref:`button_index<class_InputEventMouseButton_property_button_index>` | ``0``     |
-+---------------------------+------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`   | :ref:`doubleclick<class_InputEventMouseButton_property_doubleclick>`   | ``false`` |
-+---------------------------+------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`factor<class_InputEventMouseButton_property_factor>`             | ``1.0``   |
-+---------------------------+------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`   | :ref:`pressed<class_InputEventMouseButton_property_pressed>`           | ``false`` |
-+---------------------------+------------------------------------------------------------------------+-----------+
++----------------------------+-------------------------------------------------------------------------+-----------+
+| :ref:`int <class_int>`     | :ref:`button_index <class_InputEventMouseButton_property_button_index>` | ``0``     |
++----------------------------+-------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`   | :ref:`doubleclick <class_InputEventMouseButton_property_doubleclick>`   | ``false`` |
++----------------------------+-------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`factor <class_InputEventMouseButton_property_factor>`             | ``1.0``   |
++----------------------------+-------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`   | :ref:`pressed <class_InputEventMouseButton_property_pressed>`           | ``false`` |
++----------------------------+-------------------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventMouseButton_property_button_index:
 
-- :ref:`int<class_int>` **button_index**
+- :ref:`int <class_int>` **button_index**
 
 +-----------+-------------------------+
 | *Default* | ``0``                   |
@@ -51,13 +51,13 @@ Property Descriptions
 | *Getter*  | get_button_index()      |
 +-----------+-------------------------+
 
-The mouse button identifier, one of the :ref:`ButtonList<enum_@GlobalScope_ButtonList>` button or button wheel constants.
+The mouse button identifier, one of the :ref:`ButtonList <enum_@GlobalScope_ButtonList>` button or button wheel constants.
 
 ----
 
 .. _class_InputEventMouseButton_property_doubleclick:
 
-- :ref:`bool<class_bool>` **doubleclick**
+- :ref:`bool <class_bool>` **doubleclick**
 
 +-----------+------------------------+
 | *Default* | ``false``              |
@@ -73,7 +73,7 @@ If ``true``, the mouse button's state is a double-click.
 
 .. _class_InputEventMouseButton_property_factor:
 
-- :ref:`float<class_float>` **factor**
+- :ref:`float <class_float>` **factor**
 
 +-----------+-------------------+
 | *Default* | ``1.0``           |
@@ -89,7 +89,7 @@ The amount (or delta) of the event. When used for high-precision scroll events, 
 
 .. _class_InputEventMouseButton_property_pressed:
 
-- :ref:`bool<class_bool>` **pressed**
+- :ref:`bool <class_bool>` **pressed**
 
 +-----------+--------------------+
 | *Default* | ``false``          |

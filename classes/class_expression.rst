@@ -9,7 +9,7 @@
 Expression
 ==========
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A class that stores an expression you can execute.
 
@@ -20,7 +20,7 @@ An expression can be made of any arithmetic operation, built-in math function ca
 
 An example expression text using the built-in math functions could be ``sqrt(pow(3,2) + pow(4,2))``.
 
-In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write our expression and show the result.
+In the following example we use a :ref:`LineEdit <class_LineEdit>` node to write our expression and show the result.
 
 ::
 
@@ -41,50 +41,50 @@ In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write 
 Methods
 -------
 
-+---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Variant<class_Variant>`         | :ref:`execute<class_Expression_method_execute>` **(** :ref:`Array<class_Array>` inputs=[  ], :ref:`Object<class_Object>` base_instance=null, :ref:`bool<class_bool>` show_error=true **)** |
-+---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`           | :ref:`get_error_text<class_Expression_method_get_error_text>` **(** **)** const                                                                                                            |
-+---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`               | :ref:`has_execute_failed<class_Expression_method_has_execute_failed>` **(** **)** const                                                                                                    |
-+---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`parse<class_Expression_method_parse>` **(** :ref:`String<class_String>` expression, :ref:`PoolStringArray<class_PoolStringArray>` input_names=PoolStringArray(  ) **)**              |
-+---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Variant <class_Variant>`         | :ref:`execute <class_Expression_method_execute>` **(** :ref:`Array <class_Array>` inputs=[  ], :ref:`Object <class_Object>` base_instance=null, :ref:`bool <class_bool>` show_error=true **)** |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`           | :ref:`get_error_text <class_Expression_method_get_error_text>` **(** **)** const                                                                                                               |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`               | :ref:`has_execute_failed <class_Expression_method_has_execute_failed>` **(** **)** const                                                                                                       |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`parse <class_Expression_method_parse>` **(** :ref:`String <class_String>` expression, :ref:`PackedStringArray <class_PackedStringArray>` input_names=PackedStringArray(  ) **)**         |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_Expression_method_execute:
 
-- :ref:`Variant<class_Variant>` **execute** **(** :ref:`Array<class_Array>` inputs=[  ], :ref:`Object<class_Object>` base_instance=null, :ref:`bool<class_bool>` show_error=true **)**
+- :ref:`Variant <class_Variant>` **execute** **(** :ref:`Array <class_Array>` inputs=[  ], :ref:`Object <class_Object>` base_instance=null, :ref:`bool <class_bool>` show_error=true **)**
 
-Executes the expression that was previously parsed by :ref:`parse<class_Expression_method_parse>` and returns the result. Before you use the returned object, you should check if the method failed by calling :ref:`has_execute_failed<class_Expression_method_has_execute_failed>`.
+Executes the expression that was previously parsed by :ref:`parse <class_Expression_method_parse>` and returns the result. Before you use the returned object, you should check if the method failed by calling :ref:`has_execute_failed <class_Expression_method_has_execute_failed>`.
 
-If you defined input variables in :ref:`parse<class_Expression_method_parse>`, you can specify their values in the inputs array, in the same order.
+If you defined input variables in :ref:`parse <class_Expression_method_parse>`, you can specify their values in the inputs array, in the same order.
 
 ----
 
 .. _class_Expression_method_get_error_text:
 
-- :ref:`String<class_String>` **get_error_text** **(** **)** const
+- :ref:`String <class_String>` **get_error_text** **(** **)** const
 
-Returns the error text if :ref:`parse<class_Expression_method_parse>` has failed.
+Returns the error text if :ref:`parse <class_Expression_method_parse>` has failed.
 
 ----
 
 .. _class_Expression_method_has_execute_failed:
 
-- :ref:`bool<class_bool>` **has_execute_failed** **(** **)** const
+- :ref:`bool <class_bool>` **has_execute_failed** **(** **)** const
 
-Returns ``true`` if :ref:`execute<class_Expression_method_execute>` has failed.
+Returns ``true`` if :ref:`execute <class_Expression_method_execute>` has failed.
 
 ----
 
 .. _class_Expression_method_parse:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **parse** **(** :ref:`String<class_String>` expression, :ref:`PoolStringArray<class_PoolStringArray>` input_names=PoolStringArray(  ) **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **parse** **(** :ref:`String <class_String>` expression, :ref:`PackedStringArray <class_PackedStringArray>` input_names=PackedStringArray(  ) **)**
 
-Parses the expression and returns an :ref:`Error<enum_@GlobalScope_Error>` code.
+Parses the expression and returns an :ref:`Error <enum_@GlobalScope_Error>` code.
 
 You can optionally specify names of variables that may appear in the expression with ``input_names``, so that you can bind them when it gets executed.
 

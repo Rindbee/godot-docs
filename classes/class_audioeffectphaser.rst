@@ -9,7 +9,7 @@
 AudioEffectPhaser
 =================
 
-**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a phaser audio effect to an Audio bus.
 
@@ -23,24 +23,24 @@ Combines phase-shifted signals with the original signal. The movement of the pha
 Properties
 ----------
 
-+---------------------------+--------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`depth<class_AudioEffectPhaser_property_depth>`               | ``1.0``    |
-+---------------------------+--------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`feedback<class_AudioEffectPhaser_property_feedback>`         | ``0.7``    |
-+---------------------------+--------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`range_max_hz<class_AudioEffectPhaser_property_range_max_hz>` | ``1600.0`` |
-+---------------------------+--------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`range_min_hz<class_AudioEffectPhaser_property_range_min_hz>` | ``440.0``  |
-+---------------------------+--------------------------------------------------------------------+------------+
-| :ref:`float<class_float>` | :ref:`rate_hz<class_AudioEffectPhaser_property_rate_hz>`           | ``0.5``    |
-+---------------------------+--------------------------------------------------------------------+------------+
++----------------------------+---------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`depth <class_AudioEffectPhaser_property_depth>`               | ``1.0``    |
++----------------------------+---------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`feedback <class_AudioEffectPhaser_property_feedback>`         | ``0.7``    |
++----------------------------+---------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`range_max_hz <class_AudioEffectPhaser_property_range_max_hz>` | ``1600.0`` |
++----------------------------+---------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`range_min_hz <class_AudioEffectPhaser_property_range_min_hz>` | ``440.0``  |
++----------------------------+---------------------------------------------------------------------+------------+
+| :ref:`float <class_float>` | :ref:`rate_hz <class_AudioEffectPhaser_property_rate_hz>`           | ``0.5``    |
++----------------------------+---------------------------------------------------------------------+------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioEffectPhaser_property_depth:
 
-- :ref:`float<class_float>` **depth**
+- :ref:`float <class_float>` **depth**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -56,7 +56,7 @@ Governs how high the filter frequencies sweep. Low value will primarily affect b
 
 .. _class_AudioEffectPhaser_property_feedback:
 
-- :ref:`float<class_float>` **feedback**
+- :ref:`float <class_float>` **feedback**
 
 +-----------+---------------------+
 | *Default* | ``0.7``             |
@@ -72,7 +72,7 @@ Output percent of modified sound. Value can range from 0.1 to 0.9.
 
 .. _class_AudioEffectPhaser_property_range_max_hz:
 
-- :ref:`float<class_float>` **range_max_hz**
+- :ref:`float <class_float>` **range_max_hz**
 
 +-----------+-------------------------+
 | *Default* | ``1600.0``              |
@@ -88,7 +88,7 @@ Determines the maximum frequency affected by the LFO modulations, in Hz. Value c
 
 .. _class_AudioEffectPhaser_property_range_min_hz:
 
-- :ref:`float<class_float>` **range_min_hz**
+- :ref:`float <class_float>` **range_min_hz**
 
 +-----------+-------------------------+
 | *Default* | ``440.0``               |
@@ -104,7 +104,7 @@ Determines the minimum frequency affected by the LFO modulations, in Hz. Value c
 
 .. _class_AudioEffectPhaser_property_rate_hz:
 
-- :ref:`float<class_float>` **rate_hz**
+- :ref:`float <class_float>` **rate_hz**
 
 +-----------+--------------------+
 | *Default* | ``0.5``            |

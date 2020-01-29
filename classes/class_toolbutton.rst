@@ -9,14 +9,14 @@
 ToolButton
 ==========
 
-**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Button <class_Button>` **<** :ref:`BaseButton <class_BaseButton>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Flat button helper class.
 
 Description
 -----------
 
-This is a helper class to generate a flat :ref:`Button<class_Button>` (see :ref:`Button.flat<class_Button_property_flat>`), creating a ``ToolButton`` is equivalent to:
+This is a helper class to generate a flat :ref:`Button <class_Button>` (see :ref:`Button.flat <class_Button_property_flat>`), creating a ``ToolButton`` is equivalent to:
 
 ::
 
@@ -26,34 +26,34 @@ This is a helper class to generate a flat :ref:`Button<class_Button>` (see :ref:
 Properties
 ----------
 
-+-------------------------+------+-----------------+
-| :ref:`bool<class_bool>` | flat | **O:** ``true`` |
-+-------------------------+------+-----------------+
++--------------------------+------+-----------------+
+| :ref:`bool <class_bool>` | flat | **O:** ``true`` |
++--------------------------+------+-----------------+
 
 Theme Properties
 ----------------
 
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | disabled            |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | focus               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Font<class_Font>`         | font                |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_disabled | Color( 0.9, 0.95, 1, 0.3 )   |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | hover               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`int<class_int>`           | hseparation         | 3                            |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | normal              |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | pressed             |                              |
-+---------------------------------+---------------------+------------------------------+
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | disabled            |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | focus               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Font <class_Font>`         | font                |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_disabled | Color( 0.9, 0.95, 1, 0.3 )   |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | hover               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`int <class_int>`           | hseparation         | 3                            |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | normal              |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | pressed             |                              |
++----------------------------------+---------------------+------------------------------+
 

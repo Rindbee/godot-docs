@@ -9,14 +9,14 @@
 LightOccluder2D
 ===============
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Occludes light cast by a Light2D, casting shadows.
 
 Description
 -----------
 
-Occludes light cast by a Light2D, casting shadows. The LightOccluder2D must be provided with an :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` in order for the shadow to be computed.
+Occludes light cast by a Light2D, casting shadows. The LightOccluder2D must be provided with an :ref:`OccluderPolygon2D <class_OccluderPolygon2D>` in order for the shadow to be computed.
 
 Tutorials
 ---------
@@ -26,18 +26,18 @@ Tutorials
 Properties
 ----------
 
-+---------------------------------------------------+--------------------------------------------------------------+-------+
-| :ref:`int<class_int>`                             | :ref:`light_mask<class_LightOccluder2D_property_light_mask>` | ``1`` |
-+---------------------------------------------------+--------------------------------------------------------------+-------+
-| :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` | :ref:`occluder<class_LightOccluder2D_property_occluder>`     |       |
-+---------------------------------------------------+--------------------------------------------------------------+-------+
++----------------------------------------------------+---------------------------------------------------------------+-------+
+| :ref:`int <class_int>`                             | :ref:`light_mask <class_LightOccluder2D_property_light_mask>` | ``1`` |
++----------------------------------------------------+---------------------------------------------------------------+-------+
+| :ref:`OccluderPolygon2D <class_OccluderPolygon2D>` | :ref:`occluder <class_LightOccluder2D_property_occluder>`     |       |
++----------------------------------------------------+---------------------------------------------------------------+-------+
 
 Property Descriptions
 ---------------------
 
 .. _class_LightOccluder2D_property_light_mask:
 
-- :ref:`int<class_int>` **light_mask**
+- :ref:`int <class_int>` **light_mask**
 
 +-----------+--------------------------------+
 | *Default* | ``1``                          |
@@ -53,7 +53,7 @@ The LightOccluder2D's light mask. The LightOccluder2D will cast shadows only fro
 
 .. _class_LightOccluder2D_property_occluder:
 
-- :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **occluder**
+- :ref:`OccluderPolygon2D <class_OccluderPolygon2D>` **occluder**
 
 +----------+-----------------------------+
 | *Setter* | set_occluder_polygon(value) |
@@ -61,5 +61,5 @@ The LightOccluder2D's light mask. The LightOccluder2D will cast shadows only fro
 | *Getter* | get_occluder_polygon()      |
 +----------+-----------------------------+
 
-The :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` used to compute the shadow.
+The :ref:`OccluderPolygon2D <class_OccluderPolygon2D>` used to compute the shadow.
 

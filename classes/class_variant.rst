@@ -34,7 +34,7 @@ Godot tracks all scripting API variables within Variants. Without even realizing
 
 - The statically-typed language NativeScript C++ does not define a built-in Variant-like class. Godot's GDNative bindings provide their own godot::Variant class for users; Any point at which the C++ code starts interacting with the Godot runtime is a place where you might have to start wrapping data inside Variant objects.
 
-The global :ref:`@GDScript.typeof<class_@GDScript_method_typeof>` function returns the enumerated value of the Variant type stored in the current variable (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`).
+The global :ref:`@GDScript.typeof <class_@GDScript_method_typeof>` function returns the enumerated value of the Variant type stored in the current variable (see :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>`).
 
 ::
 
@@ -78,9 +78,9 @@ A Variant:
 
 - Can be used for dictionaries, arrays, parsers, etc.
 
-**Containers (Array and Dictionary):** Both are implemented using variants. A :ref:`Dictionary<class_Dictionary>` can match any datatype used as key to any other datatype. An :ref:`Array<class_Array>` just holds an array of Variants. Of course, a Variant can also hold a :ref:`Dictionary<class_Dictionary>` and an :ref:`Array<class_Array>` inside, making it even more flexible.
+**Containers (Array and Dictionary):** Both are implemented using variants. A :ref:`Dictionary <class_Dictionary>` can match any datatype used as key to any other datatype. An :ref:`Array <class_Array>` just holds an array of Variants. Of course, a Variant can also hold a :ref:`Dictionary <class_Dictionary>` and an :ref:`Array <class_Array>` inside, making it even more flexible.
 
-Modifications to a container will modify all references to it. A :ref:`Mutex<class_Mutex>` should be created to lock it if multi-threaded access is desired.
+Modifications to a container will modify all references to it. A :ref:`Mutex <class_Mutex>` should be created to lock it if multi-threaded access is desired.
 
 Tutorials
 ---------

@@ -9,7 +9,7 @@
 ColorRect
 =========
 
-**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Colored rectangle.
 
@@ -21,16 +21,16 @@ Displays a colored rectangle.
 Properties
 ----------
 
-+---------------------------+----------------------------------------------+-------------------------+
-| :ref:`Color<class_Color>` | :ref:`color<class_ColorRect_property_color>` | ``Color( 1, 1, 1, 1 )`` |
-+---------------------------+----------------------------------------------+-------------------------+
++----------------------------+-----------------------------------------------+-------------------------+
+| :ref:`Color <class_Color>` | :ref:`color <class_ColorRect_property_color>` | ``Color( 1, 1, 1, 1 )`` |
++----------------------------+-----------------------------------------------+-------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_ColorRect_property_color:
 
-- :ref:`Color<class_Color>` **color**
+- :ref:`Color <class_Color>` **color**
 
 +-----------+-------------------------+
 | *Default* | ``Color( 1, 1, 1, 1 )`` |

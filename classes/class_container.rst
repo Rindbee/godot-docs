@@ -9,9 +9,9 @@
 Container
 =========
 
-**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`BoxContainer<class_BoxContainer>`, :ref:`CenterContainer<class_CenterContainer>`, :ref:`EditorProperty<class_EditorProperty>`, :ref:`GraphNode<class_GraphNode>`, :ref:`GridContainer<class_GridContainer>`, :ref:`MarginContainer<class_MarginContainer>`, :ref:`PanelContainer<class_PanelContainer>`, :ref:`ScrollContainer<class_ScrollContainer>`, :ref:`SplitContainer<class_SplitContainer>`, :ref:`TabContainer<class_TabContainer>`, :ref:`ViewportContainer<class_ViewportContainer>`
+**Inherited By:** :ref:`BoxContainer <class_BoxContainer>`, :ref:`CenterContainer <class_CenterContainer>`, :ref:`EditorProperty <class_EditorProperty>`, :ref:`GraphNode <class_GraphNode>`, :ref:`GridContainer <class_GridContainer>`, :ref:`MarginContainer <class_MarginContainer>`, :ref:`PanelContainer <class_PanelContainer>`, :ref:`ScrollContainer <class_ScrollContainer>`, :ref:`SplitContainer <class_SplitContainer>`, :ref:`TabContainer <class_TabContainer>`, :ref:`ViewportContainer <class_ViewportContainer>`
 
 Base node for containers.
 
@@ -22,14 +22,21 @@ Base node for containers. A ``Container`` contains other controls and automatica
 
 A Control can inherit this to create custom container classes.
 
+Properties
+----------
+
++-----------------------------------------------+--------------+--------------+
+| :ref:`MouseFilter <enum_Control_MouseFilter>` | mouse_filter | **O:** ``1`` |
++-----------------------------------------------+--------------+--------------+
+
 Methods
 -------
 
-+------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`fit_child_in_rect<class_Container_method_fit_child_in_rect>` **(** :ref:`Control<class_Control>` child, :ref:`Rect2<class_Rect2>` rect **)** |
-+------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`queue_sort<class_Container_method_queue_sort>` **(** **)**                                                                                   |
-+------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`fit_child_in_rect <class_Container_method_fit_child_in_rect>` **(** :ref:`Control <class_Control>` child, :ref:`Rect2 <class_Rect2>` rect **)** |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`queue_sort <class_Container_method_queue_sort>` **(** **)**                                                                                     |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -52,7 +59,7 @@ Method Descriptions
 
 .. _class_Container_method_fit_child_in_rect:
 
-- void **fit_child_in_rect** **(** :ref:`Control<class_Control>` child, :ref:`Rect2<class_Rect2>` rect **)**
+- void **fit_child_in_rect** **(** :ref:`Control <class_Control>` child, :ref:`Rect2 <class_Rect2>` rect **)**
 
 Fit a child control in a given rect. This is mainly a helper for creating custom container classes.
 

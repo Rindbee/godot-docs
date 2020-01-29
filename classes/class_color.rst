@@ -14,86 +14,82 @@ Color in RGBA format with some support for ARGB format.
 Description
 -----------
 
-A color is represented by red, green, and blue ``(r, g, b)`` components. Additionally, ``a`` represents the alpha component, often used for transparency. Values are in floating-point and usually range from 0 to 1. Some properties (such as :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) may accept values greater than 1.
+A color is represented by red, green, and blue ``(r, g, b)`` components. Additionally, ``a`` represents the alpha component, often used for transparency. Values are in floating-point and usually range from 0 to 1. Some properties (such as :ref:`CanvasItem.modulate <class_CanvasItem_property_modulate>`) may accept values greater than 1.
 
-You can also create a color from standardized color names by using :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>` or directly using the color constants defined here. The standardized color set is based on the `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`_.
+You can also create a color from standardized color names by using :ref:`@GDScript.ColorN <class_@GDScript_method_ColorN>` or directly using the color constants defined here. The standardized color set is based on the `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`_.
 
 Properties
 ----------
 
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`a<class_Color_property_a>`   | ``1.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`a8<class_Color_property_a8>` | ``255`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`b<class_Color_property_b>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`b8<class_Color_property_b8>` | ``0``   |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`g<class_Color_property_g>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`g8<class_Color_property_g8>` | ``0``   |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`h<class_Color_property_h>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`r<class_Color_property_r>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`r8<class_Color_property_r8>` | ``0``   |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`s<class_Color_property_s>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`v<class_Color_property_v>`   | ``0.0`` |
-+---------------------------+------------------------------------+---------+
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`a <class_Color_property_a>`   | ``1.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`a8 <class_Color_property_a8>` | ``255`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`b <class_Color_property_b>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`b8 <class_Color_property_b8>` | ``0``   |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`g <class_Color_property_g>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`g8 <class_Color_property_g8>` | ``0``   |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`h <class_Color_property_h>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`r <class_Color_property_r>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`r8 <class_Color_property_r8>` | ``0``   |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`s <class_Color_property_s>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`v <class_Color_property_v>`   | ``0.0`` |
++----------------------------+-------------------------------------+---------+
 
 Methods
 -------
 
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`Color<class_Color_method_Color>` **(** :ref:`String<class_String>` from **)**                                                                                           |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`Color<class_Color_method_Color>` **(** :ref:`int<class_int>` from **)**                                                                                                 |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**                                      |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**         |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`blend<class_Color_method_blend>` **(** :ref:`Color<class_Color>` over **)**                                                                                             |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`contrasted<class_Color_method_contrasted>` **(** **)**                                                                                                                  |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`darkened<class_Color_method_darkened>` **(** :ref:`float<class_float>` amount **)**                                                                                     |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`from_hsv<class_Color_method_from_hsv>` **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1 **)** |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>`   | :ref:`gray<class_Color_method_gray>` **(** **)**                                                                                                                              |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`inverted<class_Color_method_inverted>` **(** **)**                                                                                                                      |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`     | :ref:`is_equal_approx<class_Color_method_is_equal_approx>` **(** :ref:`Color<class_Color>` color **)**                                                                        |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`lightened<class_Color_method_lightened>` **(** :ref:`float<class_float>` amount **)**                                                                                   |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Color<class_Color>`   | :ref:`linear_interpolate<class_Color_method_linear_interpolate>` **(** :ref:`Color<class_Color>` b, :ref:`float<class_float>` t **)**                                         |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_abgr32<class_Color_method_to_abgr32>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_abgr64<class_Color_method_to_abgr64>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_argb32<class_Color_method_to_argb32>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_argb64<class_Color_method_to_argb64>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`to_html<class_Color_method_to_html>` **(** :ref:`bool<class_bool>` with_alpha=True **)**                                                                                |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_rgba32<class_Color_method_to_rgba32>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`to_rgba64<class_Color_method_to_rgba64>` **(** **)**                                                                                                                    |
-+-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`Color <class_Color_method_Color>` **(** :ref:`String <class_String>` from **)**                                                                                              |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`Color <class_Color_method_Color>` **(** :ref:`int <class_int>` from **)**                                                                                                    |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`Color <class_Color_method_Color>` **(** :ref:`float <class_float>` r, :ref:`float <class_float>` g, :ref:`float <class_float>` b **)**                                       |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`Color <class_Color_method_Color>` **(** :ref:`float <class_float>` r, :ref:`float <class_float>` g, :ref:`float <class_float>` b, :ref:`float <class_float>` a **)**         |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`blend <class_Color_method_blend>` **(** :ref:`Color <class_Color>` over **)**                                                                                                |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`contrasted <class_Color_method_contrasted>` **(** **)**                                                                                                                      |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`darkened <class_Color_method_darkened>` **(** :ref:`float <class_float>` amount **)**                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`from_hsv <class_Color_method_from_hsv>` **(** :ref:`float <class_float>` h, :ref:`float <class_float>` s, :ref:`float <class_float>` v, :ref:`float <class_float>` a=1 **)** |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`inverted <class_Color_method_inverted>` **(** **)**                                                                                                                          |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`     | :ref:`is_equal_approx <class_Color_method_is_equal_approx>` **(** :ref:`Color <class_Color>` color **)**                                                                           |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`lightened <class_Color_method_lightened>` **(** :ref:`float <class_float>` amount **)**                                                                                      |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Color <class_Color>`   | :ref:`linear_interpolate <class_Color_method_linear_interpolate>` **(** :ref:`Color <class_Color>` b, :ref:`float <class_float>` t **)**                                           |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_abgr32 <class_Color_method_to_abgr32>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_abgr64 <class_Color_method_to_abgr64>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_argb32 <class_Color_method_to_argb32>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_argb64 <class_Color_method_to_argb64>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>` | :ref:`to_html <class_Color_method_to_html>` **(** :ref:`bool <class_bool>` with_alpha=True **)**                                                                                   |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_rgba32 <class_Color_method_to_rgba32>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`to_rgba64 <class_Color_method_to_rgba64>` **(** **)**                                                                                                                        |
++------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Constants
 ---------
-
-.. _class_Color_constant_gray:
 
 .. _class_Color_constant_aliceblue:
 
@@ -194,6 +190,8 @@ Constants
 .. _class_Color_constant_gold:
 
 .. _class_Color_constant_goldenrod:
+
+.. _class_Color_constant_gray:
 
 .. _class_Color_constant_green:
 
@@ -385,8 +383,6 @@ Constants
 
 .. _class_Color_constant_yellowgreen:
 
-- **gray** = **Color( 0.75, 0.75, 0.75, 1 )** --- Gray color.
-
 - **aliceblue** = **Color( 0.94, 0.97, 1, 1 )** --- Alice blue color.
 
 - **antiquewhite** = **Color( 0.98, 0.92, 0.84, 1 )** --- Antique white color.
@@ -486,6 +482,8 @@ Constants
 - **gold** = **Color( 1, 0.84, 0, 1 )** --- Gold color.
 
 - **goldenrod** = **Color( 0.85, 0.65, 0.13, 1 )** --- Goldenrod color.
+
+- **gray** = **Color( 0.75, 0.75, 0.75, 1 )** --- Gray color.
 
 - **green** = **Color( 0, 1, 0, 1 )** --- Green color.
 
@@ -682,7 +680,7 @@ Property Descriptions
 
 .. _class_Color_property_a:
 
-- :ref:`float<class_float>` **a**
+- :ref:`float <class_float>` **a**
 
 +-----------+---------+
 | *Default* | ``1.0`` |
@@ -694,7 +692,7 @@ Alpha value (range 0 to 1).
 
 .. _class_Color_property_a8:
 
-- :ref:`int<class_int>` **a8**
+- :ref:`int <class_int>` **a8**
 
 +-----------+---------+
 | *Default* | ``255`` |
@@ -706,7 +704,7 @@ Alpha value (range 0 to 255).
 
 .. _class_Color_property_b:
 
-- :ref:`float<class_float>` **b**
+- :ref:`float <class_float>` **b**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -718,7 +716,7 @@ Blue value (range 0 to 1).
 
 .. _class_Color_property_b8:
 
-- :ref:`int<class_int>` **b8**
+- :ref:`int <class_int>` **b8**
 
 +-----------+-------+
 | *Default* | ``0`` |
@@ -730,7 +728,7 @@ Blue value (range 0 to 255).
 
 .. _class_Color_property_g:
 
-- :ref:`float<class_float>` **g**
+- :ref:`float <class_float>` **g**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -742,7 +740,7 @@ Green value (range 0 to 1).
 
 .. _class_Color_property_g8:
 
-- :ref:`int<class_int>` **g8**
+- :ref:`int <class_int>` **g8**
 
 +-----------+-------+
 | *Default* | ``0`` |
@@ -754,7 +752,7 @@ Green value (range 0 to 255).
 
 .. _class_Color_property_h:
 
-- :ref:`float<class_float>` **h**
+- :ref:`float <class_float>` **h**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -766,7 +764,7 @@ HSV hue value (range 0 to 1).
 
 .. _class_Color_property_r:
 
-- :ref:`float<class_float>` **r**
+- :ref:`float <class_float>` **r**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -778,7 +776,7 @@ Red value (range 0 to 1).
 
 .. _class_Color_property_r8:
 
-- :ref:`int<class_int>` **r8**
+- :ref:`int <class_int>` **r8**
 
 +-----------+-------+
 | *Default* | ``0`` |
@@ -790,7 +788,7 @@ Red value (range 0 to 255).
 
 .. _class_Color_property_s:
 
-- :ref:`float<class_float>` **s**
+- :ref:`float <class_float>` **s**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -802,7 +800,7 @@ HSV saturation value (range 0 to 1).
 
 .. _class_Color_property_v:
 
-- :ref:`float<class_float>` **v**
+- :ref:`float <class_float>` **v**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -815,9 +813,9 @@ Method Descriptions
 
 .. _class_Color_method_Color:
 
-- :ref:`Color<class_Color>` **Color** **(** :ref:`String<class_String>` from **)**
+- :ref:`Color <class_Color>` **Color** **(** :ref:`String <class_String>` from **)**
 
-Constructs a color from an HTML hexadecimal color string in ARGB or RGB format. See also :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>`.
+Constructs a color from an HTML hexadecimal color string in ARGB or RGB format. See also :ref:`@GDScript.ColorN <class_@GDScript_method_ColorN>`.
 
 ::
 
@@ -829,7 +827,7 @@ Constructs a color from an HTML hexadecimal color string in ARGB or RGB format. 
 
 ----
 
-- :ref:`Color<class_Color>` **Color** **(** :ref:`int<class_int>` from **)**
+- :ref:`Color <class_Color>` **Color** **(** :ref:`int <class_int>` from **)**
 
 Constructs a color from a 32-bit integer (each byte represents a component of the RGBA profile).
 
@@ -839,7 +837,7 @@ Constructs a color from a 32-bit integer (each byte represents a component of th
 
 ----
 
-- :ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**
+- :ref:`Color <class_Color>` **Color** **(** :ref:`float <class_float>` r, :ref:`float <class_float>` g, :ref:`float <class_float>` b **)**
 
 Constructs a color from an RGB profile using values between 0 and 1. Alpha will always be 1.
 
@@ -849,7 +847,7 @@ Constructs a color from an RGB profile using values between 0 and 1. Alpha will 
 
 ----
 
-- :ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**
+- :ref:`Color <class_Color>` **Color** **(** :ref:`float <class_float>` r, :ref:`float <class_float>` g, :ref:`float <class_float>` b, :ref:`float <class_float>` a **)**
 
 Constructs a color from an RGBA profile using values between 0 and 1.
 
@@ -861,7 +859,7 @@ Constructs a color from an RGBA profile using values between 0 and 1.
 
 .. _class_Color_method_blend:
 
-- :ref:`Color<class_Color>` **blend** **(** :ref:`Color<class_Color>` over **)**
+- :ref:`Color <class_Color>` **blend** **(** :ref:`Color <class_Color>` over **)**
 
 Returns a new color resulting from blending this color over another. If the color is opaque, the result is also opaque. The second color may have a range of alpha values.
 
@@ -875,7 +873,7 @@ Returns a new color resulting from blending this color over another. If the colo
 
 .. _class_Color_method_contrasted:
 
-- :ref:`Color<class_Color>` **contrasted** **(** **)**
+- :ref:`Color <class_Color>` **contrasted** **(** **)**
 
 Returns the most contrasting color.
 
@@ -888,7 +886,7 @@ Returns the most contrasting color.
 
 .. _class_Color_method_darkened:
 
-- :ref:`Color<class_Color>` **darkened** **(** :ref:`float<class_float>` amount **)**
+- :ref:`Color <class_Color>` **darkened** **(** :ref:`float <class_float>` amount **)**
 
 Returns a new color resulting from making this color darker by the specified percentage (ratio from 0 to 1).
 
@@ -901,7 +899,7 @@ Returns a new color resulting from making this color darker by the specified per
 
 .. _class_Color_method_from_hsv:
 
-- :ref:`Color<class_Color>` **from_hsv** **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1 **)**
+- :ref:`Color <class_Color>` **from_hsv** **(** :ref:`float <class_float>` h, :ref:`float <class_float>` s, :ref:`float <class_float>` v, :ref:`float <class_float>` a=1 **)**
 
 Constructs a color from an HSV profile. ``h``, ``s``, and ``v`` are values between 0 and 1.
 
@@ -911,24 +909,9 @@ Constructs a color from an HSV profile. ``h``, ``s``, and ``v`` are values betwe
 
 ----
 
-.. _class_Color_method_gray:
-
-- :ref:`float<class_float>` **gray** **(** **)**
-
-Returns the color's grayscale representation.
-
-The gray value is calculated as ``(r + g + b) / 3``.
-
-::
-
-    var c = Color(0.2, 0.45, 0.82)
-    var gray = c.gray() # A value of 0.466667
-
-----
-
 .. _class_Color_method_inverted:
 
-- :ref:`Color<class_Color>` **inverted** **(** **)**
+- :ref:`Color <class_Color>` **inverted** **(** **)**
 
 Returns the inverted color ``(1 - r, 1 - g, 1 - b, a)``.
 
@@ -941,15 +924,15 @@ Returns the inverted color ``(1 - r, 1 - g, 1 - b, a)``.
 
 .. _class_Color_method_is_equal_approx:
 
-- :ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Color<class_Color>` color **)**
+- :ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Color <class_Color>` color **)**
 
-Returns ``true`` if this color and ``color`` are approximately equal, by running :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>` on each component.
+Returns ``true`` if this color and ``color`` are approximately equal, by running :ref:`@GDScript.is_equal_approx <class_@GDScript_method_is_equal_approx>` on each component.
 
 ----
 
 .. _class_Color_method_lightened:
 
-- :ref:`Color<class_Color>` **lightened** **(** :ref:`float<class_float>` amount **)**
+- :ref:`Color <class_Color>` **lightened** **(** :ref:`float <class_float>` amount **)**
 
 Returns a new color resulting from making this color lighter by the specified percentage (ratio from 0 to 1).
 
@@ -962,7 +945,7 @@ Returns a new color resulting from making this color lighter by the specified pe
 
 .. _class_Color_method_linear_interpolate:
 
-- :ref:`Color<class_Color>` **linear_interpolate** **(** :ref:`Color<class_Color>` b, :ref:`float<class_float>` t **)**
+- :ref:`Color <class_Color>` **linear_interpolate** **(** :ref:`Color <class_Color>` b, :ref:`float <class_float>` t **)**
 
 Returns the linear interpolation with another color. The interpolation factor ``t`` is between 0 and 1.
 
@@ -976,7 +959,7 @@ Returns the linear interpolation with another color. The interpolation factor ``
 
 .. _class_Color_method_to_abgr32:
 
-- :ref:`int<class_int>` **to_abgr32** **(** **)**
+- :ref:`int <class_int>` **to_abgr32** **(** **)**
 
 Returns the color's 32-bit integer in ABGR format (each byte represents a component of the ABGR profile). ABGR is the reversed version of the default format.
 
@@ -989,7 +972,7 @@ Returns the color's 32-bit integer in ABGR format (each byte represents a compon
 
 .. _class_Color_method_to_abgr64:
 
-- :ref:`int<class_int>` **to_abgr64** **(** **)**
+- :ref:`int <class_int>` **to_abgr64** **(** **)**
 
 Returns the color's 64-bit integer in ABGR format (each word represents a component of the ABGR profile). ABGR is the reversed version of the default format.
 
@@ -1002,7 +985,7 @@ Returns the color's 64-bit integer in ABGR format (each word represents a compon
 
 .. _class_Color_method_to_argb32:
 
-- :ref:`int<class_int>` **to_argb32** **(** **)**
+- :ref:`int <class_int>` **to_argb32** **(** **)**
 
 Returns the color's 32-bit integer in ARGB format (each byte represents a component of the ARGB profile). ARGB is more compatible with DirectX.
 
@@ -1015,7 +998,7 @@ Returns the color's 32-bit integer in ARGB format (each byte represents a compon
 
 .. _class_Color_method_to_argb64:
 
-- :ref:`int<class_int>` **to_argb64** **(** **)**
+- :ref:`int <class_int>` **to_argb64** **(** **)**
 
 Returns the color's 64-bit integer in ARGB format (each word represents a component of the ARGB profile). ARGB is more compatible with DirectX.
 
@@ -1028,7 +1011,7 @@ Returns the color's 64-bit integer in ARGB format (each word represents a compon
 
 .. _class_Color_method_to_html:
 
-- :ref:`String<class_String>` **to_html** **(** :ref:`bool<class_bool>` with_alpha=True **)**
+- :ref:`String <class_String>` **to_html** **(** :ref:`bool <class_bool>` with_alpha=True **)**
 
 Returns the color's HTML hexadecimal color string in ARGB format (ex: ``ff34f822``).
 
@@ -1044,7 +1027,7 @@ Setting ``with_alpha`` to ``false`` excludes alpha from the hexadecimal string.
 
 .. _class_Color_method_to_rgba32:
 
-- :ref:`int<class_int>` **to_rgba32** **(** **)**
+- :ref:`int <class_int>` **to_rgba32** **(** **)**
 
 Returns the color's 32-bit integer in RGBA format (each byte represents a component of the RGBA profile). RGBA is Godot's default format.
 
@@ -1057,7 +1040,7 @@ Returns the color's 32-bit integer in RGBA format (each byte represents a compon
 
 .. _class_Color_method_to_rgba64:
 
-- :ref:`int<class_int>` **to_rgba64** **(** **)**
+- :ref:`int <class_int>` **to_rgba64** **(** **)**
 
 Returns the color's 64-bit integer in RGBA format (each word represents a component of the RGBA profile). RGBA is Godot's default format.
 

@@ -9,14 +9,14 @@
 AnimationNodeBlend2
 ===================
 
-**Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AnimationNode <class_AnimationNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Blends two animations linearly inside of an :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`.
+Blends two animations linearly inside of an :ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`.
 
 Description
 -----------
 
-A resource to add to an :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`. Blends two animations linearly based on an amount value in the ``[0.0, 1.0]`` range.
+A resource to add to an :ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`. Blends two animations linearly based on an amount value in the ``[0.0, 1.0]`` range.
 
 Tutorials
 ---------
@@ -26,16 +26,16 @@ Tutorials
 Properties
 ----------
 
-+-------------------------+------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`sync<class_AnimationNodeBlend2_property_sync>` | ``false`` |
-+-------------------------+------------------------------------------------------+-----------+
++--------------------------+-------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`sync <class_AnimationNodeBlend2_property_sync>` | ``false`` |
++--------------------------+-------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AnimationNodeBlend2_property_sync:
 
-- :ref:`bool<class_bool>` **sync**
+- :ref:`bool <class_bool>` **sync**
 
 +-----------+---------------------+
 | *Default* | ``false``           |
@@ -45,5 +45,5 @@ Property Descriptions
 | *Getter*  | is_using_sync()     |
 +-----------+---------------------+
 
-If ``true``, sets the ``optimization`` to ``false`` when calling :ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`, forcing the blended animations to update every frame.
+If ``true``, sets the ``optimization`` to ``false`` when calling :ref:`AnimationNode.blend_input <class_AnimationNode_method_blend_input>`, forcing the blended animations to update every frame.
 

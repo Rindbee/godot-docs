@@ -9,7 +9,7 @@
 VisualScriptMathConstant
 ========================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Commonly used mathematical constants.
 
@@ -29,9 +29,9 @@ none
 Properties
 ----------
 
-+-----------------------------------------------------------------+-------------------------------------------------------------------+-------+
-| :ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` | :ref:`constant<class_VisualScriptMathConstant_property_constant>` | ``0`` |
-+-----------------------------------------------------------------+-------------------------------------------------------------------+-------+
++------------------------------------------------------------------+--------------------------------------------------------------------+-------+
+| :ref:`MathConstant <enum_VisualScriptMathConstant_MathConstant>` | :ref:`constant <class_VisualScriptMathConstant_property_constant>` | ``0`` |
++------------------------------------------------------------------+--------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -74,14 +74,14 @@ enum **MathConstant**:
 
 - **MATH_CONSTANT_NAN** = **7** --- Not a number: ``nan``.
 
-- **MATH_CONSTANT_MAX** = **8** --- Represents the size of the :ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` enum.
+- **MATH_CONSTANT_MAX** = **8** --- Represents the size of the :ref:`MathConstant <enum_VisualScriptMathConstant_MathConstant>` enum.
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptMathConstant_property_constant:
 
-- :ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` **constant**
+- :ref:`MathConstant <enum_VisualScriptMathConstant_MathConstant>` **constant**
 
 +-----------+--------------------------+
 | *Default* | ``0``                    |

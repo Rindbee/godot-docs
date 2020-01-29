@@ -9,23 +9,23 @@
 VisualScriptResourcePath
 ========================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-----------------------------+-----------------------------------------------------------+--------+
-| :ref:`String<class_String>` | :ref:`path<class_VisualScriptResourcePath_property_path>` | ``""`` |
-+-----------------------------+-----------------------------------------------------------+--------+
++------------------------------+------------------------------------------------------------+--------+
+| :ref:`String <class_String>` | :ref:`path <class_VisualScriptResourcePath_property_path>` | ``""`` |
++------------------------------+------------------------------------------------------------+--------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptResourcePath_property_path:
 
-- :ref:`String<class_String>` **path**
+- :ref:`String <class_String>` **path**
 
 +-----------+--------------------------+
 | *Default* | ``""``                   |

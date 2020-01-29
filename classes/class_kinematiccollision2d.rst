@@ -9,50 +9,50 @@
 KinematicCollision2D
 ====================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Collision data for :ref:`KinematicBody2D<class_KinematicBody2D>` collisions.
+Collision data for :ref:`KinematicBody2D <class_KinematicBody2D>` collisions.
 
 Description
 -----------
 
-Contains collision data for :ref:`KinematicBody2D<class_KinematicBody2D>` collisions. When a :ref:`KinematicBody2D<class_KinematicBody2D>` is moved using :ref:`KinematicBody2D.move_and_collide<class_KinematicBody2D_method_move_and_collide>`, it stops if it detects a collision with another body. If a collision is detected, a KinematicCollision2D object is returned.
+Contains collision data for :ref:`KinematicBody2D <class_KinematicBody2D>` collisions. When a :ref:`KinematicBody2D <class_KinematicBody2D>` is moved using :ref:`KinematicBody2D.move_and_collide <class_KinematicBody2D_method_move_and_collide>`, it stops if it detects a collision with another body. If a collision is detected, a KinematicCollision2D object is returned.
 
 This object contains information about the collision, including the colliding object, the remaining motion, and the collision position. This information can be used to calculate a collision response.
 
 Properties
 ----------
 
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Object<class_Object>`   | :ref:`collider<class_KinematicCollision2D_property_collider>`                         |                     |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`int<class_int>`         | :ref:`collider_id<class_KinematicCollision2D_property_collider_id>`                   | ``0``               |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Variant<class_Variant>` | :ref:`collider_metadata<class_KinematicCollision2D_property_collider_metadata>`       |                     |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Object<class_Object>`   | :ref:`collider_shape<class_KinematicCollision2D_property_collider_shape>`             |                     |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`int<class_int>`         | :ref:`collider_shape_index<class_KinematicCollision2D_property_collider_shape_index>` | ``0``               |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`collider_velocity<class_KinematicCollision2D_property_collider_velocity>`       | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Object<class_Object>`   | :ref:`local_shape<class_KinematicCollision2D_property_local_shape>`                   |                     |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`normal<class_KinematicCollision2D_property_normal>`                             | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`position<class_KinematicCollision2D_property_position>`                         | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`remainder<class_KinematicCollision2D_property_remainder>`                       | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`travel<class_KinematicCollision2D_property_travel>`                             | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------------------------------------+---------------------+
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Object <class_Object>`   | :ref:`collider <class_KinematicCollision2D_property_collider>`                         |                     |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`int <class_int>`         | :ref:`collider_id <class_KinematicCollision2D_property_collider_id>`                   | ``0``               |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Variant <class_Variant>` | :ref:`collider_metadata <class_KinematicCollision2D_property_collider_metadata>`       |                     |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Object <class_Object>`   | :ref:`collider_shape <class_KinematicCollision2D_property_collider_shape>`             |                     |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`int <class_int>`         | :ref:`collider_shape_index <class_KinematicCollision2D_property_collider_shape_index>` | ``0``               |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`collider_velocity <class_KinematicCollision2D_property_collider_velocity>`       | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Object <class_Object>`   | :ref:`local_shape <class_KinematicCollision2D_property_local_shape>`                   |                     |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`normal <class_KinematicCollision2D_property_normal>`                             | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`position <class_KinematicCollision2D_property_position>`                         | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`remainder <class_KinematicCollision2D_property_remainder>`                       | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`travel <class_KinematicCollision2D_property_travel>`                             | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_KinematicCollision2D_property_collider:
 
-- :ref:`Object<class_Object>` **collider**
+- :ref:`Object <class_Object>` **collider**
 
 +----------+----------------+
 | *Getter* | get_collider() |
@@ -64,7 +64,7 @@ The colliding body.
 
 .. _class_KinematicCollision2D_property_collider_id:
 
-- :ref:`int<class_int>` **collider_id**
+- :ref:`int <class_int>` **collider_id**
 
 +-----------+-------------------+
 | *Default* | ``0``             |
@@ -72,25 +72,25 @@ The colliding body.
 | *Getter*  | get_collider_id() |
 +-----------+-------------------+
 
-The colliding body's unique instance ID. See :ref:`Object.get_instance_id<class_Object_method_get_instance_id>`.
+The colliding body's unique instance ID. See :ref:`Object.get_instance_id <class_Object_method_get_instance_id>`.
 
 ----
 
 .. _class_KinematicCollision2D_property_collider_metadata:
 
-- :ref:`Variant<class_Variant>` **collider_metadata**
+- :ref:`Variant <class_Variant>` **collider_metadata**
 
 +----------+-------------------------+
 | *Getter* | get_collider_metadata() |
 +----------+-------------------------+
 
-The colliding body's metadata. See :ref:`Object<class_Object>`.
+The colliding body's metadata. See :ref:`Object <class_Object>`.
 
 ----
 
 .. _class_KinematicCollision2D_property_collider_shape:
 
-- :ref:`Object<class_Object>` **collider_shape**
+- :ref:`Object <class_Object>` **collider_shape**
 
 +----------+----------------------+
 | *Getter* | get_collider_shape() |
@@ -102,7 +102,7 @@ The colliding body's shape.
 
 .. _class_KinematicCollision2D_property_collider_shape_index:
 
-- :ref:`int<class_int>` **collider_shape_index**
+- :ref:`int <class_int>` **collider_shape_index**
 
 +-----------+----------------------------+
 | *Default* | ``0``                      |
@@ -110,13 +110,13 @@ The colliding body's shape.
 | *Getter*  | get_collider_shape_index() |
 +-----------+----------------------------+
 
-The colliding shape's index. See :ref:`CollisionObject2D<class_CollisionObject2D>`.
+The colliding shape's index. See :ref:`CollisionObject2D <class_CollisionObject2D>`.
 
 ----
 
 .. _class_KinematicCollision2D_property_collider_velocity:
 
-- :ref:`Vector2<class_Vector2>` **collider_velocity**
+- :ref:`Vector2 <class_Vector2>` **collider_velocity**
 
 +-----------+-------------------------+
 | *Default* | ``Vector2( 0, 0 )``     |
@@ -130,7 +130,7 @@ The colliding object's velocity.
 
 .. _class_KinematicCollision2D_property_local_shape:
 
-- :ref:`Object<class_Object>` **local_shape**
+- :ref:`Object <class_Object>` **local_shape**
 
 +----------+-------------------+
 | *Getter* | get_local_shape() |
@@ -142,7 +142,7 @@ The moving object's colliding shape.
 
 .. _class_KinematicCollision2D_property_normal:
 
-- :ref:`Vector2<class_Vector2>` **normal**
+- :ref:`Vector2 <class_Vector2>` **normal**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -156,7 +156,7 @@ The colliding body's shape's normal at the point of collision.
 
 .. _class_KinematicCollision2D_property_position:
 
-- :ref:`Vector2<class_Vector2>` **position**
+- :ref:`Vector2 <class_Vector2>` **position**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -170,7 +170,7 @@ The point of collision, in global coordinates.
 
 .. _class_KinematicCollision2D_property_remainder:
 
-- :ref:`Vector2<class_Vector2>` **remainder**
+- :ref:`Vector2 <class_Vector2>` **remainder**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -184,7 +184,7 @@ The moving object's remaining movement vector.
 
 .. _class_KinematicCollision2D_property_travel:
 
-- :ref:`Vector2<class_Vector2>` **travel**
+- :ref:`Vector2 <class_Vector2>` **travel**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |

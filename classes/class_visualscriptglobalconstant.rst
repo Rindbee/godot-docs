@@ -9,23 +9,23 @@
 VisualScriptGlobalConstant
 ==========================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-----------------------+---------------------------------------------------------------------+-------+
-| :ref:`int<class_int>` | :ref:`constant<class_VisualScriptGlobalConstant_property_constant>` | ``0`` |
-+-----------------------+---------------------------------------------------------------------+-------+
++------------------------+----------------------------------------------------------------------+-------+
+| :ref:`int <class_int>` | :ref:`constant <class_VisualScriptGlobalConstant_property_constant>` | ``0`` |
++------------------------+----------------------------------------------------------------------+-------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptGlobalConstant_property_constant:
 
-- :ref:`int<class_int>` **constant**
+- :ref:`int <class_int>` **constant**
 
 +-----------+----------------------------+
 | *Default* | ``0``                      |

@@ -9,16 +9,16 @@
 Shape
 =====
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`BoxShape<class_BoxShape>`, :ref:`CapsuleShape<class_CapsuleShape>`, :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`, :ref:`ConvexPolygonShape<class_ConvexPolygonShape>`, :ref:`CylinderShape<class_CylinderShape>`, :ref:`HeightMapShape<class_HeightMapShape>`, :ref:`PlaneShape<class_PlaneShape>`, :ref:`RayShape<class_RayShape>`, :ref:`SphereShape<class_SphereShape>`
+**Inherited By:** :ref:`BoxShape <class_BoxShape>`, :ref:`CapsuleShape <class_CapsuleShape>`, :ref:`ConcavePolygonShape <class_ConcavePolygonShape>`, :ref:`ConvexPolygonShape <class_ConvexPolygonShape>`, :ref:`CylinderShape <class_CylinderShape>`, :ref:`HeightMapShape <class_HeightMapShape>`, :ref:`RayShape <class_RayShape>`, :ref:`SphereShape <class_SphereShape>`, :ref:`WorldMarginShape <class_WorldMarginShape>`
 
 Base class for all 3D shape resources.
 
 Description
 -----------
 
-Base class for all 3D shape resources. Nodes that inherit from this can be used as shapes for a :ref:`PhysicsBody<class_PhysicsBody>` or :ref:`Area<class_Area>` objects.
+Base class for all 3D shape resources. Nodes that inherit from this can be used as shapes for a :ref:`PhysicsBody <class_PhysicsBody>` or :ref:`Area <class_Area>` objects.
 
 Tutorials
 ---------
@@ -28,16 +28,16 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+--------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`margin<class_Shape_property_margin>` | ``0.04`` |
-+---------------------------+--------------------------------------------+----------+
++----------------------------+---------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`margin <class_Shape_property_margin>` | ``0.04`` |
++----------------------------+---------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Shape_property_margin:
 
-- :ref:`float<class_float>` **margin**
+- :ref:`float <class_float>` **margin**
 
 +-----------+-------------------+
 | *Default* | ``0.04``          |

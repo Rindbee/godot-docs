@@ -9,23 +9,23 @@
 InputEventMagnifyGesture
 ========================
 
-**Inherits:** :ref:`InputEventGesture<class_InputEventGesture>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEventGesture <class_InputEventGesture>` **<** :ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`factor<class_InputEventMagnifyGesture_property_factor>` | ``1.0`` |
-+---------------------------+---------------------------------------------------------------+---------+
++----------------------------+----------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`factor <class_InputEventMagnifyGesture_property_factor>` | ``1.0`` |
++----------------------------+----------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventMagnifyGesture_property_factor:
 
-- :ref:`float<class_float>` **factor**
+- :ref:`float <class_float>` **factor**
 
 +-----------+-------------------+
 | *Default* | ``1.0``           |

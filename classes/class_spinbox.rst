@@ -9,7 +9,7 @@
 SpinBox
 =======
 
-**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Range <class_Range>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Numerical input text field.
 
@@ -30,43 +30,43 @@ SpinBox is a numerical input text field. It allows entering integers and floats.
 
 The above code will create a ``SpinBox``, disable context menu on it and set the text alignment to right.
 
-See :ref:`Range<class_Range>` class for more options over the ``SpinBox``.
+See :ref:`Range <class_Range>` class for more options over the ``SpinBox``.
 
 Properties
 ----------
 
-+-----------------------------------+--------------------------------------------------+----------+
-| :ref:`Align<enum_LineEdit_Align>` | :ref:`align<class_SpinBox_property_align>`       | ``0``    |
-+-----------------------------------+--------------------------------------------------+----------+
-| :ref:`bool<class_bool>`           | :ref:`editable<class_SpinBox_property_editable>` | ``true`` |
-+-----------------------------------+--------------------------------------------------+----------+
-| :ref:`String<class_String>`       | :ref:`prefix<class_SpinBox_property_prefix>`     | ``""``   |
-+-----------------------------------+--------------------------------------------------+----------+
-| :ref:`String<class_String>`       | :ref:`suffix<class_SpinBox_property_suffix>`     | ``""``   |
-+-----------------------------------+--------------------------------------------------+----------+
++------------------------------------+---------------------------------------------------+----------+
+| :ref:`Align <enum_LineEdit_Align>` | :ref:`align <class_SpinBox_property_align>`       | ``0``    |
++------------------------------------+---------------------------------------------------+----------+
+| :ref:`bool <class_bool>`           | :ref:`editable <class_SpinBox_property_editable>` | ``true`` |
++------------------------------------+---------------------------------------------------+----------+
+| :ref:`String <class_String>`       | :ref:`prefix <class_SpinBox_property_prefix>`     | ``""``   |
++------------------------------------+---------------------------------------------------+----------+
+| :ref:`String <class_String>`       | :ref:`suffix <class_SpinBox_property_suffix>`     | ``""``   |
++------------------------------------+---------------------------------------------------+----------+
 
 Methods
 -------
 
-+---------------------------------+----------------------------------------------------------------------+
-| void                            | :ref:`apply<class_SpinBox_method_apply>` **(** **)**                 |
-+---------------------------------+----------------------------------------------------------------------+
-| :ref:`LineEdit<class_LineEdit>` | :ref:`get_line_edit<class_SpinBox_method_get_line_edit>` **(** **)** |
-+---------------------------------+----------------------------------------------------------------------+
++----------------------------------+-----------------------------------------------------------------------+
+| void                             | :ref:`apply <class_SpinBox_method_apply>` **(** **)**                 |
++----------------------------------+-----------------------------------------------------------------------+
+| :ref:`LineEdit <class_LineEdit>` | :ref:`get_line_edit <class_SpinBox_method_get_line_edit>` **(** **)** |
++----------------------------------+-----------------------------------------------------------------------+
 
 Theme Properties
 ----------------
 
-+-------------------------------+--------+
-| :ref:`Texture<class_Texture>` | updown |
-+-------------------------------+--------+
++------------------------------------+--------+
+| :ref:`Texture2D <class_Texture2D>` | updown |
++------------------------------------+--------+
 
 Property Descriptions
 ---------------------
 
 .. _class_SpinBox_property_align:
 
-- :ref:`Align<enum_LineEdit_Align>` **align**
+- :ref:`Align <enum_LineEdit_Align>` **align**
 
 +-----------+------------------+
 | *Default* | ``0``            |
@@ -82,7 +82,7 @@ Sets the text alignment of the ``SpinBox``.
 
 .. _class_SpinBox_property_editable:
 
-- :ref:`bool<class_bool>` **editable**
+- :ref:`bool <class_bool>` **editable**
 
 +-----------+---------------------+
 | *Default* | ``true``            |
@@ -98,7 +98,7 @@ If ``true``, the ``SpinBox`` will be editable. Otherwise, it will be read only.
 
 .. _class_SpinBox_property_prefix:
 
-- :ref:`String<class_String>` **prefix**
+- :ref:`String <class_String>` **prefix**
 
 +-----------+-------------------+
 | *Default* | ``""``            |
@@ -114,7 +114,7 @@ Adds the specified ``prefix`` string before the numerical value of the ``SpinBox
 
 .. _class_SpinBox_property_suffix:
 
-- :ref:`String<class_String>` **suffix**
+- :ref:`String <class_String>` **suffix**
 
 +-----------+-------------------+
 | *Default* | ``""``            |
@@ -139,7 +139,7 @@ Applies the current value of this ``SpinBox``.
 
 .. _class_SpinBox_method_get_line_edit:
 
-- :ref:`LineEdit<class_LineEdit>` **get_line_edit** **(** **)**
+- :ref:`LineEdit <class_LineEdit>` **get_line_edit** **(** **)**
 
-Returns the :ref:`LineEdit<class_LineEdit>` instance from this ``SpinBox``. You can use it to access properties and methods of :ref:`LineEdit<class_LineEdit>`.
+Returns the :ref:`LineEdit <class_LineEdit>` instance from this ``SpinBox``. You can use it to access properties and methods of :ref:`LineEdit <class_LineEdit>`.
 

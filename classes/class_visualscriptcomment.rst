@@ -9,7 +9,7 @@
 VisualScriptComment
 ===================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A Visual Script node used to annotate the script.
 
@@ -23,20 +23,20 @@ Comment nodes can be resized so they encompass a group of nodes.
 Properties
 ----------
 
-+-------------------------------+--------------------------------------------------------------------+-------------------------+
-| :ref:`String<class_String>`   | :ref:`description<class_VisualScriptComment_property_description>` | ``""``                  |
-+-------------------------------+--------------------------------------------------------------------+-------------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`size<class_VisualScriptComment_property_size>`               | ``Vector2( 150, 150 )`` |
-+-------------------------------+--------------------------------------------------------------------+-------------------------+
-| :ref:`String<class_String>`   | :ref:`title<class_VisualScriptComment_property_title>`             | ``"Comment"``           |
-+-------------------------------+--------------------------------------------------------------------+-------------------------+
++--------------------------------+---------------------------------------------------------------------+-------------------------+
+| :ref:`String <class_String>`   | :ref:`description <class_VisualScriptComment_property_description>` | ``""``                  |
++--------------------------------+---------------------------------------------------------------------+-------------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`size <class_VisualScriptComment_property_size>`               | ``Vector2( 150, 150 )`` |
++--------------------------------+---------------------------------------------------------------------+-------------------------+
+| :ref:`String <class_String>`   | :ref:`title <class_VisualScriptComment_property_title>`             | ``"Comment"``           |
++--------------------------------+---------------------------------------------------------------------+-------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptComment_property_description:
 
-- :ref:`String<class_String>` **description**
+- :ref:`String <class_String>` **description**
 
 +-----------+------------------------+
 | *Default* | ``""``                 |
@@ -52,7 +52,7 @@ The text inside the comment node.
 
 .. _class_VisualScriptComment_property_size:
 
-- :ref:`Vector2<class_Vector2>` **size**
+- :ref:`Vector2 <class_Vector2>` **size**
 
 +-----------+-------------------------+
 | *Default* | ``Vector2( 150, 150 )`` |
@@ -68,7 +68,7 @@ The comment node's size (in pixels).
 
 .. _class_VisualScriptComment_property_title:
 
-- :ref:`String<class_String>` **title**
+- :ref:`String <class_String>` **title**
 
 +-----------+------------------+
 | *Default* | ``"Comment"``    |

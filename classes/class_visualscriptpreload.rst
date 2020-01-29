@@ -9,14 +9,14 @@
 VisualScriptPreload
 ===================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Creates a new :ref:`Resource<class_Resource>` or loads one from the filesystem.
+Creates a new :ref:`Resource <class_Resource>` or loads one from the filesystem.
 
 Description
 -----------
 
-Creates a new :ref:`Resource<class_Resource>` or loads one from the filesystem.
+Creates a new :ref:`Resource <class_Resource>` or loads one from the filesystem.
 
 **Input Ports:**
 
@@ -29,16 +29,16 @@ none
 Properties
 ----------
 
-+---------------------------------+--------------------------------------------------------------+
-| :ref:`Resource<class_Resource>` | :ref:`resource<class_VisualScriptPreload_property_resource>` |
-+---------------------------------+--------------------------------------------------------------+
++----------------------------------+---------------------------------------------------------------+
+| :ref:`Resource <class_Resource>` | :ref:`resource <class_VisualScriptPreload_property_resource>` |
++----------------------------------+---------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptPreload_property_resource:
 
-- :ref:`Resource<class_Resource>` **resource**
+- :ref:`Resource <class_Resource>` **resource**
 
 +----------+--------------------+
 | *Setter* | set_preload(value) |
@@ -46,5 +46,5 @@ Property Descriptions
 | *Getter* | get_preload()      |
 +----------+--------------------+
 
-The :ref:`Resource<class_Resource>` to load.
+The :ref:`Resource <class_Resource>` to load.
 

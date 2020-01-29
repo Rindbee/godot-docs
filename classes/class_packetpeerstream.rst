@@ -9,7 +9,7 @@
 PacketPeerStream
 ================
 
-**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PacketPeer <class_PacketPeer>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Wrapper to use a PacketPeer over a StreamPeer.
 
@@ -21,20 +21,20 @@ PacketStreamPeer provides a wrapper for working using packets over a stream. Thi
 Properties
 ----------
 
-+-------------------------------------+---------------------------------------------------------------------------------------+-----------+
-| :ref:`int<class_int>`               | :ref:`input_buffer_max_size<class_PacketPeerStream_property_input_buffer_max_size>`   | ``65532`` |
-+-------------------------------------+---------------------------------------------------------------------------------------+-----------+
-| :ref:`int<class_int>`               | :ref:`output_buffer_max_size<class_PacketPeerStream_property_output_buffer_max_size>` | ``65532`` |
-+-------------------------------------+---------------------------------------------------------------------------------------+-----------+
-| :ref:`StreamPeer<class_StreamPeer>` | :ref:`stream_peer<class_PacketPeerStream_property_stream_peer>`                       |           |
-+-------------------------------------+---------------------------------------------------------------------------------------+-----------+
++--------------------------------------+----------------------------------------------------------------------------------------+-----------+
+| :ref:`int <class_int>`               | :ref:`input_buffer_max_size <class_PacketPeerStream_property_input_buffer_max_size>`   | ``65532`` |
++--------------------------------------+----------------------------------------------------------------------------------------+-----------+
+| :ref:`int <class_int>`               | :ref:`output_buffer_max_size <class_PacketPeerStream_property_output_buffer_max_size>` | ``65532`` |
++--------------------------------------+----------------------------------------------------------------------------------------+-----------+
+| :ref:`StreamPeer <class_StreamPeer>` | :ref:`stream_peer <class_PacketPeerStream_property_stream_peer>`                       |           |
++--------------------------------------+----------------------------------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_PacketPeerStream_property_input_buffer_max_size:
 
-- :ref:`int<class_int>` **input_buffer_max_size**
+- :ref:`int <class_int>` **input_buffer_max_size**
 
 +-----------+----------------------------------+
 | *Default* | ``65532``                        |
@@ -48,7 +48,7 @@ Property Descriptions
 
 .. _class_PacketPeerStream_property_output_buffer_max_size:
 
-- :ref:`int<class_int>` **output_buffer_max_size**
+- :ref:`int <class_int>` **output_buffer_max_size**
 
 +-----------+-----------------------------------+
 | *Default* | ``65532``                         |
@@ -62,7 +62,7 @@ Property Descriptions
 
 .. _class_PacketPeerStream_property_stream_peer:
 
-- :ref:`StreamPeer<class_StreamPeer>` **stream_peer**
+- :ref:`StreamPeer <class_StreamPeer>` **stream_peer**
 
 +----------+------------------------+
 | *Setter* | set_stream_peer(value) |
@@ -70,5 +70,5 @@ Property Descriptions
 | *Getter* | get_stream_peer()      |
 +----------+------------------------+
 
-The wrapped :ref:`StreamPeer<class_StreamPeer>` object.
+The wrapped :ref:`StreamPeer <class_StreamPeer>` object.
 

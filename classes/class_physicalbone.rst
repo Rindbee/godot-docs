@@ -9,47 +9,45 @@
 PhysicalBone
 ============
 
-**Inherits:** :ref:`PhysicsBody<class_PhysicsBody>` **<** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PhysicsBody <class_PhysicsBody>` **<** :ref:`CollisionObject <class_CollisionObject>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`Transform<class_Transform>`             | :ref:`body_offset<class_PhysicalBone_property_body_offset>`     | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`                     | :ref:`bounce<class_PhysicalBone_property_bounce>`               | ``0.0``                                             |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`                     | :ref:`friction<class_PhysicalBone_property_friction>`           | ``1.0``                                             |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`                     | :ref:`gravity_scale<class_PhysicalBone_property_gravity_scale>` | ``1.0``                                             |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`Transform<class_Transform>`             | :ref:`joint_offset<class_PhysicalBone_property_joint_offset>`   | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`JointType<enum_PhysicalBone_JointType>` | :ref:`joint_type<class_PhysicalBone_property_joint_type>`       | ``0``                                               |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`                     | :ref:`mass<class_PhysicalBone_property_mass>`                   | ``1.0``                                             |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`                     | :ref:`weight<class_PhysicalBone_property_weight>`               | ``9.8``                                             |
-+-----------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------+
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`Transform <class_Transform>`             | :ref:`body_offset <class_PhysicalBone_property_body_offset>`     | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`                     | :ref:`bounce <class_PhysicalBone_property_bounce>`               | ``0.0``                                             |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`                     | :ref:`friction <class_PhysicalBone_property_friction>`           | ``1.0``                                             |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`                     | :ref:`gravity_scale <class_PhysicalBone_property_gravity_scale>` | ``1.0``                                             |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`Transform <class_Transform>`             | :ref:`joint_offset <class_PhysicalBone_property_joint_offset>`   | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`JointType <enum_PhysicalBone_JointType>` | :ref:`joint_type <class_PhysicalBone_property_joint_type>`       | ``0``                                               |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`                     | :ref:`mass <class_PhysicalBone_property_mass>`                   | ``1.0``                                             |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`                     | :ref:`weight <class_PhysicalBone_property_weight>`               | ``9.8``                                             |
++------------------------------------------------+------------------------------------------------------------------+-----------------------------------------------------+
 
 Methods
 -------
 
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`apply_central_impulse<class_PhysicalBone_method_apply_central_impulse>` **(** :ref:`Vector3<class_Vector3>` impulse **)**                         |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`apply_impulse<class_PhysicalBone_method_apply_impulse>` **(** :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` impulse **)** |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`   | :ref:`get_bone_id<class_PhysicalBone_method_get_bone_id>` **(** **)** const                                                                             |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`get_simulate_physics<class_PhysicalBone_method_get_simulate_physics>` **(** **)**                                                                 |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`is_simulating_physics<class_PhysicalBone_method_is_simulating_physics>` **(** **)**                                                               |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`is_static_body<class_PhysicalBone_method_is_static_body>` **(** **)**                                                                             |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`apply_central_impulse <class_PhysicalBone_method_apply_central_impulse>` **(** :ref:`Vector3 <class_Vector3>` impulse **)**                          |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`apply_impulse <class_PhysicalBone_method_apply_impulse>` **(** :ref:`Vector3 <class_Vector3>` position, :ref:`Vector3 <class_Vector3>` impulse **)** |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`   | :ref:`get_bone_id <class_PhysicalBone_method_get_bone_id>` **(** **)** const                                                                               |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`get_simulate_physics <class_PhysicalBone_method_get_simulate_physics>` **(** **)**                                                                   |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`is_simulating_physics <class_PhysicalBone_method_is_simulating_physics>` **(** **)**                                                                 |
++--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -87,7 +85,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_body_offset:
 
-- :ref:`Transform<class_Transform>` **body_offset**
+- :ref:`Transform <class_Transform>` **body_offset**
 
 +-----------+-----------------------------------------------------+
 | *Default* | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
@@ -101,7 +99,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_bounce:
 
-- :ref:`float<class_float>` **bounce**
+- :ref:`float <class_float>` **bounce**
 
 +-----------+-------------------+
 | *Default* | ``0.0``           |
@@ -115,7 +113,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_friction:
 
-- :ref:`float<class_float>` **friction**
+- :ref:`float <class_float>` **friction**
 
 +-----------+---------------------+
 | *Default* | ``1.0``             |
@@ -129,7 +127,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_gravity_scale:
 
-- :ref:`float<class_float>` **gravity_scale**
+- :ref:`float <class_float>` **gravity_scale**
 
 +-----------+--------------------------+
 | *Default* | ``1.0``                  |
@@ -143,7 +141,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_joint_offset:
 
-- :ref:`Transform<class_Transform>` **joint_offset**
+- :ref:`Transform <class_Transform>` **joint_offset**
 
 +-----------+-----------------------------------------------------+
 | *Default* | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
@@ -157,7 +155,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_joint_type:
 
-- :ref:`JointType<enum_PhysicalBone_JointType>` **joint_type**
+- :ref:`JointType <enum_PhysicalBone_JointType>` **joint_type**
 
 +-----------+-----------------------+
 | *Default* | ``0``                 |
@@ -171,7 +169,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_mass:
 
-- :ref:`float<class_float>` **mass**
+- :ref:`float <class_float>` **mass**
 
 +-----------+-----------------+
 | *Default* | ``1.0``         |
@@ -185,7 +183,7 @@ Property Descriptions
 
 .. _class_PhysicalBone_property_weight:
 
-- :ref:`float<class_float>` **weight**
+- :ref:`float <class_float>` **weight**
 
 +-----------+-------------------+
 | *Default* | ``9.8``           |
@@ -200,35 +198,29 @@ Method Descriptions
 
 .. _class_PhysicalBone_method_apply_central_impulse:
 
-- void **apply_central_impulse** **(** :ref:`Vector3<class_Vector3>` impulse **)**
+- void **apply_central_impulse** **(** :ref:`Vector3 <class_Vector3>` impulse **)**
 
 ----
 
 .. _class_PhysicalBone_method_apply_impulse:
 
-- void **apply_impulse** **(** :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` impulse **)**
+- void **apply_impulse** **(** :ref:`Vector3 <class_Vector3>` position, :ref:`Vector3 <class_Vector3>` impulse **)**
 
 ----
 
 .. _class_PhysicalBone_method_get_bone_id:
 
-- :ref:`int<class_int>` **get_bone_id** **(** **)** const
+- :ref:`int <class_int>` **get_bone_id** **(** **)** const
 
 ----
 
 .. _class_PhysicalBone_method_get_simulate_physics:
 
-- :ref:`bool<class_bool>` **get_simulate_physics** **(** **)**
+- :ref:`bool <class_bool>` **get_simulate_physics** **(** **)**
 
 ----
 
 .. _class_PhysicalBone_method_is_simulating_physics:
 
-- :ref:`bool<class_bool>` **is_simulating_physics** **(** **)**
-
-----
-
-.. _class_PhysicalBone_method_is_static_body:
-
-- :ref:`bool<class_bool>` **is_static_body** **(** **)**
+- :ref:`bool <class_bool>` **is_simulating_physics** **(** **)**
 

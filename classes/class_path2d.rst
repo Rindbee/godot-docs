@@ -9,32 +9,32 @@
 Path2D
 ======
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-Contains a :ref:`Curve2D<class_Curve2D>` path for :ref:`PathFollow2D<class_PathFollow2D>` nodes to follow.
+Contains a :ref:`Curve2D <class_Curve2D>` path for :ref:`PathFollow2D <class_PathFollow2D>` nodes to follow.
 
 Description
 -----------
 
-Can have :ref:`PathFollow2D<class_PathFollow2D>` child nodes moving along the :ref:`Curve2D<class_Curve2D>`. See :ref:`PathFollow2D<class_PathFollow2D>` for more information on usage.
+Can have :ref:`PathFollow2D <class_PathFollow2D>` child nodes moving along the :ref:`Curve2D <class_Curve2D>`. See :ref:`PathFollow2D <class_PathFollow2D>` for more information on usage.
 
-**Note:** The path is considered as relative to the moved nodes (children of :ref:`PathFollow2D<class_PathFollow2D>`). As such, the curve should usually start with a zero vector (``(0, 0)``).
+**Note:** The path is considered as relative to the moved nodes (children of :ref:`PathFollow2D <class_PathFollow2D>`). As such, the curve should usually start with a zero vector (``(0, 0)``).
 
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------+--------------------------------------+
-| :ref:`Curve2D<class_Curve2D>` | :ref:`curve<class_Path2D_property_curve>` |                                      |
-+-------------------------------+-------------------------------------------+--------------------------------------+
-| :ref:`Color<class_Color>`     | self_modulate                             | **O:** ``Color( 0.5, 0.6, 1, 0.7 )`` |
-+-------------------------------+-------------------------------------------+--------------------------------------+
++--------------------------------+--------------------------------------------+--------------------------------------+
+| :ref:`Curve2D <class_Curve2D>` | :ref:`curve <class_Path2D_property_curve>` |                                      |
++--------------------------------+--------------------------------------------+--------------------------------------+
+| :ref:`Color <class_Color>`     | self_modulate                              | **O:** ``Color( 0.5, 0.6, 1, 0.7 )`` |
++--------------------------------+--------------------------------------------+--------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Path2D_property_curve:
 
-- :ref:`Curve2D<class_Curve2D>` **curve**
+- :ref:`Curve2D <class_Curve2D>` **curve**
 
 +----------+------------------+
 | *Setter* | set_curve(value) |
@@ -42,5 +42,5 @@ Property Descriptions
 | *Getter* | get_curve()      |
 +----------+------------------+
 
-A :ref:`Curve2D<class_Curve2D>` describing the path.
+A :ref:`Curve2D <class_Curve2D>` describing the path.
 

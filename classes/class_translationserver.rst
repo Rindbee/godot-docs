@@ -9,7 +9,7 @@
 TranslationServer
 =================
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 Server that manages all translations.
 
@@ -28,32 +28,32 @@ Tutorials
 Methods
 -------
 
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| void                        | :ref:`add_translation<class_TranslationServer_method_add_translation>` **(** :ref:`Translation<class_Translation>` translation **)**       |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| void                        | :ref:`clear<class_TranslationServer_method_clear>` **(** **)**                                                                             |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>`   | :ref:`get_loaded_locales<class_TranslationServer_method_get_loaded_locales>` **(** **)** const                                             |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`get_locale<class_TranslationServer_method_get_locale>` **(** **)** const                                                             |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`get_locale_name<class_TranslationServer_method_get_locale_name>` **(** :ref:`String<class_String>` locale **)** const                |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| void                        | :ref:`remove_translation<class_TranslationServer_method_remove_translation>` **(** :ref:`Translation<class_Translation>` translation **)** |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| void                        | :ref:`set_locale<class_TranslationServer_method_set_locale>` **(** :ref:`String<class_String>` locale **)**                                |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`translate<class_TranslationServer_method_translate>` **(** :ref:`String<class_String>` message **)** const                           |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`add_translation <class_TranslationServer_method_add_translation>` **(** :ref:`Translation <class_Translation>` translation **)**       |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`clear <class_TranslationServer_method_clear>` **(** **)**                                                                              |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>`           | :ref:`get_loaded_locales <class_TranslationServer_method_get_loaded_locales>` **(** **)** const                                              |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`         | :ref:`get_locale <class_TranslationServer_method_get_locale>` **(** **)** const                                                              |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`         | :ref:`get_locale_name <class_TranslationServer_method_get_locale_name>` **(** :ref:`String <class_String>` locale **)** const                |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`remove_translation <class_TranslationServer_method_remove_translation>` **(** :ref:`Translation <class_Translation>` translation **)** |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`set_locale <class_TranslationServer_method_set_locale>` **(** :ref:`String <class_String>` locale **)**                                |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`StringName <class_StringName>` | :ref:`translate <class_TranslationServer_method_translate>` **(** :ref:`StringName <class_StringName>` message **)** const                   |
++--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_TranslationServer_method_add_translation:
 
-- void **add_translation** **(** :ref:`Translation<class_Translation>` translation **)**
+- void **add_translation** **(** :ref:`Translation <class_Translation>` translation **)**
 
-Adds a :ref:`Translation<class_Translation>` resource.
+Adds a :ref:`Translation <class_Translation>` resource.
 
 ----
 
@@ -67,7 +67,7 @@ Clears the server from all translations.
 
 .. _class_TranslationServer_method_get_loaded_locales:
 
-- :ref:`Array<class_Array>` **get_loaded_locales** **(** **)** const
+- :ref:`Array <class_Array>` **get_loaded_locales** **(** **)** const
 
 Returns an Array of all loaded locales of the game.
 
@@ -75,7 +75,7 @@ Returns an Array of all loaded locales of the game.
 
 .. _class_TranslationServer_method_get_locale:
 
-- :ref:`String<class_String>` **get_locale** **(** **)** const
+- :ref:`String <class_String>` **get_locale** **(** **)** const
 
 Returns the current locale of the game.
 
@@ -83,7 +83,7 @@ Returns the current locale of the game.
 
 .. _class_TranslationServer_method_get_locale_name:
 
-- :ref:`String<class_String>` **get_locale_name** **(** :ref:`String<class_String>` locale **)** const
+- :ref:`String <class_String>` **get_locale_name** **(** :ref:`String <class_String>` locale **)** const
 
 Returns a locale's language and its variant (e.g. ``"en_US"`` would return ``"English (United States)"``).
 
@@ -91,7 +91,7 @@ Returns a locale's language and its variant (e.g. ``"en_US"`` would return ``"En
 
 .. _class_TranslationServer_method_remove_translation:
 
-- void **remove_translation** **(** :ref:`Translation<class_Translation>` translation **)**
+- void **remove_translation** **(** :ref:`Translation <class_Translation>` translation **)**
 
 Removes the given translation from the server.
 
@@ -99,7 +99,7 @@ Removes the given translation from the server.
 
 .. _class_TranslationServer_method_set_locale:
 
-- void **set_locale** **(** :ref:`String<class_String>` locale **)**
+- void **set_locale** **(** :ref:`String <class_String>` locale **)**
 
 Sets the locale of the game.
 
@@ -107,7 +107,7 @@ Sets the locale of the game.
 
 .. _class_TranslationServer_method_translate:
 
-- :ref:`String<class_String>` **translate** **(** :ref:`String<class_String>` message **)** const
+- :ref:`StringName <class_StringName>` **translate** **(** :ref:`StringName <class_StringName>` message **)** const
 
 Returns the current locale's translation for the given message (key).
 

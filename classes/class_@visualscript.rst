@@ -14,5 +14,5 @@ Built-in visual script functions.
 Description
 -----------
 
-A list of built-in visual script functions, see :ref:`VisualScriptBuiltinFunc<class_VisualScriptBuiltinFunc>` and :ref:`VisualScript<class_VisualScript>`.
+A list of built-in visual script functions, see :ref:`VisualScriptBuiltinFunc <class_VisualScriptBuiltinFunc>` and :ref:`VisualScript <class_VisualScript>`.
 

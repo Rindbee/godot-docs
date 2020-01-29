@@ -9,12 +9,12 @@
 InputDefault
 ============
 
-**Inherits:** :ref:`Input<class_Input>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Input <class_Input>` **<** :ref:`Object <class_Object>`
 
-Default implementation of the :ref:`Input<class_Input>` class.
+Default implementation of the :ref:`Input <class_Input>` class.
 
 Description
 -----------
 
-Default implementation of the :ref:`Input<class_Input>` class, used internally by the editor and games for default input management.
+Default implementation of the :ref:`Input <class_Input>` class, used internally by the editor and games for default input management.
 

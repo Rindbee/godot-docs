@@ -9,42 +9,42 @@
 ConeTwistJoint
 ==============
 
-**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Joint <class_Joint>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 A twist joint between two 3D bodies.
 
 Description
 -----------
 
-The joint can rotate the bodies across an axis defined by the local x-axes of the :ref:`Joint<class_Joint>`.
+The joint can rotate the bodies across an axis defined by the local x-axes of the :ref:`Joint <class_Joint>`.
 
-The twist axis is initiated as the X axis of the :ref:`Joint<class_Joint>`.
+The twist axis is initiated as the X axis of the :ref:`Joint <class_Joint>`.
 
 Once the Bodies swing, the twist axis is calculated as the middle of the x-axes of the Joint in the local space of the two Bodies.
 
 Properties
 ----------
 
-+---------------------------+-------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`bias<class_ConeTwistJoint_property_bias>`             | ``0.3``   |
-+---------------------------+-------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`relaxation<class_ConeTwistJoint_property_relaxation>` | ``1.0``   |
-+---------------------------+-------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`softness<class_ConeTwistJoint_property_softness>`     | ``0.8``   |
-+---------------------------+-------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`swing_span<class_ConeTwistJoint_property_swing_span>` | ``45.0``  |
-+---------------------------+-------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`twist_span<class_ConeTwistJoint_property_twist_span>` | ``180.0`` |
-+---------------------------+-------------------------------------------------------------+-----------+
++----------------------------+--------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`bias <class_ConeTwistJoint_property_bias>`             | ``0.3``   |
++----------------------------+--------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`relaxation <class_ConeTwistJoint_property_relaxation>` | ``1.0``   |
++----------------------------+--------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`softness <class_ConeTwistJoint_property_softness>`     | ``0.8``   |
++----------------------------+--------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`swing_span <class_ConeTwistJoint_property_swing_span>` | ``45.0``  |
++----------------------------+--------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`twist_span <class_ConeTwistJoint_property_twist_span>` | ``180.0`` |
++----------------------------+--------------------------------------------------------------+-----------+
 
 Methods
 -------
 
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_param<class_ConeTwistJoint_method_get_param>` **(** :ref:`Param<enum_ConeTwistJoint_Param>` param **)** const                            |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`set_param<class_ConeTwistJoint_method_set_param>` **(** :ref:`Param<enum_ConeTwistJoint_Param>` param, :ref:`float<class_float>` value **)** |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_param <class_ConeTwistJoint_method_get_param>` **(** :ref:`Param <enum_ConeTwistJoint_Param>` param **)** const                             |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`set_param <class_ConeTwistJoint_method_set_param>` **(** :ref:`Param <enum_ConeTwistJoint_Param>` param, :ref:`float <class_float>` value **)** |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -85,14 +85,14 @@ The higher, the faster.
 
 - **PARAM_RELAXATION** = **4** --- Defines, how fast the swing- and twist-speed-difference on both sides gets synced.
 
-- **PARAM_MAX** = **5** --- Represents the size of the :ref:`Param<enum_ConeTwistJoint_Param>` enum.
+- **PARAM_MAX** = **5** --- Represents the size of the :ref:`Param <enum_ConeTwistJoint_Param>` enum.
 
 Property Descriptions
 ---------------------
 
 .. _class_ConeTwistJoint_property_bias:
 
-- :ref:`float<class_float>` **bias**
+- :ref:`float <class_float>` **bias**
 
 +-----------+------------------+
 | *Default* | ``0.3``          |
@@ -110,7 +110,7 @@ The higher, the faster.
 
 .. _class_ConeTwistJoint_property_relaxation:
 
-- :ref:`float<class_float>` **relaxation**
+- :ref:`float <class_float>` **relaxation**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -126,7 +126,7 @@ Defines, how fast the swing- and twist-speed-difference on both sides gets synce
 
 .. _class_ConeTwistJoint_property_softness:
 
-- :ref:`float<class_float>` **softness**
+- :ref:`float <class_float>` **softness**
 
 +-----------+------------------+
 | *Default* | ``0.8``          |
@@ -142,7 +142,7 @@ The ease with which the joint starts to twist. If it's too low, it takes more fo
 
 .. _class_ConeTwistJoint_property_swing_span:
 
-- :ref:`float<class_float>` **swing_span**
+- :ref:`float <class_float>` **swing_span**
 
 +-----------+----------+
 | *Default* | ``45.0`` |
@@ -160,7 +160,7 @@ If below 0.05, this behavior is locked.
 
 .. _class_ConeTwistJoint_property_twist_span:
 
-- :ref:`float<class_float>` **twist_span**
+- :ref:`float <class_float>` **twist_span**
 
 +-----------+-----------+
 | *Default* | ``180.0`` |
@@ -175,11 +175,11 @@ Method Descriptions
 
 .. _class_ConeTwistJoint_method_get_param:
 
-- :ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_ConeTwistJoint_Param>` param **)** const
+- :ref:`float <class_float>` **get_param** **(** :ref:`Param <enum_ConeTwistJoint_Param>` param **)** const
 
 ----
 
 .. _class_ConeTwistJoint_method_set_param:
 
-- void **set_param** **(** :ref:`Param<enum_ConeTwistJoint_Param>` param, :ref:`float<class_float>` value **)**
+- void **set_param** **(** :ref:`Param <enum_ConeTwistJoint_Param>` param, :ref:`float <class_float>` value **)**
 

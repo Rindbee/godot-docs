@@ -9,7 +9,7 @@
 AudioStreamRandomPitch
 ======================
 
-**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioStream <class_AudioStream>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Plays audio with random pitch shifting.
 
@@ -21,18 +21,18 @@ Randomly varies pitch on each start.
 Properties
 ----------
 
-+---------------------------------------+-------------------------------------------------------------------------+---------+
-| :ref:`AudioStream<class_AudioStream>` | :ref:`audio_stream<class_AudioStreamRandomPitch_property_audio_stream>` |         |
-+---------------------------------------+-------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>`             | :ref:`random_pitch<class_AudioStreamRandomPitch_property_random_pitch>` | ``1.1`` |
-+---------------------------------------+-------------------------------------------------------------------------+---------+
++----------------------------------------+--------------------------------------------------------------------------+---------+
+| :ref:`AudioStream <class_AudioStream>` | :ref:`audio_stream <class_AudioStreamRandomPitch_property_audio_stream>` |         |
++----------------------------------------+--------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>`             | :ref:`random_pitch <class_AudioStreamRandomPitch_property_random_pitch>` | ``1.1`` |
++----------------------------------------+--------------------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioStreamRandomPitch_property_audio_stream:
 
-- :ref:`AudioStream<class_AudioStream>` **audio_stream**
+- :ref:`AudioStream <class_AudioStream>` **audio_stream**
 
 +----------+-------------------------+
 | *Setter* | set_audio_stream(value) |
@@ -40,13 +40,13 @@ Property Descriptions
 | *Getter* | get_audio_stream()      |
 +----------+-------------------------+
 
-The current :ref:`AudioStream<class_AudioStream>`.
+The current :ref:`AudioStream <class_AudioStream>`.
 
 ----
 
 .. _class_AudioStreamRandomPitch_property_random_pitch:
 
-- :ref:`float<class_float>` **random_pitch**
+- :ref:`float <class_float>` **random_pitch**
 
 +-----------+-------------------------+
 | *Default* | ``1.1``                 |

@@ -9,7 +9,7 @@
 RectangleShape2D
 ================
 
-**Inherits:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape2D <class_Shape2D>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Rectangle shape for 2D collisions.
 
@@ -21,16 +21,16 @@ Rectangle shape for 2D collisions. This shape is useful for modeling box-like 2D
 Properties
 ----------
 
-+-------------------------------+---------------------------------------------------------+-----------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`extents<class_RectangleShape2D_property_extents>` | ``Vector2( 10, 10 )`` |
-+-------------------------------+---------------------------------------------------------+-----------------------+
++--------------------------------+----------------------------------------------------------+-----------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`extents <class_RectangleShape2D_property_extents>` | ``Vector2( 10, 10 )`` |
++--------------------------------+----------------------------------------------------------+-----------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_RectangleShape2D_property_extents:
 
-- :ref:`Vector2<class_Vector2>` **extents**
+- :ref:`Vector2 <class_Vector2>` **extents**
 
 +-----------+-----------------------+
 | *Default* | ``Vector2( 10, 10 )`` |

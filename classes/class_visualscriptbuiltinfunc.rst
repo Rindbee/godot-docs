@@ -9,23 +9,23 @@
 VisualScriptBuiltinFunc
 =======================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A Visual Script node used to call built-in functions.
 
 Description
 -----------
 
-A built-in function used inside a :ref:`VisualScript<class_VisualScript>`. It is usually a math function or an utility function.
+A built-in function used inside a :ref:`VisualScript <class_VisualScript>`. It is usually a math function or an utility function.
 
-See also :ref:`@GDScript<class_@GDScript>`, for the same functions in the GDScript language.
+See also :ref:`@GDScript <class_@GDScript>`, for the same functions in the GDScript language.
 
 Properties
 ----------
 
-+--------------------------------------------------------------+------------------------------------------------------------------+-------+
-| :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` | :ref:`function<class_VisualScriptBuiltinFunc_property_function>` | ``0`` |
-+--------------------------------------------------------------+------------------------------------------------------------------+-------+
++---------------------------------------------------------------+-------------------------------------------------------------------+-------+
+| :ref:`BuiltinFunc <enum_VisualScriptBuiltinFunc_BuiltinFunc>` | :ref:`function <class_VisualScriptBuiltinFunc_property_function>` | ``0`` |
++---------------------------------------------------------------+-------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -80,7 +80,7 @@ Enumerations
 
 .. _class_VisualScriptBuiltinFunc_constant_MATH_EASE:
 
-.. _class_VisualScriptBuiltinFunc_constant_MATH_DECIMALS:
+.. _class_VisualScriptBuiltinFunc_constant_MATH_STEP_DECIMALS:
 
 .. _class_VisualScriptBuiltinFunc_constant_MATH_STEPIFY:
 
@@ -220,7 +220,7 @@ enum **BuiltinFunc**:
 
 - **MATH_EASE** = **23** --- Easing function, based on exponent. 0 is constant, 1 is linear, 0 to 1 is ease-in, 1+ is ease out. Negative values are in-out/out in.
 
-- **MATH_DECIMALS** = **24** --- Return the number of digit places after the decimal that the first non-zero digit occurs.
+- **MATH_STEP_DECIMALS** = **24** --- Return the number of digit places after the decimal that the first non-zero digit occurs.
 
 - **MATH_STEPIFY** = **25** --- Return the input snapped to a given step.
 
@@ -270,15 +270,15 @@ enum **BuiltinFunc**:
 
 - **LOGIC_NEAREST_PO2** = **48** --- Return the nearest power of 2 to the input.
 
-- **OBJ_WEAKREF** = **49** --- Create a :ref:`WeakRef<class_WeakRef>` from the input.
+- **OBJ_WEAKREF** = **49** --- Create a :ref:`WeakRef <class_WeakRef>` from the input.
 
-- **FUNC_FUNCREF** = **50** --- Create a :ref:`FuncRef<class_FuncRef>` from the input.
+- **FUNC_FUNCREF** = **50** --- Create a :ref:`FuncRef <class_FuncRef>` from the input.
 
 - **TYPE_CONVERT** = **51** --- Convert between types.
 
-- **TYPE_OF** = **52** --- Return the type of the input as an integer. Check :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` for the integers that might be returned.
+- **TYPE_OF** = **52** --- Return the type of the input as an integer. Check :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` for the integers that might be returned.
 
-- **TYPE_EXISTS** = **53** --- Checks if a type is registered in the :ref:`ClassDB<class_ClassDB>`.
+- **TYPE_EXISTS** = **53** --- Checks if a type is registered in the :ref:`ClassDB <class_ClassDB>`.
 
 - **TEXT_CHAR** = **54** --- Return a character with the given ascii value.
 
@@ -290,19 +290,19 @@ enum **BuiltinFunc**:
 
 - **TEXT_PRINTRAW** = **58** --- Print the given string to the standard output, without adding a newline.
 
-- **VAR_TO_STR** = **59** --- Serialize a :ref:`Variant<class_Variant>` to a string.
+- **VAR_TO_STR** = **59** --- Serialize a :ref:`Variant <class_Variant>` to a string.
 
-- **STR_TO_VAR** = **60** --- Deserialize a :ref:`Variant<class_Variant>` from a string serialized using :ref:`VAR_TO_STR<class_VisualScriptBuiltinFunc_constant_VAR_TO_STR>`.
+- **STR_TO_VAR** = **60** --- Deserialize a :ref:`Variant <class_Variant>` from a string serialized using :ref:`VAR_TO_STR <class_VisualScriptBuiltinFunc_constant_VAR_TO_STR>`.
 
-- **VAR_TO_BYTES** = **61** --- Serialize a :ref:`Variant<class_Variant>` to a :ref:`PoolByteArray<class_PoolByteArray>`.
+- **VAR_TO_BYTES** = **61** --- Serialize a :ref:`Variant <class_Variant>` to a :ref:`PackedByteArray <class_PackedByteArray>`.
 
-- **BYTES_TO_VAR** = **62** --- Deserialize a :ref:`Variant<class_Variant>` from a :ref:`PoolByteArray<class_PoolByteArray>` serialized using :ref:`VAR_TO_BYTES<class_VisualScriptBuiltinFunc_constant_VAR_TO_BYTES>`.
+- **BYTES_TO_VAR** = **62** --- Deserialize a :ref:`Variant <class_Variant>` from a :ref:`PackedByteArray <class_PackedByteArray>` serialized using :ref:`VAR_TO_BYTES <class_VisualScriptBuiltinFunc_constant_VAR_TO_BYTES>`.
 
-- **COLORN** = **63** --- Return the :ref:`Color<class_Color>` with the given name and alpha ranging from 0 to 1.
+- **COLORN** = **63** --- Return the :ref:`Color <class_Color>` with the given name and alpha ranging from 0 to 1.
 
 **Note:** Names are defined in ``color_names.inc``.
 
-- **MATH_SMOOTHSTEP** = **64** --- Return a number smoothly interpolated between the first two inputs, based on the third input. Similar to :ref:`MATH_LERP<class_VisualScriptBuiltinFunc_constant_MATH_LERP>`, but interpolates faster at the beginning and slower at the end. Using Hermite interpolation formula:
+- **MATH_SMOOTHSTEP** = **64** --- Return a number smoothly interpolated between the first two inputs, based on the third input. Similar to :ref:`MATH_LERP <class_VisualScriptBuiltinFunc_constant_MATH_LERP>`, but interpolates faster at the beginning and slower at the end. Using Hermite interpolation formula:
 
 ::
 
@@ -315,14 +315,14 @@ enum **BuiltinFunc**:
 
 - **TEXT_ORD** = **67**
 
-- **FUNC_MAX** = **68** --- Represents the size of the :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` enum.
+- **FUNC_MAX** = **68** --- Represents the size of the :ref:`BuiltinFunc <enum_VisualScriptBuiltinFunc_BuiltinFunc>` enum.
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptBuiltinFunc_property_function:
 
-- :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` **function**
+- :ref:`BuiltinFunc <enum_VisualScriptBuiltinFunc_BuiltinFunc>` **function**
 
 +-----------+-----------------+
 | *Default* | ``0``           |

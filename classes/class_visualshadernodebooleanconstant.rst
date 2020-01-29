@@ -9,7 +9,7 @@
 VisualShaderNodeBooleanConstant
 ===============================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A boolean constant to be used within the visual shader graph.
 
@@ -23,16 +23,16 @@ Translated to ``bool`` in the shader language.
 Properties
 ----------
 
-+-------------------------+--------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>` | :ref:`constant<class_VisualShaderNodeBooleanConstant_property_constant>` | ``false`` |
-+-------------------------+--------------------------------------------------------------------------+-----------+
++--------------------------+---------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>` | :ref:`constant <class_VisualShaderNodeBooleanConstant_property_constant>` | ``false`` |
++--------------------------+---------------------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeBooleanConstant_property_constant:
 
-- :ref:`bool<class_bool>` **constant**
+- :ref:`bool <class_bool>` **constant**
 
 +-----------+---------------------+
 | *Default* | ``false``           |

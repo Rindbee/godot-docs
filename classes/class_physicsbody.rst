@@ -9,9 +9,9 @@
 PhysicsBody
 ===========
 
-**Inherits:** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`CollisionObject <class_CollisionObject>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`KinematicBody<class_KinematicBody>`, :ref:`PhysicalBone<class_PhysicalBone>`, :ref:`RigidBody<class_RigidBody>`, :ref:`StaticBody<class_StaticBody>`
+**Inherited By:** :ref:`KinematicBody <class_KinematicBody>`, :ref:`PhysicalBone <class_PhysicalBone>`, :ref:`RigidBody <class_RigidBody>`, :ref:`StaticBody <class_StaticBody>`
 
 Base class for all objects affected by physics in 3D space.
 
@@ -28,37 +28,37 @@ Tutorials
 Properties
 ----------
 
-+-----------------------+--------------------------------------------------------------------+-------+
-| :ref:`int<class_int>` | :ref:`collision_layer<class_PhysicsBody_property_collision_layer>` | ``1`` |
-+-----------------------+--------------------------------------------------------------------+-------+
-| :ref:`int<class_int>` | :ref:`collision_mask<class_PhysicsBody_property_collision_mask>`   | ``1`` |
-+-----------------------+--------------------------------------------------------------------+-------+
++------------------------+---------------------------------------------------------------------+-------+
+| :ref:`int <class_int>` | :ref:`collision_layer <class_PhysicsBody_property_collision_layer>` | ``1`` |
++------------------------+---------------------------------------------------------------------+-------+
+| :ref:`int <class_int>` | :ref:`collision_mask <class_PhysicsBody_property_collision_mask>`   | ``1`` |
++------------------------+---------------------------------------------------------------------+-------+
 
 Methods
 -------
 
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`add_collision_exception_with<class_PhysicsBody_method_add_collision_exception_with>` **(** :ref:`Node<class_Node>` body **)**                   |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>` | :ref:`get_collision_exceptions<class_PhysicsBody_method_get_collision_exceptions>` **(** **)**                                                        |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`   | :ref:`get_collision_layer_bit<class_PhysicsBody_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** const                          |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`   | :ref:`get_collision_mask_bit<class_PhysicsBody_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** const                            |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`remove_collision_exception_with<class_PhysicsBody_method_remove_collision_exception_with>` **(** :ref:`Node<class_Node>` body **)**             |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`set_collision_layer_bit<class_PhysicsBody_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)** |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`set_collision_mask_bit<class_PhysicsBody_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**   |
-+---------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`add_collision_exception_with <class_PhysicsBody_method_add_collision_exception_with>` **(** :ref:`Node <class_Node>` body **)**                    |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>` | :ref:`get_collision_exceptions <class_PhysicsBody_method_get_collision_exceptions>` **(** **)**                                                          |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`   | :ref:`get_collision_layer_bit <class_PhysicsBody_method_get_collision_layer_bit>` **(** :ref:`int <class_int>` bit **)** const                           |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`   | :ref:`get_collision_mask_bit <class_PhysicsBody_method_get_collision_mask_bit>` **(** :ref:`int <class_int>` bit **)** const                             |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`remove_collision_exception_with <class_PhysicsBody_method_remove_collision_exception_with>` **(** :ref:`Node <class_Node>` body **)**              |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`set_collision_layer_bit <class_PhysicsBody_method_set_collision_layer_bit>` **(** :ref:`int <class_int>` bit, :ref:`bool <class_bool>` value **)** |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`set_collision_mask_bit <class_PhysicsBody_method_set_collision_mask_bit>` **(** :ref:`int <class_int>` bit, :ref:`bool <class_bool>` value **)**   |
++----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_PhysicsBody_property_collision_layer:
 
-- :ref:`int<class_int>` **collision_layer**
+- :ref:`int <class_int>` **collision_layer**
 
 +-----------+----------------------------+
 | *Default* | ``1``                      |
@@ -70,7 +70,7 @@ Property Descriptions
 
 The physics layers this area is in.
 
-Collidable objects can exist in any of 32 different layers. These layers work like a tagging system, and are not visual. A collidable can use these layers to select with which objects it can collide, using the :ref:`collision_mask<class_PhysicsBody_property_collision_mask>` property.
+Collidable objects can exist in any of 32 different layers. These layers work like a tagging system, and are not visual. A collidable can use these layers to select with which objects it can collide, using the :ref:`collision_mask <class_PhysicsBody_property_collision_mask>` property.
 
 A contact is detected if object A is in any of the layers that object B scans, or object B is in any layer scanned by object A.
 
@@ -78,7 +78,7 @@ A contact is detected if object A is in any of the layers that object B scans, o
 
 .. _class_PhysicsBody_property_collision_mask:
 
-- :ref:`int<class_int>` **collision_mask**
+- :ref:`int <class_int>` **collision_mask**
 
 +-----------+---------------------------+
 | *Default* | ``1``                     |
@@ -95,7 +95,7 @@ Method Descriptions
 
 .. _class_PhysicsBody_method_add_collision_exception_with:
 
-- void **add_collision_exception_with** **(** :ref:`Node<class_Node>` body **)**
+- void **add_collision_exception_with** **(** :ref:`Node <class_Node>` body **)**
 
 Adds a body to the list of bodies that this body can't collide with.
 
@@ -103,7 +103,7 @@ Adds a body to the list of bodies that this body can't collide with.
 
 .. _class_PhysicsBody_method_get_collision_exceptions:
 
-- :ref:`Array<class_Array>` **get_collision_exceptions** **(** **)**
+- :ref:`Array <class_Array>` **get_collision_exceptions** **(** **)**
 
 Returns an array of nodes that were added as collision exceptions for this body.
 
@@ -111,23 +111,23 @@ Returns an array of nodes that were added as collision exceptions for this body.
 
 .. _class_PhysicsBody_method_get_collision_layer_bit:
 
-- :ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** const
+- :ref:`bool <class_bool>` **get_collision_layer_bit** **(** :ref:`int <class_int>` bit **)** const
 
-Returns an individual bit on the :ref:`collision_layer<class_PhysicsBody_property_collision_layer>`.
+Returns an individual bit on the :ref:`collision_layer <class_PhysicsBody_property_collision_layer>`.
 
 ----
 
 .. _class_PhysicsBody_method_get_collision_mask_bit:
 
-- :ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** const
+- :ref:`bool <class_bool>` **get_collision_mask_bit** **(** :ref:`int <class_int>` bit **)** const
 
-Returns an individual bit on the :ref:`collision_mask<class_PhysicsBody_property_collision_mask>`.
+Returns an individual bit on the :ref:`collision_mask <class_PhysicsBody_property_collision_mask>`.
 
 ----
 
 .. _class_PhysicsBody_method_remove_collision_exception_with:
 
-- void **remove_collision_exception_with** **(** :ref:`Node<class_Node>` body **)**
+- void **remove_collision_exception_with** **(** :ref:`Node <class_Node>` body **)**
 
 Removes a body from the list of bodies that this body can't collide with.
 
@@ -135,15 +135,15 @@ Removes a body from the list of bodies that this body can't collide with.
 
 .. _class_PhysicsBody_method_set_collision_layer_bit:
 
-- void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
+- void **set_collision_layer_bit** **(** :ref:`int <class_int>` bit, :ref:`bool <class_bool>` value **)**
 
-Sets individual bits on the :ref:`collision_layer<class_PhysicsBody_property_collision_layer>` bitmask. Use this if you only need to change one layer's value.
+Sets individual bits on the :ref:`collision_layer <class_PhysicsBody_property_collision_layer>` bitmask. Use this if you only need to change one layer's value.
 
 ----
 
 .. _class_PhysicsBody_method_set_collision_mask_bit:
 
-- void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**
+- void **set_collision_mask_bit** **(** :ref:`int <class_int>` bit, :ref:`bool <class_bool>` value **)**
 
-Sets individual bits on the :ref:`collision_mask<class_PhysicsBody_property_collision_mask>` bitmask. Use this if you only need to change one layer's value.
+Sets individual bits on the :ref:`collision_mask <class_PhysicsBody_property_collision_mask>` bitmask. Use this if you only need to change one layer's value.
 

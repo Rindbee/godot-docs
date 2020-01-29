@@ -9,18 +9,18 @@
 MainLoop
 ========
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`SceneTree<class_SceneTree>`
+**Inherited By:** :ref:`SceneTree <class_SceneTree>`
 
 Abstract base class for the game's main loop.
 
 Description
 -----------
 
-``MainLoop`` is the abstract base class for a Godot project's game loop. It is inherited by :ref:`SceneTree<class_SceneTree>`, which is the default game loop implementation used in Godot projects, though it is also possible to write and use one's own ``MainLoop`` subclass instead of the scene tree.
+``MainLoop`` is the abstract base class for a Godot project's game loop. It is inherited by :ref:`SceneTree <class_SceneTree>`, which is the default game loop implementation used in Godot projects, though it is also possible to write and use one's own ``MainLoop`` subclass instead of the scene tree.
 
-Upon the application start, a ``MainLoop`` implementation must be provided to the OS; otherwise, the application will exit. This happens automatically (and a :ref:`SceneTree<class_SceneTree>` is created) unless a main :ref:`Script<class_Script>` is provided from the command line (with e.g. ``godot -s my_loop.gd``, which should then be a ``MainLoop`` implementation.
+Upon the application start, a ``MainLoop`` implementation must be provided to the OS; otherwise, the application will exit. This happens automatically (and a :ref:`SceneTree <class_SceneTree>` is created) unless a main :ref:`Script <class_Script>` is provided from the command line (with e.g. ``godot -s my_loop.gd``, which should then be a ``MainLoop`` implementation.
 
 Here is an example script implementing a simple ``MainLoop``:
 
@@ -44,9 +44,9 @@ Here is an example script implementing a simple ``MainLoop``:
     func _input_event(event):
         # Record keys.
         if event is InputEventKey and event.pressed and !event.echo:
-            keys_typed.append(OS.get_scancode_string(event.scancode))
+            keys_typed.append(OS.get_keycode_string(event.keycode))
             # Quit on Escape press.
-            if event.scancode == KEY_ESCAPE:
+            if event.keycode == KEY_ESCAPE:
                 quit = true
         # Quit on any mouse click.
         if event is InputEventMouseButton:
@@ -60,42 +60,42 @@ Here is an example script implementing a simple ``MainLoop``:
 Methods
 -------
 
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_drop_files<class_MainLoop_method__drop_files>` **(** :ref:`PoolStringArray<class_PoolStringArray>` files, :ref:`int<class_int>` from_screen **)** virtual |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_finalize<class_MainLoop_method__finalize>` **(** **)** virtual                                                                                            |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_global_menu_action<class_MainLoop_method__global_menu_action>` **(** :ref:`Variant<class_Variant>` id, :ref:`Variant<class_Variant>` meta **)** virtual   |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`_idle<class_MainLoop_method__idle>` **(** :ref:`float<class_float>` delta **)** virtual                                                                    |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_initialize<class_MainLoop_method__initialize>` **(** **)** virtual                                                                                        |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_input_event<class_MainLoop_method__input_event>` **(** :ref:`InputEvent<class_InputEvent>` event **)** virtual                                            |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`_input_text<class_MainLoop_method__input_text>` **(** :ref:`String<class_String>` text **)** virtual                                                       |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`_iteration<class_MainLoop_method__iteration>` **(** :ref:`float<class_float>` delta **)** virtual                                                          |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`finish<class_MainLoop_method_finish>` **(** **)**                                                                                                          |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`idle<class_MainLoop_method_idle>` **(** :ref:`float<class_float>` delta **)**                                                                              |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`init<class_MainLoop_method_init>` **(** **)**                                                                                                              |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`input_event<class_MainLoop_method_input_event>` **(** :ref:`InputEvent<class_InputEvent>` event **)**                                                      |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`input_text<class_MainLoop_method_input_text>` **(** :ref:`String<class_String>` text **)**                                                                 |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`iteration<class_MainLoop_method_iteration>` **(** :ref:`float<class_float>` delta **)**                                                                    |
-+-------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_drop_files <class_MainLoop_method__drop_files>` **(** :ref:`PackedStringArray <class_PackedStringArray>` files, :ref:`int <class_int>` from_screen **)** virtual |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_finalize <class_MainLoop_method__finalize>` **(** **)** virtual                                                                                                  |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_global_menu_action <class_MainLoop_method__global_menu_action>` **(** :ref:`Variant <class_Variant>` id, :ref:`Variant <class_Variant>` meta **)** virtual       |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`_idle <class_MainLoop_method__idle>` **(** :ref:`float <class_float>` delta **)** virtual                                                                         |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_initialize <class_MainLoop_method__initialize>` **(** **)** virtual                                                                                              |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_input_event <class_MainLoop_method__input_event>` **(** :ref:`InputEvent <class_InputEvent>` event **)** virtual                                                 |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`_input_text <class_MainLoop_method__input_text>` **(** :ref:`String <class_String>` text **)** virtual                                                            |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`_iteration <class_MainLoop_method__iteration>` **(** :ref:`float <class_float>` delta **)** virtual                                                               |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`finish <class_MainLoop_method_finish>` **(** **)**                                                                                                                |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`idle <class_MainLoop_method_idle>` **(** :ref:`float <class_float>` delta **)**                                                                                   |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`init <class_MainLoop_method_init>` **(** **)**                                                                                                                    |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`input_event <class_MainLoop_method_input_event>` **(** :ref:`InputEvent <class_InputEvent>` event **)**                                                           |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`input_text <class_MainLoop_method_input_text>` **(** :ref:`String <class_String>` text **)**                                                                      |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`iteration <class_MainLoop_method_iteration>` **(** :ref:`float <class_float>` delta **)**                                                                         |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_MainLoop_signal_on_request_permissions_result:
 
-- **on_request_permissions_result** **(** :ref:`String<class_String>` permission, :ref:`bool<class_bool>` granted **)**
+- **on_request_permissions_result** **(** :ref:`String <class_String>` permission, :ref:`bool <class_bool>` granted **)**
 
 Emitted when a user responds to a permission request.
 
@@ -162,7 +162,7 @@ No supported platforms currently send this notification.
 
 Specific to the iOS platform.
 
-- **NOTIFICATION_TRANSLATION_CHANGED** = **1010** --- Notification received when translations may have changed. Can be triggered by the user changing the locale. Can be used to respond to language changes, for example to change the UI strings on the fly. Useful when working with the built-in translation support, like :ref:`Object.tr<class_Object_method_tr>`.
+- **NOTIFICATION_TRANSLATION_CHANGED** = **1010** --- Notification received when translations may have changed. Can be triggered by the user changing the locale. Can be used to respond to language changes, for example to change the UI strings on the fly. Useful when working with the built-in translation support, like :ref:`Object.tr <class_Object_method_tr>`.
 
 - **NOTIFICATION_WM_ABOUT** = **1011** --- Notification received from the OS when a request for "About" information is sent.
 
@@ -189,7 +189,7 @@ Method Descriptions
 
 .. _class_MainLoop_method__drop_files:
 
-- void **_drop_files** **(** :ref:`PoolStringArray<class_PoolStringArray>` files, :ref:`int<class_int>` from_screen **)** virtual
+- void **_drop_files** **(** :ref:`PackedStringArray <class_PackedStringArray>` files, :ref:`int <class_int>` from_screen **)** virtual
 
 Called when files are dragged from the OS file manager and dropped in the game window. The arguments are a list of file paths and the identifier of the screen where the drag originated.
 
@@ -205,7 +205,7 @@ Called before the program exits.
 
 .. _class_MainLoop_method__global_menu_action:
 
-- void **_global_menu_action** **(** :ref:`Variant<class_Variant>` id, :ref:`Variant<class_Variant>` meta **)** virtual
+- void **_global_menu_action** **(** :ref:`Variant <class_Variant>` id, :ref:`Variant <class_Variant>` meta **)** virtual
 
 Called when the user performs an action in the system global menu (e.g. the Mac OS menu bar).
 
@@ -213,9 +213,9 @@ Called when the user performs an action in the system global menu (e.g. the Mac 
 
 .. _class_MainLoop_method__idle:
 
-- :ref:`bool<class_bool>` **_idle** **(** :ref:`float<class_float>` delta **)** virtual
+- :ref:`bool <class_bool>` **_idle** **(** :ref:`float <class_float>` delta **)** virtual
 
-Called each idle frame with the time since the last idle frame as argument (in seconds). Equivalent to :ref:`Node._process<class_Node_method__process>`.
+Called each idle frame with the time since the last idle frame as argument (in seconds). Equivalent to :ref:`Node._process <class_Node_method__process>`.
 
 If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next frame.
 
@@ -231,25 +231,25 @@ Called once during initialization.
 
 .. _class_MainLoop_method__input_event:
 
-- void **_input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)** virtual
+- void **_input_event** **(** :ref:`InputEvent <class_InputEvent>` event **)** virtual
 
-Called whenever an :ref:`InputEvent<class_InputEvent>` is received by the main loop.
+Called whenever an :ref:`InputEvent <class_InputEvent>` is received by the main loop.
 
 ----
 
 .. _class_MainLoop_method__input_text:
 
-- void **_input_text** **(** :ref:`String<class_String>` text **)** virtual
+- void **_input_text** **(** :ref:`String <class_String>` text **)** virtual
 
-Deprecated callback, does not do anything. Use :ref:`_input_event<class_MainLoop_method__input_event>` to parse text input. Will be removed in Godot 4.0.
+Deprecated callback, does not do anything. Use :ref:`_input_event <class_MainLoop_method__input_event>` to parse text input. Will be removed in Godot 4.0.
 
 ----
 
 .. _class_MainLoop_method__iteration:
 
-- :ref:`bool<class_bool>` **_iteration** **(** :ref:`float<class_float>` delta **)** virtual
+- :ref:`bool <class_bool>` **_iteration** **(** :ref:`float <class_float>` delta **)** virtual
 
-Called each physics frame with the time since the last physics frame as argument (in seconds). Equivalent to :ref:`Node._physics_process<class_Node_method__physics_process>`.
+Called each physics frame with the time since the last physics frame as argument (in seconds). Equivalent to :ref:`Node._physics_process <class_Node_method__physics_process>`.
 
 If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next frame.
 
@@ -259,15 +259,15 @@ If implemented, the method must return a boolean value. ``true`` ends the main l
 
 - void **finish** **(** **)**
 
-Should not be called manually, override :ref:`_finalize<class_MainLoop_method__finalize>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_finalize <class_MainLoop_method__finalize>` instead. Will be removed in Godot 4.0.
 
 ----
 
 .. _class_MainLoop_method_idle:
 
-- :ref:`bool<class_bool>` **idle** **(** :ref:`float<class_float>` delta **)**
+- :ref:`bool <class_bool>` **idle** **(** :ref:`float <class_float>` delta **)**
 
-Should not be called manually, override :ref:`_idle<class_MainLoop_method__idle>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_idle <class_MainLoop_method__idle>` instead. Will be removed in Godot 4.0.
 
 ----
 
@@ -275,29 +275,29 @@ Should not be called manually, override :ref:`_idle<class_MainLoop_method__idle>
 
 - void **init** **(** **)**
 
-Should not be called manually, override :ref:`_initialize<class_MainLoop_method__initialize>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_initialize <class_MainLoop_method__initialize>` instead. Will be removed in Godot 4.0.
 
 ----
 
 .. _class_MainLoop_method_input_event:
 
-- void **input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)**
+- void **input_event** **(** :ref:`InputEvent <class_InputEvent>` event **)**
 
-Should not be called manually, override :ref:`_input_event<class_MainLoop_method__input_event>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_input_event <class_MainLoop_method__input_event>` instead. Will be removed in Godot 4.0.
 
 ----
 
 .. _class_MainLoop_method_input_text:
 
-- void **input_text** **(** :ref:`String<class_String>` text **)**
+- void **input_text** **(** :ref:`String <class_String>` text **)**
 
-Should not be called manually, override :ref:`_input_text<class_MainLoop_method__input_text>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_input_text <class_MainLoop_method__input_text>` instead. Will be removed in Godot 4.0.
 
 ----
 
 .. _class_MainLoop_method_iteration:
 
-- :ref:`bool<class_bool>` **iteration** **(** :ref:`float<class_float>` delta **)**
+- :ref:`bool <class_bool>` **iteration** **(** :ref:`float <class_float>` delta **)**
 
-Should not be called manually, override :ref:`_iteration<class_MainLoop_method__iteration>` instead. Will be removed in Godot 4.0.
+Should not be called manually, override :ref:`_iteration <class_MainLoop_method__iteration>` instead. Will be removed in Godot 4.0.
 

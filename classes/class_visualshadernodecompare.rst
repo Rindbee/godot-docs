@@ -9,25 +9,25 @@
 VisualShaderNodeCompare
 =======================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A comparison function for common types within the visual shader graph.
 
 Description
 -----------
 
-Compares ``a`` and ``b`` of :ref:`type<class_VisualShaderNodeCompare_property_type>` by :ref:`function<class_VisualShaderNodeCompare_property_function>`. Returns a boolean scalar. Translates to ``if`` instruction in shader code.
+Compares ``a`` and ``b`` of :ref:`type <class_VisualShaderNodeCompare_property_type>` by :ref:`function <class_VisualShaderNodeCompare_property_function>`. Returns a boolean scalar. Translates to ``if`` instruction in shader code.
 
 Properties
 ----------
 
-+--------------------------------------------------------------------+--------------------------------------------------------------------+-------+
-| :ref:`Condition<enum_VisualShaderNodeCompare_Condition>`           | :ref:`condition<class_VisualShaderNodeCompare_property_condition>` | ``0`` |
-+--------------------------------------------------------------------+--------------------------------------------------------------------+-------+
-| :ref:`Function<enum_VisualShaderNodeCompare_Function>`             | :ref:`function<class_VisualShaderNodeCompare_property_function>`   | ``0`` |
-+--------------------------------------------------------------------+--------------------------------------------------------------------+-------+
-| :ref:`ComparisonType<enum_VisualShaderNodeCompare_ComparisonType>` | :ref:`type<class_VisualShaderNodeCompare_property_type>`           | ``0`` |
-+--------------------------------------------------------------------+--------------------------------------------------------------------+-------+
++---------------------------------------------------------------------+---------------------------------------------------------------------+-------+
+| :ref:`Condition <enum_VisualShaderNodeCompare_Condition>`           | :ref:`condition <class_VisualShaderNodeCompare_property_condition>` | ``0`` |
++---------------------------------------------------------------------+---------------------------------------------------------------------+-------+
+| :ref:`Function <enum_VisualShaderNodeCompare_Function>`             | :ref:`function <class_VisualShaderNodeCompare_property_function>`   | ``0`` |
++---------------------------------------------------------------------+---------------------------------------------------------------------+-------+
+| :ref:`ComparisonType <enum_VisualShaderNodeCompare_ComparisonType>` | :ref:`type <class_VisualShaderNodeCompare_property_type>`           | ``0`` |
++---------------------------------------------------------------------+---------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -35,6 +35,8 @@ Enumerations
 .. _enum_VisualShaderNodeCompare_ComparisonType:
 
 .. _class_VisualShaderNodeCompare_constant_CTYPE_SCALAR:
+
+.. _class_VisualShaderNodeCompare_constant_CTYPE_SCALAR_INT:
 
 .. _class_VisualShaderNodeCompare_constant_CTYPE_VECTOR:
 
@@ -46,11 +48,13 @@ enum **ComparisonType**:
 
 - **CTYPE_SCALAR** = **0** --- A floating-point scalar.
 
-- **CTYPE_VECTOR** = **1** --- A 3D vector type.
+- **CTYPE_SCALAR_INT** = **1** --- An integer scalar.
 
-- **CTYPE_BOOLEAN** = **2** --- A boolean type.
+- **CTYPE_VECTOR** = **2** --- A 3D vector type.
 
-- **CTYPE_TRANSFORM** = **3** --- A transform (``mat4``) type.
+- **CTYPE_BOOLEAN** = **3** --- A boolean type.
+
+- **CTYPE_TRANSFORM** = **4** --- A transform (``mat4``) type.
 
 ----
 
@@ -74,13 +78,13 @@ enum **Function**:
 
 - **FUNC_NOT_EQUAL** = **1** --- Comparison for inequality (``a != b``).
 
-- **FUNC_GREATER_THAN** = **2** --- Comparison for greater than (``a > b``). Cannot be used if :ref:`type<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
+- **FUNC_GREATER_THAN** = **2** --- Comparison for greater than (``a > b``). Cannot be used if :ref:`type <class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM <class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
 
-- **FUNC_GREATER_THAN_EQUAL** = **3** --- Comparison for greater than or equal (``a >= b``). Cannot be used if :ref:`type<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
+- **FUNC_GREATER_THAN_EQUAL** = **3** --- Comparison for greater than or equal (``a >= b``). Cannot be used if :ref:`type <class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM <class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
 
-- **FUNC_LESS_THAN** = **4** --- Comparison for less than (``a < b``). Cannot be used if :ref:`type<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
+- **FUNC_LESS_THAN** = **4** --- Comparison for less than (``a < b``). Cannot be used if :ref:`type <class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM <class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
 
-- **FUNC_LESS_THAN_EQUAL** = **5** --- Comparison for less than or equal (``a < b``). Cannot be used if :ref:`type<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
+- **FUNC_LESS_THAN_EQUAL** = **5** --- Comparison for less than or equal (``a <= b``). Cannot be used if :ref:`type <class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or :ref:`CTYPE_TRANSFORM <class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`.
 
 ----
 
@@ -101,7 +105,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeCompare_property_condition:
 
-- :ref:`Condition<enum_VisualShaderNodeCompare_Condition>` **condition**
+- :ref:`Condition <enum_VisualShaderNodeCompare_Condition>` **condition**
 
 +-----------+----------------------+
 | *Default* | ``0``                |
@@ -111,13 +115,13 @@ Property Descriptions
 | *Getter*  | get_condition()      |
 +-----------+----------------------+
 
-Extra condition which is applied if :ref:`type<class_VisualShaderNodeCompare_property_type>` is set to :ref:`CTYPE_VECTOR<class_VisualShaderNodeCompare_constant_CTYPE_VECTOR>`.
+Extra condition which is applied if :ref:`type <class_VisualShaderNodeCompare_property_type>` is set to :ref:`CTYPE_VECTOR <class_VisualShaderNodeCompare_constant_CTYPE_VECTOR>`.
 
 ----
 
 .. _class_VisualShaderNodeCompare_property_function:
 
-- :ref:`Function<enum_VisualShaderNodeCompare_Function>` **function**
+- :ref:`Function <enum_VisualShaderNodeCompare_Function>` **function**
 
 +-----------+---------------------+
 | *Default* | ``0``               |
@@ -127,13 +131,13 @@ Extra condition which is applied if :ref:`type<class_VisualShaderNodeCompare_pro
 | *Getter*  | get_function()      |
 +-----------+---------------------+
 
-A comparison function. See :ref:`Function<enum_VisualShaderNodeCompare_Function>` for options.
+A comparison function. See :ref:`Function <enum_VisualShaderNodeCompare_Function>` for options.
 
 ----
 
 .. _class_VisualShaderNodeCompare_property_type:
 
-- :ref:`ComparisonType<enum_VisualShaderNodeCompare_ComparisonType>` **type**
+- :ref:`ComparisonType <enum_VisualShaderNodeCompare_ComparisonType>` **type**
 
 +-----------+----------------------------+
 | *Default* | ``0``                      |
@@ -143,5 +147,5 @@ A comparison function. See :ref:`Function<enum_VisualShaderNodeCompare_Function>
 | *Getter*  | get_comparison_type()      |
 +-----------+----------------------------+
 
-The type to be used in the comparison. See :ref:`ComparisonType<enum_VisualShaderNodeCompare_ComparisonType>` for options.
+The type to be used in the comparison. See :ref:`ComparisonType <enum_VisualShaderNodeCompare_ComparisonType>` for options.
 

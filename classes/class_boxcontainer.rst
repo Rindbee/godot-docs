@@ -9,32 +9,30 @@
 BoxContainer
 ============
 
-**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`ColorPicker<class_ColorPicker>`, :ref:`HBoxContainer<class_HBoxContainer>`, :ref:`VBoxContainer<class_VBoxContainer>`
+**Inherited By:** :ref:`ColorPicker <class_ColorPicker>`, :ref:`HBoxContainer <class_HBoxContainer>`, :ref:`VBoxContainer <class_VBoxContainer>`
 
 Base class for box containers.
 
 Description
 -----------
 
-Arranges child controls vertically or horizontally, and rearranges the controls automatically when their minimum size changes.
+Arranges child :ref:`Control <class_Control>` nodes vertically or horizontally, and rearranges them automatically when their minimum size changes.
 
 Properties
 ----------
 
-+-----------------------------------------------+---------------------------------------------------------+--------------+
-| :ref:`AlignMode<enum_BoxContainer_AlignMode>` | :ref:`alignment<class_BoxContainer_property_alignment>` | ``0``        |
-+-----------------------------------------------+---------------------------------------------------------+--------------+
-| :ref:`MouseFilter<enum_Control_MouseFilter>`  | mouse_filter                                            | **O:** ``1`` |
-+-----------------------------------------------+---------------------------------------------------------+--------------+
++------------------------------------------------+----------------------------------------------------------+-------+
+| :ref:`AlignMode <enum_BoxContainer_AlignMode>` | :ref:`alignment <class_BoxContainer_property_alignment>` | ``0`` |
++------------------------------------------------+----------------------------------------------------------+-------+
 
 Methods
 -------
 
-+------+---------------------------------------------------------------------------------------------------+
-| void | :ref:`add_spacer<class_BoxContainer_method_add_spacer>` **(** :ref:`bool<class_bool>` begin **)** |
-+------+---------------------------------------------------------------------------------------------------+
++------+-----------------------------------------------------------------------------------------------------+
+| void | :ref:`add_spacer <class_BoxContainer_method_add_spacer>` **(** :ref:`bool <class_bool>` begin **)** |
++------+-----------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -60,7 +58,7 @@ Property Descriptions
 
 .. _class_BoxContainer_property_alignment:
 
-- :ref:`AlignMode<enum_BoxContainer_AlignMode>` **alignment**
+- :ref:`AlignMode <enum_BoxContainer_AlignMode>` **alignment**
 
 +-----------+----------------------+
 | *Default* | ``0``                |
@@ -70,14 +68,14 @@ Property Descriptions
 | *Getter*  | get_alignment()      |
 +-----------+----------------------+
 
-The alignment of the container's children (must be one of :ref:`ALIGN_BEGIN<class_BoxContainer_constant_ALIGN_BEGIN>`, :ref:`ALIGN_CENTER<class_BoxContainer_constant_ALIGN_CENTER>` or :ref:`ALIGN_END<class_BoxContainer_constant_ALIGN_END>`).
+The alignment of the container's children (must be one of :ref:`ALIGN_BEGIN <class_BoxContainer_constant_ALIGN_BEGIN>`, :ref:`ALIGN_CENTER <class_BoxContainer_constant_ALIGN_CENTER>`, or :ref:`ALIGN_END <class_BoxContainer_constant_ALIGN_END>`).
 
 Method Descriptions
 -------------------
 
 .. _class_BoxContainer_method_add_spacer:
 
-- void **add_spacer** **(** :ref:`bool<class_bool>` begin **)**
+- void **add_spacer** **(** :ref:`bool <class_bool>` begin **)**
 
-Adds a control to the box as a spacer. If ``true``, ``begin`` will insert the spacer control in front of other children.
+Adds a :ref:`Control <class_Control>` node to the box as a spacer. If ``begin`` is ``true``, it will insert the :ref:`Control <class_Control>` node in front of all other children.
 

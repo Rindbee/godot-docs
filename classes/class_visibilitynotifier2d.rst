@@ -9,9 +9,9 @@
 VisibilityNotifier2D
 ====================
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`VisibilityEnabler2D<class_VisibilityEnabler2D>`
+**Inherited By:** :ref:`VisibilityEnabler2D <class_VisibilityEnabler2D>`
 
 Detects when the node is visible on screen.
 
@@ -23,16 +23,16 @@ The VisibilityNotifier2D detects when it is visible on the screen. It also notif
 Properties
 ----------
 
-+---------------------------+-------------------------------------------------------+-------------------------------+
-| :ref:`Rect2<class_Rect2>` | :ref:`rect<class_VisibilityNotifier2D_property_rect>` | ``Rect2( -10, -10, 20, 20 )`` |
-+---------------------------+-------------------------------------------------------+-------------------------------+
++----------------------------+--------------------------------------------------------+-------------------------------+
+| :ref:`Rect2 <class_Rect2>` | :ref:`rect <class_VisibilityNotifier2D_property_rect>` | ``Rect2( -10, -10, 20, 20 )`` |
++----------------------------+--------------------------------------------------------+-------------------------------+
 
 Methods
 -------
 
-+-------------------------+---------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`is_on_screen<class_VisibilityNotifier2D_method_is_on_screen>` **(** **)** const |
-+-------------------------+---------------------------------------------------------------------------------------+
++--------------------------+----------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`is_on_screen <class_VisibilityNotifier2D_method_is_on_screen>` **(** **)** const |
++--------------------------+----------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -55,24 +55,24 @@ Emitted when the VisibilityNotifier2D exits the screen.
 
 .. _class_VisibilityNotifier2D_signal_viewport_entered:
 
-- **viewport_entered** **(** :ref:`Viewport<class_Viewport>` viewport **)**
+- **viewport_entered** **(** :ref:`Viewport <class_Viewport>` viewport **)**
 
-Emitted when the VisibilityNotifier2D enters a :ref:`Viewport<class_Viewport>`'s view.
+Emitted when the VisibilityNotifier2D enters a :ref:`Viewport <class_Viewport>`'s view.
 
 ----
 
 .. _class_VisibilityNotifier2D_signal_viewport_exited:
 
-- **viewport_exited** **(** :ref:`Viewport<class_Viewport>` viewport **)**
+- **viewport_exited** **(** :ref:`Viewport <class_Viewport>` viewport **)**
 
-Emitted when the VisibilityNotifier2D exits a :ref:`Viewport<class_Viewport>`'s view.
+Emitted when the VisibilityNotifier2D exits a :ref:`Viewport <class_Viewport>`'s view.
 
 Property Descriptions
 ---------------------
 
 .. _class_VisibilityNotifier2D_property_rect:
 
-- :ref:`Rect2<class_Rect2>` **rect**
+- :ref:`Rect2 <class_Rect2>` **rect**
 
 +-----------+-------------------------------+
 | *Default* | ``Rect2( -10, -10, 20, 20 )`` |
@@ -89,7 +89,7 @@ Method Descriptions
 
 .. _class_VisibilityNotifier2D_method_is_on_screen:
 
-- :ref:`bool<class_bool>` **is_on_screen** **(** **)** const
+- :ref:`bool <class_bool>` **is_on_screen** **(** **)** const
 
 If ``true``, the bounding rectangle is on the screen.
 

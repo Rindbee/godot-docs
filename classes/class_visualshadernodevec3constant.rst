@@ -9,23 +9,23 @@
 VisualShaderNodeVec3Constant
 ============================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-------------------------------+-----------------------------------------------------------------------+------------------------+
-| :ref:`Vector3<class_Vector3>` | :ref:`constant<class_VisualShaderNodeVec3Constant_property_constant>` | ``Vector3( 0, 0, 0 )`` |
-+-------------------------------+-----------------------------------------------------------------------+------------------------+
++--------------------------------+------------------------------------------------------------------------+------------------------+
+| :ref:`Vector3 <class_Vector3>` | :ref:`constant <class_VisualShaderNodeVec3Constant_property_constant>` | ``Vector3( 0, 0, 0 )`` |
++--------------------------------+------------------------------------------------------------------------+------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeVec3Constant_property_constant:
 
-- :ref:`Vector3<class_Vector3>` **constant**
+- :ref:`Vector3 <class_Vector3>` **constant**
 
 +-----------+------------------------+
 | *Default* | ``Vector3( 0, 0, 0 )`` |

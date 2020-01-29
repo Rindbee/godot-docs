@@ -9,14 +9,14 @@
 SpotLight
 =========
 
-**Inherits:** :ref:`Light<class_Light>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Light <class_Light>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 A spotlight, such as a reflector spotlight or a lantern.
 
 Description
 -----------
 
-A Spotlight is a type of :ref:`Light<class_Light>` node that emits lights in a specific direction, in the shape of a cone. The light is attenuated through the distance. This attenuation can be configured by changing the energy, radius and attenuation parameters of :ref:`Light<class_Light>`.
+A Spotlight is a type of :ref:`Light <class_Light>` node that emits lights in a specific direction, in the shape of a cone. The light is attenuated through the distance. This attenuation can be configured by changing the energy, radius and attenuation parameters of :ref:`Light <class_Light>`.
 
 Tutorials
 ---------
@@ -26,22 +26,22 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+--------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`spot_angle<class_SpotLight_property_spot_angle>`                         | ``45.0`` |
-+---------------------------+--------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`spot_angle_attenuation<class_SpotLight_property_spot_angle_attenuation>` | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`spot_attenuation<class_SpotLight_property_spot_attenuation>`             | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`spot_range<class_SpotLight_property_spot_range>`                         | ``5.0``  |
-+---------------------------+--------------------------------------------------------------------------------+----------+
++----------------------------+---------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`spot_angle <class_SpotLight_property_spot_angle>`                         | ``45.0`` |
++----------------------------+---------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`spot_angle_attenuation <class_SpotLight_property_spot_angle_attenuation>` | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`spot_attenuation <class_SpotLight_property_spot_attenuation>`             | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`spot_range <class_SpotLight_property_spot_range>`                         | ``5.0``  |
++----------------------------+---------------------------------------------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_SpotLight_property_spot_angle:
 
-- :ref:`float<class_float>` **spot_angle**
+- :ref:`float <class_float>` **spot_angle**
 
 +-----------+------------------+
 | *Default* | ``45.0``         |
@@ -57,7 +57,7 @@ The spotlight's angle in degrees.
 
 .. _class_SpotLight_property_spot_angle_attenuation:
 
-- :ref:`float<class_float>` **spot_angle_attenuation**
+- :ref:`float <class_float>` **spot_angle_attenuation**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -73,7 +73,7 @@ The spotlight's angular attenuation curve.
 
 .. _class_SpotLight_property_spot_attenuation:
 
-- :ref:`float<class_float>` **spot_attenuation**
+- :ref:`float <class_float>` **spot_attenuation**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -89,7 +89,7 @@ The spotlight's light energy attenuation curve.
 
 .. _class_SpotLight_property_spot_range:
 
-- :ref:`float<class_float>` **spot_range**
+- :ref:`float <class_float>` **spot_range**
 
 +-----------+------------------+
 | *Default* | ``5.0``          |

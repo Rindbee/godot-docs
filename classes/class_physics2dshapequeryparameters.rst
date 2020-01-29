@@ -9,49 +9,49 @@
 Physics2DShapeQueryParameters
 =============================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Parameters to be sent to a 2D shape physics query.
 
 Description
 -----------
 
-This class contains the shape and other parameters for 2D intersection/collision queries. See also :ref:`Physics2DShapeQueryResult<class_Physics2DShapeQueryResult>`.
+This class contains the shape and other parameters for 2D intersection/collision queries. See also :ref:`Physics2DShapeQueryResult <class_Physics2DShapeQueryResult>`.
 
 Properties
 ----------
 
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`bool<class_bool>`               | :ref:`collide_with_areas<class_Physics2DShapeQueryParameters_property_collide_with_areas>`   | ``false``                           |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`bool<class_bool>`               | :ref:`collide_with_bodies<class_Physics2DShapeQueryParameters_property_collide_with_bodies>` | ``true``                            |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`int<class_int>`                 | :ref:`collision_layer<class_Physics2DShapeQueryParameters_property_collision_layer>`         | ``2147483647``                      |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`Array<class_Array>`             | :ref:`exclude<class_Physics2DShapeQueryParameters_property_exclude>`                         | ``[  ]``                            |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`float<class_float>`             | :ref:`margin<class_Physics2DShapeQueryParameters_property_margin>`                           | ``0.0``                             |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`Vector2<class_Vector2>`         | :ref:`motion<class_Physics2DShapeQueryParameters_property_motion>`                           | ``Vector2( 0, 0 )``                 |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`RID<class_RID>`                 | :ref:`shape_rid<class_Physics2DShapeQueryParameters_property_shape_rid>`                     |                                     |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
-| :ref:`Transform2D<class_Transform2D>` | :ref:`transform<class_Physics2DShapeQueryParameters_property_transform>`                     | ``Transform2D( 1, 0, 0, 1, 0, 0 )`` |
-+---------------------------------------+----------------------------------------------------------------------------------------------+-------------------------------------+
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`bool <class_bool>`               | :ref:`collide_with_areas <class_Physics2DShapeQueryParameters_property_collide_with_areas>`   | ``false``                           |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`bool <class_bool>`               | :ref:`collide_with_bodies <class_Physics2DShapeQueryParameters_property_collide_with_bodies>` | ``true``                            |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`int <class_int>`                 | :ref:`collision_layer <class_Physics2DShapeQueryParameters_property_collision_layer>`         | ``2147483647``                      |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`Array <class_Array>`             | :ref:`exclude <class_Physics2DShapeQueryParameters_property_exclude>`                         | ``[  ]``                            |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`float <class_float>`             | :ref:`margin <class_Physics2DShapeQueryParameters_property_margin>`                           | ``0.0``                             |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`Vector2 <class_Vector2>`         | :ref:`motion <class_Physics2DShapeQueryParameters_property_motion>`                           | ``Vector2( 0, 0 )``                 |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`RID <class_RID>`                 | :ref:`shape_rid <class_Physics2DShapeQueryParameters_property_shape_rid>`                     |                                     |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
+| :ref:`Transform2D <class_Transform2D>` | :ref:`transform <class_Physics2DShapeQueryParameters_property_transform>`                     | ``Transform2D( 1, 0, 0, 1, 0, 0 )`` |
++----------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------+
 
 Methods
 -------
 
-+------+--------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`set_shape<class_Physics2DShapeQueryParameters_method_set_shape>` **(** :ref:`Resource<class_Resource>` shape **)** |
-+------+--------------------------------------------------------------------------------------------------------------------------+
++------+----------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`set_shape <class_Physics2DShapeQueryParameters_method_set_shape>` **(** :ref:`Resource <class_Resource>` shape **)** |
++------+----------------------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Physics2DShapeQueryParameters_property_collide_with_areas:
 
-- :ref:`bool<class_bool>` **collide_with_areas**
+- :ref:`bool <class_bool>` **collide_with_areas**
 
 +-----------+---------------------------------+
 | *Default* | ``false``                       |
@@ -61,13 +61,13 @@ Property Descriptions
 | *Getter*  | is_collide_with_areas_enabled() |
 +-----------+---------------------------------+
 
-If ``true``, the query will take :ref:`Area2D<class_Area2D>`\ s into account.
+If ``true``, the query will take :ref:`Area2D <class_Area2D>`\ s into account.
 
 ----
 
 .. _class_Physics2DShapeQueryParameters_property_collide_with_bodies:
 
-- :ref:`bool<class_bool>` **collide_with_bodies**
+- :ref:`bool <class_bool>` **collide_with_bodies**
 
 +-----------+----------------------------------+
 | *Default* | ``true``                         |
@@ -77,13 +77,13 @@ If ``true``, the query will take :ref:`Area2D<class_Area2D>`\ s into account.
 | *Getter*  | is_collide_with_bodies_enabled() |
 +-----------+----------------------------------+
 
-If ``true``, the query will take :ref:`PhysicsBody2D<class_PhysicsBody2D>`\ s into account.
+If ``true``, the query will take :ref:`PhysicsBody2D <class_PhysicsBody2D>`\ s into account.
 
 ----
 
 .. _class_Physics2DShapeQueryParameters_property_collision_layer:
 
-- :ref:`int<class_int>` **collision_layer**
+- :ref:`int <class_int>` **collision_layer**
 
 +-----------+----------------------------+
 | *Default* | ``2147483647``             |
@@ -99,7 +99,7 @@ The physics layer(s) the query will take into account (as a bitmask).
 
 .. _class_Physics2DShapeQueryParameters_property_exclude:
 
-- :ref:`Array<class_Array>` **exclude**
+- :ref:`Array <class_Array>` **exclude**
 
 +-----------+--------------------+
 | *Default* | ``[  ]``           |
@@ -109,13 +109,13 @@ The physics layer(s) the query will take into account (as a bitmask).
 | *Getter*  | get_exclude()      |
 +-----------+--------------------+
 
-The list of objects or object :ref:`RID<class_RID>`\ s that will be excluded from collisions.
+The list of objects or object :ref:`RID <class_RID>`\ s that will be excluded from collisions.
 
 ----
 
 .. _class_Physics2DShapeQueryParameters_property_margin:
 
-- :ref:`float<class_float>` **margin**
+- :ref:`float <class_float>` **margin**
 
 +-----------+-------------------+
 | *Default* | ``0.0``           |
@@ -131,7 +131,7 @@ The collision margin for the shape.
 
 .. _class_Physics2DShapeQueryParameters_property_motion:
 
-- :ref:`Vector2<class_Vector2>` **motion**
+- :ref:`Vector2 <class_Vector2>` **motion**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -147,7 +147,7 @@ The motion of the shape being queried for.
 
 .. _class_Physics2DShapeQueryParameters_property_shape_rid:
 
-- :ref:`RID<class_RID>` **shape_rid**
+- :ref:`RID <class_RID>` **shape_rid**
 
 +----------+----------------------+
 | *Setter* | set_shape_rid(value) |
@@ -155,13 +155,13 @@ The motion of the shape being queried for.
 | *Getter* | get_shape_rid()      |
 +----------+----------------------+
 
-The queried shape's :ref:`RID<class_RID>`. See also :ref:`set_shape<class_Physics2DShapeQueryParameters_method_set_shape>`.
+The queried shape's :ref:`RID <class_RID>`. See also :ref:`set_shape <class_Physics2DShapeQueryParameters_method_set_shape>`.
 
 ----
 
 .. _class_Physics2DShapeQueryParameters_property_transform:
 
-- :ref:`Transform2D<class_Transform2D>` **transform**
+- :ref:`Transform2D <class_Transform2D>` **transform**
 
 +-----------+-------------------------------------+
 | *Default* | ``Transform2D( 1, 0, 0, 1, 0, 0 )`` |
@@ -178,7 +178,7 @@ Method Descriptions
 
 .. _class_Physics2DShapeQueryParameters_method_set_shape:
 
-- void **set_shape** **(** :ref:`Resource<class_Resource>` shape **)**
+- void **set_shape** **(** :ref:`Resource <class_Resource>` shape **)**
 
-Sets the :ref:`Shape2D<class_Shape2D>` that will be used for collision/intersection queries.
+Sets the :ref:`Shape2D <class_Shape2D>` that will be used for collision/intersection queries.
 

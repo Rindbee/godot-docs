@@ -9,16 +9,16 @@
 AudioStream
 ===========
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`AudioStreamGenerator<class_AudioStreamGenerator>`, :ref:`AudioStreamMicrophone<class_AudioStreamMicrophone>`, :ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`, :ref:`AudioStreamRandomPitch<class_AudioStreamRandomPitch>`, :ref:`AudioStreamSample<class_AudioStreamSample>`
+**Inherited By:** :ref:`AudioStreamGenerator <class_AudioStreamGenerator>`, :ref:`AudioStreamMicrophone <class_AudioStreamMicrophone>`, :ref:`AudioStreamOGGVorbis <class_AudioStreamOGGVorbis>`, :ref:`AudioStreamRandomPitch <class_AudioStreamRandomPitch>`, :ref:`AudioStreamSample <class_AudioStreamSample>`
 
 Base class for audio streams.
 
 Description
 -----------
 
-Base class for audio streams. Audio streams are used for sound effects and music playback, and support WAV (via :ref:`AudioStreamSample<class_AudioStreamSample>`) and OGG (via :ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>`) file formats.
+Base class for audio streams. Audio streams are used for sound effects and music playback, and support WAV (via :ref:`AudioStreamSample <class_AudioStreamSample>`) and OGG (via :ref:`AudioStreamOGGVorbis <class_AudioStreamOGGVorbis>`) file formats.
 
 Tutorials
 ---------
@@ -28,16 +28,16 @@ Tutorials
 Methods
 -------
 
-+---------------------------+--------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_length<class_AudioStream_method_get_length>` **(** **)** const |
-+---------------------------+--------------------------------------------------------------------------+
++----------------------------+---------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_length <class_AudioStream_method_get_length>` **(** **)** const |
++----------------------------+---------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_AudioStream_method_get_length:
 
-- :ref:`float<class_float>` **get_length** **(** **)** const
+- :ref:`float <class_float>` **get_length** **(** **)** const
 
 Returns the length of the audio stream in seconds.
 

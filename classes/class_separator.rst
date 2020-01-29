@@ -9,14 +9,14 @@
 Separator
 =========
 
-**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`HSeparator<class_HSeparator>`, :ref:`VSeparator<class_VSeparator>`
+**Inherited By:** :ref:`HSeparator <class_HSeparator>`, :ref:`VSeparator <class_VSeparator>`
 
 Base class for separators.
 
 Description
 -----------
 
-Separator is a :ref:`Control<class_Control>` used for separating other controls. It's purely a visual decoration. Horizontal (:ref:`HSeparator<class_HSeparator>`) and Vertical (:ref:`VSeparator<class_VSeparator>`) versions are available.
+Separator is a :ref:`Control <class_Control>` used for separating other controls. It's purely a visual decoration. Horizontal (:ref:`HSeparator <class_HSeparator>`) and Vertical (:ref:`VSeparator <class_VSeparator>`) versions are available.
 

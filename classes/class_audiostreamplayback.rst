@@ -9,14 +9,14 @@
 AudioStreamPlayback
 ===================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`AudioStreamPlaybackResampled<class_AudioStreamPlaybackResampled>`
+**Inherited By:** :ref:`AudioStreamPlaybackResampled <class_AudioStreamPlaybackResampled>`
 
 Meta class for playing back audio.
 
 Description
 -----------
 
-Can play, loop, pause a scroll through audio. See :ref:`AudioStream<class_AudioStream>` and :ref:`AudioStreamOGGVorbis<class_AudioStreamOGGVorbis>` for usage.
+Can play, loop, pause a scroll through audio. See :ref:`AudioStream <class_AudioStream>` and :ref:`AudioStreamOGGVorbis <class_AudioStreamOGGVorbis>` for usage.
 

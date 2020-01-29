@@ -9,28 +9,28 @@
 BoxShape
 ========
 
-**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape <class_Shape>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Box shape resource.
 
 Description
 -----------
 
-3D box shape that can be a child of a :ref:`PhysicsBody<class_PhysicsBody>` or :ref:`Area<class_Area>`.
+3D box shape that can be a child of a :ref:`PhysicsBody <class_PhysicsBody>` or :ref:`Area <class_Area>`.
 
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------------+------------------------+
-| :ref:`Vector3<class_Vector3>` | :ref:`extents<class_BoxShape_property_extents>` | ``Vector3( 1, 1, 1 )`` |
-+-------------------------------+-------------------------------------------------+------------------------+
++--------------------------------+--------------------------------------------------+------------------------+
+| :ref:`Vector3 <class_Vector3>` | :ref:`extents <class_BoxShape_property_extents>` | ``Vector3( 1, 1, 1 )`` |
++--------------------------------+--------------------------------------------------+------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_BoxShape_property_extents:
 
-- :ref:`Vector3<class_Vector3>` **extents**
+- :ref:`Vector3 <class_Vector3>` **extents**
 
 +-----------+------------------------+
 | *Default* | ``Vector3( 1, 1, 1 )`` |

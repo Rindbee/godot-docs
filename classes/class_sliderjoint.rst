@@ -9,7 +9,7 @@
 SliderJoint
 ===========
 
-**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Joint <class_Joint>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Piston kind of slider between two bodies in 3D.
 
@@ -21,60 +21,60 @@ Slides across the X axis of the pivot object.
 Properties
 ----------
 
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_limit/damping<class_SliderJoint_property_angular_limit/damping>`             | ``0.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_limit/lower_angle<class_SliderJoint_property_angular_limit/lower_angle>`     | ``0.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_limit/restitution<class_SliderJoint_property_angular_limit/restitution>`     | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_limit/softness<class_SliderJoint_property_angular_limit/softness>`           | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_limit/upper_angle<class_SliderJoint_property_angular_limit/upper_angle>`     | ``0.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_motion/damping<class_SliderJoint_property_angular_motion/damping>`           | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_motion/restitution<class_SliderJoint_property_angular_motion/restitution>`   | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_motion/softness<class_SliderJoint_property_angular_motion/softness>`         | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_ortho/damping<class_SliderJoint_property_angular_ortho/damping>`             | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_ortho/restitution<class_SliderJoint_property_angular_ortho/restitution>`     | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`angular_ortho/softness<class_SliderJoint_property_angular_ortho/softness>`           | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_limit/damping<class_SliderJoint_property_linear_limit/damping>`               | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>` | ``-1.0`` |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_limit/restitution<class_SliderJoint_property_linear_limit/restitution>`       | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_limit/softness<class_SliderJoint_property_linear_limit/softness>`             | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>` | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_motion/damping<class_SliderJoint_property_linear_motion/damping>`             | ``0.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_motion/restitution<class_SliderJoint_property_linear_motion/restitution>`     | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_motion/softness<class_SliderJoint_property_linear_motion/softness>`           | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_ortho/damping<class_SliderJoint_property_linear_ortho/damping>`               | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_ortho/restitution<class_SliderJoint_property_linear_ortho/restitution>`       | ``0.7``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`linear_ortho/softness<class_SliderJoint_property_linear_ortho/softness>`             | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------------------------------+----------+
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_limit/damping <class_SliderJoint_property_angular_limit/damping>`             | ``0.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_limit/lower_angle <class_SliderJoint_property_angular_limit/lower_angle>`     | ``0.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_limit/restitution <class_SliderJoint_property_angular_limit/restitution>`     | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_limit/softness <class_SliderJoint_property_angular_limit/softness>`           | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_limit/upper_angle <class_SliderJoint_property_angular_limit/upper_angle>`     | ``0.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_motion/damping <class_SliderJoint_property_angular_motion/damping>`           | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_motion/restitution <class_SliderJoint_property_angular_motion/restitution>`   | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_motion/softness <class_SliderJoint_property_angular_motion/softness>`         | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_ortho/damping <class_SliderJoint_property_angular_ortho/damping>`             | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_ortho/restitution <class_SliderJoint_property_angular_ortho/restitution>`     | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`angular_ortho/softness <class_SliderJoint_property_angular_ortho/softness>`           | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_limit/damping <class_SliderJoint_property_linear_limit/damping>`               | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_limit/lower_distance <class_SliderJoint_property_linear_limit/lower_distance>` | ``-1.0`` |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_limit/restitution <class_SliderJoint_property_linear_limit/restitution>`       | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_limit/softness <class_SliderJoint_property_linear_limit/softness>`             | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_limit/upper_distance <class_SliderJoint_property_linear_limit/upper_distance>` | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_motion/damping <class_SliderJoint_property_linear_motion/damping>`             | ``0.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_motion/restitution <class_SliderJoint_property_linear_motion/restitution>`     | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_motion/softness <class_SliderJoint_property_linear_motion/softness>`           | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_ortho/damping <class_SliderJoint_property_linear_ortho/damping>`               | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_ortho/restitution <class_SliderJoint_property_linear_ortho/restitution>`       | ``0.7``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`linear_ortho/softness <class_SliderJoint_property_linear_ortho/softness>`             | ``1.0``  |
++----------------------------+---------------------------------------------------------------------------------------------+----------+
 
 Methods
 -------
 
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_param<class_SliderJoint_method_get_param>` **(** :ref:`Param<enum_SliderJoint_Param>` param **)** const                            |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`set_param<class_SliderJoint_method_set_param>` **(** :ref:`Param<enum_SliderJoint_Param>` param, :ref:`float<class_float>` value **)** |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_param <class_SliderJoint_method_get_param>` **(** :ref:`Param <enum_SliderJoint_Param>` param **)** const                             |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`set_param <class_SliderJoint_method_set_param>` **(** :ref:`Param <enum_SliderJoint_Param>` param, :ref:`float <class_float>` value **)** |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -173,14 +173,14 @@ enum **Param**:
 
 - **PARAM_ANGULAR_ORTHOGONAL_DAMPING** = **21** --- The amount of damping of the rotation across axes orthogonal to the slider.
 
-- **PARAM_MAX** = **22** --- Represents the size of the :ref:`Param<enum_SliderJoint_Param>` enum.
+- **PARAM_MAX** = **22** --- Represents the size of the :ref:`Param <enum_SliderJoint_Param>` enum.
 
 Property Descriptions
 ---------------------
 
 .. _class_SliderJoint_property_angular_limit/damping:
 
-- :ref:`float<class_float>` **angular_limit/damping**
+- :ref:`float <class_float>` **angular_limit/damping**
 
 +-----------+------------------+
 | *Default* | ``0.0``          |
@@ -198,7 +198,7 @@ A lower damping value allows a rotation initiated by body A to travel to body B 
 
 .. _class_SliderJoint_property_angular_limit/lower_angle:
 
-- :ref:`float<class_float>` **angular_limit/lower_angle**
+- :ref:`float <class_float>` **angular_limit/lower_angle**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -210,7 +210,7 @@ The lower limit of rotation in the slider.
 
 .. _class_SliderJoint_property_angular_limit/restitution:
 
-- :ref:`float<class_float>` **angular_limit/restitution**
+- :ref:`float <class_float>` **angular_limit/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -228,7 +228,7 @@ Does not affect damping.
 
 .. _class_SliderJoint_property_angular_limit/softness:
 
-- :ref:`float<class_float>` **angular_limit/softness**
+- :ref:`float <class_float>` **angular_limit/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -246,7 +246,7 @@ Makes all rotation slower when between 0 and 1.
 
 .. _class_SliderJoint_property_angular_limit/upper_angle:
 
-- :ref:`float<class_float>` **angular_limit/upper_angle**
+- :ref:`float <class_float>` **angular_limit/upper_angle**
 
 +-----------+---------+
 | *Default* | ``0.0`` |
@@ -258,7 +258,7 @@ The upper limit of rotation in the slider.
 
 .. _class_SliderJoint_property_angular_motion/damping:
 
-- :ref:`float<class_float>` **angular_motion/damping**
+- :ref:`float <class_float>` **angular_motion/damping**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -274,7 +274,7 @@ The amount of damping of the rotation in the limits.
 
 .. _class_SliderJoint_property_angular_motion/restitution:
 
-- :ref:`float<class_float>` **angular_motion/restitution**
+- :ref:`float <class_float>` **angular_motion/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -290,7 +290,7 @@ The amount of restitution of the rotation in the limits.
 
 .. _class_SliderJoint_property_angular_motion/softness:
 
-- :ref:`float<class_float>` **angular_motion/softness**
+- :ref:`float <class_float>` **angular_motion/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -306,7 +306,7 @@ A factor applied to the all rotation in the limits.
 
 .. _class_SliderJoint_property_angular_ortho/damping:
 
-- :ref:`float<class_float>` **angular_ortho/damping**
+- :ref:`float <class_float>` **angular_ortho/damping**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -322,7 +322,7 @@ The amount of damping of the rotation across axes orthogonal to the slider.
 
 .. _class_SliderJoint_property_angular_ortho/restitution:
 
-- :ref:`float<class_float>` **angular_ortho/restitution**
+- :ref:`float <class_float>` **angular_ortho/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -338,7 +338,7 @@ The amount of restitution of the rotation across axes orthogonal to the slider.
 
 .. _class_SliderJoint_property_angular_ortho/softness:
 
-- :ref:`float<class_float>` **angular_ortho/softness**
+- :ref:`float <class_float>` **angular_ortho/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -354,7 +354,7 @@ A factor applied to the all rotation across axes orthogonal to the slider.
 
 .. _class_SliderJoint_property_linear_limit/damping:
 
-- :ref:`float<class_float>` **linear_limit/damping**
+- :ref:`float <class_float>` **linear_limit/damping**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -364,13 +364,13 @@ A factor applied to the all rotation across axes orthogonal to the slider.
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-The amount of damping that happens once the limit defined by :ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>` and :ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>` is surpassed.
+The amount of damping that happens once the limit defined by :ref:`linear_limit/lower_distance <class_SliderJoint_property_linear_limit/lower_distance>` and :ref:`linear_limit/upper_distance <class_SliderJoint_property_linear_limit/upper_distance>` is surpassed.
 
 ----
 
 .. _class_SliderJoint_property_linear_limit/lower_distance:
 
-- :ref:`float<class_float>` **linear_limit/lower_distance**
+- :ref:`float <class_float>` **linear_limit/lower_distance**
 
 +-----------+------------------+
 | *Default* | ``-1.0``         |
@@ -386,7 +386,7 @@ The minimum difference between the pivot points on their X axis before damping h
 
 .. _class_SliderJoint_property_linear_limit/restitution:
 
-- :ref:`float<class_float>` **linear_limit/restitution**
+- :ref:`float <class_float>` **linear_limit/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -402,7 +402,7 @@ The amount of restitution once the limits are surpassed. The lower, the more vel
 
 .. _class_SliderJoint_property_linear_limit/softness:
 
-- :ref:`float<class_float>` **linear_limit/softness**
+- :ref:`float <class_float>` **linear_limit/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -418,7 +418,7 @@ A factor applied to the movement across the slider axis once the limits get surp
 
 .. _class_SliderJoint_property_linear_limit/upper_distance:
 
-- :ref:`float<class_float>` **linear_limit/upper_distance**
+- :ref:`float <class_float>` **linear_limit/upper_distance**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -434,7 +434,7 @@ The maximum difference between the pivot points on their X axis before damping h
 
 .. _class_SliderJoint_property_linear_motion/damping:
 
-- :ref:`float<class_float>` **linear_motion/damping**
+- :ref:`float <class_float>` **linear_motion/damping**
 
 +-----------+------------------+
 | *Default* | ``0.0``          |
@@ -450,7 +450,7 @@ The amount of damping inside the slider limits.
 
 .. _class_SliderJoint_property_linear_motion/restitution:
 
-- :ref:`float<class_float>` **linear_motion/restitution**
+- :ref:`float <class_float>` **linear_motion/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -466,7 +466,7 @@ The amount of restitution inside the slider limits.
 
 .. _class_SliderJoint_property_linear_motion/softness:
 
-- :ref:`float<class_float>` **linear_motion/softness**
+- :ref:`float <class_float>` **linear_motion/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -482,7 +482,7 @@ A factor applied to the movement across the slider axis as long as the slider is
 
 .. _class_SliderJoint_property_linear_ortho/damping:
 
-- :ref:`float<class_float>` **linear_ortho/damping**
+- :ref:`float <class_float>` **linear_ortho/damping**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -498,7 +498,7 @@ The amount of damping when movement is across axes orthogonal to the slider.
 
 .. _class_SliderJoint_property_linear_ortho/restitution:
 
-- :ref:`float<class_float>` **linear_ortho/restitution**
+- :ref:`float <class_float>` **linear_ortho/restitution**
 
 +-----------+------------------+
 | *Default* | ``0.7``          |
@@ -514,7 +514,7 @@ The amount of restitution when movement is across axes orthogonal to the slider.
 
 .. _class_SliderJoint_property_linear_ortho/softness:
 
-- :ref:`float<class_float>` **linear_ortho/softness**
+- :ref:`float <class_float>` **linear_ortho/softness**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -531,11 +531,11 @@ Method Descriptions
 
 .. _class_SliderJoint_method_get_param:
 
-- :ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_SliderJoint_Param>` param **)** const
+- :ref:`float <class_float>` **get_param** **(** :ref:`Param <enum_SliderJoint_Param>` param **)** const
 
 ----
 
 .. _class_SliderJoint_method_set_param:
 
-- void **set_param** **(** :ref:`Param<enum_SliderJoint_Param>` param, :ref:`float<class_float>` value **)**
+- void **set_param** **(** :ref:`Param <enum_SliderJoint_Param>` param, :ref:`float <class_float>` value **)**
 

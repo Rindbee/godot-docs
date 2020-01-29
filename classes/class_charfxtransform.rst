@@ -9,14 +9,14 @@
 CharFXTransform
 ===============
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Controls how an individual character will be displayed in a :ref:`RichTextEffect<class_RichTextEffect>`.
+Controls how an individual character will be displayed in a :ref:`RichTextEffect <class_RichTextEffect>`.
 
 Description
 -----------
 
-By setting various properties on this object, you can control how individual characters will be displayed in a :ref:`RichTextEffect<class_RichTextEffect>`.
+By setting various properties on this object, you can control how individual characters will be displayed in a :ref:`RichTextEffect <class_RichTextEffect>`.
 
 Tutorials
 ---------
@@ -28,30 +28,30 @@ Tutorials
 Properties
 ----------
 
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`int<class_int>`               | :ref:`absolute_index<class_CharFXTransform_property_absolute_index>` | ``0``                   |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`int<class_int>`               | :ref:`character<class_CharFXTransform_property_character>`           | ``0``                   |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`Color<class_Color>`           | :ref:`color<class_CharFXTransform_property_color>`                   | ``Color( 0, 0, 0, 1 )`` |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`float<class_float>`           | :ref:`elapsed_time<class_CharFXTransform_property_elapsed_time>`     | ``0.0``                 |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`Dictionary<class_Dictionary>` | :ref:`env<class_CharFXTransform_property_env>`                       | ``{}``                  |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`Vector2<class_Vector2>`       | :ref:`offset<class_CharFXTransform_property_offset>`                 | ``Vector2( 0, 0 )``     |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`int<class_int>`               | :ref:`relative_index<class_CharFXTransform_property_relative_index>` | ``0``                   |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
-| :ref:`bool<class_bool>`             | :ref:`visible<class_CharFXTransform_property_visible>`               | ``true``                |
-+-------------------------------------+----------------------------------------------------------------------+-------------------------+
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`int <class_int>`               | :ref:`absolute_index <class_CharFXTransform_property_absolute_index>` | ``0``                   |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`int <class_int>`               | :ref:`character <class_CharFXTransform_property_character>`           | ``0``                   |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`Color <class_Color>`           | :ref:`color <class_CharFXTransform_property_color>`                   | ``Color( 0, 0, 0, 1 )`` |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`float <class_float>`           | :ref:`elapsed_time <class_CharFXTransform_property_elapsed_time>`     | ``0.0``                 |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`Dictionary <class_Dictionary>` | :ref:`env <class_CharFXTransform_property_env>`                       | ``{}``                  |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`Vector2 <class_Vector2>`       | :ref:`offset <class_CharFXTransform_property_offset>`                 | ``Vector2( 0, 0 )``     |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`int <class_int>`               | :ref:`relative_index <class_CharFXTransform_property_relative_index>` | ``0``                   |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`             | :ref:`visible <class_CharFXTransform_property_visible>`               | ``true``                |
++--------------------------------------+-----------------------------------------------------------------------+-------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CharFXTransform_property_absolute_index:
 
-- :ref:`int<class_int>` **absolute_index**
+- :ref:`int <class_int>` **absolute_index**
 
 +-----------+---------------------------+
 | *Default* | ``0``                     |
@@ -67,7 +67,7 @@ The index of the current character (starting from 0). Setting this property won'
 
 .. _class_CharFXTransform_property_character:
 
-- :ref:`int<class_int>` **character**
+- :ref:`int <class_int>` **character**
 
 +-----------+----------------------+
 | *Default* | ``0``                |
@@ -77,7 +77,7 @@ The index of the current character (starting from 0). Setting this property won'
 | *Getter*  | get_character()      |
 +-----------+----------------------+
 
-The Unicode codepoint the character will use. This only affects non-whitespace characters. :ref:`@GDScript.ord<class_@GDScript_method_ord>` can be useful here. For example, the following will replace all characters with asterisks:
+The Unicode codepoint the character will use. This only affects non-whitespace characters. :ref:`@GDScript.ord <class_@GDScript_method_ord>` can be useful here. For example, the following will replace all characters with asterisks:
 
 ::
 
@@ -89,7 +89,7 @@ The Unicode codepoint the character will use. This only affects non-whitespace c
 
 .. _class_CharFXTransform_property_color:
 
-- :ref:`Color<class_Color>` **color**
+- :ref:`Color <class_Color>` **color**
 
 +-----------+-------------------------+
 | *Default* | ``Color( 0, 0, 0, 1 )`` |
@@ -105,7 +105,7 @@ The color the character will be drawn with.
 
 .. _class_CharFXTransform_property_elapsed_time:
 
-- :ref:`float<class_float>` **elapsed_time**
+- :ref:`float <class_float>` **elapsed_time**
 
 +-----------+-------------------------+
 | *Default* | ``0.0``                 |
@@ -115,15 +115,15 @@ The color the character will be drawn with.
 | *Getter*  | get_elapsed_time()      |
 +-----------+-------------------------+
 
-The time elapsed since the :ref:`RichTextLabel<class_RichTextLabel>` was added to the scene tree (in seconds). Time stops when the project is paused, unless the :ref:`RichTextLabel<class_RichTextLabel>`'s :ref:`Node.pause_mode<class_Node_property_pause_mode>` is set to :ref:`Node.PAUSE_MODE_PROCESS<class_Node_constant_PAUSE_MODE_PROCESS>`.
+The time elapsed since the :ref:`RichTextLabel <class_RichTextLabel>` was added to the scene tree (in seconds). Time stops when the project is paused, unless the :ref:`RichTextLabel <class_RichTextLabel>`'s :ref:`Node.pause_mode <class_Node_property_pause_mode>` is set to :ref:`Node.PAUSE_MODE_PROCESS <class_Node_constant_PAUSE_MODE_PROCESS>`.
 
-**Note:** Time still passes while the :ref:`RichTextLabel<class_RichTextLabel>` is hidden.
+**Note:** Time still passes while the :ref:`RichTextLabel <class_RichTextLabel>` is hidden.
 
 ----
 
 .. _class_CharFXTransform_property_env:
 
-- :ref:`Dictionary<class_Dictionary>` **env**
+- :ref:`Dictionary <class_Dictionary>` **env**
 
 +-----------+------------------------+
 | *Default* | ``{}``                 |
@@ -133,9 +133,9 @@ The time elapsed since the :ref:`RichTextLabel<class_RichTextLabel>` was added t
 | *Getter*  | get_environment()      |
 +-----------+------------------------+
 
-Contains the arguments passed in the opening BBCode tag. By default, arguments are strings; if their contents match a type such as :ref:`bool<class_bool>`, :ref:`int<class_int>` or :ref:`float<class_float>`, they will be converted automatically. Color codes in the form ``#rrggbb`` or ``#rgb`` will be converted to an opaque :ref:`Color<class_Color>`. String arguments may not contain spaces, even if they're quoted. If present, quotes will also be present in the final string.
+Contains the arguments passed in the opening BBCode tag. By default, arguments are strings; if their contents match a type such as :ref:`bool <class_bool>`, :ref:`int <class_int>` or :ref:`float <class_float>`, they will be converted automatically. Color codes in the form ``#rrggbb`` or ``#rgb`` will be converted to an opaque :ref:`Color <class_Color>`. String arguments may not contain spaces, even if they're quoted. If present, quotes will also be present in the final string.
 
-For example, the opening BBCode tag ``[example foo=hello bar=true baz=42 color=#ffffff]`` will map to the following :ref:`Dictionary<class_Dictionary>`:
+For example, the opening BBCode tag ``[example foo=hello bar=true baz=42 color=#ffffff]`` will map to the following :ref:`Dictionary <class_Dictionary>`:
 
 ::
 
@@ -145,7 +145,7 @@ For example, the opening BBCode tag ``[example foo=hello bar=true baz=42 color=#
 
 .. _class_CharFXTransform_property_offset:
 
-- :ref:`Vector2<class_Vector2>` **offset**
+- :ref:`Vector2 <class_Vector2>` **offset**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -161,7 +161,7 @@ The position offset the character will be drawn with (in pixels).
 
 .. _class_CharFXTransform_property_relative_index:
 
-- :ref:`int<class_int>` **relative_index**
+- :ref:`int <class_int>` **relative_index**
 
 +-----------+---------------------------+
 | *Default* | ``0``                     |
@@ -177,7 +177,7 @@ The index of the current character (starting from 0). Setting this property won'
 
 .. _class_CharFXTransform_property_visible:
 
-- :ref:`bool<class_bool>` **visible**
+- :ref:`bool <class_bool>` **visible**
 
 +-----------+-----------------------+
 | *Default* | ``true``              |
@@ -187,5 +187,5 @@ The index of the current character (starting from 0). Setting this property won'
 | *Getter*  | is_visible()          |
 +-----------+-----------------------+
 
-If ``true``, the character will be drawn. If ``false``, the character will be hidden. Characters around hidden characters will reflow to take the space of hidden characters. If this is not desired, set their :ref:`color<class_CharFXTransform_property_color>` to ``Color(1, 1, 1, 0)`` instead.
+If ``true``, the character will be drawn. If ``false``, the character will be hidden. Characters around hidden characters will reflow to take the space of hidden characters. If this is not desired, set their :ref:`color <class_CharFXTransform_property_color>` to ``Color(1, 1, 1, 0)`` instead.
 

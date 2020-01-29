@@ -9,7 +9,7 @@
 AudioEffectAmplify
 ==================
 
-**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds an amplifying audio effect to an audio bus.
 
@@ -23,16 +23,16 @@ Increases or decreases the volume being routed through the audio bus.
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>` | ``0.0`` |
-+---------------------------+---------------------------------------------------------------+---------+
++----------------------------+----------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`volume_db <class_AudioEffectAmplify_property_volume_db>` | ``0.0`` |
++----------------------------+----------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioEffectAmplify_property_volume_db:
 
-- :ref:`float<class_float>` **volume_db**
+- :ref:`float <class_float>` **volume_db**
 
 +-----------+----------------------+
 | *Default* | ``0.0``              |

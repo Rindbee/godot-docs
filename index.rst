@@ -1,5 +1,5 @@
 Godot Docs – *master* branch
-============================
+############################
 
 .. only:: not i18n
 
@@ -56,82 +56,14 @@ in the top left corner.
 The main documentation for the site is organized into the following sections:
 
 .. toctree::
-   :maxdepth: 1
-   :caption: General
-   :name: sec-general
+    :maxdepth: 1
 
-   about/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Getting started
-   :name: sec-learn
-
-   getting_started/step_by_step/index
-   getting_started/editor/index
-   getting_started/scripting/index
-   getting_started/workflow/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Tutorials
-   :name: sec-tutorials
-
-   tutorials/2d/index
-   tutorials/3d/index
-   tutorials/audio/index
-   tutorials/physics/index
-   tutorials/math/index
-   tutorials/animation/index
-   tutorials/inputs/index
-   tutorials/io/index
-   tutorials/i18n/index
-   tutorials/gui/index
-   tutorials/viewports/index
-   tutorials/shading/index
-   tutorials/networking/index
-   tutorials/assetlib/index
-   tutorials/vr/index
-   tutorials/plugins/index
-   tutorials/platform/index
-   tutorials/threads/index
-   tutorials/content/index
-   tutorials/optimization/index
-   tutorials/misc/index
-   tutorials/debug/index
-   tutorials/legal/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Development
-   :name: sec-devel
-
-   development/compiling/index
-   development/cpp/index
-   development/editor/index
-   development/file_formats/index
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Community
-   :name: sec-community
-
-   community/contributing/index
-   community/channels
-   community/tutorials
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Class reference
-   :name: sec-class-ref
-
-   classes/index
-
+    about/index
+    getting_started/index
+    tutorials/index
+    development/index
+    community/index
+    classes/index
 
 .. Indices and tables
 .. ------------------

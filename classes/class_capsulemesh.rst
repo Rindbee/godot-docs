@@ -9,34 +9,34 @@
 CapsuleMesh
 ===========
 
-**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PrimitiveMesh <class_PrimitiveMesh>` **<** :ref:`Mesh <class_Mesh>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Class representing a capsule-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+Class representing a capsule-shaped :ref:`PrimitiveMesh <class_PrimitiveMesh>`.
 
 Description
 -----------
 
-Class representing a capsule-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+Class representing a capsule-shaped :ref:`PrimitiveMesh <class_PrimitiveMesh>`.
 
 Properties
 ----------
 
-+---------------------------+--------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`mid_height<class_CapsuleMesh_property_mid_height>`           | ``1.0`` |
-+---------------------------+--------------------------------------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`radial_segments<class_CapsuleMesh_property_radial_segments>` | ``64``  |
-+---------------------------+--------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`radius<class_CapsuleMesh_property_radius>`                   | ``1.0`` |
-+---------------------------+--------------------------------------------------------------------+---------+
-| :ref:`int<class_int>`     | :ref:`rings<class_CapsuleMesh_property_rings>`                     | ``8``   |
-+---------------------------+--------------------------------------------------------------------+---------+
++----------------------------+---------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`mid_height <class_CapsuleMesh_property_mid_height>`           | ``1.0`` |
++----------------------------+---------------------------------------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`radial_segments <class_CapsuleMesh_property_radial_segments>` | ``64``  |
++----------------------------+---------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`radius <class_CapsuleMesh_property_radius>`                   | ``1.0`` |
++----------------------------+---------------------------------------------------------------------+---------+
+| :ref:`int <class_int>`     | :ref:`rings <class_CapsuleMesh_property_rings>`                     | ``8``   |
++----------------------------+---------------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CapsuleMesh_property_mid_height:
 
-- :ref:`float<class_float>` **mid_height**
+- :ref:`float <class_float>` **mid_height**
 
 +-----------+-----------------------+
 | *Default* | ``1.0``               |
@@ -52,7 +52,7 @@ Height of the capsule mesh from the center point.
 
 .. _class_CapsuleMesh_property_radial_segments:
 
-- :ref:`int<class_int>` **radial_segments**
+- :ref:`int <class_int>` **radial_segments**
 
 +-----------+----------------------------+
 | *Default* | ``64``                     |
@@ -68,7 +68,7 @@ Number of radial segments on the capsule mesh.
 
 .. _class_CapsuleMesh_property_radius:
 
-- :ref:`float<class_float>` **radius**
+- :ref:`float <class_float>` **radius**
 
 +-----------+-------------------+
 | *Default* | ``1.0``           |
@@ -84,7 +84,7 @@ Radius of the capsule mesh.
 
 .. _class_CapsuleMesh_property_rings:
 
-- :ref:`int<class_int>` **rings**
+- :ref:`int <class_int>` **rings**
 
 +-----------+------------------+
 | *Default* | ``8``            |

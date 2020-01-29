@@ -9,20 +9,20 @@
 VisualShaderNodeTextureUniform
 ==============================
 
-**Inherits:** :ref:`VisualShaderNodeUniform<class_VisualShaderNodeUniform>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNodeUniform <class_VisualShaderNodeUniform>` **<** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`VisualShaderNodeCubeMapUniform<class_VisualShaderNodeCubeMapUniform>`, :ref:`VisualShaderNodeTextureUniformTriplanar<class_VisualShaderNodeTextureUniformTriplanar>`
+**Inherited By:** :ref:`VisualShaderNodeCubemapUniform <class_VisualShaderNodeCubemapUniform>`, :ref:`VisualShaderNodeTextureUniformTriplanar <class_VisualShaderNodeTextureUniformTriplanar>`
 
 
 
 Properties
 ----------
 
-+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------+-------+
-| :ref:`ColorDefault<enum_VisualShaderNodeTextureUniform_ColorDefault>` | :ref:`color_default<class_VisualShaderNodeTextureUniform_property_color_default>` | ``0`` |
-+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------+-------+
-| :ref:`TextureType<enum_VisualShaderNodeTextureUniform_TextureType>`   | :ref:`texture_type<class_VisualShaderNodeTextureUniform_property_texture_type>`   | ``0`` |
-+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------+-------+
++------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------+
+| :ref:`ColorDefault <enum_VisualShaderNodeTextureUniform_ColorDefault>` | :ref:`color_default <class_VisualShaderNodeTextureUniform_property_color_default>` | ``0`` |
++------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------+
+| :ref:`TextureType <enum_VisualShaderNodeTextureUniform_TextureType>`   | :ref:`texture_type <class_VisualShaderNodeTextureUniform_property_texture_type>`   | ``0`` |
++------------------------------------------------------------------------+------------------------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -66,7 +66,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeTextureUniform_property_color_default:
 
-- :ref:`ColorDefault<enum_VisualShaderNodeTextureUniform_ColorDefault>` **color_default**
+- :ref:`ColorDefault <enum_VisualShaderNodeTextureUniform_ColorDefault>` **color_default**
 
 +-----------+--------------------------+
 | *Default* | ``0``                    |
@@ -80,7 +80,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeTextureUniform_property_texture_type:
 
-- :ref:`TextureType<enum_VisualShaderNodeTextureUniform_TextureType>` **texture_type**
+- :ref:`TextureType <enum_VisualShaderNodeTextureUniform_TextureType>` **texture_type**
 
 +-----------+-------------------------+
 | *Default* | ``0``                   |

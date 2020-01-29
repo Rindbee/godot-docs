@@ -9,21 +9,21 @@
 PackedDataContainerRef
 ======================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+-----------------------+-------------------------------------------------------------------------+
-| :ref:`int<class_int>` | :ref:`size<class_PackedDataContainerRef_method_size>` **(** **)** const |
-+-----------------------+-------------------------------------------------------------------------+
++------------------------+--------------------------------------------------------------------------+
+| :ref:`int <class_int>` | :ref:`size <class_PackedDataContainerRef_method_size>` **(** **)** const |
++------------------------+--------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_PackedDataContainerRef_method_size:
 
-- :ref:`int<class_int>` **size** **(** **)** const
+- :ref:`int <class_int>` **size** **(** **)** const
 

@@ -9,7 +9,7 @@
 AudioEffectLimiter
 ==================
 
-**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a soft-clip limiter audio effect to an Audio bus.
 
@@ -23,22 +23,22 @@ Soft clipping starts to reduce the peaks a little below the threshold level and 
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`ceiling_db<class_AudioEffectLimiter_property_ceiling_db>`           | ``-0.1`` |
-+---------------------------+---------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`soft_clip_db<class_AudioEffectLimiter_property_soft_clip_db>`       | ``2.0``  |
-+---------------------------+---------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`soft_clip_ratio<class_AudioEffectLimiter_property_soft_clip_ratio>` | ``10.0`` |
-+---------------------------+---------------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`threshold_db<class_AudioEffectLimiter_property_threshold_db>`       | ``0.0``  |
-+---------------------------+---------------------------------------------------------------------------+----------+
++----------------------------+----------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`ceiling_db <class_AudioEffectLimiter_property_ceiling_db>`           | ``-0.1`` |
++----------------------------+----------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`soft_clip_db <class_AudioEffectLimiter_property_soft_clip_db>`       | ``2.0``  |
++----------------------------+----------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`soft_clip_ratio <class_AudioEffectLimiter_property_soft_clip_ratio>` | ``10.0`` |
++----------------------------+----------------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`threshold_db <class_AudioEffectLimiter_property_threshold_db>`       | ``0.0``  |
++----------------------------+----------------------------------------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioEffectLimiter_property_ceiling_db:
 
-- :ref:`float<class_float>` **ceiling_db**
+- :ref:`float <class_float>` **ceiling_db**
 
 +-----------+-----------------------+
 | *Default* | ``-0.1``              |
@@ -54,7 +54,7 @@ The waveform's maximum allowed value, in decibels. Value can range from -20 to -
 
 .. _class_AudioEffectLimiter_property_soft_clip_db:
 
-- :ref:`float<class_float>` **soft_clip_db**
+- :ref:`float <class_float>` **soft_clip_db**
 
 +-----------+-------------------------+
 | *Default* | ``2.0``                 |
@@ -70,7 +70,7 @@ Applies a gain to the limited waves, in decibels. Value can range from 0 to 6.
 
 .. _class_AudioEffectLimiter_property_soft_clip_ratio:
 
-- :ref:`float<class_float>` **soft_clip_ratio**
+- :ref:`float <class_float>` **soft_clip_ratio**
 
 +-----------+----------------------------+
 | *Default* | ``10.0``                   |
@@ -84,7 +84,7 @@ Applies a gain to the limited waves, in decibels. Value can range from 0 to 6.
 
 .. _class_AudioEffectLimiter_property_threshold_db:
 
-- :ref:`float<class_float>` **threshold_db**
+- :ref:`float <class_float>` **threshold_db**
 
 +-----------+-------------------------+
 | *Default* | ``0.0``                 |

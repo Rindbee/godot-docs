@@ -9,21 +9,21 @@
 VisualShaderNodeColorOp
 =======================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-A :ref:`Color<class_Color>` operator to be used within the visual shader graph.
+A :ref:`Color <class_Color>` operator to be used within the visual shader graph.
 
 Description
 -----------
 
-Applies :ref:`operator<class_VisualShaderNodeColorOp_property_operator>` to two color inputs.
+Applies :ref:`operator <class_VisualShaderNodeColorOp_property_operator>` to two color inputs.
 
 Properties
 ----------
 
-+--------------------------------------------------------+------------------------------------------------------------------+-------+
-| :ref:`Operator<enum_VisualShaderNodeColorOp_Operator>` | :ref:`operator<class_VisualShaderNodeColorOp_property_operator>` | ``0`` |
-+--------------------------------------------------------+------------------------------------------------------------------+-------+
++---------------------------------------------------------+-------------------------------------------------------------------+-------+
+| :ref:`Operator <enum_VisualShaderNodeColorOp_Operator>` | :ref:`operator <class_VisualShaderNodeColorOp_property_operator>` | ``0`` |
++---------------------------------------------------------+-------------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -133,7 +133,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeColorOp_property_operator:
 
-- :ref:`Operator<enum_VisualShaderNodeColorOp_Operator>` **operator**
+- :ref:`Operator <enum_VisualShaderNodeColorOp_Operator>` **operator**
 
 +-----------+---------------------+
 | *Default* | ``0``               |
@@ -143,5 +143,5 @@ Property Descriptions
 | *Getter*  | get_operator()      |
 +-----------+---------------------+
 
-An operator to be applied to the inputs. See :ref:`Operator<enum_VisualShaderNodeColorOp_Operator>` for options.
+An operator to be applied to the inputs. See :ref:`Operator <enum_VisualShaderNodeColorOp_Operator>` for options.
 

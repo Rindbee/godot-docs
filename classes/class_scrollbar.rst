@@ -9,27 +9,27 @@
 ScrollBar
 =========
 
-**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Range <class_Range>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`HScrollBar<class_HScrollBar>`, :ref:`VScrollBar<class_VScrollBar>`
+**Inherited By:** :ref:`HScrollBar <class_HScrollBar>`, :ref:`VScrollBar <class_VScrollBar>`
 
 Base class for scroll bars.
 
 Description
 -----------
 
-Scrollbars are a :ref:`Range<class_Range>`-based :ref:`Control<class_Control>`, that display a draggable area (the size of the page). Horizontal (:ref:`HScrollBar<class_HScrollBar>`) and Vertical (:ref:`VScrollBar<class_VScrollBar>`) versions are available.
+Scrollbars are a :ref:`Range <class_Range>`-based :ref:`Control <class_Control>`, that display a draggable area (the size of the page). Horizontal (:ref:`HScrollBar <class_HScrollBar>`) and Vertical (:ref:`VScrollBar <class_VScrollBar>`) versions are available.
 
 Properties
 ----------
 
-+---------------------------+----------------------------------------------------------+----------------+
-| :ref:`float<class_float>` | :ref:`custom_step<class_ScrollBar_property_custom_step>` | ``-1.0``       |
-+---------------------------+----------------------------------------------------------+----------------+
-| :ref:`int<class_int>`     | size_flags_vertical                                      | **O:** ``0``   |
-+---------------------------+----------------------------------------------------------+----------------+
-| :ref:`float<class_float>` | step                                                     | **O:** ``0.0`` |
-+---------------------------+----------------------------------------------------------+----------------+
++----------------------------+-----------------------------------------------------------+----------------+
+| :ref:`float <class_float>` | :ref:`custom_step <class_ScrollBar_property_custom_step>` | ``-1.0``       |
++----------------------------+-----------------------------------------------------------+----------------+
+| :ref:`int <class_int>`     | size_flags_vertical                                       | **O:** ``0``   |
++----------------------------+-----------------------------------------------------------+----------------+
+| :ref:`float <class_float>` | step                                                      | **O:** ``0.0`` |
++----------------------------+-----------------------------------------------------------+----------------+
 
 Signals
 -------
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. _class_ScrollBar_property_custom_step:
 
-- :ref:`float<class_float>` **custom_step**
+- :ref:`float <class_float>` **custom_step**
 
 +-----------+------------------------+
 | *Default* | ``-1.0``               |

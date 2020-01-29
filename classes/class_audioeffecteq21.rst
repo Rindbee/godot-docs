@@ -9,7 +9,7 @@
 AudioEffectEQ21
 ===============
 
-**Inherits:** :ref:`AudioEffectEQ<class_AudioEffectEQ>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffectEQ <class_AudioEffectEQ>` **<** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a 21-band equalizer audio effect to an Audio bus. Gives you control over frequencies from 22 Hz to 22000 Hz.
 
@@ -62,5 +62,5 @@ Band 20: 16000 Hz
 
 Band 21: 22000 Hz
 
-See also :ref:`AudioEffectEQ<class_AudioEffectEQ>`, :ref:`AudioEffectEQ6<class_AudioEffectEQ6>`, :ref:`AudioEffectEQ10<class_AudioEffectEQ10>`.
+See also :ref:`AudioEffectEQ <class_AudioEffectEQ>`, :ref:`AudioEffectEQ6 <class_AudioEffectEQ6>`, :ref:`AudioEffectEQ10 <class_AudioEffectEQ10>`.
 

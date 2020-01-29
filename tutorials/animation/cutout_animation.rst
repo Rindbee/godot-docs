@@ -297,18 +297,18 @@ Think of a rest pose as a default pose that your cutout rig should be set to
 when no other pose is active in your game. Create a rest pose as follows:
 
 1. Make sure the rig parts are positioned in what looks like a "resting"
-arrangement.
+   arrangement.
 
 2. Create a new animation, rename it "rest".
 
 3. Select all nodes in your rig (box selection should work fine).
 
 4. Make sure the "loc", "rot", and "scl" toggle buttons are all active in the
-toolbar.
+   toolbar.
 
 5. Press the key button. Keys will be inserted for all selected parts storing
-their current arrangement. This pose can now be recalled when necessary in
-your game by playing the "rest" animation you've created.
+   their current arrangement. This pose can now be recalled when necessary in
+   your game by playing the "rest" animation you've created.
 
 .. image:: img/tuto_cutout21.png
 

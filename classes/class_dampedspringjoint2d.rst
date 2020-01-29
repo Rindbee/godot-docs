@@ -9,7 +9,7 @@
 DampedSpringJoint2D
 ===================
 
-**Inherits:** :ref:`Joint2D<class_Joint2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Joint2D <class_Joint2D>` **<** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Damped spring constraint for 2D physics.
 
@@ -21,22 +21,22 @@ Damped spring constraint for 2D physics. This resembles a spring joint that alwa
 Properties
 ----------
 
-+---------------------------+--------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`damping<class_DampedSpringJoint2D_property_damping>`         | ``1.0``  |
-+---------------------------+--------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`length<class_DampedSpringJoint2D_property_length>`           | ``50.0`` |
-+---------------------------+--------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`rest_length<class_DampedSpringJoint2D_property_rest_length>` | ``0.0``  |
-+---------------------------+--------------------------------------------------------------------+----------+
-| :ref:`float<class_float>` | :ref:`stiffness<class_DampedSpringJoint2D_property_stiffness>`     | ``20.0`` |
-+---------------------------+--------------------------------------------------------------------+----------+
++----------------------------+---------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`damping <class_DampedSpringJoint2D_property_damping>`         | ``1.0``  |
++----------------------------+---------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`length <class_DampedSpringJoint2D_property_length>`           | ``50.0`` |
++----------------------------+---------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`rest_length <class_DampedSpringJoint2D_property_rest_length>` | ``0.0``  |
++----------------------------+---------------------------------------------------------------------+----------+
+| :ref:`float <class_float>` | :ref:`stiffness <class_DampedSpringJoint2D_property_stiffness>`     | ``20.0`` |
++----------------------------+---------------------------------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_DampedSpringJoint2D_property_damping:
 
-- :ref:`float<class_float>` **damping**
+- :ref:`float <class_float>` **damping**
 
 +-----------+--------------------+
 | *Default* | ``1.0``            |
@@ -52,7 +52,7 @@ The spring joint's damping ratio. A value between ``0`` and ``1``. When the two 
 
 .. _class_DampedSpringJoint2D_property_length:
 
-- :ref:`float<class_float>` **length**
+- :ref:`float <class_float>` **length**
 
 +-----------+-------------------+
 | *Default* | ``50.0``          |
@@ -68,7 +68,7 @@ The spring joint's maximum length. The two attached bodies cannot stretch it pas
 
 .. _class_DampedSpringJoint2D_property_rest_length:
 
-- :ref:`float<class_float>` **rest_length**
+- :ref:`float <class_float>` **rest_length**
 
 +-----------+------------------------+
 | *Default* | ``0.0``                |
@@ -84,7 +84,7 @@ When the bodies attached to the spring joint move they stretch or squash it. The
 
 .. _class_DampedSpringJoint2D_property_stiffness:
 
-- :ref:`float<class_float>` **stiffness**
+- :ref:`float <class_float>` **stiffness**
 
 +-----------+----------------------+
 | *Default* | ``20.0``             |

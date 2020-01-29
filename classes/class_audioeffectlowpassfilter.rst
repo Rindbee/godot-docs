@@ -9,12 +9,12 @@
 AudioEffectLowPassFilter
 ========================
 
-**Inherits:** :ref:`AudioEffectFilter<class_AudioEffectFilter>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffectFilter <class_AudioEffectFilter>` **<** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a low-pass filter to the Audio bus.
 
 Description
 -----------
 
-Cuts frequencies higher than the :ref:`AudioEffectFilter.cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>` and allows lower frequencies to pass.
+Cuts frequencies higher than the :ref:`AudioEffectFilter.cutoff_hz <class_AudioEffectFilter_property_cutoff_hz>` and allows lower frequencies to pass.
 

@@ -9,25 +9,25 @@
 VSplitContainer
 ===============
 
-**Inherits:** :ref:`SplitContainer<class_SplitContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`SplitContainer <class_SplitContainer>` **<** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Vertical split container.
 
 Description
 -----------
 
-Vertical split container. See :ref:`SplitContainer<class_SplitContainer>`. This goes from top to bottom.
+Vertical split container. See :ref:`SplitContainer <class_SplitContainer>`. This goes from top to bottom.
 
 Theme Properties
 ----------------
 
-+---------------------------------+------------+----+
-| :ref:`int<class_int>`           | autohide   | 1  |
-+---------------------------------+------------+----+
-| :ref:`StyleBox<class_StyleBox>` | bg         |    |
-+---------------------------------+------------+----+
-| :ref:`Texture<class_Texture>`   | grabber    |    |
-+---------------------------------+------------+----+
-| :ref:`int<class_int>`           | separation | 12 |
-+---------------------------------+------------+----+
++------------------------------------+------------+----+
+| :ref:`int <class_int>`             | autohide   | 1  |
++------------------------------------+------------+----+
+| :ref:`StyleBox <class_StyleBox>`   | bg         |    |
++------------------------------------+------------+----+
+| :ref:`Texture2D <class_Texture2D>` | grabber    |    |
++------------------------------------+------------+----+
+| :ref:`int <class_int>`             | separation | 12 |
++------------------------------------+------------+----+
 

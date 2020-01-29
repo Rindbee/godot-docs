@@ -9,62 +9,62 @@
 WindowDialog
 ============
 
-**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Popup <class_Popup>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`AcceptDialog<class_AcceptDialog>`
+**Inherited By:** :ref:`AcceptDialog <class_AcceptDialog>`
 
 Base class for window dialogs.
 
 Description
 -----------
 
-Windowdialog is the base class for all window-based dialogs. It's a by-default toplevel :ref:`Control<class_Control>` that draws a window decoration and allows motion and resizing.
+Windowdialog is the base class for all window-based dialogs. It's a by-default toplevel :ref:`Control <class_Control>` that draws a window decoration and allows motion and resizing.
 
 Properties
 ----------
 
-+-----------------------------+---------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`     | :ref:`resizable<class_WindowDialog_property_resizable>`       | ``false`` |
-+-----------------------------+---------------------------------------------------------------+-----------+
-| :ref:`String<class_String>` | :ref:`window_title<class_WindowDialog_property_window_title>` | ``""``    |
-+-----------------------------+---------------------------------------------------------------+-----------+
++------------------------------+----------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`     | :ref:`resizable <class_WindowDialog_property_resizable>`       | ``false`` |
++------------------------------+----------------------------------------------------------------+-----------+
+| :ref:`String <class_String>` | :ref:`window_title <class_WindowDialog_property_window_title>` | ``""``    |
++------------------------------+----------------------------------------------------------------+-----------+
 
 Methods
 -------
 
-+-------------------------------------------+---------------------------------------------------------------------------------+
-| :ref:`TextureButton<class_TextureButton>` | :ref:`get_close_button<class_WindowDialog_method_get_close_button>` **(** **)** |
-+-------------------------------------------+---------------------------------------------------------------------------------+
++--------------------------------------------+----------------------------------------------------------------------------------+
+| :ref:`TextureButton <class_TextureButton>` | :ref:`get_close_button <class_WindowDialog_method_get_close_button>` **(** **)** |
++--------------------------------------------+----------------------------------------------------------------------------------+
 
 Theme Properties
 ----------------
 
-+---------------------------------+------------------+---------------------+
-| :ref:`Texture<class_Texture>`   | close            |                     |
-+---------------------------------+------------------+---------------------+
-| :ref:`int<class_int>`           | close_h_ofs      | 18                  |
-+---------------------------------+------------------+---------------------+
-| :ref:`Texture<class_Texture>`   | close_highlight  |                     |
-+---------------------------------+------------------+---------------------+
-| :ref:`int<class_int>`           | close_v_ofs      | 18                  |
-+---------------------------------+------------------+---------------------+
-| :ref:`StyleBox<class_StyleBox>` | panel            |                     |
-+---------------------------------+------------------+---------------------+
-| :ref:`int<class_int>`           | scaleborder_size | 4                   |
-+---------------------------------+------------------+---------------------+
-| :ref:`Color<class_Color>`       | title_color      | Color( 0, 0, 0, 1 ) |
-+---------------------------------+------------------+---------------------+
-| :ref:`Font<class_Font>`         | title_font       |                     |
-+---------------------------------+------------------+---------------------+
-| :ref:`int<class_int>`           | title_height     | 20                  |
-+---------------------------------+------------------+---------------------+
++------------------------------------+------------------+---------------------+
+| :ref:`Texture2D <class_Texture2D>` | close            |                     |
++------------------------------------+------------------+---------------------+
+| :ref:`int <class_int>`             | close_h_ofs      | 18                  |
++------------------------------------+------------------+---------------------+
+| :ref:`Texture2D <class_Texture2D>` | close_highlight  |                     |
++------------------------------------+------------------+---------------------+
+| :ref:`int <class_int>`             | close_v_ofs      | 18                  |
++------------------------------------+------------------+---------------------+
+| :ref:`StyleBox <class_StyleBox>`   | panel            |                     |
++------------------------------------+------------------+---------------------+
+| :ref:`int <class_int>`             | scaleborder_size | 4                   |
++------------------------------------+------------------+---------------------+
+| :ref:`Color <class_Color>`         | title_color      | Color( 0, 0, 0, 1 ) |
++------------------------------------+------------------+---------------------+
+| :ref:`Font <class_Font>`           | title_font       |                     |
++------------------------------------+------------------+---------------------+
+| :ref:`int <class_int>`             | title_height     | 20                  |
++------------------------------------+------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_WindowDialog_property_resizable:
 
-- :ref:`bool<class_bool>` **resizable**
+- :ref:`bool <class_bool>` **resizable**
 
 +-----------+----------------------+
 | *Default* | ``false``            |
@@ -80,7 +80,7 @@ If ``true``, the user can resize the window.
 
 .. _class_WindowDialog_property_window_title:
 
-- :ref:`String<class_String>` **window_title**
+- :ref:`String <class_String>` **window_title**
 
 +-----------+------------------+
 | *Default* | ``""``           |
@@ -97,7 +97,7 @@ Method Descriptions
 
 .. _class_WindowDialog_method_get_close_button:
 
-- :ref:`TextureButton<class_TextureButton>` **get_close_button** **(** **)**
+- :ref:`TextureButton <class_TextureButton>` **get_close_button** **(** **)**
 
-Returns the close :ref:`TextureButton<class_TextureButton>`.
+Returns the close :ref:`TextureButton <class_TextureButton>`.
 

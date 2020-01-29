@@ -9,48 +9,52 @@
 AnimatedSprite
 ==============
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Sprite node that can use multiple textures for animation.
 
 Description
 -----------
 
-Animations are created using a :ref:`SpriteFrames<class_SpriteFrames>` resource, which can be configured in the editor via the SpriteFrames panel.
+Animations are created using a :ref:`SpriteFrames <class_SpriteFrames>` resource, which can be configured in the editor via the SpriteFrames panel.
 
 Properties
 ----------
 
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`String<class_String>`             | :ref:`animation<class_AnimatedSprite_property_animation>`     | ``"default"``       |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`bool<class_bool>`                 | :ref:`centered<class_AnimatedSprite_property_centered>`       | ``true``            |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`bool<class_bool>`                 | :ref:`flip_h<class_AnimatedSprite_property_flip_h>`           | ``false``           |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`bool<class_bool>`                 | :ref:`flip_v<class_AnimatedSprite_property_flip_v>`           | ``false``           |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`int<class_int>`                   | :ref:`frame<class_AnimatedSprite_property_frame>`             | ``0``               |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`SpriteFrames<class_SpriteFrames>` | :ref:`frames<class_AnimatedSprite_property_frames>`           |                     |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>`           | :ref:`offset<class_AnimatedSprite_property_offset>`           | ``Vector2( 0, 0 )`` |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`bool<class_bool>`                 | :ref:`playing<class_AnimatedSprite_property_playing>`         | ``false``           |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
-| :ref:`float<class_float>`               | :ref:`speed_scale<class_AnimatedSprite_property_speed_scale>` | ``1.0``             |
-+-----------------------------------------+---------------------------------------------------------------+---------------------+
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`StringName <class_StringName>`     | :ref:`animation <class_AnimatedSprite_property_animation>`           | ``@"default"``          |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`                 | :ref:`centered <class_AnimatedSprite_property_centered>`             | ``true``                |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`                 | :ref:`flip_h <class_AnimatedSprite_property_flip_h>`                 | ``false``               |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`                 | :ref:`flip_v <class_AnimatedSprite_property_flip_v>`                 | ``false``               |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`int <class_int>`                   | :ref:`frame <class_AnimatedSprite_property_frame>`                   | ``0``                   |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`SpriteFrames <class_SpriteFrames>` | :ref:`frames <class_AnimatedSprite_property_frames>`                 |                         |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`Vector2 <class_Vector2>`           | :ref:`offset <class_AnimatedSprite_property_offset>`                 | ``Vector2( 0, 0 )``     |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`                 | :ref:`playing <class_AnimatedSprite_property_playing>`               | ``false``               |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`float <class_float>`               | :ref:`shininess <class_AnimatedSprite_property_shininess>`           | ``1.0``                 |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`Color <class_Color>`               | :ref:`specular_color <class_AnimatedSprite_property_specular_color>` | ``Color( 1, 1, 1, 1 )`` |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
+| :ref:`float <class_float>`               | :ref:`speed_scale <class_AnimatedSprite_property_speed_scale>`       | ``1.0``                 |
++------------------------------------------+----------------------------------------------------------------------+-------------------------+
 
 Methods
 -------
 
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`is_playing<class_AnimatedSprite_method_is_playing>` **(** **)** const                                                            |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`play<class_AnimatedSprite_method_play>` **(** :ref:`String<class_String>` anim="", :ref:`bool<class_bool>` backwards=false **)** |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| void                    | :ref:`stop<class_AnimatedSprite_method_stop>` **(** **)**                                                                              |
-+-------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`is_playing <class_AnimatedSprite_method_is_playing>` **(** **)** const                                                                       |
++--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`play <class_AnimatedSprite_method_play>` **(** :ref:`StringName <class_StringName>` anim=@"", :ref:`bool <class_bool>` backwards=false **)** |
++--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                     | :ref:`stop <class_AnimatedSprite_method_stop>` **(** **)**                                                                                         |
++--------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -67,17 +71,17 @@ Emitted when the animation is finished (when it plays the last frame). If the an
 
 - **frame_changed** **(** **)**
 
-Emitted when :ref:`frame<class_AnimatedSprite_property_frame>` changed.
+Emitted when :ref:`frame <class_AnimatedSprite_property_frame>` changed.
 
 Property Descriptions
 ---------------------
 
 .. _class_AnimatedSprite_property_animation:
 
-- :ref:`String<class_String>` **animation**
+- :ref:`StringName <class_StringName>` **animation**
 
 +-----------+----------------------+
-| *Default* | ``"default"``        |
+| *Default* | ``@"default"``       |
 +-----------+----------------------+
 | *Setter*  | set_animation(value) |
 +-----------+----------------------+
@@ -90,7 +94,7 @@ The current animation from the ``frames`` resource. If this value changes, the `
 
 .. _class_AnimatedSprite_property_centered:
 
-- :ref:`bool<class_bool>` **centered**
+- :ref:`bool <class_bool>` **centered**
 
 +-----------+---------------------+
 | *Default* | ``true``            |
@@ -106,7 +110,7 @@ If ``true``, texture will be centered.
 
 .. _class_AnimatedSprite_property_flip_h:
 
-- :ref:`bool<class_bool>` **flip_h**
+- :ref:`bool <class_bool>` **flip_h**
 
 +-----------+-------------------+
 | *Default* | ``false``         |
@@ -122,7 +126,7 @@ If ``true``, texture is flipped horizontally.
 
 .. _class_AnimatedSprite_property_flip_v:
 
-- :ref:`bool<class_bool>` **flip_v**
+- :ref:`bool <class_bool>` **flip_v**
 
 +-----------+-------------------+
 | *Default* | ``false``         |
@@ -138,7 +142,7 @@ If ``true``, texture is flipped vertically.
 
 .. _class_AnimatedSprite_property_frame:
 
-- :ref:`int<class_int>` **frame**
+- :ref:`int <class_int>` **frame**
 
 +-----------+------------------+
 | *Default* | ``0``            |
@@ -154,7 +158,7 @@ The displayed animation frame's index.
 
 .. _class_AnimatedSprite_property_frames:
 
-- :ref:`SpriteFrames<class_SpriteFrames>` **frames**
+- :ref:`SpriteFrames <class_SpriteFrames>` **frames**
 
 +----------+--------------------------+
 | *Setter* | set_sprite_frames(value) |
@@ -162,13 +166,13 @@ The displayed animation frame's index.
 | *Getter* | get_sprite_frames()      |
 +----------+--------------------------+
 
-The :ref:`SpriteFrames<class_SpriteFrames>` resource containing the animation(s).
+The :ref:`SpriteFrames <class_SpriteFrames>` resource containing the animation(s).
 
 ----
 
 .. _class_AnimatedSprite_property_offset:
 
-- :ref:`Vector2<class_Vector2>` **offset**
+- :ref:`Vector2 <class_Vector2>` **offset**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -184,19 +188,47 @@ The texture's drawing offset.
 
 .. _class_AnimatedSprite_property_playing:
 
-- :ref:`bool<class_bool>` **playing**
+- :ref:`bool <class_bool>` **playing**
 
 +-----------+-----------+
 | *Default* | ``false`` |
 +-----------+-----------+
 
-If ``true``, the :ref:`animation<class_AnimatedSprite_property_animation>` is currently playing.
+If ``true``, the :ref:`animation <class_AnimatedSprite_property_animation>` is currently playing.
+
+----
+
+.. _class_AnimatedSprite_property_shininess:
+
+- :ref:`float <class_float>` **shininess**
+
++-----------+----------------------+
+| *Default* | ``1.0``              |
++-----------+----------------------+
+| *Setter*  | set_shininess(value) |
++-----------+----------------------+
+| *Getter*  | get_shininess()      |
++-----------+----------------------+
+
+----
+
+.. _class_AnimatedSprite_property_specular_color:
+
+- :ref:`Color <class_Color>` **specular_color**
+
++-----------+---------------------------+
+| *Default* | ``Color( 1, 1, 1, 1 )``   |
++-----------+---------------------------+
+| *Setter*  | set_specular_color(value) |
++-----------+---------------------------+
+| *Getter*  | get_specular_color()      |
++-----------+---------------------------+
 
 ----
 
 .. _class_AnimatedSprite_property_speed_scale:
 
-- :ref:`float<class_float>` **speed_scale**
+- :ref:`float <class_float>` **speed_scale**
 
 +-----------+------------------------+
 | *Default* | ``1.0``                |
@@ -213,7 +245,7 @@ Method Descriptions
 
 .. _class_AnimatedSprite_method_is_playing:
 
-- :ref:`bool<class_bool>` **is_playing** **(** **)** const
+- :ref:`bool <class_bool>` **is_playing** **(** **)** const
 
 Returns ``true`` if an animation is currently being played.
 
@@ -221,7 +253,7 @@ Returns ``true`` if an animation is currently being played.
 
 .. _class_AnimatedSprite_method_play:
 
-- void **play** **(** :ref:`String<class_String>` anim="", :ref:`bool<class_bool>` backwards=false **)**
+- void **play** **(** :ref:`StringName <class_StringName>` anim=@"", :ref:`bool <class_bool>` backwards=false **)**
 
 Plays the animation named ``anim``. If no ``anim`` is provided, the current animation is played. If ``backwards`` is ``true``, the animation will be played in reverse.
 

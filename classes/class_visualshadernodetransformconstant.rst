@@ -9,23 +9,23 @@
 VisualShaderNodeTransformConstant
 =================================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-----------------------------------+----------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`Transform<class_Transform>` | :ref:`constant<class_VisualShaderNodeTransformConstant_property_constant>` | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
-+-----------------------------------+----------------------------------------------------------------------------+-----------------------------------------------------+
++------------------------------------+-----------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`Transform <class_Transform>` | :ref:`constant <class_VisualShaderNodeTransformConstant_property_constant>` | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
++------------------------------------+-----------------------------------------------------------------------------+-----------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeTransformConstant_property_constant:
 
-- :ref:`Transform<class_Transform>` **constant**
+- :ref:`Transform <class_Transform>` **constant**
 
 +-----------+-----------------------------------------------------+
 | *Default* | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |

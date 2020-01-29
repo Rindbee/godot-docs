@@ -9,9 +9,9 @@
 PanelContainer
 ==============
 
-**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`ScriptEditor<class_ScriptEditor>`
+**Inherited By:** :ref:`ScriptEditor <class_ScriptEditor>`
 
 Panel container type.
 
@@ -20,10 +20,17 @@ Description
 
 Panel container type. This container fits controls inside of the delimited area of a stylebox. It's useful for giving controls an outline.
 
+Properties
+----------
+
++-----------------------------------------------+--------------+--------------+
+| :ref:`MouseFilter <enum_Control_MouseFilter>` | mouse_filter | **O:** ``0`` |
++-----------------------------------------------+--------------+--------------+
+
 Theme Properties
 ----------------
 
-+---------------------------------+-------+
-| :ref:`StyleBox<class_StyleBox>` | panel |
-+---------------------------------+-------+
++----------------------------------+-------+
+| :ref:`StyleBox <class_StyleBox>` | panel |
++----------------------------------+-------+
 

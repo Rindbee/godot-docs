@@ -9,7 +9,7 @@
 VisualScriptOperator
 ====================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
@@ -29,18 +29,18 @@ Description
 Properties
 ----------
 
-+-------------------------------------------------------------+---------------------------------------------------------------+-------+
-| :ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>` | :ref:`operator<class_VisualScriptOperator_property_operator>` | ``6`` |
-+-------------------------------------------------------------+---------------------------------------------------------------+-------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`         | :ref:`type<class_VisualScriptOperator_property_type>`         | ``0`` |
-+-------------------------------------------------------------+---------------------------------------------------------------+-------+
++--------------------------------------------------------------+----------------------------------------------------------------+-------+
+| :ref:`Variant.Operator <enum_@GlobalScope_Variant.Operator>` | :ref:`operator <class_VisualScriptOperator_property_operator>` | ``6`` |
++--------------------------------------------------------------+----------------------------------------------------------------+-------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>`         | :ref:`type <class_VisualScriptOperator_property_type>`         | ``0`` |
++--------------------------------------------------------------+----------------------------------------------------------------+-------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptOperator_property_operator:
 
-- :ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>` **operator**
+- :ref:`Variant.Operator <enum_@GlobalScope_Variant.Operator>` **operator**
 
 +-----------+---------------------+
 | *Default* | ``6``               |
@@ -54,7 +54,7 @@ Property Descriptions
 
 .. _class_VisualScriptOperator_property_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **type**
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **type**
 
 +-----------+------------------+
 | *Default* | ``0``            |

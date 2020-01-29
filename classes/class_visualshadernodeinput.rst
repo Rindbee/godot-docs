@@ -9,23 +9,23 @@
 VisualShaderNodeInput
 =====================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-
+Represents the input shader parameter within the visual shader graph.
 
 Properties
 ----------
 
-+-----------------------------+--------------------------------------------------------------------+--------------+
-| :ref:`String<class_String>` | :ref:`input_name<class_VisualShaderNodeInput_property_input_name>` | ``"[None]"`` |
-+-----------------------------+--------------------------------------------------------------------+--------------+
++------------------------------+---------------------------------------------------------------------+--------------+
+| :ref:`String <class_String>` | :ref:`input_name <class_VisualShaderNodeInput_property_input_name>` | ``"[None]"`` |
++------------------------------+---------------------------------------------------------------------+--------------+
 
 Methods
 -------
 
-+-----------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`get_input_real_name<class_VisualShaderNodeInput_method_get_input_real_name>` **(** **)** const |
-+-----------------------------+------------------------------------------------------------------------------------------------------+
++------------------------------+-------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>` | :ref:`get_input_real_name <class_VisualShaderNodeInput_method_get_input_real_name>` **(** **)** const |
++------------------------------+-------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -34,12 +34,14 @@ Signals
 
 - **input_type_changed** **(** **)**
 
+Emitted when input is changed via :ref:`input_name <class_VisualShaderNodeInput_property_input_name>`.
+
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeInput_property_input_name:
 
-- :ref:`String<class_String>` **input_name**
+- :ref:`String <class_String>` **input_name**
 
 +-----------+-----------------------+
 | *Default* | ``"[None]"``          |
@@ -49,10 +51,14 @@ Property Descriptions
 | *Getter*  | get_input_name()      |
 +-----------+-----------------------+
 
+One of the several input constants in lower-case style like: "vertex"(``\ VERTEX``) or "point_size"([code]POINT_SIZE``).
+
 Method Descriptions
 -------------------
 
 .. _class_VisualShaderNodeInput_method_get_input_real_name:
 
-- :ref:`String<class_String>` **get_input_real_name** **(** **)** const
+- :ref:`String <class_String>` **get_input_real_name** **(** **)** const
+
+Returns a translated name of the current constant in the Godot Shader Language. eg. ``"ALBEDO"`` if the :ref:`input_name <class_VisualShaderNodeInput_property_input_name>` equal to ``"albedo"``.
 

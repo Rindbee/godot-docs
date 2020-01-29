@@ -9,31 +9,31 @@
 RootMotionView
 ==============
 
-**Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+---------------------------------+---------------------------------------------------------------------+
-| :ref:`NodePath<class_NodePath>` | :ref:`animation_path<class_RootMotionView_property_animation_path>` |
-+---------------------------------+---------------------------------------------------------------------+
-| :ref:`float<class_float>`       | :ref:`cell_size<class_RootMotionView_property_cell_size>`           |
-+---------------------------------+---------------------------------------------------------------------+
-| :ref:`Color<class_Color>`       | :ref:`color<class_RootMotionView_property_color>`                   |
-+---------------------------------+---------------------------------------------------------------------+
-| :ref:`float<class_float>`       | :ref:`radius<class_RootMotionView_property_radius>`                 |
-+---------------------------------+---------------------------------------------------------------------+
-| :ref:`bool<class_bool>`         | :ref:`zero_y<class_RootMotionView_property_zero_y>`                 |
-+---------------------------------+---------------------------------------------------------------------+
++----------------------------------+----------------------------------------------------------------------+
+| :ref:`NodePath <class_NodePath>` | :ref:`animation_path <class_RootMotionView_property_animation_path>` |
++----------------------------------+----------------------------------------------------------------------+
+| :ref:`float <class_float>`       | :ref:`cell_size <class_RootMotionView_property_cell_size>`           |
++----------------------------------+----------------------------------------------------------------------+
+| :ref:`Color <class_Color>`       | :ref:`color <class_RootMotionView_property_color>`                   |
++----------------------------------+----------------------------------------------------------------------+
+| :ref:`float <class_float>`       | :ref:`radius <class_RootMotionView_property_radius>`                 |
++----------------------------------+----------------------------------------------------------------------+
+| :ref:`bool <class_bool>`         | :ref:`zero_y <class_RootMotionView_property_zero_y>`                 |
++----------------------------------+----------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_RootMotionView_property_animation_path:
 
-- :ref:`NodePath<class_NodePath>` **animation_path**
+- :ref:`NodePath <class_NodePath>` **animation_path**
 
 +----------+---------------------------+
 | *Setter* | set_animation_path(value) |
@@ -45,7 +45,7 @@ Property Descriptions
 
 .. _class_RootMotionView_property_cell_size:
 
-- :ref:`float<class_float>` **cell_size**
+- :ref:`float <class_float>` **cell_size**
 
 +----------+----------------------+
 | *Setter* | set_cell_size(value) |
@@ -57,7 +57,7 @@ Property Descriptions
 
 .. _class_RootMotionView_property_color:
 
-- :ref:`Color<class_Color>` **color**
+- :ref:`Color <class_Color>` **color**
 
 +----------+------------------+
 | *Setter* | set_color(value) |
@@ -69,7 +69,7 @@ Property Descriptions
 
 .. _class_RootMotionView_property_radius:
 
-- :ref:`float<class_float>` **radius**
+- :ref:`float <class_float>` **radius**
 
 +----------+-------------------+
 | *Setter* | set_radius(value) |
@@ -81,7 +81,7 @@ Property Descriptions
 
 .. _class_RootMotionView_property_zero_y:
 
-- :ref:`bool<class_bool>` **zero_y**
+- :ref:`bool <class_bool>` **zero_y**
 
 +----------+-------------------+
 | *Setter* | set_zero_y(value) |

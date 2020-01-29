@@ -9,7 +9,7 @@
 ARVROrigin
 ==========
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 The origin point in AR/VR.
 
@@ -32,16 +32,16 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+-----------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`world_scale<class_ARVROrigin_property_world_scale>` | ``1.0`` |
-+---------------------------+-----------------------------------------------------------+---------+
++----------------------------+------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`world_scale <class_ARVROrigin_property_world_scale>` | ``1.0`` |
++----------------------------+------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_ARVROrigin_property_world_scale:
 
-- :ref:`float<class_float>` **world_scale**
+- :ref:`float <class_float>` **world_scale**
 
 +-----------+------------------------+
 | *Default* | ``1.0``                |
@@ -53,5 +53,5 @@ Property Descriptions
 
 Allows you to adjust the scale to your game's units. Most AR/VR platforms assume a scale of 1 game world unit = 1 real world meter.
 
-**Note:** This method is a passthrough to the :ref:`ARVRServer<class_ARVRServer>` itself.
+**Note:** This method is a passthrough to the :ref:`ARVRServer <class_ARVRServer>` itself.
 

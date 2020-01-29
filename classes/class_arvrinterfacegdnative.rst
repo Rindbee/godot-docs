@@ -9,7 +9,7 @@
 ARVRInterfaceGDNative
 =====================
 
-**Inherits:** :ref:`ARVRInterface<class_ARVRInterface>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`ARVRInterface <class_ARVRInterface>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 GDNative wrapper for an ARVR interface.
 

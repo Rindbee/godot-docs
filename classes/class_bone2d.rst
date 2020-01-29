@@ -9,47 +9,47 @@
 Bone2D
 ======
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-Joint used with :ref:`Skeleton2D<class_Skeleton2D>` to control and animate other nodes.
+Joint used with :ref:`Skeleton2D <class_Skeleton2D>` to control and animate other nodes.
 
 Description
 -----------
 
-Use a hierarchy of ``Bone2D`` bound to a :ref:`Skeleton2D<class_Skeleton2D>` to control, and animate other :ref:`Node2D<class_Node2D>` nodes.
+Use a hierarchy of ``Bone2D`` bound to a :ref:`Skeleton2D <class_Skeleton2D>` to control, and animate other :ref:`Node2D <class_Node2D>` nodes.
 
 You can use ``Bone2D`` and ``Skeleton2D`` nodes to animate 2D meshes created with the Polygon 2D UV editor.
 
-Each bone has a :ref:`rest<class_Bone2D_property_rest>` transform that you can reset to with :ref:`apply_rest<class_Bone2D_method_apply_rest>`. These rest poses are relative to the bone's parent.
+Each bone has a :ref:`rest <class_Bone2D_property_rest>` transform that you can reset to with :ref:`apply_rest <class_Bone2D_method_apply_rest>`. These rest poses are relative to the bone's parent.
 
 If in the editor, you can set the rest pose of an entire skeleton using a menu option, from the code, you need to iterate over the bones to set their individual rest poses.
 
 Properties
 ----------
 
-+---------------------------------------+-------------------------------------------------------------+-------------------------------------+
-| :ref:`float<class_float>`             | :ref:`default_length<class_Bone2D_property_default_length>` | ``16.0``                            |
-+---------------------------------------+-------------------------------------------------------------+-------------------------------------+
-| :ref:`Transform2D<class_Transform2D>` | :ref:`rest<class_Bone2D_property_rest>`                     | ``Transform2D( 0, 0, 0, 0, 0, 0 )`` |
-+---------------------------------------+-------------------------------------------------------------+-------------------------------------+
++----------------------------------------+--------------------------------------------------------------+-------------------------------------+
+| :ref:`float <class_float>`             | :ref:`default_length <class_Bone2D_property_default_length>` | ``16.0``                            |
++----------------------------------------+--------------------------------------------------------------+-------------------------------------+
+| :ref:`Transform2D <class_Transform2D>` | :ref:`rest <class_Bone2D_property_rest>`                     | ``Transform2D( 0, 0, 0, 0, 0, 0 )`` |
++----------------------------------------+--------------------------------------------------------------+-------------------------------------+
 
 Methods
 -------
 
-+---------------------------------------+-------------------------------------------------------------------------------------------+
-| void                                  | :ref:`apply_rest<class_Bone2D_method_apply_rest>` **(** **)**                             |
-+---------------------------------------+-------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`                 | :ref:`get_index_in_skeleton<class_Bone2D_method_get_index_in_skeleton>` **(** **)** const |
-+---------------------------------------+-------------------------------------------------------------------------------------------+
-| :ref:`Transform2D<class_Transform2D>` | :ref:`get_skeleton_rest<class_Bone2D_method_get_skeleton_rest>` **(** **)** const         |
-+---------------------------------------+-------------------------------------------------------------------------------------------+
++----------------------------------------+--------------------------------------------------------------------------------------------+
+| void                                   | :ref:`apply_rest <class_Bone2D_method_apply_rest>` **(** **)**                             |
++----------------------------------------+--------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`                 | :ref:`get_index_in_skeleton <class_Bone2D_method_get_index_in_skeleton>` **(** **)** const |
++----------------------------------------+--------------------------------------------------------------------------------------------+
+| :ref:`Transform2D <class_Transform2D>` | :ref:`get_skeleton_rest <class_Bone2D_method_get_skeleton_rest>` **(** **)** const         |
++----------------------------------------+--------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Bone2D_property_default_length:
 
-- :ref:`float<class_float>` **default_length**
+- :ref:`float <class_float>` **default_length**
 
 +-----------+---------------------------+
 | *Default* | ``16.0``                  |
@@ -65,7 +65,7 @@ Length of the bone's representation drawn in the editor's viewport in pixels.
 
 .. _class_Bone2D_property_rest:
 
-- :ref:`Transform2D<class_Transform2D>` **rest**
+- :ref:`Transform2D <class_Transform2D>` **rest**
 
 +-----------+-------------------------------------+
 | *Default* | ``Transform2D( 0, 0, 0, 0, 0, 0 )`` |
@@ -75,7 +75,7 @@ Length of the bone's representation drawn in the editor's viewport in pixels.
 | *Getter*  | get_rest()                          |
 +-----------+-------------------------------------+
 
-Rest transform of the bone. You can reset the node's transforms to this value using :ref:`apply_rest<class_Bone2D_method_apply_rest>`.
+Rest transform of the bone. You can reset the node's transforms to this value using :ref:`apply_rest <class_Bone2D_method_apply_rest>`.
 
 Method Descriptions
 -------------------
@@ -84,21 +84,21 @@ Method Descriptions
 
 - void **apply_rest** **(** **)**
 
-Stores the node's current transforms in :ref:`rest<class_Bone2D_property_rest>`.
+Stores the node's current transforms in :ref:`rest <class_Bone2D_property_rest>`.
 
 ----
 
 .. _class_Bone2D_method_get_index_in_skeleton:
 
-- :ref:`int<class_int>` **get_index_in_skeleton** **(** **)** const
+- :ref:`int <class_int>` **get_index_in_skeleton** **(** **)** const
 
-Returns the node's index as part of the entire skeleton. See :ref:`Skeleton2D<class_Skeleton2D>`.
+Returns the node's index as part of the entire skeleton. See :ref:`Skeleton2D <class_Skeleton2D>`.
 
 ----
 
 .. _class_Bone2D_method_get_skeleton_rest:
 
-- :ref:`Transform2D<class_Transform2D>` **get_skeleton_rest** **(** **)** const
+- :ref:`Transform2D <class_Transform2D>` **get_skeleton_rest** **(** **)** const
 
-Returns the node's :ref:`rest<class_Bone2D_property_rest>` ``Transform2D`` if it doesn't have a parent, or its rest pose relative to its parent.
+Returns the node's :ref:`rest <class_Bone2D_property_rest>` ``Transform2D`` if it doesn't have a parent, or its rest pose relative to its parent.
 

@@ -9,9 +9,9 @@
 Slider
 ======
 
-**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Range <class_Range>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`HSlider<class_HSlider>`, :ref:`VSlider<class_VSlider>`
+**Inherited By:** :ref:`HSlider <class_HSlider>`, :ref:`VSlider <class_VSlider>`
 
 Base class for GUI sliders.
 
@@ -23,26 +23,26 @@ Base class for GUI sliders.
 Properties
 ----------
 
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                  | :ref:`editable<class_Slider_property_editable>`                 | ``true``     |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`FocusMode<enum_Control_FocusMode>` | focus_mode                                                      | **O:** ``2`` |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                  | :ref:`scrollable<class_Slider_property_scrollable>`             | ``true``     |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`int<class_int>`                    | size_flags_vertical                                             | **O:** ``0`` |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`int<class_int>`                    | :ref:`tick_count<class_Slider_property_tick_count>`             | ``0``        |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
-| :ref:`bool<class_bool>`                  | :ref:`ticks_on_borders<class_Slider_property_ticks_on_borders>` | ``false``    |
-+------------------------------------------+-----------------------------------------------------------------+--------------+
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`bool <class_bool>`                  | :ref:`editable <class_Slider_property_editable>`                 | ``true``     |
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`FocusMode <enum_Control_FocusMode>` | focus_mode                                                       | **O:** ``2`` |
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`bool <class_bool>`                  | :ref:`scrollable <class_Slider_property_scrollable>`             | ``true``     |
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`int <class_int>`                    | size_flags_vertical                                              | **O:** ``0`` |
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`int <class_int>`                    | :ref:`tick_count <class_Slider_property_tick_count>`             | ``0``        |
++-------------------------------------------+------------------------------------------------------------------+--------------+
+| :ref:`bool <class_bool>`                  | :ref:`ticks_on_borders <class_Slider_property_ticks_on_borders>` | ``false``    |
++-------------------------------------------+------------------------------------------------------------------+--------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Slider_property_editable:
 
-- :ref:`bool<class_bool>` **editable**
+- :ref:`bool <class_bool>` **editable**
 
 +-----------+---------------------+
 | *Default* | ``true``            |
@@ -58,7 +58,7 @@ If ``true``, the slider can be interacted with. If ``false``, the value can be c
 
 .. _class_Slider_property_scrollable:
 
-- :ref:`bool<class_bool>` **scrollable**
+- :ref:`bool <class_bool>` **scrollable**
 
 +-----------+-----------------------+
 | *Default* | ``true``              |
@@ -74,7 +74,7 @@ If ``true``, the value can be changed using the mouse wheel.
 
 .. _class_Slider_property_tick_count:
 
-- :ref:`int<class_int>` **tick_count**
+- :ref:`int <class_int>` **tick_count**
 
 +-----------+------------------+
 | *Default* | ``0``            |
@@ -90,7 +90,7 @@ Number of ticks displayed on the slider, including border ticks. Ticks are unifo
 
 .. _class_Slider_property_ticks_on_borders:
 
-- :ref:`bool<class_bool>` **ticks_on_borders**
+- :ref:`bool <class_bool>` **ticks_on_borders**
 
 +-----------+-----------------------------+
 | *Default* | ``false``                   |

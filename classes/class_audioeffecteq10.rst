@@ -9,7 +9,7 @@
 AudioEffectEQ10
 ===============
 
-**Inherits:** :ref:`AudioEffectEQ<class_AudioEffectEQ>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffectEQ <class_AudioEffectEQ>` **<** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a 10-band equalizer audio effect to an Audio bus. Gives you control over frequencies from 31 Hz to 16000 Hz.
 
@@ -40,5 +40,5 @@ Band 9: 8000 Hz
 
 Band 10: 16000 Hz
 
-See also :ref:`AudioEffectEQ<class_AudioEffectEQ>`, :ref:`AudioEffectEQ6<class_AudioEffectEQ6>`, :ref:`AudioEffectEQ21<class_AudioEffectEQ21>`.
+See also :ref:`AudioEffectEQ <class_AudioEffectEQ>`, :ref:`AudioEffectEQ6 <class_AudioEffectEQ6>`, :ref:`AudioEffectEQ21 <class_AudioEffectEQ21>`.
 

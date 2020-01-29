@@ -9,36 +9,36 @@
 PrismMesh
 =========
 
-**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PrimitiveMesh <class_PrimitiveMesh>` **<** :ref:`Mesh <class_Mesh>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Class representing a prism-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+Class representing a prism-shaped :ref:`PrimitiveMesh <class_PrimitiveMesh>`.
 
 Description
 -----------
 
-Class representing a prism-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+Class representing a prism-shaped :ref:`PrimitiveMesh <class_PrimitiveMesh>`.
 
 Properties
 ----------
 
-+-------------------------------+--------------------------------------------------------------------+------------------------+
-| :ref:`float<class_float>`     | :ref:`left_to_right<class_PrismMesh_property_left_to_right>`       | ``0.5``                |
-+-------------------------------+--------------------------------------------------------------------+------------------------+
-| :ref:`Vector3<class_Vector3>` | :ref:`size<class_PrismMesh_property_size>`                         | ``Vector3( 2, 2, 2 )`` |
-+-------------------------------+--------------------------------------------------------------------+------------------------+
-| :ref:`int<class_int>`         | :ref:`subdivide_depth<class_PrismMesh_property_subdivide_depth>`   | ``0``                  |
-+-------------------------------+--------------------------------------------------------------------+------------------------+
-| :ref:`int<class_int>`         | :ref:`subdivide_height<class_PrismMesh_property_subdivide_height>` | ``0``                  |
-+-------------------------------+--------------------------------------------------------------------+------------------------+
-| :ref:`int<class_int>`         | :ref:`subdivide_width<class_PrismMesh_property_subdivide_width>`   | ``0``                  |
-+-------------------------------+--------------------------------------------------------------------+------------------------+
++--------------------------------+---------------------------------------------------------------------+------------------------+
+| :ref:`float <class_float>`     | :ref:`left_to_right <class_PrismMesh_property_left_to_right>`       | ``0.5``                |
++--------------------------------+---------------------------------------------------------------------+------------------------+
+| :ref:`Vector3 <class_Vector3>` | :ref:`size <class_PrismMesh_property_size>`                         | ``Vector3( 2, 2, 2 )`` |
++--------------------------------+---------------------------------------------------------------------+------------------------+
+| :ref:`int <class_int>`         | :ref:`subdivide_depth <class_PrismMesh_property_subdivide_depth>`   | ``0``                  |
++--------------------------------+---------------------------------------------------------------------+------------------------+
+| :ref:`int <class_int>`         | :ref:`subdivide_height <class_PrismMesh_property_subdivide_height>` | ``0``                  |
++--------------------------------+---------------------------------------------------------------------+------------------------+
+| :ref:`int <class_int>`         | :ref:`subdivide_width <class_PrismMesh_property_subdivide_width>`   | ``0``                  |
++--------------------------------+---------------------------------------------------------------------+------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_PrismMesh_property_left_to_right:
 
-- :ref:`float<class_float>` **left_to_right**
+- :ref:`float <class_float>` **left_to_right**
 
 +-----------+--------------------------+
 | *Default* | ``0.5``                  |
@@ -54,7 +54,7 @@ Displacement of the upper edge along the X axis. 0.0 positions edge straight abo
 
 .. _class_PrismMesh_property_size:
 
-- :ref:`Vector3<class_Vector3>` **size**
+- :ref:`Vector3 <class_Vector3>` **size**
 
 +-----------+------------------------+
 | *Default* | ``Vector3( 2, 2, 2 )`` |
@@ -70,7 +70,7 @@ Size of the prism.
 
 .. _class_PrismMesh_property_subdivide_depth:
 
-- :ref:`int<class_int>` **subdivide_depth**
+- :ref:`int <class_int>` **subdivide_depth**
 
 +-----------+----------------------------+
 | *Default* | ``0``                      |
@@ -86,7 +86,7 @@ Number of added edge loops along the Z axis.
 
 .. _class_PrismMesh_property_subdivide_height:
 
-- :ref:`int<class_int>` **subdivide_height**
+- :ref:`int <class_int>` **subdivide_height**
 
 +-----------+-----------------------------+
 | *Default* | ``0``                       |
@@ -102,7 +102,7 @@ Number of added edge loops along the Y axis.
 
 .. _class_PrismMesh_property_subdivide_width:
 
-- :ref:`int<class_int>` **subdivide_width**
+- :ref:`int <class_int>` **subdivide_width**
 
 +-----------+----------------------------+
 | *Default* | ``0``                      |

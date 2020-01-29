@@ -9,7 +9,7 @@
 GDScript
 ========
 
-**Inherits:** :ref:`Script<class_Script>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Script <class_Script>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A script implemented in the GDScript programming language.
 
@@ -18,7 +18,7 @@ Description
 
 A script implemented in the GDScript programming language. The script extends the functionality of all objects that instance it.
 
-:ref:`new<class_GDScript_method_new>` creates a new instance of the script. :ref:`Object.set_script<class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes.
+:ref:`new <class_GDScript_method_new>` creates a new instance of the script. :ref:`Object.set_script <class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes.
 
 Tutorials
 ---------
@@ -28,18 +28,18 @@ Tutorials
 Methods
 -------
 
-+-------------------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`PoolByteArray<class_PoolByteArray>` | :ref:`get_as_byte_code<class_GDScript_method_get_as_byte_code>` **(** **)** const |
-+-------------------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`Variant<class_Variant>`             | :ref:`new<class_GDScript_method_new>` **(** ... **)** vararg                      |
-+-------------------------------------------+-----------------------------------------------------------------------------------+
++------------------------------------------------+------------------------------------------------------------------------------------+
+| :ref:`PackedByteArray <class_PackedByteArray>` | :ref:`get_as_byte_code <class_GDScript_method_get_as_byte_code>` **(** **)** const |
++------------------------------------------------+------------------------------------------------------------------------------------+
+| :ref:`Variant <class_Variant>`                 | :ref:`new <class_GDScript_method_new>` **(** ... **)** vararg                      |
++------------------------------------------------+------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_GDScript_method_get_as_byte_code:
 
-- :ref:`PoolByteArray<class_PoolByteArray>` **get_as_byte_code** **(** **)** const
+- :ref:`PackedByteArray <class_PackedByteArray>` **get_as_byte_code** **(** **)** const
 
 Returns byte code for the script source code.
 
@@ -47,7 +47,7 @@ Returns byte code for the script source code.
 
 .. _class_GDScript_method_new:
 
-- :ref:`Variant<class_Variant>` **new** **(** ... **)** vararg
+- :ref:`Variant <class_Variant>` **new** **(** ... **)** vararg
 
 Returns a new instance of the script.
 

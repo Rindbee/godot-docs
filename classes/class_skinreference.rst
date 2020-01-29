@@ -9,29 +9,29 @@
 SkinReference
 =============
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+-------------------------+--------------------------------------------------------------------------------+
-| :ref:`RID<class_RID>`   | :ref:`get_skeleton<class_SkinReference_method_get_skeleton>` **(** **)** const |
-+-------------------------+--------------------------------------------------------------------------------+
-| :ref:`Skin<class_Skin>` | :ref:`get_skin<class_SkinReference_method_get_skin>` **(** **)** const         |
-+-------------------------+--------------------------------------------------------------------------------+
++--------------------------+---------------------------------------------------------------------------------+
+| :ref:`RID <class_RID>`   | :ref:`get_skeleton <class_SkinReference_method_get_skeleton>` **(** **)** const |
++--------------------------+---------------------------------------------------------------------------------+
+| :ref:`Skin <class_Skin>` | :ref:`get_skin <class_SkinReference_method_get_skin>` **(** **)** const         |
++--------------------------+---------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_SkinReference_method_get_skeleton:
 
-- :ref:`RID<class_RID>` **get_skeleton** **(** **)** const
+- :ref:`RID <class_RID>` **get_skeleton** **(** **)** const
 
 ----
 
 .. _class_SkinReference_method_get_skin:
 
-- :ref:`Skin<class_Skin>` **get_skin** **(** **)** const
+- :ref:`Skin <class_Skin>` **get_skin** **(** **)** const
 

@@ -9,41 +9,41 @@
 SplitContainer
 ==============
 
-**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`HSplitContainer<class_HSplitContainer>`, :ref:`VSplitContainer<class_VSplitContainer>`
+**Inherited By:** :ref:`HSplitContainer <class_HSplitContainer>`, :ref:`VSplitContainer <class_VSplitContainer>`
 
 Container for splitting and adjusting.
 
 Description
 -----------
 
-Container for splitting two :ref:`Control<class_Control>`\ s vertically or horizontally, with a grabber that allows adjusting the split offset or ratio.
+Container for splitting two :ref:`Control <class_Control>`\ s vertically or horizontally, with a grabber that allows adjusting the split offset or ratio.
 
 Properties
 ----------
 
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`                                         | :ref:`collapsed<class_SplitContainer_property_collapsed>`                   | ``false`` |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------+-----------+
-| :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` | :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` | ``0``     |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------+-----------+
-| :ref:`int<class_int>`                                           | :ref:`split_offset<class_SplitContainer_property_split_offset>`             | ``0``     |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------+-----------+
++------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`                                         | :ref:`collapsed <class_SplitContainer_property_collapsed>`                   | ``false`` |
++------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+| :ref:`DraggerVisibility <enum_SplitContainer_DraggerVisibility>` | :ref:`dragger_visibility <class_SplitContainer_property_dragger_visibility>` | ``0``     |
++------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
+| :ref:`int <class_int>`                                           | :ref:`split_offset <class_SplitContainer_property_split_offset>`             | ``0``     |
++------------------------------------------------------------------+------------------------------------------------------------------------------+-----------+
 
 Methods
 -------
 
-+------+---------------------------------------------------------------------------------------+
-| void | :ref:`clamp_split_offset<class_SplitContainer_method_clamp_split_offset>` **(** **)** |
-+------+---------------------------------------------------------------------------------------+
++------+----------------------------------------------------------------------------------------+
+| void | :ref:`clamp_split_offset <class_SplitContainer_method_clamp_split_offset>` **(** **)** |
++------+----------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_SplitContainer_signal_dragged:
 
-- **dragged** **(** :ref:`int<class_int>` offset **)**
+- **dragged** **(** :ref:`int <class_int>` offset **)**
 
 Emitted when the dragger is dragged by user.
 
@@ -71,7 +71,7 @@ Property Descriptions
 
 .. _class_SplitContainer_property_collapsed:
 
-- :ref:`bool<class_bool>` **collapsed**
+- :ref:`bool <class_bool>` **collapsed**
 
 +-----------+----------------------+
 | *Default* | ``false``            |
@@ -81,13 +81,13 @@ Property Descriptions
 | *Getter*  | is_collapsed()       |
 +-----------+----------------------+
 
-If ``true``, the area of the first :ref:`Control<class_Control>` will be collapsed and the dragger will be disabled.
+If ``true``, the area of the first :ref:`Control <class_Control>` will be collapsed and the dragger will be disabled.
 
 ----
 
 .. _class_SplitContainer_property_dragger_visibility:
 
-- :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **dragger_visibility**
+- :ref:`DraggerVisibility <enum_SplitContainer_DraggerVisibility>` **dragger_visibility**
 
 +-----------+-------------------------------+
 | *Default* | ``0``                         |
@@ -97,13 +97,13 @@ If ``true``, the area of the first :ref:`Control<class_Control>` will be collaps
 | *Getter*  | get_dragger_visibility()      |
 +-----------+-------------------------------+
 
-Determines the dragger's visibility. See :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` for details.
+Determines the dragger's visibility. See :ref:`DraggerVisibility <enum_SplitContainer_DraggerVisibility>` for details.
 
 ----
 
 .. _class_SplitContainer_property_split_offset:
 
-- :ref:`int<class_int>` **split_offset**
+- :ref:`int <class_int>` **split_offset**
 
 +-----------+-------------------------+
 | *Default* | ``0``                   |
@@ -113,7 +113,7 @@ Determines the dragger's visibility. See :ref:`DraggerVisibility<enum_SplitConta
 | *Getter*  | get_split_offset()      |
 +-----------+-------------------------+
 
-The initial offset of the splitting between the two :ref:`Control<class_Control>`\ s, with ``0`` being at the end of the first :ref:`Control<class_Control>`.
+The initial offset of the splitting between the two :ref:`Control <class_Control>`\ s, with ``0`` being at the end of the first :ref:`Control <class_Control>`.
 
 Method Descriptions
 -------------------
@@ -122,5 +122,5 @@ Method Descriptions
 
 - void **clamp_split_offset** **(** **)**
 
-Clamps the :ref:`split_offset<class_SplitContainer_property_split_offset>` value to not go outside the currently possible minimal and maximum values.
+Clamps the :ref:`split_offset <class_SplitContainer_property_split_offset>` value to not go outside the currently possible minimal and maximum values.
 

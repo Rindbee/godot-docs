@@ -9,14 +9,14 @@
 CollisionShape2D
 ================
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Node that represents collision shape data in 2D space.
 
 Description
 -----------
 
-Editor facility for creating and editing collision shapes in 2D space. You can use this node to represent all sorts of collision shapes, for example, add this to an :ref:`Area2D<class_Area2D>` to give it a detection shape, or add it to a :ref:`PhysicsBody2D<class_PhysicsBody2D>` to create a solid object. **IMPORTANT**: this is an Editor-only helper to create shapes, use :ref:`CollisionObject2D.shape_owner_get_shape<class_CollisionObject2D_method_shape_owner_get_shape>` to get the actual shape.
+Editor facility for creating and editing collision shapes in 2D space. You can use this node to represent all sorts of collision shapes, for example, add this to an :ref:`Area2D <class_Area2D>` to give it a detection shape, or add it to a :ref:`PhysicsBody2D <class_PhysicsBody2D>` to create a solid object. **IMPORTANT**: this is an Editor-only helper to create shapes, use :ref:`CollisionObject2D.shape_owner_get_shape <class_CollisionObject2D_method_shape_owner_get_shape>` to get the actual shape.
 
 Tutorials
 ---------
@@ -26,22 +26,22 @@ Tutorials
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`       | :ref:`disabled<class_CollisionShape2D_property_disabled>`                                 | ``false`` |
-+-------------------------------+-------------------------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`       | :ref:`one_way_collision<class_CollisionShape2D_property_one_way_collision>`               | ``false`` |
-+-------------------------------+-------------------------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>`     | :ref:`one_way_collision_margin<class_CollisionShape2D_property_one_way_collision_margin>` | ``1.0``   |
-+-------------------------------+-------------------------------------------------------------------------------------------+-----------+
-| :ref:`Shape2D<class_Shape2D>` | :ref:`shape<class_CollisionShape2D_property_shape>`                                       |           |
-+-------------------------------+-------------------------------------------------------------------------------------------+-----------+
++--------------------------------+--------------------------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`       | :ref:`disabled <class_CollisionShape2D_property_disabled>`                                 | ``false`` |
++--------------------------------+--------------------------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`       | :ref:`one_way_collision <class_CollisionShape2D_property_one_way_collision>`               | ``false`` |
++--------------------------------+--------------------------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>`     | :ref:`one_way_collision_margin <class_CollisionShape2D_property_one_way_collision_margin>` | ``1.0``   |
++--------------------------------+--------------------------------------------------------------------------------------------+-----------+
+| :ref:`Shape2D <class_Shape2D>` | :ref:`shape <class_CollisionShape2D_property_shape>`                                       |           |
++--------------------------------+--------------------------------------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CollisionShape2D_property_disabled:
 
-- :ref:`bool<class_bool>` **disabled**
+- :ref:`bool <class_bool>` **disabled**
 
 +-----------+---------------------+
 | *Default* | ``false``           |
@@ -57,7 +57,7 @@ A disabled collision shape has no effect in the world.
 
 .. _class_CollisionShape2D_property_one_way_collision:
 
-- :ref:`bool<class_bool>` **one_way_collision**
+- :ref:`bool <class_bool>` **one_way_collision**
 
 +-----------+--------------------------------+
 | *Default* | ``false``                      |
@@ -73,7 +73,7 @@ Sets whether this collision shape should only detect collision on one side (top 
 
 .. _class_CollisionShape2D_property_one_way_collision_margin:
 
-- :ref:`float<class_float>` **one_way_collision_margin**
+- :ref:`float <class_float>` **one_way_collision_margin**
 
 +-----------+-------------------------------------+
 | *Default* | ``1.0``                             |
@@ -89,7 +89,7 @@ The margin used for one-way collision (in pixels).
 
 .. _class_CollisionShape2D_property_shape:
 
-- :ref:`Shape2D<class_Shape2D>` **shape**
+- :ref:`Shape2D <class_Shape2D>` **shape**
 
 +----------+------------------+
 | *Setter* | set_shape(value) |

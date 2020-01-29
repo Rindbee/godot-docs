@@ -9,7 +9,7 @@
 CameraServer
 ============
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 Server keeping track of different cameras accessible in Godot.
 
@@ -23,34 +23,34 @@ It is notably used to provide AR modules with a video feed from the camera.
 Methods
 -------
 
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
-| void                                | :ref:`add_feed<class_CameraServer_method_add_feed>` **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**       |
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>`           | :ref:`feeds<class_CameraServer_method_feeds>` **(** **)**                                                      |
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
-| :ref:`CameraFeed<class_CameraFeed>` | :ref:`get_feed<class_CameraServer_method_get_feed>` **(** :ref:`int<class_int>` index **)**                    |
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`               | :ref:`get_feed_count<class_CameraServer_method_get_feed_count>` **(** **)**                                    |
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
-| void                                | :ref:`remove_feed<class_CameraServer_method_remove_feed>` **(** :ref:`CameraFeed<class_CameraFeed>` feed **)** |
-+-------------------------------------+----------------------------------------------------------------------------------------------------------------+
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`add_feed <class_CameraServer_method_add_feed>` **(** :ref:`CameraFeed <class_CameraFeed>` feed **)**       |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>`           | :ref:`feeds <class_CameraServer_method_feeds>` **(** **)**                                                       |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| :ref:`CameraFeed <class_CameraFeed>` | :ref:`get_feed <class_CameraServer_method_get_feed>` **(** :ref:`int <class_int>` index **)**                    |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`               | :ref:`get_feed_count <class_CameraServer_method_get_feed_count>` **(** **)**                                     |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`remove_feed <class_CameraServer_method_remove_feed>` **(** :ref:`CameraFeed <class_CameraFeed>` feed **)** |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_CameraServer_signal_camera_feed_added:
 
-- **camera_feed_added** **(** :ref:`int<class_int>` id **)**
+- **camera_feed_added** **(** :ref:`int <class_int>` id **)**
 
-Emitted when a :ref:`CameraFeed<class_CameraFeed>` is added (e.g. webcam is plugged in).
+Emitted when a :ref:`CameraFeed <class_CameraFeed>` is added (e.g. webcam is plugged in).
 
 ----
 
 .. _class_CameraServer_signal_camera_feed_removed:
 
-- **camera_feed_removed** **(** :ref:`int<class_int>` id **)**
+- **camera_feed_removed** **(** :ref:`int <class_int>` id **)**
 
-Emitted when a :ref:`CameraFeed<class_CameraFeed>` is removed (e.g. webcam is unplugged).
+Emitted when a :ref:`CameraFeed <class_CameraFeed>` is removed (e.g. webcam is unplugged).
 
 Enumerations
 ------------
@@ -80,7 +80,7 @@ Method Descriptions
 
 .. _class_CameraServer_method_add_feed:
 
-- void **add_feed** **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**
+- void **add_feed** **(** :ref:`CameraFeed <class_CameraFeed>` feed **)**
 
 Adds a camera feed to the camera server.
 
@@ -88,31 +88,31 @@ Adds a camera feed to the camera server.
 
 .. _class_CameraServer_method_feeds:
 
-- :ref:`Array<class_Array>` **feeds** **(** **)**
+- :ref:`Array <class_Array>` **feeds** **(** **)**
 
-Returns an array of :ref:`CameraFeed<class_CameraFeed>`\ s.
+Returns an array of :ref:`CameraFeed <class_CameraFeed>`\ s.
 
 ----
 
 .. _class_CameraServer_method_get_feed:
 
-- :ref:`CameraFeed<class_CameraFeed>` **get_feed** **(** :ref:`int<class_int>` index **)**
+- :ref:`CameraFeed <class_CameraFeed>` **get_feed** **(** :ref:`int <class_int>` index **)**
 
-Returns the :ref:`CameraFeed<class_CameraFeed>` with this id.
+Returns the :ref:`CameraFeed <class_CameraFeed>` with this id.
 
 ----
 
 .. _class_CameraServer_method_get_feed_count:
 
-- :ref:`int<class_int>` **get_feed_count** **(** **)**
+- :ref:`int <class_int>` **get_feed_count** **(** **)**
 
-Returns the number of :ref:`CameraFeed<class_CameraFeed>`\ s registered.
+Returns the number of :ref:`CameraFeed <class_CameraFeed>`\ s registered.
 
 ----
 
 .. _class_CameraServer_method_remove_feed:
 
-- void **remove_feed** **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**
+- void **remove_feed** **(** :ref:`CameraFeed <class_CameraFeed>` feed **)**
 
-Removes a :ref:`CameraFeed<class_CameraFeed>`.
+Removes a :ref:`CameraFeed <class_CameraFeed>`.
 

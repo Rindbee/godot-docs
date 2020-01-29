@@ -9,7 +9,7 @@
 EditorScenePostImport
 =====================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Post-processes scenes after import.
 
@@ -18,7 +18,7 @@ Description
 
 Imported scenes can be automatically modified right after import by setting their **Custom Script** Import property to a ``tool`` script that inherits from this class.
 
-The :ref:`post_import<class_EditorScenePostImport_method_post_import>` callback receives the imported scene's root node and returns the modified version of the scene. Usage example:
+The :ref:`post_import <class_EditorScenePostImport_method_post_import>` callback receives the imported scene's root node and returns the modified version of the scene. Usage example:
 
 ::
 
@@ -47,20 +47,20 @@ Tutorials
 Methods
 -------
 
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`get_source_file<class_EditorScenePostImport_method_get_source_file>` **(** **)** const                             |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>` | :ref:`get_source_folder<class_EditorScenePostImport_method_get_source_folder>` **(** **)** const                         |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Object<class_Object>` | :ref:`post_import<class_EditorScenePostImport_method_post_import>` **(** :ref:`Object<class_Object>` scene **)** virtual |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------+
++------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>` | :ref:`get_source_file <class_EditorScenePostImport_method_get_source_file>` **(** **)** const                              |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>` | :ref:`get_source_folder <class_EditorScenePostImport_method_get_source_folder>` **(** **)** const                          |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Object <class_Object>` | :ref:`post_import <class_EditorScenePostImport_method_post_import>` **(** :ref:`Object <class_Object>` scene **)** virtual |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_EditorScenePostImport_method_get_source_file:
 
-- :ref:`String<class_String>` **get_source_file** **(** **)** const
+- :ref:`String <class_String>` **get_source_file** **(** **)** const
 
 Returns the source file path which got imported (e.g. ``res://scene.dae``).
 
@@ -68,7 +68,7 @@ Returns the source file path which got imported (e.g. ``res://scene.dae``).
 
 .. _class_EditorScenePostImport_method_get_source_folder:
 
-- :ref:`String<class_String>` **get_source_folder** **(** **)** const
+- :ref:`String <class_String>` **get_source_folder** **(** **)** const
 
 Returns the resource folder the imported scene file is located in.
 
@@ -76,7 +76,7 @@ Returns the resource folder the imported scene file is located in.
 
 .. _class_EditorScenePostImport_method_post_import:
 
-- :ref:`Object<class_Object>` **post_import** **(** :ref:`Object<class_Object>` scene **)** virtual
+- :ref:`Object <class_Object>` **post_import** **(** :ref:`Object <class_Object>` scene **)** virtual
 
 Called after the scene was imported. This method must return the modified version of the scene.
 

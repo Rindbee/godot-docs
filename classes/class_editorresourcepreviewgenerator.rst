@@ -9,38 +9,38 @@
 EditorResourcePreviewGenerator
 ==============================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Custom generator of previews.
 
 Description
 -----------
 
-Custom code to generate previews. Please check ``file_dialog/thumbnail_size`` in :ref:`EditorSettings<class_EditorSettings>` to find out the right size to do previews at.
+Custom code to generate previews. Please check ``file_dialog/thumbnail_size`` in :ref:`EditorSettings <class_EditorSettings>` to find out the right size to do previews at.
 
 Methods
 -------
 
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`       | :ref:`can_generate_small_preview<class_EditorResourcePreviewGenerator_method_can_generate_small_preview>` **(** **)** virtual                                                      |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Texture<class_Texture>` | :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>` **(** :ref:`Resource<class_Resource>` from, :ref:`Vector2<class_Vector2>` size **)** virtual                 |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Texture<class_Texture>` | :ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>` **(** :ref:`String<class_String>` path, :ref:`Vector2<class_Vector2>` size **)** virtual |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`       | :ref:`generate_small_preview_automatically<class_EditorResourcePreviewGenerator_method_generate_small_preview_automatically>` **(** **)** virtual                                  |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`       | :ref:`handles<class_EditorResourcePreviewGenerator_method_handles>` **(** :ref:`String<class_String>` type **)** virtual                                                           |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`           | :ref:`can_generate_small_preview <class_EditorResourcePreviewGenerator_method_can_generate_small_preview>` **(** **)** virtual                                                        |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Texture2D <class_Texture2D>` | :ref:`generate <class_EditorResourcePreviewGenerator_method_generate>` **(** :ref:`Resource <class_Resource>` from, :ref:`Vector2 <class_Vector2>` size **)** virtual                 |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Texture2D <class_Texture2D>` | :ref:`generate_from_path <class_EditorResourcePreviewGenerator_method_generate_from_path>` **(** :ref:`String <class_String>` path, :ref:`Vector2 <class_Vector2>` size **)** virtual |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`           | :ref:`generate_small_preview_automatically <class_EditorResourcePreviewGenerator_method_generate_small_preview_automatically>` **(** **)** virtual                                    |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`           | :ref:`handles <class_EditorResourcePreviewGenerator_method_handles>` **(** :ref:`String <class_String>` type **)** virtual                                                            |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_EditorResourcePreviewGenerator_method_can_generate_small_preview:
 
-- :ref:`bool<class_bool>` **can_generate_small_preview** **(** **)** virtual
+- :ref:`bool <class_bool>` **can_generate_small_preview** **(** **)** virtual
 
-If this function returns ``true``, the generator will call :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>` or :ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>` for small previews as well.
+If this function returns ``true``, the generator will call :ref:`generate <class_EditorResourcePreviewGenerator_method_generate>` or :ref:`generate_from_path <class_EditorResourcePreviewGenerator_method_generate_from_path>` for small previews as well.
 
 By default, it returns ``false``.
 
@@ -48,7 +48,7 @@ By default, it returns ``false``.
 
 .. _class_EditorResourcePreviewGenerator_method_generate:
 
-- :ref:`Texture<class_Texture>` **generate** **(** :ref:`Resource<class_Resource>` from, :ref:`Vector2<class_Vector2>` size **)** virtual
+- :ref:`Texture2D <class_Texture2D>` **generate** **(** :ref:`Resource <class_Resource>` from, :ref:`Vector2 <class_Vector2>` size **)** virtual
 
 Generate a preview from a given resource with the specified size. This must always be implemented.
 
@@ -60,9 +60,9 @@ Care must be taken because this function is always called from a thread (not the
 
 .. _class_EditorResourcePreviewGenerator_method_generate_from_path:
 
-- :ref:`Texture<class_Texture>` **generate_from_path** **(** :ref:`String<class_String>` path, :ref:`Vector2<class_Vector2>` size **)** virtual
+- :ref:`Texture2D <class_Texture2D>` **generate_from_path** **(** :ref:`String <class_String>` path, :ref:`Vector2 <class_Vector2>` size **)** virtual
 
-Generate a preview directly from a path with the specified size. Implementing this is optional, as default code will load and call :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>`.
+Generate a preview directly from a path with the specified size. Implementing this is optional, as default code will load and call :ref:`generate <class_EditorResourcePreviewGenerator_method_generate>`.
 
 Returning an empty texture is an OK way to fail and let another generator take care.
 
@@ -72,9 +72,9 @@ Care must be taken because this function is always called from a thread (not the
 
 .. _class_EditorResourcePreviewGenerator_method_generate_small_preview_automatically:
 
-- :ref:`bool<class_bool>` **generate_small_preview_automatically** **(** **)** virtual
+- :ref:`bool <class_bool>` **generate_small_preview_automatically** **(** **)** virtual
 
-If this function returns ``true``, the generator will automatically generate the small previews from the normal preview texture generated by the methods :ref:`generate<class_EditorResourcePreviewGenerator_method_generate>` or :ref:`generate_from_path<class_EditorResourcePreviewGenerator_method_generate_from_path>`.
+If this function returns ``true``, the generator will automatically generate the small previews from the normal preview texture generated by the methods :ref:`generate <class_EditorResourcePreviewGenerator_method_generate>` or :ref:`generate_from_path <class_EditorResourcePreviewGenerator_method_generate_from_path>`.
 
 By default, it returns ``false``.
 
@@ -82,7 +82,7 @@ By default, it returns ``false``.
 
 .. _class_EditorResourcePreviewGenerator_method_handles:
 
-- :ref:`bool<class_bool>` **handles** **(** :ref:`String<class_String>` type **)** virtual
+- :ref:`bool <class_bool>` **handles** **(** :ref:`String <class_String>` type **)** virtual
 
 Returns ``true`` if your generator supports the resource of type ``type``.
 

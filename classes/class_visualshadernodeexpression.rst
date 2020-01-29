@@ -9,9 +9,9 @@
 VisualShaderNodeExpression
 ==========================
 
-**Inherits:** :ref:`VisualShaderNodeGroupBase<class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNodeGroupBase <class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`VisualShaderNodeGlobalExpression<class_VisualShaderNodeGlobalExpression>`
+**Inherited By:** :ref:`VisualShaderNodeGlobalExpression <class_VisualShaderNodeGlobalExpression>`
 
 A custom visual shader graph expression written in Godot Shading Language.
 
@@ -20,21 +20,21 @@ Description
 
 Custom Godot Shading Language expression, with a custom amount of input and output ports.
 
-The provided code is directly injected into the graph's matching shader function (``vertex``, ``fragment``, or ``light``), so it cannot be used to to declare functions, varyings, uniforms, or global constants. See :ref:`VisualShaderNodeGlobalExpression<class_VisualShaderNodeGlobalExpression>` for such global definitions.
+The provided code is directly injected into the graph's matching shader function (``vertex``, ``fragment``, or ``light``), so it cannot be used to to declare functions, varyings, uniforms, or global constants. See :ref:`VisualShaderNodeGlobalExpression <class_VisualShaderNodeGlobalExpression>` for such global definitions.
 
 Properties
 ----------
 
-+-----------------------------+-------------------------------------------------------------------------+--------+
-| :ref:`String<class_String>` | :ref:`expression<class_VisualShaderNodeExpression_property_expression>` | ``""`` |
-+-----------------------------+-------------------------------------------------------------------------+--------+
++------------------------------+--------------------------------------------------------------------------+--------+
+| :ref:`String <class_String>` | :ref:`expression <class_VisualShaderNodeExpression_property_expression>` | ``""`` |
++------------------------------+--------------------------------------------------------------------------+--------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeExpression_property_expression:
 
-- :ref:`String<class_String>` **expression**
+- :ref:`String <class_String>` **expression**
 
 +-----------+-----------------------+
 | *Default* | ``""``                |

@@ -9,12 +9,12 @@
 VisualShaderNodeGlobalExpression
 ================================
 
-**Inherits:** :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>` **<** :ref:`VisualShaderNodeGroupBase<class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNodeExpression <class_VisualShaderNodeExpression>` **<** :ref:`VisualShaderNodeGroupBase <class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A custom global visual shader graph expression written in Godot Shading Language.
 
 Description
 -----------
 
-Custom Godot Shader Language expression, which is placed on top of the generated shader. You can place various function definitions inside to call later in :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`\ s (which are injected in the main shader functions). You can also declare varyings, uniforms and global constants.
+Custom Godot Shader Language expression, which is placed on top of the generated shader. You can place various function definitions inside to call later in :ref:`VisualShaderNodeExpression <class_VisualShaderNodeExpression>`\ s (which are injected in the main shader functions). You can also declare varyings, uniforms and global constants.
 

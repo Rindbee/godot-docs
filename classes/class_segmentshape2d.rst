@@ -9,7 +9,7 @@
 SegmentShape2D
 ==============
 
-**Inherits:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape2D <class_Shape2D>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Segment shape for 2D collisions.
 
@@ -21,18 +21,18 @@ Segment shape for 2D collisions. Consists of two points, ``a`` and ``b``.
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------+----------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`a<class_SegmentShape2D_property_a>` | ``Vector2( 0, 0 )``  |
-+-------------------------------+-------------------------------------------+----------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`b<class_SegmentShape2D_property_b>` | ``Vector2( 0, 10 )`` |
-+-------------------------------+-------------------------------------------+----------------------+
++--------------------------------+--------------------------------------------+----------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`a <class_SegmentShape2D_property_a>` | ``Vector2( 0, 0 )``  |
++--------------------------------+--------------------------------------------+----------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`b <class_SegmentShape2D_property_b>` | ``Vector2( 0, 10 )`` |
++--------------------------------+--------------------------------------------+----------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_SegmentShape2D_property_a:
 
-- :ref:`Vector2<class_Vector2>` **a**
+- :ref:`Vector2 <class_Vector2>` **a**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -48,7 +48,7 @@ The segment's first point position.
 
 .. _class_SegmentShape2D_property_b:
 
-- :ref:`Vector2<class_Vector2>` **b**
+- :ref:`Vector2 <class_Vector2>` **b**
 
 +-----------+----------------------+
 | *Default* | ``Vector2( 0, 10 )`` |

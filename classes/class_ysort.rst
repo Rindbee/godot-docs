@@ -9,30 +9,30 @@
 YSort
 =====
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Sort all child nodes based on their Y positions.
 
 Description
 -----------
 
-Sort all child nodes based on their Y positions. The child node must inherit from :ref:`CanvasItem<class_CanvasItem>` for it to be sorted. Nodes that have a higher Y position will be drawn later, so they will appear on top of nodes that have a lower Y position.
+Sort all child nodes based on their Y positions. The child node must inherit from :ref:`CanvasItem <class_CanvasItem>` for it to be sorted. Nodes that have a higher Y position will be drawn later, so they will appear on top of nodes that have a lower Y position.
 
 Nesting of YSort nodes is possible. Children YSort nodes will be sorted in the same space as the parent YSort, allowing to better organize a scene or divide it in multiple ones, yet keep the unique sorting.
 
 Properties
 ----------
 
-+-------------------------+--------------------------------------------------------+----------+
-| :ref:`bool<class_bool>` | :ref:`sort_enabled<class_YSort_property_sort_enabled>` | ``true`` |
-+-------------------------+--------------------------------------------------------+----------+
++--------------------------+---------------------------------------------------------+----------+
+| :ref:`bool <class_bool>` | :ref:`sort_enabled <class_YSort_property_sort_enabled>` | ``true`` |
++--------------------------+---------------------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_YSort_property_sort_enabled:
 
-- :ref:`bool<class_bool>` **sort_enabled**
+- :ref:`bool <class_bool>` **sort_enabled**
 
 +-----------+-------------------------+
 | *Default* | ``true``                |

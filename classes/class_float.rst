@@ -19,32 +19,32 @@ Float built-in type.
 Methods
 -------
 
-+---------------------------+-------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`float<class_float_method_float>` **(** :ref:`bool<class_bool>` from **)**     |
-+---------------------------+-------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`float<class_float_method_float>` **(** :ref:`int<class_int>` from **)**       |
-+---------------------------+-------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`float<class_float_method_float>` **(** :ref:`String<class_String>` from **)** |
-+---------------------------+-------------------------------------------------------------------------------------+
++----------------------------+---------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`float <class_float_method_float>` **(** :ref:`bool <class_bool>` from **)**     |
++----------------------------+---------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`float <class_float_method_float>` **(** :ref:`int <class_int>` from **)**       |
++----------------------------+---------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`float <class_float_method_float>` **(** :ref:`String <class_String>` from **)** |
++----------------------------+---------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_float_method_float:
 
-- :ref:`float<class_float>` **float** **(** :ref:`bool<class_bool>` from **)**
+- :ref:`float <class_float>` **float** **(** :ref:`bool <class_bool>` from **)**
 
-Cast a :ref:`bool<class_bool>` value to a floating-point value, ``float(true)`` will be equal to 1.0 and ``float(false)`` will be equal to 0.0.
-
-----
-
-- :ref:`float<class_float>` **float** **(** :ref:`int<class_int>` from **)**
-
-Cast an :ref:`int<class_int>` value to a floating-point value, ``float(1)`` will be equal to 1.0.
+Cast a :ref:`bool <class_bool>` value to a floating-point value, ``float(true)`` will be equal to 1.0 and ``float(false)`` will be equal to 0.0.
 
 ----
 
-- :ref:`float<class_float>` **float** **(** :ref:`String<class_String>` from **)**
+- :ref:`float <class_float>` **float** **(** :ref:`int <class_int>` from **)**
 
-Cast a :ref:`String<class_String>` value to a floating-point value. This method accepts float value strings like ``"1.23"`` and exponential notation strings for its parameter so calling ``float("1e3")`` will return 1000.0 and calling ``float("1e-3")`` will return 0.001. Calling this method with an invalid float string will return 0. This method stops parsing at the first invalid character and will return the parsed result so far, so calling ``float("1a3")`` will return 1 while calling ``float("1e3a2")`` will return 1000.0.
+Cast an :ref:`int <class_int>` value to a floating-point value, ``float(1)`` will be equal to 1.0.
+
+----
+
+- :ref:`float <class_float>` **float** **(** :ref:`String <class_String>` from **)**
+
+Cast a :ref:`String <class_String>` value to a floating-point value. This method accepts float value strings like ``"1.23"`` and exponential notation strings for its parameter so calling ``float("1e3")`` will return 1000.0 and calling ``float("1e-3")`` will return 0.001. Calling this method with an invalid float string will return 0. This method stops parsing at the first invalid character and will return the parsed result so far, so calling ``float("1a3")`` will return 1 while calling ``float("1e3a2")`` will return 1000.0.
 

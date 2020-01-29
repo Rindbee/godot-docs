@@ -9,14 +9,14 @@
 VisualScriptReturn
 ==================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Exits a function and returns an optional value.
 
 Description
 -----------
 
-Ends the execution of a function and returns control to the calling function. Optionally, it can return a :ref:`Variant<class_Variant>` value.
+Ends the execution of a function and returns control to the calling function. Optionally, it can return a :ref:`Variant <class_Variant>` value.
 
 **Input Ports:**
 
@@ -31,18 +31,18 @@ none
 Properties
 ----------
 
-+-----------------------------------------------------+-------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`                             | :ref:`return_enabled<class_VisualScriptReturn_property_return_enabled>` | ``false`` |
-+-----------------------------------------------------+-------------------------------------------------------------------------+-----------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` | :ref:`return_type<class_VisualScriptReturn_property_return_type>`       | ``0``     |
-+-----------------------------------------------------+-------------------------------------------------------------------------+-----------+
++------------------------------------------------------+--------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`                             | :ref:`return_enabled <class_VisualScriptReturn_property_return_enabled>` | ``false`` |
++------------------------------------------------------+--------------------------------------------------------------------------+-----------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` | :ref:`return_type <class_VisualScriptReturn_property_return_type>`       | ``0``     |
++------------------------------------------------------+--------------------------------------------------------------------------+-----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptReturn_property_return_enabled:
 
-- :ref:`bool<class_bool>` **return_enabled**
+- :ref:`bool <class_bool>` **return_enabled**
 
 +-----------+--------------------------------+
 | *Default* | ``false``                      |
@@ -58,7 +58,7 @@ If ``true``, the ``return`` input port is available.
 
 .. _class_VisualScriptReturn_property_return_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **return_type**
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **return_type**
 
 +-----------+------------------------+
 | *Default* | ``0``                  |

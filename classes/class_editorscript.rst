@@ -9,14 +9,14 @@
 EditorScript
 ============
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Base script that can be used to add extension functions to the editor.
 
 Description
 -----------
 
-Scripts extending this class and implementing its :ref:`_run<class_EditorScript_method__run>` method can be executed from the Script Editor's **File > Run** menu option (or by pressing ``Ctrl+Shift+X``) while the editor is running. This is useful for adding custom in-editor functionality to Godot. For more complex additions, consider using :ref:`EditorPlugin<class_EditorPlugin>`\ s instead.
+Scripts extending this class and implementing its :ref:`_run <class_EditorScript_method__run>` method can be executed from the Script Editor's **File > Run** menu option (or by pressing ``Ctrl+Shift+X``) while the editor is running. This is useful for adding custom in-editor functionality to Godot. For more complex additions, consider using :ref:`EditorPlugin <class_EditorPlugin>`\ s instead.
 
 **Note:** Extending scripts need to have ``tool`` mode enabled.
 
@@ -35,15 +35,15 @@ Scripts extending this class and implementing its :ref:`_run<class_EditorScript_
 Methods
 -------
 
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------+
-| void                                          | :ref:`_run<class_EditorScript_method__run>` **(** **)** virtual                                        |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------+
-| void                                          | :ref:`add_root_node<class_EditorScript_method_add_root_node>` **(** :ref:`Node<class_Node>` node **)** |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------+
-| :ref:`EditorInterface<class_EditorInterface>` | :ref:`get_editor_interface<class_EditorScript_method_get_editor_interface>` **(** **)**                |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------+
-| :ref:`Node<class_Node>`                       | :ref:`get_scene<class_EditorScript_method_get_scene>` **(** **)**                                      |
-+-----------------------------------------------+--------------------------------------------------------------------------------------------------------+
++------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| void                                           | :ref:`_run <class_EditorScript_method__run>` **(** **)** virtual                                         |
++------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| void                                           | :ref:`add_root_node <class_EditorScript_method_add_root_node>` **(** :ref:`Node <class_Node>` node **)** |
++------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| :ref:`EditorInterface <class_EditorInterface>` | :ref:`get_editor_interface <class_EditorScript_method_get_editor_interface>` **(** **)**                 |
++------------------------------------------------+----------------------------------------------------------------------------------------------------------+
+| :ref:`Node <class_Node>`                       | :ref:`get_scene <class_EditorScript_method_get_scene>` **(** **)**                                       |
++------------------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
@@ -58,7 +58,7 @@ This method is executed by the Editor when **File > Run** is used.
 
 .. _class_EditorScript_method_add_root_node:
 
-- void **add_root_node** **(** :ref:`Node<class_Node>` node **)**
+- void **add_root_node** **(** :ref:`Node <class_Node>` node **)**
 
 Adds ``node`` as a child of the root node in the editor context.
 
@@ -68,15 +68,15 @@ Adds ``node`` as a child of the root node in the editor context.
 
 .. _class_EditorScript_method_get_editor_interface:
 
-- :ref:`EditorInterface<class_EditorInterface>` **get_editor_interface** **(** **)**
+- :ref:`EditorInterface <class_EditorInterface>` **get_editor_interface** **(** **)**
 
-Returns the :ref:`EditorInterface<class_EditorInterface>` singleton instance.
+Returns the :ref:`EditorInterface <class_EditorInterface>` singleton instance.
 
 ----
 
 .. _class_EditorScript_method_get_scene:
 
-- :ref:`Node<class_Node>` **get_scene** **(** **)**
+- :ref:`Node <class_Node>` **get_scene** **(** **)**
 
 Returns the Editor's currently active scene.
 

@@ -9,9 +9,9 @@
 AudioStreamPlaybackResampled
 ============================
 
-**Inherits:** :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioStreamPlayback <class_AudioStreamPlayback>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`AudioStreamGeneratorPlayback<class_AudioStreamGeneratorPlayback>`
+**Inherited By:** :ref:`AudioStreamGeneratorPlayback <class_AudioStreamGeneratorPlayback>`
 
 
 

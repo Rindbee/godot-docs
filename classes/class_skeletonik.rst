@@ -9,54 +9,54 @@
 SkeletonIK
 ==========
 
-**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`         | :ref:`interpolation<class_SkeletonIK_property_interpolation>`           | ``1.0``                                             |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`Vector3<class_Vector3>`     | :ref:`magnet<class_SkeletonIK_property_magnet>`                         | ``Vector3( 0, 0, 0 )``                              |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`int<class_int>`             | :ref:`max_iterations<class_SkeletonIK_property_max_iterations>`         | ``10``                                              |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`float<class_float>`         | :ref:`min_distance<class_SkeletonIK_property_min_distance>`             | ``0.01``                                            |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`bool<class_bool>`           | :ref:`override_tip_basis<class_SkeletonIK_property_override_tip_basis>` | ``true``                                            |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`String<class_String>`       | :ref:`root_bone<class_SkeletonIK_property_root_bone>`                   | ``""``                                              |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`Transform<class_Transform>` | :ref:`target<class_SkeletonIK_property_target>`                         | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`NodePath<class_NodePath>`   | :ref:`target_node<class_SkeletonIK_property_target_node>`               | ``NodePath("")``                                    |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`String<class_String>`       | :ref:`tip_bone<class_SkeletonIK_property_tip_bone>`                     | ``""``                                              |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
-| :ref:`bool<class_bool>`           | :ref:`use_magnet<class_SkeletonIK_property_use_magnet>`                 | ``false``                                           |
-+-----------------------------------+-------------------------------------------------------------------------+-----------------------------------------------------+
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`           | :ref:`interpolation <class_SkeletonIK_property_interpolation>`           | ``1.0``                                             |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`Vector3 <class_Vector3>`       | :ref:`magnet <class_SkeletonIK_property_magnet>`                         | ``Vector3( 0, 0, 0 )``                              |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`int <class_int>`               | :ref:`max_iterations <class_SkeletonIK_property_max_iterations>`         | ``10``                                              |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`float <class_float>`           | :ref:`min_distance <class_SkeletonIK_property_min_distance>`             | ``0.01``                                            |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`override_tip_basis <class_SkeletonIK_property_override_tip_basis>` | ``true``                                            |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`StringName <class_StringName>` | :ref:`root_bone <class_SkeletonIK_property_root_bone>`                   | ``@""``                                             |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`Transform <class_Transform>`   | :ref:`target <class_SkeletonIK_property_target>`                         | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`NodePath <class_NodePath>`     | :ref:`target_node <class_SkeletonIK_property_target_node>`               | ``NodePath("")``                                    |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`StringName <class_StringName>` | :ref:`tip_bone <class_SkeletonIK_property_tip_bone>`                     | ``@""``                                             |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`use_magnet <class_SkeletonIK_property_use_magnet>`                 | ``false``                                           |
++--------------------------------------+--------------------------------------------------------------------------+-----------------------------------------------------+
 
 Methods
 -------
 
-+---------------------------------+------------------------------------------------------------------------------------------------+
-| :ref:`Skeleton<class_Skeleton>` | :ref:`get_parent_skeleton<class_SkeletonIK_method_get_parent_skeleton>` **(** **)** const      |
-+---------------------------------+------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`         | :ref:`is_running<class_SkeletonIK_method_is_running>` **(** **)**                              |
-+---------------------------------+------------------------------------------------------------------------------------------------+
-| void                            | :ref:`start<class_SkeletonIK_method_start>` **(** :ref:`bool<class_bool>` one_time=false **)** |
-+---------------------------------+------------------------------------------------------------------------------------------------+
-| void                            | :ref:`stop<class_SkeletonIK_method_stop>` **(** **)**                                          |
-+---------------------------------+------------------------------------------------------------------------------------------------+
++----------------------------------+--------------------------------------------------------------------------------------------------+
+| :ref:`Skeleton <class_Skeleton>` | :ref:`get_parent_skeleton <class_SkeletonIK_method_get_parent_skeleton>` **(** **)** const       |
++----------------------------------+--------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`         | :ref:`is_running <class_SkeletonIK_method_is_running>` **(** **)**                               |
++----------------------------------+--------------------------------------------------------------------------------------------------+
+| void                             | :ref:`start <class_SkeletonIK_method_start>` **(** :ref:`bool <class_bool>` one_time=false **)** |
++----------------------------------+--------------------------------------------------------------------------------------------------+
+| void                             | :ref:`stop <class_SkeletonIK_method_stop>` **(** **)**                                           |
++----------------------------------+--------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_SkeletonIK_property_interpolation:
 
-- :ref:`float<class_float>` **interpolation**
+- :ref:`float <class_float>` **interpolation**
 
 +-----------+--------------------------+
 | *Default* | ``1.0``                  |
@@ -70,7 +70,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_magnet:
 
-- :ref:`Vector3<class_Vector3>` **magnet**
+- :ref:`Vector3 <class_Vector3>` **magnet**
 
 +-----------+----------------------------+
 | *Default* | ``Vector3( 0, 0, 0 )``     |
@@ -84,7 +84,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_max_iterations:
 
-- :ref:`int<class_int>` **max_iterations**
+- :ref:`int <class_int>` **max_iterations**
 
 +-----------+---------------------------+
 | *Default* | ``10``                    |
@@ -98,7 +98,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_min_distance:
 
-- :ref:`float<class_float>` **min_distance**
+- :ref:`float <class_float>` **min_distance**
 
 +-----------+-------------------------+
 | *Default* | ``0.01``                |
@@ -112,7 +112,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_override_tip_basis:
 
-- :ref:`bool<class_bool>` **override_tip_basis**
+- :ref:`bool <class_bool>` **override_tip_basis**
 
 +-----------+-------------------------------+
 | *Default* | ``true``                      |
@@ -126,10 +126,10 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_root_bone:
 
-- :ref:`String<class_String>` **root_bone**
+- :ref:`StringName <class_StringName>` **root_bone**
 
 +-----------+----------------------+
-| *Default* | ``""``               |
+| *Default* | ``@""``              |
 +-----------+----------------------+
 | *Setter*  | set_root_bone(value) |
 +-----------+----------------------+
@@ -140,7 +140,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_target:
 
-- :ref:`Transform<class_Transform>` **target**
+- :ref:`Transform <class_Transform>` **target**
 
 +-----------+-----------------------------------------------------+
 | *Default* | ``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )`` |
@@ -154,7 +154,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_target_node:
 
-- :ref:`NodePath<class_NodePath>` **target_node**
+- :ref:`NodePath <class_NodePath>` **target_node**
 
 +-----------+------------------------+
 | *Default* | ``NodePath("")``       |
@@ -168,10 +168,10 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_tip_bone:
 
-- :ref:`String<class_String>` **tip_bone**
+- :ref:`StringName <class_StringName>` **tip_bone**
 
 +-----------+---------------------+
-| *Default* | ``""``              |
+| *Default* | ``@""``             |
 +-----------+---------------------+
 | *Setter*  | set_tip_bone(value) |
 +-----------+---------------------+
@@ -182,7 +182,7 @@ Property Descriptions
 
 .. _class_SkeletonIK_property_use_magnet:
 
-- :ref:`bool<class_bool>` **use_magnet**
+- :ref:`bool <class_bool>` **use_magnet**
 
 +-----------+-----------------------+
 | *Default* | ``false``             |
@@ -197,19 +197,19 @@ Method Descriptions
 
 .. _class_SkeletonIK_method_get_parent_skeleton:
 
-- :ref:`Skeleton<class_Skeleton>` **get_parent_skeleton** **(** **)** const
+- :ref:`Skeleton <class_Skeleton>` **get_parent_skeleton** **(** **)** const
 
 ----
 
 .. _class_SkeletonIK_method_is_running:
 
-- :ref:`bool<class_bool>` **is_running** **(** **)**
+- :ref:`bool <class_bool>` **is_running** **(** **)**
 
 ----
 
 .. _class_SkeletonIK_method_start:
 
-- void **start** **(** :ref:`bool<class_bool>` one_time=false **)**
+- void **start** **(** :ref:`bool <class_bool>` one_time=false **)**
 
 ----
 

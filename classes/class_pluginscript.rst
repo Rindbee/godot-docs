@@ -9,23 +9,23 @@
 PluginScript
 ============
 
-**Inherits:** :ref:`Script<class_Script>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Script <class_Script>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+-------------------------------+------------------------------------------------------------------+
-| :ref:`Variant<class_Variant>` | :ref:`new<class_PluginScript_method_new>` **(** ... **)** vararg |
-+-------------------------------+------------------------------------------------------------------+
++--------------------------------+-------------------------------------------------------------------+
+| :ref:`Variant <class_Variant>` | :ref:`new <class_PluginScript_method_new>` **(** ... **)** vararg |
++--------------------------------+-------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_PluginScript_method_new:
 
-- :ref:`Variant<class_Variant>` **new** **(** ... **)** vararg
+- :ref:`Variant <class_Variant>` **new** **(** ... **)** vararg
 
 Returns a new instance of the script.
 

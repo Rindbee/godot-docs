@@ -9,41 +9,41 @@
 WebSocketMultiplayerPeer
 ========================
 
-**Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`NetworkedMultiplayerPeer <class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer <class_PacketPeer>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`WebSocketClient<class_WebSocketClient>`, :ref:`WebSocketServer<class_WebSocketServer>`
+**Inherited By:** :ref:`WebSocketClient <class_WebSocketClient>`, :ref:`WebSocketServer <class_WebSocketServer>`
 
 Base class for WebSocket server and client.
 
 Description
 -----------
 
-Base class for WebSocket server and client, allowing them to be used as network peer for the :ref:`MultiplayerAPI<class_MultiplayerAPI>`.
+Base class for WebSocket server and client, allowing them to be used as network peer for the :ref:`MultiplayerAPI <class_MultiplayerAPI>`.
 
 Properties
 ----------
 
-+-----------------------------------------------------------------+------------------------+------------------+
-| :ref:`bool<class_bool>`                                         | refuse_new_connections | **O:** ``false`` |
-+-----------------------------------------------------------------+------------------------+------------------+
-| :ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>` | transfer_mode          | **O:** ``2``     |
-+-----------------------------------------------------------------+------------------------+------------------+
++------------------------------------------------------------------+------------------------+------------------+
+| :ref:`bool <class_bool>`                                         | refuse_new_connections | **O:** ``false`` |
++------------------------------------------------------------------+------------------------+------------------+
+| :ref:`TransferMode <enum_NetworkedMultiplayerPeer_TransferMode>` | transfer_mode          | **O:** ``2``     |
++------------------------------------------------------------------+------------------------+------------------+
 
 Methods
 -------
 
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`WebSocketPeer<class_WebSocketPeer>` | :ref:`get_peer<class_WebSocketMultiplayerPeer_method_get_peer>` **(** :ref:`int<class_int>` peer_id **)** const                                                                                                                                              |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>`     | :ref:`set_buffers<class_WebSocketMultiplayerPeer_method_set_buffers>` **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)** |
-+-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`WebSocketPeer <class_WebSocketPeer>` | :ref:`get_peer <class_WebSocketMultiplayerPeer_method_get_peer>` **(** :ref:`int <class_int>` peer_id **)** const                                                                                                                                                 |
++--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>`     | :ref:`set_buffers <class_WebSocketMultiplayerPeer_method_set_buffers>` **(** :ref:`int <class_int>` input_buffer_size_kb, :ref:`int <class_int>` input_max_packets, :ref:`int <class_int>` output_buffer_size_kb, :ref:`int <class_int>` output_max_packets **)** |
++--------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_WebSocketMultiplayerPeer_signal_peer_packet:
 
-- **peer_packet** **(** :ref:`int<class_int>` peer_source **)**
+- **peer_packet** **(** :ref:`int <class_int>` peer_source **)**
 
 Emitted when a packet is received from a peer.
 
@@ -54,15 +54,15 @@ Method Descriptions
 
 .. _class_WebSocketMultiplayerPeer_method_get_peer:
 
-- :ref:`WebSocketPeer<class_WebSocketPeer>` **get_peer** **(** :ref:`int<class_int>` peer_id **)** const
+- :ref:`WebSocketPeer <class_WebSocketPeer>` **get_peer** **(** :ref:`int <class_int>` peer_id **)** const
 
-Returns the :ref:`WebSocketPeer<class_WebSocketPeer>` associated to the given ``peer_id``.
+Returns the :ref:`WebSocketPeer <class_WebSocketPeer>` associated to the given ``peer_id``.
 
 ----
 
 .. _class_WebSocketMultiplayerPeer_method_set_buffers:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **set_buffers** **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **set_buffers** **(** :ref:`int <class_int>` input_buffer_size_kb, :ref:`int <class_int>` input_max_packets, :ref:`int <class_int>` output_buffer_size_kb, :ref:`int <class_int>` output_max_packets **)**
 
 Configures the buffer sizes for this WebSocket peer. Default values can be specified in the Project Settings under ``network/limits``. For server, values are meant per connected peer.
 

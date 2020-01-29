@@ -9,19 +9,19 @@
 PopupDialog
 ===========
 
-**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Popup <class_Popup>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Base class for popup dialogs.
 
 Description
 -----------
 
-PopupDialog is a base class for popup dialogs, along with :ref:`WindowDialog<class_WindowDialog>`.
+PopupDialog is a base class for popup dialogs, along with :ref:`WindowDialog <class_WindowDialog>`.
 
 Theme Properties
 ----------------
 
-+---------------------------------+-------+
-| :ref:`StyleBox<class_StyleBox>` | panel |
-+---------------------------------+-------+
++----------------------------------+-------+
+| :ref:`StyleBox <class_StyleBox>` | panel |
++----------------------------------+-------+
 

@@ -9,16 +9,16 @@
 SceneTreeTimer
 ==============
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 One-shot timer.
 
 Description
 -----------
 
-A one-shot timer managed by the scene tree, which emits :ref:`timeout<class_SceneTreeTimer_signal_timeout>` on completion. See also :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`.
+A one-shot timer managed by the scene tree, which emits :ref:`timeout <class_SceneTreeTimer_signal_timeout>` on completion. See also :ref:`SceneTree.create_timer <class_SceneTree_method_create_timer>`.
 
-As opposed to :ref:`Timer<class_Timer>`, it does not require the instantiation of a node. Commonly used to create a one-shot delay timer as in the following example:
+As opposed to :ref:`Timer <class_Timer>`, it does not require the instantiation of a node. Commonly used to create a one-shot delay timer as in the following example:
 
 ::
 
@@ -30,9 +30,9 @@ As opposed to :ref:`Timer<class_Timer>`, it does not require the instantiation o
 Properties
 ----------
 
-+---------------------------+-----------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`time_left<class_SceneTreeTimer_property_time_left>` |
-+---------------------------+-----------------------------------------------------------+
++----------------------------+------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`time_left <class_SceneTreeTimer_property_time_left>` |
++----------------------------+------------------------------------------------------------+
 
 Signals
 -------
@@ -48,7 +48,7 @@ Property Descriptions
 
 .. _class_SceneTreeTimer_property_time_left:
 
-- :ref:`float<class_float>` **time_left**
+- :ref:`float <class_float>` **time_left**
 
 +----------+----------------------+
 | *Setter* | set_time_left(value) |

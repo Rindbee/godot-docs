@@ -9,60 +9,60 @@
 Button
 ======
 
-**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`BaseButton <class_BaseButton>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`CheckBox<class_CheckBox>`, :ref:`CheckButton<class_CheckButton>`, :ref:`ColorPickerButton<class_ColorPickerButton>`, :ref:`MenuButton<class_MenuButton>`, :ref:`OptionButton<class_OptionButton>`, :ref:`ToolButton<class_ToolButton>`
+**Inherited By:** :ref:`CheckBox <class_CheckBox>`, :ref:`CheckButton <class_CheckButton>`, :ref:`ColorPickerButton <class_ColorPickerButton>`, :ref:`MenuButton <class_MenuButton>`, :ref:`OptionButton <class_OptionButton>`, :ref:`ToolButton <class_ToolButton>`
 
 Standard themed Button.
 
 Description
 -----------
 
-Button is the standard themed button. It can contain text and an icon, and will display them according to the current :ref:`Theme<class_Theme>`.
+Button is the standard themed button. It can contain text and an icon, and will display them according to the current :ref:`Theme <class_Theme>`.
 
 Properties
 ----------
 
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`TextAlign<enum_Button_TextAlign>` | :ref:`align<class_Button_property_align>`             | ``1``     |
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`                 | :ref:`clip_text<class_Button_property_clip_text>`     | ``false`` |
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`                 | :ref:`expand_icon<class_Button_property_expand_icon>` | ``false`` |
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`                 | :ref:`flat<class_Button_property_flat>`               | ``false`` |
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`Texture<class_Texture>`           | :ref:`icon<class_Button_property_icon>`               |           |
-+-----------------------------------------+-------------------------------------------------------+-----------+
-| :ref:`String<class_String>`             | :ref:`text<class_Button_property_text>`               | ``""``    |
-+-----------------------------------------+-------------------------------------------------------+-----------+
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`TextAlign <enum_Button_TextAlign>` | :ref:`align <class_Button_property_align>`             | ``1``     |
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`                 | :ref:`clip_text <class_Button_property_clip_text>`     | ``false`` |
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`                 | :ref:`expand_icon <class_Button_property_expand_icon>` | ``false`` |
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`                 | :ref:`flat <class_Button_property_flat>`               | ``false`` |
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`Texture2D <class_Texture2D>`       | :ref:`icon <class_Button_property_icon>`               |           |
++------------------------------------------+--------------------------------------------------------+-----------+
+| :ref:`String <class_String>`             | :ref:`text <class_Button_property_text>`               | ``""``    |
++------------------------------------------+--------------------------------------------------------+-----------+
 
 Theme Properties
 ----------------
 
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | disabled            |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | focus               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Font<class_Font>`         | font                |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_disabled | Color( 0.9, 0.9, 0.9, 0.2 )  |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`Color<class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | hover               |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`int<class_int>`           | hseparation         | 2                            |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | normal              |                              |
-+---------------------------------+---------------------+------------------------------+
-| :ref:`StyleBox<class_StyleBox>` | pressed             |                              |
-+---------------------------------+---------------------+------------------------------+
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | disabled            |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | focus               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Font <class_Font>`         | font                |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color          | Color( 0.88, 0.88, 0.88, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_disabled | Color( 0.9, 0.9, 0.9, 0.2 )  |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_hover    | Color( 0.94, 0.94, 0.94, 1 ) |
++----------------------------------+---------------------+------------------------------+
+| :ref:`Color <class_Color>`       | font_color_pressed  | Color( 1, 1, 1, 1 )          |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | hover               |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`int <class_int>`           | hseparation         | 2                            |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | normal              |                              |
++----------------------------------+---------------------+------------------------------+
+| :ref:`StyleBox <class_StyleBox>` | pressed             |                              |
++----------------------------------+---------------------+------------------------------+
 
 Enumerations
 ------------
@@ -88,7 +88,7 @@ Property Descriptions
 
 .. _class_Button_property_align:
 
-- :ref:`TextAlign<enum_Button_TextAlign>` **align**
+- :ref:`TextAlign <enum_Button_TextAlign>` **align**
 
 +-----------+-----------------------+
 | *Default* | ``1``                 |
@@ -98,13 +98,13 @@ Property Descriptions
 | *Getter*  | get_text_align()      |
 +-----------+-----------------------+
 
-Text alignment policy for the button's text, use one of the :ref:`TextAlign<enum_Button_TextAlign>` constants.
+Text alignment policy for the button's text, use one of the :ref:`TextAlign <enum_Button_TextAlign>` constants.
 
 ----
 
 .. _class_Button_property_clip_text:
 
-- :ref:`bool<class_bool>` **clip_text**
+- :ref:`bool <class_bool>` **clip_text**
 
 +-----------+----------------------+
 | *Default* | ``false``            |
@@ -120,7 +120,7 @@ When this property is enabled, text that is too large to fit the button is clipp
 
 .. _class_Button_property_expand_icon:
 
-- :ref:`bool<class_bool>` **expand_icon**
+- :ref:`bool <class_bool>` **expand_icon**
 
 +-----------+------------------------+
 | *Default* | ``false``              |
@@ -136,7 +136,7 @@ When enabled, the button's icon will expand/shrink to fit the button's size whil
 
 .. _class_Button_property_flat:
 
-- :ref:`bool<class_bool>` **flat**
+- :ref:`bool <class_bool>` **flat**
 
 +-----------+-----------------+
 | *Default* | ``false``       |
@@ -152,7 +152,7 @@ Flat buttons don't display decoration.
 
 .. _class_Button_property_icon:
 
-- :ref:`Texture<class_Texture>` **icon**
+- :ref:`Texture2D <class_Texture2D>` **icon**
 
 +----------+------------------------+
 | *Setter* | set_button_icon(value) |
@@ -166,7 +166,7 @@ Button's icon, if text is present the icon will be placed before the text.
 
 .. _class_Button_property_text:
 
-- :ref:`String<class_String>` **text**
+- :ref:`String <class_String>` **text**
 
 +-----------+-----------------+
 | *Default* | ``""``          |

@@ -9,7 +9,7 @@
 ProximityGroup
 ==============
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 General-purpose proximity detection node.
 
@@ -21,27 +21,27 @@ General-purpose proximity detection node.
 Properties
 ----------
 
-+-------------------------------------------------------+-------------------------------------------------------------------+------------------------+
-| :ref:`DispatchMode<enum_ProximityGroup_DispatchMode>` | :ref:`dispatch_mode<class_ProximityGroup_property_dispatch_mode>` | ``0``                  |
-+-------------------------------------------------------+-------------------------------------------------------------------+------------------------+
-| :ref:`Vector3<class_Vector3>`                         | :ref:`grid_radius<class_ProximityGroup_property_grid_radius>`     | ``Vector3( 1, 1, 1 )`` |
-+-------------------------------------------------------+-------------------------------------------------------------------+------------------------+
-| :ref:`String<class_String>`                           | :ref:`group_name<class_ProximityGroup_property_group_name>`       | ``""``                 |
-+-------------------------------------------------------+-------------------------------------------------------------------+------------------------+
++--------------------------------------------------------+--------------------------------------------------------------------+------------------------+
+| :ref:`DispatchMode <enum_ProximityGroup_DispatchMode>` | :ref:`dispatch_mode <class_ProximityGroup_property_dispatch_mode>` | ``0``                  |
++--------------------------------------------------------+--------------------------------------------------------------------+------------------------+
+| :ref:`Vector3 <class_Vector3>`                         | :ref:`grid_radius <class_ProximityGroup_property_grid_radius>`     | ``Vector3( 1, 1, 1 )`` |
++--------------------------------------------------------+--------------------------------------------------------------------+------------------------+
+| :ref:`String <class_String>`                           | :ref:`group_name <class_ProximityGroup_property_group_name>`       | ``""``                 |
++--------------------------------------------------------+--------------------------------------------------------------------+------------------------+
 
 Methods
 -------
 
-+------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`broadcast<class_ProximityGroup_method_broadcast>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` parameters **)** |
-+------+------------------------------------------------------------------------------------------------------------------------------------------------+
++------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`broadcast <class_ProximityGroup_method_broadcast>` **(** :ref:`String <class_String>` name, :ref:`Variant <class_Variant>` parameters **)** |
++------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_ProximityGroup_signal_broadcast:
 
-- **broadcast** **(** :ref:`String<class_String>` group_name, :ref:`Array<class_Array>` parameters **)**
+- **broadcast** **(** :ref:`String <class_String>` group_name, :ref:`Array <class_Array>` parameters **)**
 
 Enumerations
 ------------
@@ -63,7 +63,7 @@ Property Descriptions
 
 .. _class_ProximityGroup_property_dispatch_mode:
 
-- :ref:`DispatchMode<enum_ProximityGroup_DispatchMode>` **dispatch_mode**
+- :ref:`DispatchMode <enum_ProximityGroup_DispatchMode>` **dispatch_mode**
 
 +-----------+--------------------------+
 | *Default* | ``0``                    |
@@ -77,7 +77,7 @@ Property Descriptions
 
 .. _class_ProximityGroup_property_grid_radius:
 
-- :ref:`Vector3<class_Vector3>` **grid_radius**
+- :ref:`Vector3 <class_Vector3>` **grid_radius**
 
 +-----------+------------------------+
 | *Default* | ``Vector3( 1, 1, 1 )`` |
@@ -91,7 +91,7 @@ Property Descriptions
 
 .. _class_ProximityGroup_property_group_name:
 
-- :ref:`String<class_String>` **group_name**
+- :ref:`String <class_String>` **group_name**
 
 +-----------+-----------------------+
 | *Default* | ``""``                |
@@ -106,5 +106,5 @@ Method Descriptions
 
 .. _class_ProximityGroup_method_broadcast:
 
-- void **broadcast** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` parameters **)**
+- void **broadcast** **(** :ref:`String <class_String>` name, :ref:`Variant <class_Variant>` parameters **)**
 

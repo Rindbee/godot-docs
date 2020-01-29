@@ -9,7 +9,7 @@
 PinJoint
 ========
 
-**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Joint <class_Joint>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Pin joint for 3D shapes.
 
@@ -21,22 +21,22 @@ Pin joint for 3D rigid bodies. It pins 2 bodies (rigid or static) together.
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`params/bias<class_PinJoint_property_params/bias>`                   | ``0.3`` |
-+---------------------------+---------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`params/damping<class_PinJoint_property_params/damping>`             | ``1.0`` |
-+---------------------------+---------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`params/impulse_clamp<class_PinJoint_property_params/impulse_clamp>` | ``0.0`` |
-+---------------------------+---------------------------------------------------------------------------+---------+
++----------------------------+----------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`params/bias <class_PinJoint_property_params/bias>`                   | ``0.3`` |
++----------------------------+----------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`params/damping <class_PinJoint_property_params/damping>`             | ``1.0`` |
++----------------------------+----------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`params/impulse_clamp <class_PinJoint_property_params/impulse_clamp>` | ``0.0`` |
++----------------------------+----------------------------------------------------------------------------+---------+
 
 Methods
 -------
 
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`get_param<class_PinJoint_method_get_param>` **(** :ref:`Param<enum_PinJoint_Param>` param **)** const                            |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`set_param<class_PinJoint_method_set_param>` **(** :ref:`Param<enum_PinJoint_Param>` param, :ref:`float<class_float>` value **)** |
-+---------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`get_param <class_PinJoint_method_get_param>` **(** :ref:`Param <enum_PinJoint_Param>` param **)** const                             |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`set_param <class_PinJoint_method_set_param>` **(** :ref:`Param <enum_PinJoint_Param>` param, :ref:`float <class_float>` value **)** |
++----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -62,7 +62,7 @@ Property Descriptions
 
 .. _class_PinJoint_property_params/bias:
 
-- :ref:`float<class_float>` **params/bias**
+- :ref:`float <class_float>` **params/bias**
 
 +-----------+------------------+
 | *Default* | ``0.3``          |
@@ -78,7 +78,7 @@ The force with which the pinned objects stay in positional relation to each othe
 
 .. _class_PinJoint_property_params/damping:
 
-- :ref:`float<class_float>` **params/damping**
+- :ref:`float <class_float>` **params/damping**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -94,7 +94,7 @@ The force with which the pinned objects stay in velocity relation to each other.
 
 .. _class_PinJoint_property_params/impulse_clamp:
 
-- :ref:`float<class_float>` **params/impulse_clamp**
+- :ref:`float <class_float>` **params/impulse_clamp**
 
 +-----------+------------------+
 | *Default* | ``0.0``          |
@@ -111,11 +111,11 @@ Method Descriptions
 
 .. _class_PinJoint_method_get_param:
 
-- :ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_PinJoint_Param>` param **)** const
+- :ref:`float <class_float>` **get_param** **(** :ref:`Param <enum_PinJoint_Param>` param **)** const
 
 ----
 
 .. _class_PinJoint_method_set_param:
 
-- void **set_param** **(** :ref:`Param<enum_PinJoint_Param>` param, :ref:`float<class_float>` value **)**
+- void **set_param** **(** :ref:`Param <enum_PinJoint_Param>` param, :ref:`float <class_float>` value **)**
 

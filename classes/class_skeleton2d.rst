@@ -9,9 +9,14 @@
 Skeleton2D
 ==========
 
-**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Skeleton for 2D characters and animated objects.
+
+Description
+-----------
+
+Skeleton2D parents a hierarchy of :ref:`Bone2D <class_Bone2D>` objects. It is a requirement of :ref:`Bone2D <class_Bone2D>`. Skeleton2D holds a reference to the rest pose of its children and acts as a single point of access to its bones.
 
 Tutorials
 ---------
@@ -21,13 +26,13 @@ Tutorials
 Methods
 -------
 
-+-----------------------------+-----------------------------------------------------------------------------------------+
-| :ref:`Bone2D<class_Bone2D>` | :ref:`get_bone<class_Skeleton2D_method_get_bone>` **(** :ref:`int<class_int>` idx **)** |
-+-----------------------------+-----------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`get_bone_count<class_Skeleton2D_method_get_bone_count>` **(** **)** const         |
-+-----------------------------+-----------------------------------------------------------------------------------------+
-| :ref:`RID<class_RID>`       | :ref:`get_skeleton<class_Skeleton2D_method_get_skeleton>` **(** **)** const             |
-+-----------------------------+-----------------------------------------------------------------------------------------+
++------------------------------+-------------------------------------------------------------------------------------------+
+| :ref:`Bone2D <class_Bone2D>` | :ref:`get_bone <class_Skeleton2D_method_get_bone>` **(** :ref:`int <class_int>` idx **)** |
++------------------------------+-------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`get_bone_count <class_Skeleton2D_method_get_bone_count>` **(** **)** const          |
++------------------------------+-------------------------------------------------------------------------------------------+
+| :ref:`RID <class_RID>`       | :ref:`get_skeleton <class_Skeleton2D_method_get_skeleton>` **(** **)** const              |
++------------------------------+-------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -41,19 +46,23 @@ Method Descriptions
 
 .. _class_Skeleton2D_method_get_bone:
 
-- :ref:`Bone2D<class_Bone2D>` **get_bone** **(** :ref:`int<class_int>` idx **)**
+- :ref:`Bone2D <class_Bone2D>` **get_bone** **(** :ref:`int <class_int>` idx **)**
+
+Returns a :ref:`Bone2D <class_Bone2D>` from the node hierarchy parented by Skeleton2D. The object to return is identified by the parameter ``idx``. Bones are indexed by descending the node hierarchy from top to bottom, adding the children of each branch before moving to the next sibling.
 
 ----
 
 .. _class_Skeleton2D_method_get_bone_count:
 
-- :ref:`int<class_int>` **get_bone_count** **(** **)** const
+- :ref:`int <class_int>` **get_bone_count** **(** **)** const
 
-Returns the amount of bones in the skeleton.
+Returns the number of :ref:`Bone2D <class_Bone2D>` nodes in the node hierarchy parented by Skeleton2D.
 
 ----
 
 .. _class_Skeleton2D_method_get_skeleton:
 
-- :ref:`RID<class_RID>` **get_skeleton** **(** **)** const
+- :ref:`RID <class_RID>` **get_skeleton** **(** **)** const
+
+Returns the :ref:`RID <class_RID>` of a Skeleton2D instance.
 

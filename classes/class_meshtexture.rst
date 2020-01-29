@@ -9,7 +9,7 @@
 MeshTexture
 ===========
 
-**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture <class_Texture>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Simple texture that uses a mesh to draw itself.
 
@@ -21,22 +21,20 @@ Simple texture that uses a mesh to draw itself. It's limited because flags can't
 Properties
 ----------
 
-+-------------------------------+--------------------------------------------------------------+---------------------+
-| :ref:`Texture<class_Texture>` | :ref:`base_texture<class_MeshTexture_property_base_texture>` |                     |
-+-------------------------------+--------------------------------------------------------------+---------------------+
-| :ref:`int<class_int>`         | flags                                                        | **O:** ``0``        |
-+-------------------------------+--------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`image_size<class_MeshTexture_property_image_size>`     | ``Vector2( 0, 0 )`` |
-+-------------------------------+--------------------------------------------------------------+---------------------+
-| :ref:`Mesh<class_Mesh>`       | :ref:`mesh<class_MeshTexture_property_mesh>`                 |                     |
-+-------------------------------+--------------------------------------------------------------+---------------------+
++------------------------------------+---------------------------------------------------------------+---------------------+
+| :ref:`Texture2D <class_Texture2D>` | :ref:`base_texture <class_MeshTexture_property_base_texture>` |                     |
++------------------------------------+---------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>`     | :ref:`image_size <class_MeshTexture_property_image_size>`     | ``Vector2( 0, 0 )`` |
++------------------------------------+---------------------------------------------------------------+---------------------+
+| :ref:`Mesh <class_Mesh>`           | :ref:`mesh <class_MeshTexture_property_mesh>`                 |                     |
++------------------------------------+---------------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_MeshTexture_property_base_texture:
 
-- :ref:`Texture<class_Texture>` **base_texture**
+- :ref:`Texture2D <class_Texture2D>` **base_texture**
 
 +----------+-------------------------+
 | *Setter* | set_base_texture(value) |
@@ -50,7 +48,7 @@ Sets the base texture that the Mesh will use to draw.
 
 .. _class_MeshTexture_property_image_size:
 
-- :ref:`Vector2<class_Vector2>` **image_size**
+- :ref:`Vector2 <class_Vector2>` **image_size**
 
 +-----------+-----------------------+
 | *Default* | ``Vector2( 0, 0 )``   |
@@ -66,7 +64,7 @@ Sets the size of the image, needed for reference.
 
 .. _class_MeshTexture_property_mesh:
 
-- :ref:`Mesh<class_Mesh>` **mesh**
+- :ref:`Mesh <class_Mesh>` **mesh**
 
 +----------+-----------------+
 | *Setter* | set_mesh(value) |

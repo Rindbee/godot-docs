@@ -9,7 +9,7 @@
 BulletPhysicsServer
 ===================
 
-**Inherits:** :ref:`PhysicsServer<class_PhysicsServer>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`PhysicsServer <class_PhysicsServer>` **<** :ref:`Object <class_Object>`
 
 
 

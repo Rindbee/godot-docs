@@ -9,7 +9,7 @@
 LineShape2D
 ===========
 
-**Inherits:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Shape2D <class_Shape2D>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Line shape for 2D collisions.
 
@@ -21,18 +21,18 @@ Line shape for 2D collisions. It works like a 2D plane and will not allow any ph
 Properties
 ----------
 
-+-------------------------------+--------------------------------------------------+----------------------+
-| :ref:`float<class_float>`     | :ref:`d<class_LineShape2D_property_d>`           | ``0.0``              |
-+-------------------------------+--------------------------------------------------+----------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`normal<class_LineShape2D_property_normal>` | ``Vector2( 0, -1 )`` |
-+-------------------------------+--------------------------------------------------+----------------------+
++--------------------------------+---------------------------------------------------+---------------------+
+| :ref:`float <class_float>`     | :ref:`d <class_LineShape2D_property_d>`           | ``0.0``             |
++--------------------------------+---------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`normal <class_LineShape2D_property_normal>` | ``Vector2( 0, 1 )`` |
++--------------------------------+---------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_LineShape2D_property_d:
 
-- :ref:`float<class_float>` **d**
+- :ref:`float <class_float>` **d**
 
 +-----------+--------------+
 | *Default* | ``0.0``      |
@@ -48,15 +48,15 @@ The line's distance from the origin.
 
 .. _class_LineShape2D_property_normal:
 
-- :ref:`Vector2<class_Vector2>` **normal**
+- :ref:`Vector2 <class_Vector2>` **normal**
 
-+-----------+----------------------+
-| *Default* | ``Vector2( 0, -1 )`` |
-+-----------+----------------------+
-| *Setter*  | set_normal(value)    |
-+-----------+----------------------+
-| *Getter*  | get_normal()         |
-+-----------+----------------------+
++-----------+---------------------+
+| *Default* | ``Vector2( 0, 1 )`` |
++-----------+---------------------+
+| *Setter*  | set_normal(value)   |
++-----------+---------------------+
+| *Getter*  | get_normal()        |
++-----------+---------------------+
 
 The line's normal.
 

@@ -9,23 +9,23 @@
 InputEventPanGesture
 ====================
 
-**Inherits:** :ref:`InputEventGesture<class_InputEventGesture>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEventGesture <class_InputEventGesture>` **<** :ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+-------------------------------+---------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`delta<class_InputEventPanGesture_property_delta>` | ``Vector2( 0, 0 )`` |
-+-------------------------------+---------------------------------------------------------+---------------------+
++--------------------------------+----------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`delta <class_InputEventPanGesture_property_delta>` | ``Vector2( 0, 0 )`` |
++--------------------------------+----------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventPanGesture_property_delta:
 
-- :ref:`Vector2<class_Vector2>` **delta**
+- :ref:`Vector2 <class_Vector2>` **delta**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |

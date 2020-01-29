@@ -9,30 +9,30 @@
 CurveTexture
 ============
 
-**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture <class_Texture>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A texture that shows a curve.
 
 Description
 -----------
 
-Renders a given :ref:`Curve<class_Curve>` provided to it. Simplifies the task of drawing curves and/or saving them as image files.
+Renders a given :ref:`Curve <class_Curve>` provided to it. Simplifies the task of drawing curves and/or saving them as image files.
 
 Properties
 ----------
 
-+---------------------------+-------------------------------------------------+----------+
-| :ref:`Curve<class_Curve>` | :ref:`curve<class_CurveTexture_property_curve>` |          |
-+---------------------------+-------------------------------------------------+----------+
-| :ref:`int<class_int>`     | :ref:`width<class_CurveTexture_property_width>` | ``2048`` |
-+---------------------------+-------------------------------------------------+----------+
++----------------------------+--------------------------------------------------+----------+
+| :ref:`Curve <class_Curve>` | :ref:`curve <class_CurveTexture_property_curve>` |          |
++----------------------------+--------------------------------------------------+----------+
+| :ref:`int <class_int>`     | :ref:`width <class_CurveTexture_property_width>` | ``2048`` |
++----------------------------+--------------------------------------------------+----------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CurveTexture_property_curve:
 
-- :ref:`Curve<class_Curve>` **curve**
+- :ref:`Curve <class_Curve>` **curve**
 
 +----------+------------------+
 | *Setter* | set_curve(value) |
@@ -46,7 +46,7 @@ The ``curve`` rendered onto the texture.
 
 .. _class_CurveTexture_property_width:
 
-- :ref:`int<class_int>` **width**
+- :ref:`int <class_int>` **width**
 
 +-----------+------------------+
 | *Default* | ``2048``         |

@@ -9,21 +9,21 @@
 GDScriptNativeClass
 ===================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+-------------------------------+--------------------------------------------------------------+
-| :ref:`Variant<class_Variant>` | :ref:`new<class_GDScriptNativeClass_method_new>` **(** **)** |
-+-------------------------------+--------------------------------------------------------------+
++--------------------------------+---------------------------------------------------------------+
+| :ref:`Variant <class_Variant>` | :ref:`new <class_GDScriptNativeClass_method_new>` **(** **)** |
++--------------------------------+---------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_GDScriptNativeClass_method_new:
 
-- :ref:`Variant<class_Variant>` **new** **(** **)**
+- :ref:`Variant <class_Variant>` **new** **(** **)**
 

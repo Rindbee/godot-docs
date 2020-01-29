@@ -9,7 +9,7 @@
 InputEventScreenTouch
 =====================
 
-**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Input event type for screen touch events.
 
@@ -18,7 +18,7 @@ Input event type for screen touch events.
 Description
 -----------
 
-Stores multi-touch press/release information. Supports touch press, touch release and :ref:`index<class_InputEventScreenTouch_property_index>` for multi-touch count and order.
+Stores multi-touch press/release information. Supports touch press, touch release and :ref:`index <class_InputEventScreenTouch_property_index>` for multi-touch count and order.
 
 Tutorials
 ---------
@@ -28,20 +28,20 @@ Tutorials
 Properties
 ----------
 
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`int<class_int>`         | :ref:`index<class_InputEventScreenTouch_property_index>`       | ``0``               |
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`position<class_InputEventScreenTouch_property_position>` | ``Vector2( 0, 0 )`` |
-+-------------------------------+----------------------------------------------------------------+---------------------+
-| :ref:`bool<class_bool>`       | :ref:`pressed<class_InputEventScreenTouch_property_pressed>`   | ``false``           |
-+-------------------------------+----------------------------------------------------------------+---------------------+
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`int <class_int>`         | :ref:`index <class_InputEventScreenTouch_property_index>`       | ``0``               |
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`position <class_InputEventScreenTouch_property_position>` | ``Vector2( 0, 0 )`` |
++--------------------------------+-----------------------------------------------------------------+---------------------+
+| :ref:`bool <class_bool>`       | :ref:`pressed <class_InputEventScreenTouch_property_pressed>`   | ``false``           |
++--------------------------------+-----------------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventScreenTouch_property_index:
 
-- :ref:`int<class_int>` **index**
+- :ref:`int <class_int>` **index**
 
 +-----------+------------------+
 | *Default* | ``0``            |
@@ -57,7 +57,7 @@ The touch index in the case of a multi-touch event. One index = one finger.
 
 .. _class_InputEventScreenTouch_property_position:
 
-- :ref:`Vector2<class_Vector2>` **position**
+- :ref:`Vector2 <class_Vector2>` **position**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |
@@ -73,7 +73,7 @@ The touch position.
 
 .. _class_InputEventScreenTouch_property_pressed:
 
-- :ref:`bool<class_bool>` **pressed**
+- :ref:`bool <class_bool>` **pressed**
 
 +-----------+--------------------+
 | *Default* | ``false``          |

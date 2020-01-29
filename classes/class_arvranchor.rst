@@ -9,7 +9,7 @@
 ARVRAnchor
 ==========
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 An anchor point in AR space.
 
@@ -25,31 +25,31 @@ Keep in mind that, as long as plane detection is enabled, the size, placing and 
 Properties
 ----------
 
-+-----------------------+-------------------------------------------------------+-------+
-| :ref:`int<class_int>` | :ref:`anchor_id<class_ARVRAnchor_property_anchor_id>` | ``1`` |
-+-----------------------+-------------------------------------------------------+-------+
++------------------------+--------------------------------------------------------+-------+
+| :ref:`int <class_int>` | :ref:`anchor_id <class_ARVRAnchor_property_anchor_id>` | ``1`` |
++------------------------+--------------------------------------------------------+-------+
 
 Methods
 -------
 
-+-------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`String<class_String>`   | :ref:`get_anchor_name<class_ARVRAnchor_method_get_anchor_name>` **(** **)** const |
-+-------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`       | :ref:`get_is_active<class_ARVRAnchor_method_get_is_active>` **(** **)** const     |
-+-------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`Mesh<class_Mesh>`       | :ref:`get_mesh<class_ARVRAnchor_method_get_mesh>` **(** **)** const               |
-+-------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`Plane<class_Plane>`     | :ref:`get_plane<class_ARVRAnchor_method_get_plane>` **(** **)** const             |
-+-------------------------------+-----------------------------------------------------------------------------------+
-| :ref:`Vector3<class_Vector3>` | :ref:`get_size<class_ARVRAnchor_method_get_size>` **(** **)** const               |
-+-------------------------------+-----------------------------------------------------------------------------------+
++--------------------------------+------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`   | :ref:`get_anchor_name <class_ARVRAnchor_method_get_anchor_name>` **(** **)** const |
++--------------------------------+------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`       | :ref:`get_is_active <class_ARVRAnchor_method_get_is_active>` **(** **)** const     |
++--------------------------------+------------------------------------------------------------------------------------+
+| :ref:`Mesh <class_Mesh>`       | :ref:`get_mesh <class_ARVRAnchor_method_get_mesh>` **(** **)** const               |
++--------------------------------+------------------------------------------------------------------------------------+
+| :ref:`Plane <class_Plane>`     | :ref:`get_plane <class_ARVRAnchor_method_get_plane>` **(** **)** const             |
++--------------------------------+------------------------------------------------------------------------------------+
+| :ref:`Vector3 <class_Vector3>` | :ref:`get_size <class_ARVRAnchor_method_get_size>` **(** **)** const               |
++--------------------------------+------------------------------------------------------------------------------------+
 
 Signals
 -------
 
 .. _class_ARVRAnchor_signal_mesh_updated:
 
-- **mesh_updated** **(** :ref:`Mesh<class_Mesh>` mesh **)**
+- **mesh_updated** **(** :ref:`Mesh <class_Mesh>` mesh **)**
 
 Emitted when the mesh associated with the anchor changes or when one becomes available. This is especially important for topology that is constantly being ``mesh_updated``.
 
@@ -58,7 +58,7 @@ Property Descriptions
 
 .. _class_ARVRAnchor_property_anchor_id:
 
-- :ref:`int<class_int>` **anchor_id**
+- :ref:`int <class_int>` **anchor_id**
 
 +-----------+----------------------+
 | *Default* | ``1``                |
@@ -75,7 +75,7 @@ Method Descriptions
 
 .. _class_ARVRAnchor_method_get_anchor_name:
 
-- :ref:`String<class_String>` **get_anchor_name** **(** **)** const
+- :ref:`String <class_String>` **get_anchor_name** **(** **)** const
 
 Returns the name given to this anchor.
 
@@ -83,7 +83,7 @@ Returns the name given to this anchor.
 
 .. _class_ARVRAnchor_method_get_is_active:
 
-- :ref:`bool<class_bool>` **get_is_active** **(** **)** const
+- :ref:`bool <class_bool>` **get_is_active** **(** **)** const
 
 Returns ``true`` if the anchor is being tracked and ``false`` if no anchor with this ID is currently known.
 
@@ -91,15 +91,15 @@ Returns ``true`` if the anchor is being tracked and ``false`` if no anchor with 
 
 .. _class_ARVRAnchor_method_get_mesh:
 
-- :ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** const
+- :ref:`Mesh <class_Mesh>` **get_mesh** **(** **)** const
 
-If provided by the :ref:`ARVRInterface<class_ARVRInterface>`, this returns a mesh object for the anchor. For an anchor, this can be a shape related to the object being tracked or it can be a mesh that provides topology related to the anchor and can be used to create shadows/reflections on surfaces or for generating collision shapes.
+If provided by the :ref:`ARVRInterface <class_ARVRInterface>`, this returns a mesh object for the anchor. For an anchor, this can be a shape related to the object being tracked or it can be a mesh that provides topology related to the anchor and can be used to create shadows/reflections on surfaces or for generating collision shapes.
 
 ----
 
 .. _class_ARVRAnchor_method_get_plane:
 
-- :ref:`Plane<class_Plane>` **get_plane** **(** **)** const
+- :ref:`Plane <class_Plane>` **get_plane** **(** **)** const
 
 Returns a plane aligned with our anchor; handy for intersection testing.
 
@@ -107,7 +107,7 @@ Returns a plane aligned with our anchor; handy for intersection testing.
 
 .. _class_ARVRAnchor_method_get_size:
 
-- :ref:`Vector3<class_Vector3>` **get_size** **(** **)** const
+- :ref:`Vector3 <class_Vector3>` **get_size** **(** **)** const
 
 Returns the estimated size of the plane that was detected. Say when the anchor relates to a table in the real world, this is the estimated size of the surface of that table.
 

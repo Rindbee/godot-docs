@@ -9,41 +9,41 @@
 InterpolatedCamera
 ==================
 
-**Inherits:** :ref:`Camera<class_Camera>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Camera <class_Camera>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Camera which moves toward another node.
 
 Description
 -----------
 
-InterpolatedCamera is a :ref:`Camera<class_Camera>` which smoothly moves to match a target node's position and rotation.
+InterpolatedCamera is a :ref:`Camera <class_Camera>` which smoothly moves to match a target node's position and rotation.
 
-If it is not :ref:`enabled<class_InterpolatedCamera_property_enabled>` or does not have a valid target set, InterpolatedCamera acts like a normal Camera.
+If it is not :ref:`enabled <class_InterpolatedCamera_property_enabled>` or does not have a valid target set, InterpolatedCamera acts like a normal Camera.
 
 Properties
 ----------
 
-+---------------------------------+-----------------------------------------------------------+------------------+
-| :ref:`bool<class_bool>`         | :ref:`enabled<class_InterpolatedCamera_property_enabled>` | ``false``        |
-+---------------------------------+-----------------------------------------------------------+------------------+
-| :ref:`float<class_float>`       | :ref:`speed<class_InterpolatedCamera_property_speed>`     | ``1.0``          |
-+---------------------------------+-----------------------------------------------------------+------------------+
-| :ref:`NodePath<class_NodePath>` | :ref:`target<class_InterpolatedCamera_property_target>`   | ``NodePath("")`` |
-+---------------------------------+-----------------------------------------------------------+------------------+
++----------------------------------+------------------------------------------------------------+------------------+
+| :ref:`bool <class_bool>`         | :ref:`enabled <class_InterpolatedCamera_property_enabled>` | ``false``        |
++----------------------------------+------------------------------------------------------------+------------------+
+| :ref:`float <class_float>`       | :ref:`speed <class_InterpolatedCamera_property_speed>`     | ``1.0``          |
++----------------------------------+------------------------------------------------------------+------------------+
+| :ref:`NodePath <class_NodePath>` | :ref:`target <class_InterpolatedCamera_property_target>`   | ``NodePath("")`` |
++----------------------------------+------------------------------------------------------------+------------------+
 
 Methods
 -------
 
-+------+--------------------------------------------------------------------------------------------------------------+
-| void | :ref:`set_target<class_InterpolatedCamera_method_set_target>` **(** :ref:`Object<class_Object>` target **)** |
-+------+--------------------------------------------------------------------------------------------------------------+
++------+----------------------------------------------------------------------------------------------------------------+
+| void | :ref:`set_target <class_InterpolatedCamera_method_set_target>` **(** :ref:`Object <class_Object>` target **)** |
++------+----------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InterpolatedCamera_property_enabled:
 
-- :ref:`bool<class_bool>` **enabled**
+- :ref:`bool <class_bool>` **enabled**
 
 +-----------+----------------------------------+
 | *Default* | ``false``                        |
@@ -59,7 +59,7 @@ If ``true``, and a target is set, the camera will move automatically.
 
 .. _class_InterpolatedCamera_property_speed:
 
-- :ref:`float<class_float>` **speed**
+- :ref:`float <class_float>` **speed**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -75,7 +75,7 @@ How quickly the camera moves toward its target. Higher values will result in tig
 
 .. _class_InterpolatedCamera_property_target:
 
-- :ref:`NodePath<class_NodePath>` **target**
+- :ref:`NodePath <class_NodePath>` **target**
 
 +-----------+------------------------+
 | *Default* | ``NodePath("")``       |
@@ -85,14 +85,14 @@ How quickly the camera moves toward its target. Higher values will result in tig
 | *Getter*  | get_target_path()      |
 +-----------+------------------------+
 
-The target's :ref:`NodePath<class_NodePath>`.
+The target's :ref:`NodePath <class_NodePath>`.
 
 Method Descriptions
 -------------------
 
 .. _class_InterpolatedCamera_method_set_target:
 
-- void **set_target** **(** :ref:`Object<class_Object>` target **)**
+- void **set_target** **(** :ref:`Object <class_Object>` target **)**
 
 Sets the node to move toward and orient with.
 

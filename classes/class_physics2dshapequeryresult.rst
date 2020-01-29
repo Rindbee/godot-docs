@@ -9,36 +9,36 @@
 Physics2DShapeQueryResult
 =========================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Result of a 2D shape query in :ref:`Physics2DServer<class_Physics2DServer>`.
+Result of a 2D shape query in :ref:`Physics2DServer <class_Physics2DServer>`.
 
 Description
 -----------
 
-The result of a 2D shape query in :ref:`Physics2DServer<class_Physics2DServer>`. See also :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`.
+The result of a 2D shape query in :ref:`Physics2DServer <class_Physics2DServer>`. See also :ref:`Physics2DShapeQueryParameters <class_Physics2DShapeQueryParameters>`.
 
 Methods
 -------
 
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`get_result_count<class_Physics2DShapeQueryResult_method_get_result_count>` **(** **)** const                                         |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Object<class_Object>` | :ref:`get_result_object<class_Physics2DShapeQueryResult_method_get_result_object>` **(** :ref:`int<class_int>` idx **)** const             |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`get_result_object_id<class_Physics2DShapeQueryResult_method_get_result_object_id>` **(** :ref:`int<class_int>` idx **)** const       |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`       | :ref:`get_result_object_shape<class_Physics2DShapeQueryResult_method_get_result_object_shape>` **(** :ref:`int<class_int>` idx **)** const |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`RID<class_RID>`       | :ref:`get_result_rid<class_Physics2DShapeQueryResult_method_get_result_rid>` **(** :ref:`int<class_int>` idx **)** const                   |
-+-----------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`get_result_count <class_Physics2DShapeQueryResult_method_get_result_count>` **(** **)** const                                          |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Object <class_Object>` | :ref:`get_result_object <class_Physics2DShapeQueryResult_method_get_result_object>` **(** :ref:`int <class_int>` idx **)** const             |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`get_result_object_id <class_Physics2DShapeQueryResult_method_get_result_object_id>` **(** :ref:`int <class_int>` idx **)** const       |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`       | :ref:`get_result_object_shape <class_Physics2DShapeQueryResult_method_get_result_object_shape>` **(** :ref:`int <class_int>` idx **)** const |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`RID <class_RID>`       | :ref:`get_result_rid <class_Physics2DShapeQueryResult_method_get_result_rid>` **(** :ref:`int <class_int>` idx **)** const                   |
++------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_Physics2DShapeQueryResult_method_get_result_count:
 
-- :ref:`int<class_int>` **get_result_count** **(** **)** const
+- :ref:`int <class_int>` **get_result_count** **(** **)** const
 
 Returns the number of objects that intersected with the shape.
 
@@ -46,31 +46,31 @@ Returns the number of objects that intersected with the shape.
 
 .. _class_Physics2DShapeQueryResult_method_get_result_object:
 
-- :ref:`Object<class_Object>` **get_result_object** **(** :ref:`int<class_int>` idx **)** const
+- :ref:`Object <class_Object>` **get_result_object** **(** :ref:`int <class_int>` idx **)** const
 
-Returns the :ref:`Object<class_Object>` that intersected with the shape at index ``idx``.
+Returns the :ref:`Object <class_Object>` that intersected with the shape at index ``idx``.
 
 ----
 
 .. _class_Physics2DShapeQueryResult_method_get_result_object_id:
 
-- :ref:`int<class_int>` **get_result_object_id** **(** :ref:`int<class_int>` idx **)** const
+- :ref:`int <class_int>` **get_result_object_id** **(** :ref:`int <class_int>` idx **)** const
 
-Returns the instance ID of the :ref:`Object<class_Object>` that intersected with the shape at index ``idx``.
+Returns the instance ID of the :ref:`Object <class_Object>` that intersected with the shape at index ``idx``.
 
 ----
 
 .. _class_Physics2DShapeQueryResult_method_get_result_object_shape:
 
-- :ref:`int<class_int>` **get_result_object_shape** **(** :ref:`int<class_int>` idx **)** const
+- :ref:`int <class_int>` **get_result_object_shape** **(** :ref:`int <class_int>` idx **)** const
 
-Returns the child index of the object's :ref:`Shape<class_Shape>` that intersected with the shape at index ``idx``.
+Returns the child index of the object's :ref:`Shape <class_Shape>` that intersected with the shape at index ``idx``.
 
 ----
 
 .. _class_Physics2DShapeQueryResult_method_get_result_rid:
 
-- :ref:`RID<class_RID>` **get_result_rid** **(** :ref:`int<class_int>` idx **)** const
+- :ref:`RID <class_RID>` **get_result_rid** **(** :ref:`int <class_int>` idx **)** const
 
-Returns the :ref:`RID<class_RID>` of the object that intersected with the shape at index ``idx``.
+Returns the :ref:`RID <class_RID>` of the object that intersected with the shape at index ``idx``.
 

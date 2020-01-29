@@ -9,28 +9,28 @@
 WeakRef
 =======
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-Holds an :ref:`Object<class_Object>`, but does not contribute to the reference count if the object is a reference.
+Holds an :ref:`Object <class_Object>`, but does not contribute to the reference count if the object is a reference.
 
 Description
 -----------
 
-A weakref can hold a :ref:`Reference<class_Reference>`, without contributing to the reference counter. A weakref can be created from an :ref:`Object<class_Object>` using :ref:`@GDScript.weakref<class_@GDScript_method_weakref>`. If this object is not a reference, weakref still works, however, it does not have any effect on the object. Weakrefs are useful in cases where multiple classes have variables that refer to each other. Without weakrefs, using these classes could lead to memory leaks, since both references keep each other from being released. Making part of the variables a weakref can prevent this cyclic dependency, and allows the references to be released.
+A weakref can hold a :ref:`Reference <class_Reference>`, without contributing to the reference counter. A weakref can be created from an :ref:`Object <class_Object>` using :ref:`@GDScript.weakref <class_@GDScript_method_weakref>`. If this object is not a reference, weakref still works, however, it does not have any effect on the object. Weakrefs are useful in cases where multiple classes have variables that refer to each other. Without weakrefs, using these classes could lead to memory leaks, since both references keep each other from being released. Making part of the variables a weakref can prevent this cyclic dependency, and allows the references to be released.
 
 Methods
 -------
 
-+-------------------------------+----------------------------------------------------------------+
-| :ref:`Variant<class_Variant>` | :ref:`get_ref<class_WeakRef_method_get_ref>` **(** **)** const |
-+-------------------------------+----------------------------------------------------------------+
++--------------------------------+-----------------------------------------------------------------+
+| :ref:`Variant <class_Variant>` | :ref:`get_ref <class_WeakRef_method_get_ref>` **(** **)** const |
++--------------------------------+-----------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_WeakRef_method_get_ref:
 
-- :ref:`Variant<class_Variant>` **get_ref** **(** **)** const
+- :ref:`Variant <class_Variant>` **get_ref** **(** **)** const
 
-Returns the :ref:`Object<class_Object>` this weakref is referring to.
+Returns the :ref:`Object <class_Object>` this weakref is referring to.
 

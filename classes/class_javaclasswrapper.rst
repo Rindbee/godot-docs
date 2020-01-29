@@ -9,21 +9,21 @@
 JavaClassWrapper
 ================
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+-----------------------------------+----------------------------------------------------------------------------------------------+
-| :ref:`JavaClass<class_JavaClass>` | :ref:`wrap<class_JavaClassWrapper_method_wrap>` **(** :ref:`String<class_String>` name **)** |
-+-----------------------------------+----------------------------------------------------------------------------------------------+
++------------------------------------+------------------------------------------------------------------------------------------------+
+| :ref:`JavaClass <class_JavaClass>` | :ref:`wrap <class_JavaClassWrapper_method_wrap>` **(** :ref:`String <class_String>` name **)** |
++------------------------------------+------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_JavaClassWrapper_method_wrap:
 
-- :ref:`JavaClass<class_JavaClass>` **wrap** **(** :ref:`String<class_String>` name **)**
+- :ref:`JavaClass <class_JavaClass>` **wrap** **(** :ref:`String <class_String>` name **)**
 

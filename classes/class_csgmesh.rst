@@ -9,7 +9,7 @@
 CSGMesh
 =======
 
-**Inherits:** :ref:`CSGPrimitive<class_CSGPrimitive>` **<** :ref:`CSGShape<class_CSGShape>` **<** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`CSGPrimitive <class_CSGPrimitive>` **<** :ref:`CSGShape <class_CSGShape>` **<** :ref:`GeometryInstance <class_GeometryInstance>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 A CSG Mesh shape that uses a mesh resource.
 
@@ -21,18 +21,18 @@ This CSG node allows you to use any mesh resource as a CSG shape, provided it is
 Properties
 ----------
 
-+---------------------------------+--------------------------------------------------+
-| :ref:`Material<class_Material>` | :ref:`material<class_CSGMesh_property_material>` |
-+---------------------------------+--------------------------------------------------+
-| :ref:`Mesh<class_Mesh>`         | :ref:`mesh<class_CSGMesh_property_mesh>`         |
-+---------------------------------+--------------------------------------------------+
++----------------------------------+---------------------------------------------------+
+| :ref:`Material <class_Material>` | :ref:`material <class_CSGMesh_property_material>` |
++----------------------------------+---------------------------------------------------+
+| :ref:`Mesh <class_Mesh>`         | :ref:`mesh <class_CSGMesh_property_mesh>`         |
++----------------------------------+---------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_CSGMesh_property_material:
 
-- :ref:`Material<class_Material>` **material**
+- :ref:`Material <class_Material>` **material**
 
 +----------+---------------------+
 | *Setter* | set_material(value) |
@@ -40,13 +40,13 @@ Property Descriptions
 | *Getter* | get_material()      |
 +----------+---------------------+
 
-The :ref:`Material<class_Material>` used in drawing the CSG shape.
+The :ref:`Material <class_Material>` used in drawing the CSG shape.
 
 ----
 
 .. _class_CSGMesh_property_mesh:
 
-- :ref:`Mesh<class_Mesh>` **mesh**
+- :ref:`Mesh <class_Mesh>` **mesh**
 
 +----------+-----------------+
 | *Setter* | set_mesh(value) |
@@ -54,5 +54,5 @@ The :ref:`Material<class_Material>` used in drawing the CSG shape.
 | *Getter* | get_mesh()      |
 +----------+-----------------+
 
-The :ref:`Mesh<class_Mesh>` resource to use as a CSG shape.
+The :ref:`Mesh <class_Mesh>` resource to use as a CSG shape.
 

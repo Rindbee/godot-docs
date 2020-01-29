@@ -9,7 +9,7 @@
 World
 =====
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Class that has everything pertaining to a world.
 
@@ -26,24 +26,38 @@ Tutorials
 Properties
 ----------
 
-+---------------------------------------------------------------+------------------------------------------------------------------------+
-| :ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>` | :ref:`direct_space_state<class_World_property_direct_space_state>`     |
-+---------------------------------------------------------------+------------------------------------------------------------------------+
-| :ref:`Environment<class_Environment>`                         | :ref:`environment<class_World_property_environment>`                   |
-+---------------------------------------------------------------+------------------------------------------------------------------------+
-| :ref:`Environment<class_Environment>`                         | :ref:`fallback_environment<class_World_property_fallback_environment>` |
-+---------------------------------------------------------------+------------------------------------------------------------------------+
-| :ref:`RID<class_RID>`                                         | :ref:`scenario<class_World_property_scenario>`                         |
-+---------------------------------------------------------------+------------------------------------------------------------------------+
-| :ref:`RID<class_RID>`                                         | :ref:`space<class_World_property_space>`                               |
-+---------------------------------------------------------------+------------------------------------------------------------------------+
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`CameraEffects <class_CameraEffects>`                     | :ref:`camera_effects <class_World_property_camera_effects>`             |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`PhysicsDirectSpaceState <class_PhysicsDirectSpaceState>` | :ref:`direct_space_state <class_World_property_direct_space_state>`     |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`Environment <class_Environment>`                         | :ref:`environment <class_World_property_environment>`                   |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`Environment <class_Environment>`                         | :ref:`fallback_environment <class_World_property_fallback_environment>` |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`RID <class_RID>`                                         | :ref:`scenario <class_World_property_scenario>`                         |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
+| :ref:`RID <class_RID>`                                         | :ref:`space <class_World_property_space>`                               |
++----------------------------------------------------------------+-------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
+.. _class_World_property_camera_effects:
+
+- :ref:`CameraEffects <class_CameraEffects>` **camera_effects**
+
++----------+---------------------------+
+| *Setter* | set_camera_effects(value) |
++----------+---------------------------+
+| *Getter* | get_camera_effects()      |
++----------+---------------------------+
+
+----
+
 .. _class_World_property_direct_space_state:
 
-- :ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>` **direct_space_state**
+- :ref:`PhysicsDirectSpaceState <class_PhysicsDirectSpaceState>` **direct_space_state**
 
 +----------+--------------------------+
 | *Getter* | get_direct_space_state() |
@@ -55,7 +69,7 @@ The World's physics direct space state, used for making various queries. Might b
 
 .. _class_World_property_environment:
 
-- :ref:`Environment<class_Environment>` **environment**
+- :ref:`Environment <class_Environment>` **environment**
 
 +----------+------------------------+
 | *Setter* | set_environment(value) |
@@ -63,13 +77,13 @@ The World's physics direct space state, used for making various queries. Might b
 | *Getter* | get_environment()      |
 +----------+------------------------+
 
-The World's :ref:`Environment<class_Environment>`.
+The World's :ref:`Environment <class_Environment>`.
 
 ----
 
 .. _class_World_property_fallback_environment:
 
-- :ref:`Environment<class_Environment>` **fallback_environment**
+- :ref:`Environment <class_Environment>` **fallback_environment**
 
 +----------+---------------------------------+
 | *Setter* | set_fallback_environment(value) |
@@ -77,13 +91,13 @@ The World's :ref:`Environment<class_Environment>`.
 | *Getter* | get_fallback_environment()      |
 +----------+---------------------------------+
 
-The World's fallback_environment will be used if the World's :ref:`Environment<class_Environment>` fails or is missing.
+The World's fallback_environment will be used if the World's :ref:`Environment <class_Environment>` fails or is missing.
 
 ----
 
 .. _class_World_property_scenario:
 
-- :ref:`RID<class_RID>` **scenario**
+- :ref:`RID <class_RID>` **scenario**
 
 +----------+----------------+
 | *Getter* | get_scenario() |
@@ -95,7 +109,7 @@ The World's visual scenario.
 
 .. _class_World_property_space:
 
-- :ref:`RID<class_RID>` **space**
+- :ref:`RID <class_RID>` **space**
 
 +----------+-------------+
 | *Getter* | get_space() |

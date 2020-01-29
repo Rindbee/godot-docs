@@ -9,7 +9,7 @@
 JavaScript
 ==========
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 Singleton that connects the engine with the browser's JavaScript context in HTML5 export.
 
@@ -26,16 +26,16 @@ Tutorials
 Methods
 -------
 
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Variant<class_Variant>` | :ref:`eval<class_JavaScript_method_eval>` **(** :ref:`String<class_String>` code, :ref:`bool<class_bool>` use_global_execution_context=false **)** |
-+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Variant <class_Variant>` | :ref:`eval <class_JavaScript_method_eval>` **(** :ref:`String <class_String>` code, :ref:`bool <class_bool>` use_global_execution_context=false **)** |
++--------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_JavaScript_method_eval:
 
-- :ref:`Variant<class_Variant>` **eval** **(** :ref:`String<class_String>` code, :ref:`bool<class_bool>` use_global_execution_context=false **)**
+- :ref:`Variant <class_Variant>` **eval** **(** :ref:`String <class_String>` code, :ref:`bool <class_bool>` use_global_execution_context=false **)**
 
 Execute the string ``code`` as JavaScript code within the browser window. This is a call to the actual global JavaScript function ``eval()``.
 

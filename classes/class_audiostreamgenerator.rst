@@ -9,7 +9,7 @@
 AudioStreamGenerator
 ====================
 
-**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioStream <class_AudioStream>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
@@ -21,18 +21,18 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+-------------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>` | :ref:`buffer_length<class_AudioStreamGenerator_property_buffer_length>` | ``0.5``     |
-+---------------------------+-------------------------------------------------------------------------+-------------+
-| :ref:`float<class_float>` | :ref:`mix_rate<class_AudioStreamGenerator_property_mix_rate>`           | ``44100.0`` |
-+---------------------------+-------------------------------------------------------------------------+-------------+
++----------------------------+--------------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>` | :ref:`buffer_length <class_AudioStreamGenerator_property_buffer_length>` | ``0.5``     |
++----------------------------+--------------------------------------------------------------------------+-------------+
+| :ref:`float <class_float>` | :ref:`mix_rate <class_AudioStreamGenerator_property_mix_rate>`           | ``44100.0`` |
++----------------------------+--------------------------------------------------------------------------+-------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioStreamGenerator_property_buffer_length:
 
-- :ref:`float<class_float>` **buffer_length**
+- :ref:`float <class_float>` **buffer_length**
 
 +-----------+--------------------------+
 | *Default* | ``0.5``                  |
@@ -46,7 +46,7 @@ Property Descriptions
 
 .. _class_AudioStreamGenerator_property_mix_rate:
 
-- :ref:`float<class_float>` **mix_rate**
+- :ref:`float <class_float>` **mix_rate**
 
 +-----------+---------------------+
 | *Default* | ``44100.0``         |

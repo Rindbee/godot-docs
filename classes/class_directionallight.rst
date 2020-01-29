@@ -9,14 +9,14 @@
 DirectionalLight
 ================
 
-**Inherits:** :ref:`Light<class_Light>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Light <class_Light>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Directional light from a distance, as from the Sun.
 
 Description
 -----------
 
-A directional light is a type of :ref:`Light<class_Light>` node that models an infinite number of parallel rays covering the entire scene. It is used for lights with strong intensity that are located far away from the scene to model sunlight or moonlight. The worldspace location of the DirectionalLight transform (origin) is ignored. Only the basis is used to determine light direction.
+A directional light is a type of :ref:`Light <class_Light>` node that models an infinite number of parallel rays covering the entire scene. It is used for lights with strong intensity that are located far away from the scene to model sunlight or moonlight. The worldspace location of the DirectionalLight transform (origin) is ignored. Only the basis is used to determine light direction.
 
 Tutorials
 ---------
@@ -26,27 +26,29 @@ Tutorials
 Properties
 ----------
 
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_bias_split_scale<class_DirectionalLight_property_directional_shadow_bias_split_scale>` | ``0.25``       |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`bool<class_bool>`                                         | :ref:`directional_shadow_blend_splits<class_DirectionalLight_property_directional_shadow_blend_splits>`         | ``false``      |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>` | :ref:`directional_shadow_depth_range<class_DirectionalLight_property_directional_shadow_depth_range>`           | ``0``          |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`         | ``100.0``      |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`             | :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`                         | ``2``          |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_normal_bias<class_DirectionalLight_property_directional_shadow_normal_bias>`           | ``0.8``        |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_split_1<class_DirectionalLight_property_directional_shadow_split_1>`                   | ``0.1``        |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_split_2<class_DirectionalLight_property_directional_shadow_split_2>`                   | ``0.2``        |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | :ref:`directional_shadow_split_3<class_DirectionalLight_property_directional_shadow_split_3>`                   | ``0.5``        |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
-| :ref:`float<class_float>`                                       | shadow_bias                                                                                                     | **O:** ``0.1`` |
-+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+----------------+
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_bias_split_scale <class_DirectionalLight_property_directional_shadow_bias_split_scale>` | ``0.25``       |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`bool <class_bool>`                                         | :ref:`directional_shadow_blend_splits <class_DirectionalLight_property_directional_shadow_blend_splits>`         | ``false``      |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`ShadowDepthRange <enum_DirectionalLight_ShadowDepthRange>` | :ref:`directional_shadow_depth_range <class_DirectionalLight_property_directional_shadow_depth_range>`           | ``0``          |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_fade_start <class_DirectionalLight_property_directional_shadow_fade_start>`             | ``0.8``        |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_max_distance <class_DirectionalLight_property_directional_shadow_max_distance>`         | ``100.0``      |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`ShadowMode <enum_DirectionalLight_ShadowMode>`             | :ref:`directional_shadow_mode <class_DirectionalLight_property_directional_shadow_mode>`                         | ``2``          |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_normal_bias <class_DirectionalLight_property_directional_shadow_normal_bias>`           | ``0.8``        |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_split_1 <class_DirectionalLight_property_directional_shadow_split_1>`                   | ``0.1``        |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_split_2 <class_DirectionalLight_property_directional_shadow_split_2>`                   | ``0.2``        |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | :ref:`directional_shadow_split_3 <class_DirectionalLight_property_directional_shadow_split_3>`                   | ``0.5``        |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
+| :ref:`float <class_float>`                                       | shadow_bias                                                                                                      | **O:** ``0.1`` |
++------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------+
 
 Enumerations
 ------------
@@ -86,7 +88,7 @@ Property Descriptions
 
 .. _class_DirectionalLight_property_directional_shadow_bias_split_scale:
 
-- :ref:`float<class_float>` **directional_shadow_bias_split_scale**
+- :ref:`float <class_float>` **directional_shadow_bias_split_scale**
 
 +-----------+------------------+
 | *Default* | ``0.25``         |
@@ -102,7 +104,7 @@ Amount of extra bias for shadow splits that are far away. If self-shadowing occu
 
 .. _class_DirectionalLight_property_directional_shadow_blend_splits:
 
-- :ref:`bool<class_bool>` **directional_shadow_blend_splits**
+- :ref:`bool <class_bool>` **directional_shadow_blend_splits**
 
 +-----------+---------------------------+
 | *Default* | ``false``                 |
@@ -118,7 +120,7 @@ If ``true``, shadow detail is sacrificed in exchange for smoother transitions be
 
 .. _class_DirectionalLight_property_directional_shadow_depth_range:
 
-- :ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>` **directional_shadow_depth_range**
+- :ref:`ShadowDepthRange <enum_DirectionalLight_ShadowDepthRange>` **directional_shadow_depth_range**
 
 +-----------+-------------------------------+
 | *Default* | ``0``                         |
@@ -128,13 +130,27 @@ If ``true``, shadow detail is sacrificed in exchange for smoother transitions be
 | *Getter*  | get_shadow_depth_range()      |
 +-----------+-------------------------------+
 
-Optimizes shadow rendering for detail versus movement. See :ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>`.
+Optimizes shadow rendering for detail versus movement. See :ref:`ShadowDepthRange <enum_DirectionalLight_ShadowDepthRange>`.
+
+----
+
+.. _class_DirectionalLight_property_directional_shadow_fade_start:
+
+- :ref:`float <class_float>` **directional_shadow_fade_start**
+
++-----------+------------------+
+| *Default* | ``0.8``          |
++-----------+------------------+
+| *Setter*  | set_param(value) |
++-----------+------------------+
+| *Getter*  | get_param()      |
++-----------+------------------+
 
 ----
 
 .. _class_DirectionalLight_property_directional_shadow_max_distance:
 
-- :ref:`float<class_float>` **directional_shadow_max_distance**
+- :ref:`float <class_float>` **directional_shadow_max_distance**
 
 +-----------+------------------+
 | *Default* | ``100.0``        |
@@ -150,7 +166,7 @@ The maximum distance for shadow splits.
 
 .. _class_DirectionalLight_property_directional_shadow_mode:
 
-- :ref:`ShadowMode<enum_DirectionalLight_ShadowMode>` **directional_shadow_mode**
+- :ref:`ShadowMode <enum_DirectionalLight_ShadowMode>` **directional_shadow_mode**
 
 +-----------+------------------------+
 | *Default* | ``2``                  |
@@ -160,13 +176,13 @@ The maximum distance for shadow splits.
 | *Getter*  | get_shadow_mode()      |
 +-----------+------------------------+
 
-The light's shadow rendering algorithm. See :ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`.
+The light's shadow rendering algorithm. See :ref:`ShadowMode <enum_DirectionalLight_ShadowMode>`.
 
 ----
 
 .. _class_DirectionalLight_property_directional_shadow_normal_bias:
 
-- :ref:`float<class_float>` **directional_shadow_normal_bias**
+- :ref:`float <class_float>` **directional_shadow_normal_bias**
 
 +-----------+------------------+
 | *Default* | ``0.8``          |
@@ -182,7 +198,7 @@ Can be used to fix special cases of self shadowing when objects are perpendicula
 
 .. _class_DirectionalLight_property_directional_shadow_split_1:
 
-- :ref:`float<class_float>` **directional_shadow_split_1**
+- :ref:`float <class_float>` **directional_shadow_split_1**
 
 +-----------+------------------+
 | *Default* | ``0.1``          |
@@ -192,13 +208,13 @@ Can be used to fix special cases of self shadowing when objects are perpendicula
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-The distance from camera to shadow split 1. Relative to :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_2_SPLITS`` or ``SHADOW_PARALLEL_4_SPLITS``.
+The distance from camera to shadow split 1. Relative to :ref:`directional_shadow_max_distance <class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode <class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_2_SPLITS`` or ``SHADOW_PARALLEL_4_SPLITS``.
 
 ----
 
 .. _class_DirectionalLight_property_directional_shadow_split_2:
 
-- :ref:`float<class_float>` **directional_shadow_split_2**
+- :ref:`float <class_float>` **directional_shadow_split_2**
 
 +-----------+------------------+
 | *Default* | ``0.2``          |
@@ -208,13 +224,13 @@ The distance from camera to shadow split 1. Relative to :ref:`directional_shadow
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-The distance from shadow split 1 to split 2. Relative to :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_2_SPLITS`` or ``SHADOW_PARALLEL_4_SPLITS``.
+The distance from shadow split 1 to split 2. Relative to :ref:`directional_shadow_max_distance <class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode <class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_2_SPLITS`` or ``SHADOW_PARALLEL_4_SPLITS``.
 
 ----
 
 .. _class_DirectionalLight_property_directional_shadow_split_3:
 
-- :ref:`float<class_float>` **directional_shadow_split_3**
+- :ref:`float <class_float>` **directional_shadow_split_3**
 
 +-----------+------------------+
 | *Default* | ``0.5``          |
@@ -224,5 +240,5 @@ The distance from shadow split 1 to split 2. Relative to :ref:`directional_shado
 | *Getter*  | get_param()      |
 +-----------+------------------+
 
-The distance from shadow split 2 to split 3. Relative to :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_4_SPLITS``.
+The distance from shadow split 2 to split 3. Relative to :ref:`directional_shadow_max_distance <class_DirectionalLight_property_directional_shadow_max_distance>`. Only used when :ref:`directional_shadow_mode <class_DirectionalLight_property_directional_shadow_mode>` is ``SHADOW_PARALLEL_4_SPLITS``.
 

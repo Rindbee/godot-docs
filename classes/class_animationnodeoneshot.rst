@@ -9,7 +9,7 @@
 AnimationNodeOneShot
 ====================
 
-**Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AnimationNode <class_AnimationNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
@@ -21,28 +21,28 @@ Tutorials
 Properties
 ----------
 
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`   | :ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>`                           | ``false`` |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`               | ``1.0``   |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`autorestart_random_delay<class_AnimationNodeOneShot_property_autorestart_random_delay>` | ``0.0``   |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`fadein_time<class_AnimationNodeOneShot_property_fadein_time>`                           | ``0.1``   |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`float<class_float>` | :ref:`fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`                         | ``0.1``   |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
-| :ref:`bool<class_bool>`   | :ref:`sync<class_AnimationNodeOneShot_property_sync>`                                         | ``false`` |
-+---------------------------+-----------------------------------------------------------------------------------------------+-----------+
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`   | :ref:`autorestart <class_AnimationNodeOneShot_property_autorestart>`                           | ``false`` |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`autorestart_delay <class_AnimationNodeOneShot_property_autorestart_delay>`               | ``1.0``   |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`autorestart_random_delay <class_AnimationNodeOneShot_property_autorestart_random_delay>` | ``0.0``   |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`fadein_time <class_AnimationNodeOneShot_property_fadein_time>`                           | ``0.1``   |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`float <class_float>` | :ref:`fadeout_time <class_AnimationNodeOneShot_property_fadeout_time>`                         | ``0.1``   |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
+| :ref:`bool <class_bool>`   | :ref:`sync <class_AnimationNodeOneShot_property_sync>`                                         | ``false`` |
++----------------------------+------------------------------------------------------------------------------------------------+-----------+
 
 Methods
 -------
 
-+---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` | :ref:`get_mix_mode<class_AnimationNodeOneShot_method_get_mix_mode>` **(** **)** const                                                  |
-+---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| void                                              | :ref:`set_mix_mode<class_AnimationNodeOneShot_method_set_mix_mode>` **(** :ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` mode **)** |
-+---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`MixMode <enum_AnimationNodeOneShot_MixMode>` | :ref:`get_mix_mode <class_AnimationNodeOneShot_method_get_mix_mode>` **(** **)** const                                                   |
++----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                               | :ref:`set_mix_mode <class_AnimationNodeOneShot_method_set_mix_mode>` **(** :ref:`MixMode <enum_AnimationNodeOneShot_MixMode>` mode **)** |
++----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -64,7 +64,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_autorestart:
 
-- :ref:`bool<class_bool>` **autorestart**
+- :ref:`bool <class_bool>` **autorestart**
 
 +-----------+------------------------+
 | *Default* | ``false``              |
@@ -78,7 +78,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_autorestart_delay:
 
-- :ref:`float<class_float>` **autorestart_delay**
+- :ref:`float <class_float>` **autorestart_delay**
 
 +-----------+------------------------------+
 | *Default* | ``1.0``                      |
@@ -92,7 +92,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_autorestart_random_delay:
 
-- :ref:`float<class_float>` **autorestart_random_delay**
+- :ref:`float <class_float>` **autorestart_random_delay**
 
 +-----------+-------------------------------------+
 | *Default* | ``0.0``                             |
@@ -106,7 +106,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_fadein_time:
 
-- :ref:`float<class_float>` **fadein_time**
+- :ref:`float <class_float>` **fadein_time**
 
 +-----------+------------------------+
 | *Default* | ``0.1``                |
@@ -120,7 +120,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_fadeout_time:
 
-- :ref:`float<class_float>` **fadeout_time**
+- :ref:`float <class_float>` **fadeout_time**
 
 +-----------+-------------------------+
 | *Default* | ``0.1``                 |
@@ -134,7 +134,7 @@ Property Descriptions
 
 .. _class_AnimationNodeOneShot_property_sync:
 
-- :ref:`bool<class_bool>` **sync**
+- :ref:`bool <class_bool>` **sync**
 
 +-----------+---------------------+
 | *Default* | ``false``           |
@@ -149,11 +149,11 @@ Method Descriptions
 
 .. _class_AnimationNodeOneShot_method_get_mix_mode:
 
-- :ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` **get_mix_mode** **(** **)** const
+- :ref:`MixMode <enum_AnimationNodeOneShot_MixMode>` **get_mix_mode** **(** **)** const
 
 ----
 
 .. _class_AnimationNodeOneShot_method_set_mix_mode:
 
-- void **set_mix_mode** **(** :ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` mode **)**
+- void **set_mix_mode** **(** :ref:`MixMode <enum_AnimationNodeOneShot_MixMode>` mode **)**
 

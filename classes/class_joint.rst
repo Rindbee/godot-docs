@@ -9,9 +9,9 @@
 Joint
 =====
 
-**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`ConeTwistJoint<class_ConeTwistJoint>`, :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`, :ref:`HingeJoint<class_HingeJoint>`, :ref:`PinJoint<class_PinJoint>`, :ref:`SliderJoint<class_SliderJoint>`
+**Inherited By:** :ref:`ConeTwistJoint <class_ConeTwistJoint>`, :ref:`Generic6DOFJoint <class_Generic6DOFJoint>`, :ref:`HingeJoint <class_HingeJoint>`, :ref:`PinJoint <class_PinJoint>`, :ref:`SliderJoint <class_SliderJoint>`
 
 Base class for all 3D joints.
 
@@ -23,22 +23,22 @@ Joints are used to bind together two physics bodies. They have a solver priority
 Properties
 ----------
 
-+---------------------------------+------------------------------------------------------------------------------+------------------+
-| :ref:`bool<class_bool>`         | :ref:`collision/exclude_nodes<class_Joint_property_collision/exclude_nodes>` | ``true``         |
-+---------------------------------+------------------------------------------------------------------------------+------------------+
-| :ref:`NodePath<class_NodePath>` | :ref:`nodes/node_a<class_Joint_property_nodes/node_a>`                       | ``NodePath("")`` |
-+---------------------------------+------------------------------------------------------------------------------+------------------+
-| :ref:`NodePath<class_NodePath>` | :ref:`nodes/node_b<class_Joint_property_nodes/node_b>`                       | ``NodePath("")`` |
-+---------------------------------+------------------------------------------------------------------------------+------------------+
-| :ref:`int<class_int>`           | :ref:`solver/priority<class_Joint_property_solver/priority>`                 | ``1``            |
-+---------------------------------+------------------------------------------------------------------------------+------------------+
++----------------------------------+-------------------------------------------------------------------------------+------------------+
+| :ref:`bool <class_bool>`         | :ref:`collision/exclude_nodes <class_Joint_property_collision/exclude_nodes>` | ``true``         |
++----------------------------------+-------------------------------------------------------------------------------+------------------+
+| :ref:`NodePath <class_NodePath>` | :ref:`nodes/node_a <class_Joint_property_nodes/node_a>`                       | ``NodePath("")`` |
++----------------------------------+-------------------------------------------------------------------------------+------------------+
+| :ref:`NodePath <class_NodePath>` | :ref:`nodes/node_b <class_Joint_property_nodes/node_b>`                       | ``NodePath("")`` |
++----------------------------------+-------------------------------------------------------------------------------+------------------+
+| :ref:`int <class_int>`           | :ref:`solver/priority <class_Joint_property_solver/priority>`                 | ``1``            |
++----------------------------------+-------------------------------------------------------------------------------+------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_Joint_property_collision/exclude_nodes:
 
-- :ref:`bool<class_bool>` **collision/exclude_nodes**
+- :ref:`bool <class_bool>` **collision/exclude_nodes**
 
 +-----------+-----------------------------------------+
 | *Default* | ``true``                                |
@@ -54,7 +54,7 @@ If ``true``, the two bodies of the nodes are not able to collide with each other
 
 .. _class_Joint_property_nodes/node_a:
 
-- :ref:`NodePath<class_NodePath>` **nodes/node_a**
+- :ref:`NodePath <class_NodePath>` **nodes/node_a**
 
 +-----------+-------------------+
 | *Default* | ``NodePath("")``  |
@@ -70,7 +70,7 @@ The node attached to the first side (A) of the joint.
 
 .. _class_Joint_property_nodes/node_b:
 
-- :ref:`NodePath<class_NodePath>` **nodes/node_b**
+- :ref:`NodePath <class_NodePath>` **nodes/node_b**
 
 +-----------+-------------------+
 | *Default* | ``NodePath("")``  |
@@ -86,7 +86,7 @@ The node attached to the second side (B) of the joint.
 
 .. _class_Joint_property_solver/priority:
 
-- :ref:`int<class_int>` **solver/priority**
+- :ref:`int <class_int>` **solver/priority**
 
 +-----------+----------------------------+
 | *Default* | ``1``                      |

@@ -1,3 +1,5 @@
+.. _sec-class-ref:
+
 Godot API
 =========
 

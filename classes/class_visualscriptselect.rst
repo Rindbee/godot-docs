@@ -9,7 +9,7 @@
 VisualScriptSelect
 ==================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Chooses between two input values.
 
@@ -33,16 +33,16 @@ Chooses between two input values based on a Boolean condition.
 Properties
 ----------
 
-+-----------------------------------------------------+-----------------------------------------------------+-------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` | :ref:`type<class_VisualScriptSelect_property_type>` | ``0`` |
-+-----------------------------------------------------+-----------------------------------------------------+-------+
++------------------------------------------------------+------------------------------------------------------+-------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` | :ref:`type <class_VisualScriptSelect_property_type>` | ``0`` |
++------------------------------------------------------+------------------------------------------------------+-------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptSelect_property_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **type**
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **type**
 
 +-----------+------------------+
 | *Default* | ``0``            |

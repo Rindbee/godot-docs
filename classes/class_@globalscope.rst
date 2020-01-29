@@ -14,62 +14,68 @@ Global scope constants and variables.
 Description
 -----------
 
-Global scope constants and variables. This is all that resides in the globals, constants regarding error codes, scancodes, property hints, etc.
+Global scope constants and variables. This is all that resides in the globals, constants regarding error codes, keycodes, property hints, etc.
 
 Singletons are also documented here, since they can be accessed from anywhere.
 
 Properties
 ----------
 
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`ARVRServer<class_ARVRServer>`                                       | :ref:`ARVRServer<class_@GlobalScope_property_ARVRServer>`                           |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`AudioServer<class_AudioServer>`                                     | :ref:`AudioServer<class_@GlobalScope_property_AudioServer>`                         |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`CameraServer<class_CameraServer>`                                   | :ref:`CameraServer<class_@GlobalScope_property_CameraServer>`                       |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`ClassDB<class_ClassDB>`                                             | :ref:`ClassDB<class_@GlobalScope_property_ClassDB>`                                 |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Engine<class_Engine>`                                               | :ref:`Engine<class_@GlobalScope_property_Engine>`                                   |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Geometry<class_Geometry>`                                           | :ref:`Geometry<class_@GlobalScope_property_Geometry>`                               |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`IP<class_IP>`                                                       | :ref:`IP<class_@GlobalScope_property_IP>`                                           |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Input<class_Input>`                                                 | :ref:`Input<class_@GlobalScope_property_Input>`                                     |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`InputMap<class_InputMap>`                                           | :ref:`InputMap<class_@GlobalScope_property_InputMap>`                               |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`JSON<class_JSON>`                                                   | :ref:`JSON<class_@GlobalScope_property_JSON>`                                       |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`JavaClassWrapper<class_JavaClassWrapper>`                           | :ref:`JavaClassWrapper<class_@GlobalScope_property_JavaClassWrapper>`               |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`JavaScript<class_JavaScript>`                                       | :ref:`JavaScript<class_@GlobalScope_property_JavaScript>`                           |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Reference<class_Reference>`                                         | :ref:`Marshalls<class_@GlobalScope_property_Marshalls>`                             |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` | :ref:`NavigationMeshGenerator<class_@GlobalScope_property_NavigationMeshGenerator>` |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`OS<class_OS>`                                                       | :ref:`OS<class_@GlobalScope_property_OS>`                                           |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Performance<class_Performance>`                                     | :ref:`Performance<class_@GlobalScope_property_Performance>`                         |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`Physics2DServer<class_Physics2DServer>`                             | :ref:`Physics2DServer<class_@GlobalScope_property_Physics2DServer>`                 |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`PhysicsServer<class_PhysicsServer>`                                 | :ref:`PhysicsServer<class_@GlobalScope_property_PhysicsServer>`                     |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`ProjectSettings<class_ProjectSettings>`                             | :ref:`ProjectSettings<class_@GlobalScope_property_ProjectSettings>`                 |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`ResourceLoader<class_ResourceLoader>`                               | :ref:`ResourceLoader<class_@GlobalScope_property_ResourceLoader>`                   |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`ResourceSaver<class_ResourceSaver>`                                 | :ref:`ResourceSaver<class_@GlobalScope_property_ResourceSaver>`                     |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`TranslationServer<class_TranslationServer>`                         | :ref:`TranslationServer<class_@GlobalScope_property_TranslationServer>`             |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`VisualScriptEditor<class_VisualScriptEditor>`                       | :ref:`VisualScriptEditor<class_@GlobalScope_property_VisualScriptEditor>`           |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| :ref:`VisualServer<class_VisualServer>`                                   | :ref:`VisualServer<class_@GlobalScope_property_VisualServer>`                       |
-+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`ARVRServer <class_ARVRServer>`                           | :ref:`ARVRServer <class_@GlobalScope_property_ARVRServer>`                           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`AudioServer <class_AudioServer>`                         | :ref:`AudioServer <class_@GlobalScope_property_AudioServer>`                         |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`CameraServer <class_CameraServer>`                       | :ref:`CameraServer <class_@GlobalScope_property_CameraServer>`                       |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`ClassDB <class_ClassDB>`                                 | :ref:`ClassDB <class_@GlobalScope_property_ClassDB>`                                 |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Engine <class_Engine>`                                   | :ref:`Engine <class_@GlobalScope_property_Engine>`                                   |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Geometry <class_Geometry>`                               | :ref:`Geometry <class_@GlobalScope_property_Geometry>`                               |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`GodotSharp <class_GodotSharp>`                           | :ref:`GodotSharp <class_@GlobalScope_property_GodotSharp>`                           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`IP <class_IP>`                                           | :ref:`IP <class_@GlobalScope_property_IP>`                                           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Input <class_Input>`                                     | :ref:`Input <class_@GlobalScope_property_Input>`                                     |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`InputMap <class_InputMap>`                               | :ref:`InputMap <class_@GlobalScope_property_InputMap>`                               |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`JSON <class_JSON>`                                       | :ref:`JSON <class_@GlobalScope_property_JSON>`                                       |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`JavaClassWrapper <class_JavaClassWrapper>`               | :ref:`JavaClassWrapper <class_@GlobalScope_property_JavaClassWrapper>`               |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`JavaScript <class_JavaScript>`                           | :ref:`JavaScript <class_@GlobalScope_property_JavaScript>`                           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Marshalls <class_Marshalls>`                             | :ref:`Marshalls <class_@GlobalScope_property_Marshalls>`                             |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Navigation2DServer <class_Navigation2DServer>`           | :ref:`Navigation2DServer <class_@GlobalScope_property_Navigation2DServer>`           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`NavigationMeshGenerator <class_NavigationMeshGenerator>` | :ref:`NavigationMeshGenerator <class_@GlobalScope_property_NavigationMeshGenerator>` |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`NavigationServer <class_NavigationServer>`               | :ref:`NavigationServer <class_@GlobalScope_property_NavigationServer>`               |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`OS <class_OS>`                                           | :ref:`OS <class_@GlobalScope_property_OS>`                                           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Performance <class_Performance>`                         | :ref:`Performance <class_@GlobalScope_property_Performance>`                         |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`Physics2DServer <class_Physics2DServer>`                 | :ref:`Physics2DServer <class_@GlobalScope_property_Physics2DServer>`                 |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`PhysicsServer <class_PhysicsServer>`                     | :ref:`PhysicsServer <class_@GlobalScope_property_PhysicsServer>`                     |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`ProjectSettings <class_ProjectSettings>`                 | :ref:`ProjectSettings <class_@GlobalScope_property_ProjectSettings>`                 |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`ResourceLoader <class_ResourceLoader>`                   | :ref:`ResourceLoader <class_@GlobalScope_property_ResourceLoader>`                   |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`ResourceSaver <class_ResourceSaver>`                     | :ref:`ResourceSaver <class_@GlobalScope_property_ResourceSaver>`                     |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`TranslationServer <class_TranslationServer>`             | :ref:`TranslationServer <class_@GlobalScope_property_TranslationServer>`             |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`VisualScriptEditor <class_VisualScriptEditor>`           | :ref:`VisualScriptEditor <class_@GlobalScope_property_VisualScriptEditor>`           |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| :ref:`VisualServer <class_VisualServer>`                       | :ref:`VisualServer <class_@GlobalScope_property_VisualServer>`                       |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -86,13 +92,13 @@ Enumerations
 
 enum **Margin**:
 
-- **MARGIN_LEFT** = **0** --- Left margin, usually used for :ref:`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes.
+- **MARGIN_LEFT** = **0** --- Left margin, usually used for :ref:`Control <class_Control>` or :ref:`StyleBox <class_StyleBox>`-derived classes.
 
-- **MARGIN_TOP** = **1** --- Top margin, usually used for :ref:`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes.
+- **MARGIN_TOP** = **1** --- Top margin, usually used for :ref:`Control <class_Control>` or :ref:`StyleBox <class_StyleBox>`-derived classes.
 
-- **MARGIN_RIGHT** = **2** --- Right margin, usually used for :ref:`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes.
+- **MARGIN_RIGHT** = **2** --- Right margin, usually used for :ref:`Control <class_Control>` or :ref:`StyleBox <class_StyleBox>`-derived classes.
 
-- **MARGIN_BOTTOM** = **3** --- Bottom margin, usually used for :ref:`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes.
+- **MARGIN_BOTTOM** = **3** --- Bottom margin, usually used for :ref:`Control <class_Control>` or :ref:`StyleBox <class_StyleBox>`-derived classes.
 
 ----
 
@@ -126,9 +132,9 @@ enum **Corner**:
 
 enum **Orientation**:
 
-- **VERTICAL** = **1** --- General vertical alignment, usually used for :ref:`Separator<class_Separator>`, :ref:`ScrollBar<class_ScrollBar>`, :ref:`Slider<class_Slider>`, etc.
+- **VERTICAL** = **1** --- General vertical alignment, usually used for :ref:`Separator <class_Separator>`, :ref:`ScrollBar <class_ScrollBar>`, :ref:`Slider <class_Slider>`, etc.
 
-- **HORIZONTAL** = **0** --- General horizontal alignment, usually used for :ref:`Separator<class_Separator>`, :ref:`ScrollBar<class_ScrollBar>`, :ref:`Slider<class_Slider>`, etc.
+- **HORIZONTAL** = **0** --- General horizontal alignment, usually used for :ref:`Separator <class_Separator>`, :ref:`ScrollBar <class_ScrollBar>`, :ref:`Slider <class_Slider>`, etc.
 
 ----
 
@@ -1176,7 +1182,7 @@ enum **KeyModifierMask**:
 
 - **KEY_MASK_CTRL** = **268435456** --- Ctrl key mask.
 
-- **KEY_MASK_CMD** = **268435456** --- Command key mask. On macOS, this is equivalent to :ref:`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>`. On other platforms, this is equivalent to :ref:`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>`. This mask should be preferred to :ref:`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>` or :ref:`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>` for system shortcuts as it handles all platforms correctly.
+- **KEY_MASK_CMD** = **268435456** --- Command key mask. On macOS, this is equivalent to :ref:`KEY_MASK_META <class_@GlobalScope_constant_KEY_MASK_META>`. On other platforms, this is equivalent to :ref:`KEY_MASK_CTRL <class_@GlobalScope_constant_KEY_MASK_CTRL>`. This mask should be preferred to :ref:`KEY_MASK_META <class_@GlobalScope_constant_KEY_MASK_META>` or :ref:`KEY_MASK_CTRL <class_@GlobalScope_constant_KEY_MASK_CTRL>` for system shortcuts as it handles all platforms correctly.
 
 - **KEY_MASK_KPAD** = **536870912** --- Keypad key mask.
 
@@ -1664,9 +1670,9 @@ enum **MidiMessageList**:
 
 enum **Error**:
 
-- **OK** = **0** --- Methods that return :ref:`Error<enum_@GlobalScope_Error>` return :ref:`OK<class_@GlobalScope_constant_OK>` when no error occurred. Note that many functions don't return an error code but will print error messages to standard output.
+- **OK** = **0** --- Methods that return :ref:`Error <enum_@GlobalScope_Error>` return :ref:`OK <class_@GlobalScope_constant_OK>` when no error occurred. Note that many functions don't return an error code but will print error messages to standard output.
 
-Since :ref:`OK<class_@GlobalScope_constant_OK>` has value 0, and all other failure codes are positive integers, it can also be used in boolean checks, e.g.:
+Since :ref:`OK <class_@GlobalScope_constant_OK>` has value 0, and all other failure codes are positive integers, it can also be used in boolean checks, e.g.:
 
 ::
 
@@ -1855,7 +1861,7 @@ enum **PropertyHint**:
 
 - **PROPERTY_HINT_GLOBAL_DIR** = **16** --- Hints that a string property is an absolute path to a directory outside the project folder. Editing it will show a file dialog for picking the path.
 
-- **PROPERTY_HINT_RESOURCE_TYPE** = **17** --- Hints that a property is an instance of a :ref:`Resource<class_Resource>`-derived type, optionally specified via the hint string (e.g. ``"Texture"``). Editing it will show a popup menu of valid resource types to instantiate.
+- **PROPERTY_HINT_RESOURCE_TYPE** = **17** --- Hints that a property is an instance of a :ref:`Resource <class_Resource>`-derived type, optionally specified via the hint string (e.g. ``"Texture2D"``). Editing it will show a popup menu of valid resource types to instantiate.
 
 - **PROPERTY_HINT_MULTILINE_TEXT** = **18** --- Hints that a string property is text with line breaks. Editing it will show a text input field where line breaks can be typed.
 
@@ -1921,7 +1927,7 @@ enum **PropertyUsageFlags**:
 
 - **PROPERTY_USAGE_CATEGORY** = **256** --- Used to categorize properties together in the editor.
 
-- **PROPERTY_USAGE_NO_INSTANCE_STATE** = **2048** --- The property does not save its state in :ref:`PackedScene<class_PackedScene>`.
+- **PROPERTY_USAGE_NO_INSTANCE_STATE** = **2048** --- The property does not save its state in :ref:`PackedScene <class_PackedScene>`.
 
 - **PROPERTY_USAGE_RESTART_IF_CHANGED** = **4096** --- Editing the property prompts the user for restarting the editor.
 
@@ -1987,9 +1993,15 @@ enum **MethodFlags**:
 
 .. _class_@GlobalScope_constant_TYPE_VECTOR2:
 
+.. _class_@GlobalScope_constant_TYPE_VECTOR2I:
+
 .. _class_@GlobalScope_constant_TYPE_RECT2:
 
+.. _class_@GlobalScope_constant_TYPE_RECT2I:
+
 .. _class_@GlobalScope_constant_TYPE_VECTOR3:
+
+.. _class_@GlobalScope_constant_TYPE_VECTOR3I:
 
 .. _class_@GlobalScope_constant_TYPE_TRANSFORM2D:
 
@@ -2005,11 +2017,17 @@ enum **MethodFlags**:
 
 .. _class_@GlobalScope_constant_TYPE_COLOR:
 
+.. _class_@GlobalScope_constant_TYPE_STRING_NAME:
+
 .. _class_@GlobalScope_constant_TYPE_NODE_PATH:
 
 .. _class_@GlobalScope_constant_TYPE_RID:
 
 .. _class_@GlobalScope_constant_TYPE_OBJECT:
+
+.. _class_@GlobalScope_constant_TYPE_CALLABLE:
+
+.. _class_@GlobalScope_constant_TYPE_SIGNAL:
 
 .. _class_@GlobalScope_constant_TYPE_DICTIONARY:
 
@@ -2017,9 +2035,13 @@ enum **MethodFlags**:
 
 .. _class_@GlobalScope_constant_TYPE_RAW_ARRAY:
 
-.. _class_@GlobalScope_constant_TYPE_INT_ARRAY:
+.. _class_@GlobalScope_constant_TYPE_INT32_ARRAY:
 
-.. _class_@GlobalScope_constant_TYPE_REAL_ARRAY:
+.. _class_@GlobalScope_constant_TYPE_INT64_ARRAY:
+
+.. _class_@GlobalScope_constant_TYPE_FLOAT32_ARRAY:
+
+.. _class_@GlobalScope_constant_TYPE_FLOAT64_ARRAY:
 
 .. _class_@GlobalScope_constant_TYPE_STRING_ARRAY:
 
@@ -2035,59 +2057,75 @@ enum **Variant.Type**:
 
 - **TYPE_NIL** = **0** --- Variable is ``null``.
 
-- **TYPE_BOOL** = **1** --- Variable is of type :ref:`bool<class_bool>`.
+- **TYPE_BOOL** = **1** --- Variable is of type :ref:`bool <class_bool>`.
 
-- **TYPE_INT** = **2** --- Variable is of type :ref:`int<class_int>`.
+- **TYPE_INT** = **2** --- Variable is of type :ref:`int <class_int>`.
 
-- **TYPE_REAL** = **3** --- Variable is of type :ref:`float<class_float>` (real).
+- **TYPE_REAL** = **3** --- Variable is of type :ref:`float <class_float>` (real).
 
-- **TYPE_STRING** = **4** --- Variable is of type :ref:`String<class_String>`.
+- **TYPE_STRING** = **4** --- Variable is of type :ref:`String <class_String>`.
 
-- **TYPE_VECTOR2** = **5** --- Variable is of type :ref:`Vector2<class_Vector2>`.
+- **TYPE_VECTOR2** = **5** --- Variable is of type :ref:`Vector2 <class_Vector2>`.
 
-- **TYPE_RECT2** = **6** --- Variable is of type :ref:`Rect2<class_Rect2>`.
+- **TYPE_VECTOR2I** = **6** --- Variable is of type :ref:`Vector2i <class_Vector2i>`.
 
-- **TYPE_VECTOR3** = **7** --- Variable is of type :ref:`Vector3<class_Vector3>`.
+- **TYPE_RECT2** = **7** --- Variable is of type :ref:`Rect2 <class_Rect2>`.
 
-- **TYPE_TRANSFORM2D** = **8** --- Variable is of type :ref:`Transform2D<class_Transform2D>`.
+- **TYPE_RECT2I** = **8** --- Variable is of type :ref:`Rect2i <class_Rect2i>`.
 
-- **TYPE_PLANE** = **9** --- Variable is of type :ref:`Plane<class_Plane>`.
+- **TYPE_VECTOR3** = **9** --- Variable is of type :ref:`Vector3 <class_Vector3>`.
 
-- **TYPE_QUAT** = **10** --- Variable is of type :ref:`Quat<class_Quat>`.
+- **TYPE_VECTOR3I** = **10** --- Variable is of type :ref:`Vector3i <class_Vector3i>`.
 
-- **TYPE_AABB** = **11** --- Variable is of type :ref:`AABB<class_AABB>`.
+- **TYPE_TRANSFORM2D** = **11** --- Variable is of type :ref:`Transform2D <class_Transform2D>`.
 
-- **TYPE_BASIS** = **12** --- Variable is of type :ref:`Basis<class_Basis>`.
+- **TYPE_PLANE** = **12** --- Variable is of type :ref:`Plane <class_Plane>`.
 
-- **TYPE_TRANSFORM** = **13** --- Variable is of type :ref:`Transform<class_Transform>`.
+- **TYPE_QUAT** = **13** --- Variable is of type :ref:`Quat <class_Quat>`.
 
-- **TYPE_COLOR** = **14** --- Variable is of type :ref:`Color<class_Color>`.
+- **TYPE_AABB** = **14** --- Variable is of type :ref:`AABB <class_AABB>`.
 
-- **TYPE_NODE_PATH** = **15** --- Variable is of type :ref:`NodePath<class_NodePath>`.
+- **TYPE_BASIS** = **15** --- Variable is of type :ref:`Basis <class_Basis>`.
 
-- **TYPE_RID** = **16** --- Variable is of type :ref:`RID<class_RID>`.
+- **TYPE_TRANSFORM** = **16** --- Variable is of type :ref:`Transform <class_Transform>`.
 
-- **TYPE_OBJECT** = **17** --- Variable is of type :ref:`Object<class_Object>`.
+- **TYPE_COLOR** = **17** --- Variable is of type :ref:`Color <class_Color>`.
 
-- **TYPE_DICTIONARY** = **18** --- Variable is of type :ref:`Dictionary<class_Dictionary>`.
+- **TYPE_STRING_NAME** = **18** --- Variable is of type :ref:`StringName <class_StringName>`.
 
-- **TYPE_ARRAY** = **19** --- Variable is of type :ref:`Array<class_Array>`.
+- **TYPE_NODE_PATH** = **19** --- Variable is of type :ref:`NodePath <class_NodePath>`.
 
-- **TYPE_RAW_ARRAY** = **20** --- Variable is of type :ref:`PoolByteArray<class_PoolByteArray>`.
+- **TYPE_RID** = **20** --- Variable is of type :ref:`RID <class_RID>`.
 
-- **TYPE_INT_ARRAY** = **21** --- Variable is of type :ref:`PoolIntArray<class_PoolIntArray>`.
+- **TYPE_OBJECT** = **21** --- Variable is of type :ref:`Object <class_Object>`.
 
-- **TYPE_REAL_ARRAY** = **22** --- Variable is of type :ref:`PoolRealArray<class_PoolRealArray>`.
+- **TYPE_CALLABLE** = **22** --- Variable is of type :ref:`Callable <class_Callable>`.
 
-- **TYPE_STRING_ARRAY** = **23** --- Variable is of type :ref:`PoolStringArray<class_PoolStringArray>`.
+- **TYPE_SIGNAL** = **23** --- Variable is of type :ref:`Signal <class_Signal>`.
 
-- **TYPE_VECTOR2_ARRAY** = **24** --- Variable is of type :ref:`PoolVector2Array<class_PoolVector2Array>`.
+- **TYPE_DICTIONARY** = **24** --- Variable is of type :ref:`Dictionary <class_Dictionary>`.
 
-- **TYPE_VECTOR3_ARRAY** = **25** --- Variable is of type :ref:`PoolVector3Array<class_PoolVector3Array>`.
+- **TYPE_ARRAY** = **25** --- Variable is of type :ref:`Array <class_Array>`.
 
-- **TYPE_COLOR_ARRAY** = **26** --- Variable is of type :ref:`PoolColorArray<class_PoolColorArray>`.
+- **TYPE_RAW_ARRAY** = **26** --- Variable is of type :ref:`PackedByteArray <class_PackedByteArray>`.
 
-- **TYPE_MAX** = **27** --- Represents the size of the :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` enum.
+- **TYPE_INT32_ARRAY** = **27** --- Variable is of type :ref:`PackedInt32Array <class_PackedInt32Array>`.
+
+- **TYPE_INT64_ARRAY** = **28** --- Variable is of type :ref:`PackedInt64Array <class_PackedInt64Array>`.
+
+- **TYPE_FLOAT32_ARRAY** = **29** --- Variable is of type :ref:`PackedFloat32Array <class_PackedFloat32Array>`.
+
+- **TYPE_FLOAT64_ARRAY** = **30** --- Variable is of type :ref:`PackedFloat64Array <class_PackedFloat64Array>`.
+
+- **TYPE_STRING_ARRAY** = **31** --- Variable is of type :ref:`PackedStringArray <class_PackedStringArray>`.
+
+- **TYPE_VECTOR2_ARRAY** = **32** --- Variable is of type :ref:`PackedVector2Array <class_PackedVector2Array>`.
+
+- **TYPE_VECTOR3_ARRAY** = **33** --- Variable is of type :ref:`PackedVector3Array <class_PackedVector3Array>`.
+
+- **TYPE_COLOR_ARRAY** = **34** --- Variable is of type :ref:`PackedColorArray <class_PackedColorArray>`.
+
+- **TYPE_MAX** = **35** --- Represents the size of the :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` enum.
 
 ----
 
@@ -2197,103 +2235,111 @@ enum **Variant.Operator**:
 
 - **OP_IN** = **24** --- Logical IN operator (``in``).
 
-- **OP_MAX** = **25** --- Represents the size of the :ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>` enum.
+- **OP_MAX** = **25** --- Represents the size of the :ref:`Variant.Operator <enum_@GlobalScope_Variant.Operator>` enum.
 
 Constants
 ---------
 
 .. _class_@GlobalScope_constant_SPKEY:
 
-- **SPKEY** = **16777216** --- Scancodes with this bit applied are non-printable.
+- **SPKEY** = **16777216** --- Keycodes with this bit applied are non-printable.
 
 Property Descriptions
 ---------------------
 
 .. _class_@GlobalScope_property_ARVRServer:
 
-- :ref:`ARVRServer<class_ARVRServer>` **ARVRServer**
+- :ref:`ARVRServer <class_ARVRServer>` **ARVRServer**
 
-The :ref:`ARVRServer<class_ARVRServer>` singleton.
+The :ref:`ARVRServer <class_ARVRServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_AudioServer:
 
-- :ref:`AudioServer<class_AudioServer>` **AudioServer**
+- :ref:`AudioServer <class_AudioServer>` **AudioServer**
 
-The :ref:`AudioServer<class_AudioServer>` singleton.
+The :ref:`AudioServer <class_AudioServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_CameraServer:
 
-- :ref:`CameraServer<class_CameraServer>` **CameraServer**
+- :ref:`CameraServer <class_CameraServer>` **CameraServer**
 
-The :ref:`CameraServer<class_CameraServer>` singleton.
+The :ref:`CameraServer <class_CameraServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_ClassDB:
 
-- :ref:`ClassDB<class_ClassDB>` **ClassDB**
+- :ref:`ClassDB <class_ClassDB>` **ClassDB**
 
-The :ref:`ClassDB<class_ClassDB>` singleton.
+The :ref:`ClassDB <class_ClassDB>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_Engine:
 
-- :ref:`Engine<class_Engine>` **Engine**
+- :ref:`Engine <class_Engine>` **Engine**
 
-The :ref:`Engine<class_Engine>` singleton.
+The :ref:`Engine <class_Engine>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_Geometry:
 
-- :ref:`Geometry<class_Geometry>` **Geometry**
+- :ref:`Geometry <class_Geometry>` **Geometry**
 
-The :ref:`Geometry<class_Geometry>` singleton.
+The :ref:`Geometry <class_Geometry>` singleton.
+
+----
+
+.. _class_@GlobalScope_property_GodotSharp:
+
+- :ref:`GodotSharp <class_GodotSharp>` **GodotSharp**
+
+The :ref:`GodotSharp <class_GodotSharp>` singleton. Only available when using Godot's Mono build.
 
 ----
 
 .. _class_@GlobalScope_property_IP:
 
-- :ref:`IP<class_IP>` **IP**
+- :ref:`IP <class_IP>` **IP**
 
-The :ref:`IP<class_IP>` singleton.
+The :ref:`IP <class_IP>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_Input:
 
-- :ref:`Input<class_Input>` **Input**
+- :ref:`Input <class_Input>` **Input**
 
-The :ref:`Input<class_Input>` singleton.
+The :ref:`Input <class_Input>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_InputMap:
 
-- :ref:`InputMap<class_InputMap>` **InputMap**
+- :ref:`InputMap <class_InputMap>` **InputMap**
 
-The :ref:`InputMap<class_InputMap>` singleton.
+The :ref:`InputMap <class_InputMap>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_JSON:
 
-- :ref:`JSON<class_JSON>` **JSON**
+- :ref:`JSON <class_JSON>` **JSON**
 
-The :ref:`JSON<class_JSON>` singleton.
+The :ref:`JSON <class_JSON>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_JavaClassWrapper:
 
-- :ref:`JavaClassWrapper<class_JavaClassWrapper>` **JavaClassWrapper**
+- :ref:`JavaClassWrapper <class_JavaClassWrapper>` **JavaClassWrapper**
 
-The :ref:`JavaClassWrapper<class_JavaClassWrapper>` singleton.
+The :ref:`JavaClassWrapper <class_JavaClassWrapper>` singleton.
 
 **Note:** Only implemented on Android.
 
@@ -2301,9 +2347,9 @@ The :ref:`JavaClassWrapper<class_JavaClassWrapper>` singleton.
 
 .. _class_@GlobalScope_property_JavaScript:
 
-- :ref:`JavaScript<class_JavaScript>` **JavaScript**
+- :ref:`JavaScript <class_JavaScript>` **JavaScript**
 
-The :ref:`JavaScript<class_JavaScript>` singleton.
+The :ref:`JavaScript <class_JavaScript>` singleton.
 
 **Note:** Only implemented on HTML5.
 
@@ -2311,95 +2357,111 @@ The :ref:`JavaScript<class_JavaScript>` singleton.
 
 .. _class_@GlobalScope_property_Marshalls:
 
-- :ref:`Reference<class_Reference>` **Marshalls**
+- :ref:`Marshalls <class_Marshalls>` **Marshalls**
 
-The :ref:`Marshalls<class_Marshalls>` singleton.
+The :ref:`Marshalls <class_Marshalls>` singleton.
+
+----
+
+.. _class_@GlobalScope_property_Navigation2DServer:
+
+- :ref:`Navigation2DServer <class_Navigation2DServer>` **Navigation2DServer**
+
+The :ref:`Navigation2DServer <class_Navigation2DServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_NavigationMeshGenerator:
 
-- :ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` **NavigationMeshGenerator**
+- :ref:`NavigationMeshGenerator <class_NavigationMeshGenerator>` **NavigationMeshGenerator**
 
-The :ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` singleton.
+The :ref:`NavigationMeshGenerator <class_NavigationMeshGenerator>` singleton.
+
+----
+
+.. _class_@GlobalScope_property_NavigationServer:
+
+- :ref:`NavigationServer <class_NavigationServer>` **NavigationServer**
+
+The :ref:`NavigationServer <class_NavigationServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_OS:
 
-- :ref:`OS<class_OS>` **OS**
+- :ref:`OS <class_OS>` **OS**
 
-The :ref:`OS<class_OS>` singleton.
+The :ref:`OS <class_OS>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_Performance:
 
-- :ref:`Performance<class_Performance>` **Performance**
+- :ref:`Performance <class_Performance>` **Performance**
 
-The :ref:`Performance<class_Performance>` singleton.
+The :ref:`Performance <class_Performance>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_Physics2DServer:
 
-- :ref:`Physics2DServer<class_Physics2DServer>` **Physics2DServer**
+- :ref:`Physics2DServer <class_Physics2DServer>` **Physics2DServer**
 
-The :ref:`Physics2DServer<class_Physics2DServer>` singleton.
+The :ref:`Physics2DServer <class_Physics2DServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_PhysicsServer:
 
-- :ref:`PhysicsServer<class_PhysicsServer>` **PhysicsServer**
+- :ref:`PhysicsServer <class_PhysicsServer>` **PhysicsServer**
 
-The :ref:`PhysicsServer<class_PhysicsServer>` singleton.
+The :ref:`PhysicsServer <class_PhysicsServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_ProjectSettings:
 
-- :ref:`ProjectSettings<class_ProjectSettings>` **ProjectSettings**
+- :ref:`ProjectSettings <class_ProjectSettings>` **ProjectSettings**
 
-The :ref:`ProjectSettings<class_ProjectSettings>` singleton.
+The :ref:`ProjectSettings <class_ProjectSettings>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_ResourceLoader:
 
-- :ref:`ResourceLoader<class_ResourceLoader>` **ResourceLoader**
+- :ref:`ResourceLoader <class_ResourceLoader>` **ResourceLoader**
 
-The :ref:`ResourceLoader<class_ResourceLoader>` singleton.
+The :ref:`ResourceLoader <class_ResourceLoader>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_ResourceSaver:
 
-- :ref:`ResourceSaver<class_ResourceSaver>` **ResourceSaver**
+- :ref:`ResourceSaver <class_ResourceSaver>` **ResourceSaver**
 
-The :ref:`ResourceSaver<class_ResourceSaver>` singleton.
+The :ref:`ResourceSaver <class_ResourceSaver>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_TranslationServer:
 
-- :ref:`TranslationServer<class_TranslationServer>` **TranslationServer**
+- :ref:`TranslationServer <class_TranslationServer>` **TranslationServer**
 
-The :ref:`TranslationServer<class_TranslationServer>` singleton.
+The :ref:`TranslationServer <class_TranslationServer>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_VisualScriptEditor:
 
-- :ref:`VisualScriptEditor<class_VisualScriptEditor>` **VisualScriptEditor**
+- :ref:`VisualScriptEditor <class_VisualScriptEditor>` **VisualScriptEditor**
 
-The :ref:`VisualScriptEditor<class_VisualScriptEditor>` singleton.
+The :ref:`VisualScriptEditor <class_VisualScriptEditor>` singleton.
 
 ----
 
 .. _class_@GlobalScope_property_VisualServer:
 
-- :ref:`VisualServer<class_VisualServer>` **VisualServer**
+- :ref:`VisualServer <class_VisualServer>` **VisualServer**
 
-The :ref:`VisualServer<class_VisualServer>` singleton.
+The :ref:`VisualServer <class_VisualServer>` singleton.
 

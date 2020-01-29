@@ -9,7 +9,7 @@
 VisualScriptSceneNode
 =====================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Node reference.
 
@@ -29,16 +29,16 @@ none
 Properties
 ----------
 
-+---------------------------------+------------------------------------------------------------------+-------------------+
-| :ref:`NodePath<class_NodePath>` | :ref:`node_path<class_VisualScriptSceneNode_property_node_path>` | ``NodePath(".")`` |
-+---------------------------------+------------------------------------------------------------------+-------------------+
++----------------------------------+-------------------------------------------------------------------+-------------------+
+| :ref:`NodePath <class_NodePath>` | :ref:`node_path <class_VisualScriptSceneNode_property_node_path>` | ``NodePath(".")`` |
++----------------------------------+-------------------------------------------------------------------+-------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptSceneNode_property_node_path:
 
-- :ref:`NodePath<class_NodePath>` **node_path**
+- :ref:`NodePath <class_NodePath>` **node_path**
 
 +-----------+----------------------+
 | *Default* | ``NodePath(".")``    |

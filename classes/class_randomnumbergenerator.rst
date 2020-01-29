@@ -9,7 +9,7 @@
 RandomNumberGenerator
 =====================
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A class for generating pseudo-random numbers.
 
@@ -32,33 +32,33 @@ To generate a random float number (within a given range) based on a time-dependa
 Properties
 ----------
 
-+-----------------------+--------------------------------------------------------+--------------------------+
-| :ref:`int<class_int>` | :ref:`seed<class_RandomNumberGenerator_property_seed>` | ``-6398989897141750821`` |
-+-----------------------+--------------------------------------------------------+--------------------------+
++------------------------+---------------------------------------------------------+--------------------------+
+| :ref:`int <class_int>` | :ref:`seed <class_RandomNumberGenerator_property_seed>` | ``-6398989897141750821`` |
++------------------------+---------------------------------------------------------+--------------------------+
 
 Methods
 -------
 
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`randf<class_RandomNumberGenerator_method_randf>` **(** **)**                                                                               |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`randf_range<class_RandomNumberGenerator_method_randf_range>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to **)**      |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`float<class_float>` | :ref:`randfn<class_RandomNumberGenerator_method_randfn>` **(** :ref:`float<class_float>` mean=0.0, :ref:`float<class_float>` deviation=1.0 **)** |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`     | :ref:`randi<class_RandomNumberGenerator_method_randi>` **(** **)**                                                                               |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`int<class_int>`     | :ref:`randi_range<class_RandomNumberGenerator_method_randi_range>` **(** :ref:`int<class_int>` from, :ref:`int<class_int>` to **)**              |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`randomize<class_RandomNumberGenerator_method_randomize>` **(** **)**                                                                       |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`randf <class_RandomNumberGenerator_method_randf>` **(** **)**                                                                                 |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`randf_range <class_RandomNumberGenerator_method_randf_range>` **(** :ref:`float <class_float>` from, :ref:`float <class_float>` to **)**      |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float <class_float>` | :ref:`randfn <class_RandomNumberGenerator_method_randfn>` **(** :ref:`float <class_float>` mean=0.0, :ref:`float <class_float>` deviation=1.0 **)** |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`     | :ref:`randi <class_RandomNumberGenerator_method_randi>` **(** **)**                                                                                 |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`int <class_int>`     | :ref:`randi_range <class_RandomNumberGenerator_method_randi_range>` **(** :ref:`int <class_int>` from, :ref:`int <class_int>` to **)**              |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`randomize <class_RandomNumberGenerator_method_randomize>` **(** **)**                                                                         |
++----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_RandomNumberGenerator_property_seed:
 
-- :ref:`int<class_int>` **seed**
+- :ref:`int <class_int>` **seed**
 
 +-----------+--------------------------+
 | *Default* | ``-6398989897141750821`` |
@@ -77,7 +77,7 @@ Method Descriptions
 
 .. _class_RandomNumberGenerator_method_randf:
 
-- :ref:`float<class_float>` **randf** **(** **)**
+- :ref:`float <class_float>` **randf** **(** **)**
 
 Generates a pseudo-random float between ``0.0`` and ``1.0`` (inclusive).
 
@@ -85,7 +85,7 @@ Generates a pseudo-random float between ``0.0`` and ``1.0`` (inclusive).
 
 .. _class_RandomNumberGenerator_method_randf_range:
 
-- :ref:`float<class_float>` **randf_range** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to **)**
+- :ref:`float <class_float>` **randf_range** **(** :ref:`float <class_float>` from, :ref:`float <class_float>` to **)**
 
 Generates a pseudo-random float between ``from`` and ``to`` (inclusive).
 
@@ -93,7 +93,7 @@ Generates a pseudo-random float between ``from`` and ``to`` (inclusive).
 
 .. _class_RandomNumberGenerator_method_randfn:
 
-- :ref:`float<class_float>` **randfn** **(** :ref:`float<class_float>` mean=0.0, :ref:`float<class_float>` deviation=1.0 **)**
+- :ref:`float <class_float>` **randfn** **(** :ref:`float <class_float>` mean=0.0, :ref:`float <class_float>` deviation=1.0 **)**
 
 Generates a `normally-distributed <https://en.wikipedia.org/wiki/Normal_distribution>`_ pseudo-random number, using Box-Muller transform with the specified ``mean`` and a standard ``deviation``. This is also called Gaussian distribution.
 
@@ -101,7 +101,7 @@ Generates a `normally-distributed <https://en.wikipedia.org/wiki/Normal_distribu
 
 .. _class_RandomNumberGenerator_method_randi:
 
-- :ref:`int<class_int>` **randi** **(** **)**
+- :ref:`int <class_int>` **randi** **(** **)**
 
 Generates a pseudo-random 32-bit unsigned integer between ``0`` and ``4294967295`` (inclusive).
 
@@ -109,7 +109,7 @@ Generates a pseudo-random 32-bit unsigned integer between ``0`` and ``4294967295
 
 .. _class_RandomNumberGenerator_method_randi_range:
 
-- :ref:`int<class_int>` **randi_range** **(** :ref:`int<class_int>` from, :ref:`int<class_int>` to **)**
+- :ref:`int <class_int>` **randi_range** **(** :ref:`int <class_int>` from, :ref:`int <class_int>` to **)**
 
 Generates a pseudo-random 32-bit signed integer between ``from`` and ``to`` (inclusive).
 

@@ -9,27 +9,27 @@
 AudioEffectStereoEnhance
 ========================
 
-**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+---------------------------+---------------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`pan_pullout<class_AudioEffectStereoEnhance_property_pan_pullout>`         | ``1.0`` |
-+---------------------------+---------------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`surround<class_AudioEffectStereoEnhance_property_surround>`               | ``0.0`` |
-+---------------------------+---------------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>` | :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>` | ``0.0`` |
-+---------------------------+---------------------------------------------------------------------------------+---------+
++----------------------------+----------------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`pan_pullout <class_AudioEffectStereoEnhance_property_pan_pullout>`         | ``1.0`` |
++----------------------------+----------------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`surround <class_AudioEffectStereoEnhance_property_surround>`               | ``0.0`` |
++----------------------------+----------------------------------------------------------------------------------+---------+
+| :ref:`float <class_float>` | :ref:`time_pullout_ms <class_AudioEffectStereoEnhance_property_time_pullout_ms>` | ``0.0`` |
++----------------------------+----------------------------------------------------------------------------------+---------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AudioEffectStereoEnhance_property_pan_pullout:
 
-- :ref:`float<class_float>` **pan_pullout**
+- :ref:`float <class_float>` **pan_pullout**
 
 +-----------+------------------------+
 | *Default* | ``1.0``                |
@@ -43,7 +43,7 @@ Property Descriptions
 
 .. _class_AudioEffectStereoEnhance_property_surround:
 
-- :ref:`float<class_float>` **surround**
+- :ref:`float <class_float>` **surround**
 
 +-----------+---------------------+
 | *Default* | ``0.0``             |
@@ -57,7 +57,7 @@ Property Descriptions
 
 .. _class_AudioEffectStereoEnhance_property_time_pullout_ms:
 
-- :ref:`float<class_float>` **time_pullout_ms**
+- :ref:`float <class_float>` **time_pullout_ms**
 
 +-----------+-------------------------+
 | *Default* | ``0.0``                 |

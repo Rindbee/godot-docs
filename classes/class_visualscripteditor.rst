@@ -9,18 +9,18 @@
 VisualScriptEditor
 ==================
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 
 
 Methods
 -------
 
-+------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`add_custom_node<class_VisualScriptEditor_method_add_custom_node>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` category, :ref:`Script<class_Script>` script **)** |
-+------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void | :ref:`remove_custom_node<class_VisualScriptEditor_method_remove_custom_node>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` category **)**                               |
-+------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`add_custom_node <class_VisualScriptEditor_method_add_custom_node>` **(** :ref:`String <class_String>` name, :ref:`String <class_String>` category, :ref:`Script <class_Script>` script **)** |
++------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void | :ref:`remove_custom_node <class_VisualScriptEditor_method_remove_custom_node>` **(** :ref:`String <class_String>` name, :ref:`String <class_String>` category **)**                                |
++------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -36,7 +36,7 @@ Method Descriptions
 
 .. _class_VisualScriptEditor_method_add_custom_node:
 
-- void **add_custom_node** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` category, :ref:`Script<class_Script>` script **)**
+- void **add_custom_node** **(** :ref:`String <class_String>` name, :ref:`String <class_String>` category, :ref:`Script <class_Script>` script **)**
 
 Add a custom Visual Script node to the editor. It'll be placed under "Custom Nodes" with the ``category`` as the parameter.
 
@@ -44,7 +44,7 @@ Add a custom Visual Script node to the editor. It'll be placed under "Custom Nod
 
 .. _class_VisualScriptEditor_method_remove_custom_node:
 
-- void **remove_custom_node** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` category **)**
+- void **remove_custom_node** **(** :ref:`String <class_String>` name, :ref:`String <class_String>` category **)**
 
 Remove a custom Visual Script node from the editor. Custom nodes already placed on scripts won't be removed.
 

@@ -18,7 +18,7 @@ Signed 64-bit integer type.
 
 It can take values in the interval ``[-2^63, 2^63 - 1]``, i.e. ``[-9223372036854775808, 9223372036854775807]``. Exceeding those bounds will wrap around.
 
-``int`` is a :ref:`Variant<class_Variant>` type, and will thus be used when assigning an integer value to a :ref:`Variant<class_Variant>`. It can also be enforced with the ``: int`` type hint.
+``int`` is a :ref:`Variant <class_Variant>` type, and will thus be used when assigning an integer value to a :ref:`Variant <class_Variant>`. It can also be enforced with the ``: int`` type hint.
 
 ::
 
@@ -36,32 +36,32 @@ It can take values in the interval ``[-2^63, 2^63 - 1]``, i.e. ``[-9223372036854
 Methods
 -------
 
-+-----------------------+-------------------------------------------------------------------------------+
-| :ref:`int<class_int>` | :ref:`int<class_int_method_int>` **(** :ref:`bool<class_bool>` from **)**     |
-+-----------------------+-------------------------------------------------------------------------------+
-| :ref:`int<class_int>` | :ref:`int<class_int_method_int>` **(** :ref:`float<class_float>` from **)**   |
-+-----------------------+-------------------------------------------------------------------------------+
-| :ref:`int<class_int>` | :ref:`int<class_int_method_int>` **(** :ref:`String<class_String>` from **)** |
-+-----------------------+-------------------------------------------------------------------------------+
++------------------------+---------------------------------------------------------------------------------+
+| :ref:`int <class_int>` | :ref:`int <class_int_method_int>` **(** :ref:`bool <class_bool>` from **)**     |
++------------------------+---------------------------------------------------------------------------------+
+| :ref:`int <class_int>` | :ref:`int <class_int_method_int>` **(** :ref:`float <class_float>` from **)**   |
++------------------------+---------------------------------------------------------------------------------+
+| :ref:`int <class_int>` | :ref:`int <class_int_method_int>` **(** :ref:`String <class_String>` from **)** |
++------------------------+---------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_int_method_int:
 
-- :ref:`int<class_int>` **int** **(** :ref:`bool<class_bool>` from **)**
+- :ref:`int <class_int>` **int** **(** :ref:`bool <class_bool>` from **)**
 
-Cast a :ref:`bool<class_bool>` value to an integer value, ``int(true)`` will be equals to 1 and ``int(false)`` will be equals to 0.
+Cast a :ref:`bool <class_bool>` value to an integer value, ``int(true)`` will be equals to 1 and ``int(false)`` will be equals to 0.
 
 ----
 
-- :ref:`int<class_int>` **int** **(** :ref:`float<class_float>` from **)**
+- :ref:`int <class_int>` **int** **(** :ref:`float <class_float>` from **)**
 
 Cast a float value to an integer value, this method simply removes the number fractions, so for example ``int(2.7)`` will be equals to 2, ``int(.1)`` will be equals to 0 and ``int(-2.7)`` will be equals to -2.
 
 ----
 
-- :ref:`int<class_int>` **int** **(** :ref:`String<class_String>` from **)**
+- :ref:`int <class_int>` **int** **(** :ref:`String <class_String>` from **)**
 
-Cast a :ref:`String<class_String>` value to an integer value, this method is an integer parser from a string, so calling this method with an invalid integer string will return 0, a valid string will be something like ``'1.7'``. This method will ignore all non-number characters, so calling ``int('1e3')`` will return 13.
+Cast a :ref:`String <class_String>` value to an integer value, this method is an integer parser from a string, so calling this method with an invalid integer string will return 0, a valid string will be something like ``'1.7'``. This method will ignore all non-number characters, so calling ``int('1e3')`` will return 13.
 

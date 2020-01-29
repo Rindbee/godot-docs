@@ -9,16 +9,16 @@
 VisualShaderNodeIs
 ==================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 
 Properties
 ----------
 
-+---------------------------------------------------+-------------------------------------------------------------+-------+
-| :ref:`Function<enum_VisualShaderNodeIs_Function>` | :ref:`function<class_VisualShaderNodeIs_property_function>` | ``0`` |
-+---------------------------------------------------+-------------------------------------------------------------+-------+
++----------------------------------------------------+--------------------------------------------------------------+-------+
+| :ref:`Function <enum_VisualShaderNodeIs_Function>` | :ref:`function <class_VisualShaderNodeIs_property_function>` | ``0`` |
++----------------------------------------------------+--------------------------------------------------------------+-------+
 
 Enumerations
 ------------
@@ -40,7 +40,7 @@ Property Descriptions
 
 .. _class_VisualShaderNodeIs_property_function:
 
-- :ref:`Function<enum_VisualShaderNodeIs_Function>` **function**
+- :ref:`Function <enum_VisualShaderNodeIs_Function>` **function**
 
 +-----------+---------------------+
 | *Default* | ``0``               |

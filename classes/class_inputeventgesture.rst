@@ -9,25 +9,25 @@
 InputEventGesture
 =================
 
-**Inherits:** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-**Inherited By:** :ref:`InputEventMagnifyGesture<class_InputEventMagnifyGesture>`, :ref:`InputEventPanGesture<class_InputEventPanGesture>`
+**Inherited By:** :ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`, :ref:`InputEventPanGesture <class_InputEventPanGesture>`
 
 
 
 Properties
 ----------
 
-+-------------------------------+------------------------------------------------------------+---------------------+
-| :ref:`Vector2<class_Vector2>` | :ref:`position<class_InputEventGesture_property_position>` | ``Vector2( 0, 0 )`` |
-+-------------------------------+------------------------------------------------------------+---------------------+
++--------------------------------+-------------------------------------------------------------+---------------------+
+| :ref:`Vector2 <class_Vector2>` | :ref:`position <class_InputEventGesture_property_position>` | ``Vector2( 0, 0 )`` |
++--------------------------------+-------------------------------------------------------------+---------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_InputEventGesture_property_position:
 
-- :ref:`Vector2<class_Vector2>` **position**
+- :ref:`Vector2 <class_Vector2>` **position**
 
 +-----------+---------------------+
 | *Default* | ``Vector2( 0, 0 )`` |

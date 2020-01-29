@@ -9,14 +9,14 @@
 RichTextEffect
 ==============
 
-**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-A custom effect for use with :ref:`RichTextLabel<class_RichTextLabel>`.
+A custom effect for use with :ref:`RichTextLabel <class_RichTextLabel>`.
 
 Description
 -----------
 
-A custom effect for use with :ref:`RichTextLabel<class_RichTextLabel>`.
+A custom effect for use with :ref:`RichTextLabel <class_RichTextLabel>`.
 
 **Note:** For a ``RichTextEffect`` to be usable, a BBCode tag must be defined as a member variable called ``bbcode`` in the script.
 
@@ -25,7 +25,7 @@ A custom effect for use with :ref:`RichTextLabel<class_RichTextLabel>`.
     # The RichTextEffect will be usable like this: `[example]Some text[/example]`
     var bbcode = "example"
 
-**Note:** As soon as a :ref:`RichTextLabel<class_RichTextLabel>` contains at least one ``RichTextEffect``, it will continuously process the effect unless the project is paused. This may impact battery life negatively.
+**Note:** As soon as a :ref:`RichTextLabel <class_RichTextLabel>` contains at least one ``RichTextEffect``, it will continuously process the effect unless the project is paused. This may impact battery life negatively.
 
 Tutorials
 ---------
@@ -37,16 +37,16 @@ Tutorials
 Methods
 -------
 
-+-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>` | :ref:`_process_custom_fx<class_RichTextEffect_method__process_custom_fx>` **(** :ref:`CharFXTransform<class_CharFXTransform>` char_fx **)** virtual |
-+-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>` | :ref:`_process_custom_fx <class_RichTextEffect_method__process_custom_fx>` **(** :ref:`CharFXTransform <class_CharFXTransform>` char_fx **)** virtual |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_RichTextEffect_method__process_custom_fx:
 
-- :ref:`bool<class_bool>` **_process_custom_fx** **(** :ref:`CharFXTransform<class_CharFXTransform>` char_fx **)** virtual
+- :ref:`bool <class_bool>` **_process_custom_fx** **(** :ref:`CharFXTransform <class_CharFXTransform>` char_fx **)** virtual
 
 Override this method to modify properties in ``char_fx``. The method must return ``true`` if the character could be transformed successfully. If the method returns ``false``, it will skip transformation to avoid displaying broken text.
 

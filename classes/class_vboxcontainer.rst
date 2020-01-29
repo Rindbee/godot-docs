@@ -9,19 +9,19 @@
 VBoxContainer
 =============
 
-**Inherits:** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`BoxContainer <class_BoxContainer>` **<** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Vertical box container.
 
 Description
 -----------
 
-Vertical box container. See :ref:`BoxContainer<class_BoxContainer>`.
+Vertical box container. See :ref:`BoxContainer <class_BoxContainer>`.
 
 Theme Properties
 ----------------
 
-+-----------------------+------------+---+
-| :ref:`int<class_int>` | separation | 4 |
-+-----------------------+------------+---+
++------------------------+------------+---+
+| :ref:`int <class_int>` | separation | 4 |
++------------------------+------------+---+
 

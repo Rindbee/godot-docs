@@ -9,7 +9,7 @@
 ResourceFormatSaverCrypto
 =========================
 
-**Inherits:** :ref:`ResourceFormatSaver<class_ResourceFormatSaver>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`ResourceFormatSaver <class_ResourceFormatSaver>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 
 

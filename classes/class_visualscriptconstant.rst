@@ -9,7 +9,7 @@
 VisualScriptConstant
 ====================
 
-**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Gets a contant's value.
 
@@ -29,18 +29,18 @@ none
 Properties
 ----------
 
-+-----------------------------------------------------+---------------------------------------------------------+-------+
-| :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` | :ref:`type<class_VisualScriptConstant_property_type>`   | ``0`` |
-+-----------------------------------------------------+---------------------------------------------------------+-------+
-| :ref:`Variant<class_Variant>`                       | :ref:`value<class_VisualScriptConstant_property_value>` |       |
-+-----------------------------------------------------+---------------------------------------------------------+-------+
++------------------------------------------------------+----------------------------------------------------------+-------+
+| :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` | :ref:`type <class_VisualScriptConstant_property_type>`   | ``0`` |
++------------------------------------------------------+----------------------------------------------------------+-------+
+| :ref:`Variant <class_Variant>`                       | :ref:`value <class_VisualScriptConstant_property_value>` |       |
++------------------------------------------------------+----------------------------------------------------------+-------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualScriptConstant_property_type:
 
-- :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **type**
+- :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **type**
 
 +-----------+--------------------------+
 | *Default* | ``0``                    |
@@ -56,7 +56,7 @@ The constant's type.
 
 .. _class_VisualScriptConstant_property_value:
 
-- :ref:`Variant<class_Variant>` **value**
+- :ref:`Variant <class_Variant>` **value**
 
 +----------+---------------------------+
 | *Setter* | set_constant_value(value) |

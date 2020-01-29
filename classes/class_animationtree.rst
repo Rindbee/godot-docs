@@ -9,7 +9,7 @@
 AnimationTree
 =============
 
-**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 
 
@@ -23,28 +23,28 @@ Tutorials
 Properties
 ----------
 
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
-| :ref:`bool<class_bool>`                                              | :ref:`active<class_AnimationTree_property_active>`                       | ``false``        |
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
-| :ref:`NodePath<class_NodePath>`                                      | :ref:`anim_player<class_AnimationTree_property_anim_player>`             | ``NodePath("")`` |
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
-| :ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>` | :ref:`process_mode<class_AnimationTree_property_process_mode>`           | ``1``            |
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
-| :ref:`NodePath<class_NodePath>`                                      | :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>` | ``NodePath("")`` |
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
-| :ref:`AnimationNode<class_AnimationNode>`                            | :ref:`tree_root<class_AnimationTree_property_tree_root>`                 |                  |
-+----------------------------------------------------------------------+--------------------------------------------------------------------------+------------------+
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
+| :ref:`bool <class_bool>`                                              | :ref:`active <class_AnimationTree_property_active>`                       | ``false``        |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
+| :ref:`NodePath <class_NodePath>`                                      | :ref:`anim_player <class_AnimationTree_property_anim_player>`             | ``NodePath("")`` |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
+| :ref:`AnimationProcessMode <enum_AnimationTree_AnimationProcessMode>` | :ref:`process_mode <class_AnimationTree_property_process_mode>`           | ``1``            |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
+| :ref:`NodePath <class_NodePath>`                                      | :ref:`root_motion_track <class_AnimationTree_property_root_motion_track>` | ``NodePath("")`` |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
+| :ref:`AnimationNode <class_AnimationNode>`                            | :ref:`tree_root <class_AnimationTree_property_tree_root>`                 |                  |
++-----------------------------------------------------------------------+---------------------------------------------------------------------------+------------------+
 
 Methods
 -------
 
-+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                              | :ref:`advance<class_AnimationTree_method_advance>` **(** :ref:`float<class_float>` delta **)**                                                              |
-+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Transform<class_Transform>` | :ref:`get_root_motion_transform<class_AnimationTree_method_get_root_motion_transform>` **(** **)** const                                                    |
-+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| void                              | :ref:`rename_parameter<class_AnimationTree_method_rename_parameter>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name **)** |
-+-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                               | :ref:`advance <class_AnimationTree_method_advance>` **(** :ref:`float <class_float>` delta **)**                                                               |
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Transform <class_Transform>` | :ref:`get_root_motion_transform <class_AnimationTree_method_get_root_motion_transform>` **(** **)** const                                                      |
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                               | :ref:`rename_parameter <class_AnimationTree_method_rename_parameter>` **(** :ref:`String <class_String>` old_name, :ref:`String <class_String>` new_name **)** |
++------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Enumerations
 ------------
@@ -70,7 +70,7 @@ Property Descriptions
 
 .. _class_AnimationTree_property_active:
 
-- :ref:`bool<class_bool>` **active**
+- :ref:`bool <class_bool>` **active**
 
 +-----------+-------------------+
 | *Default* | ``false``         |
@@ -84,7 +84,7 @@ Property Descriptions
 
 .. _class_AnimationTree_property_anim_player:
 
-- :ref:`NodePath<class_NodePath>` **anim_player**
+- :ref:`NodePath <class_NodePath>` **anim_player**
 
 +-----------+-----------------------------+
 | *Default* | ``NodePath("")``            |
@@ -98,7 +98,7 @@ Property Descriptions
 
 .. _class_AnimationTree_property_process_mode:
 
-- :ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>` **process_mode**
+- :ref:`AnimationProcessMode <enum_AnimationTree_AnimationProcessMode>` **process_mode**
 
 +-----------+-------------------------+
 | *Default* | ``1``                   |
@@ -112,7 +112,7 @@ Property Descriptions
 
 .. _class_AnimationTree_property_root_motion_track:
 
-- :ref:`NodePath<class_NodePath>` **root_motion_track**
+- :ref:`NodePath <class_NodePath>` **root_motion_track**
 
 +-----------+------------------------------+
 | *Default* | ``NodePath("")``             |
@@ -126,7 +126,7 @@ Property Descriptions
 
 .. _class_AnimationTree_property_tree_root:
 
-- :ref:`AnimationNode<class_AnimationNode>` **tree_root**
+- :ref:`AnimationNode <class_AnimationNode>` **tree_root**
 
 +----------+----------------------+
 | *Setter* | set_tree_root(value) |
@@ -139,17 +139,17 @@ Method Descriptions
 
 .. _class_AnimationTree_method_advance:
 
-- void **advance** **(** :ref:`float<class_float>` delta **)**
+- void **advance** **(** :ref:`float <class_float>` delta **)**
 
 ----
 
 .. _class_AnimationTree_method_get_root_motion_transform:
 
-- :ref:`Transform<class_Transform>` **get_root_motion_transform** **(** **)** const
+- :ref:`Transform <class_Transform>` **get_root_motion_transform** **(** **)** const
 
 ----
 
 .. _class_AnimationTree_method_rename_parameter:
 
-- void **rename_parameter** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name **)**
+- void **rename_parameter** **(** :ref:`String <class_String>` old_name, :ref:`String <class_String>` new_name **)**
 

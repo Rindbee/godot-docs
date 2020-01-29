@@ -9,36 +9,36 @@
 TCP_Server
 ==========
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A TCP server.
 
 Description
 -----------
 
-A TCP server. Listens to connections on a port and returns a :ref:`StreamPeerTCP<class_StreamPeerTCP>` when it gets an incoming connection.
+A TCP server. Listens to connections on a port and returns a :ref:`StreamPeerTCP <class_StreamPeerTCP>` when it gets an incoming connection.
 
 Methods
 -------
 
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                   | :ref:`is_connection_available<class_TCP_Server_method_is_connection_available>` **(** **)** const                                  |
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`                   | :ref:`is_listening<class_TCP_Server_method_is_listening>` **(** **)** const                                                        |
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>`     | :ref:`listen<class_TCP_Server_method_listen>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address="*" **)** |
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| void                                      | :ref:`stop<class_TCP_Server_method_stop>` **(** **)**                                                                              |
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| :ref:`StreamPeerTCP<class_StreamPeerTCP>` | :ref:`take_connection<class_TCP_Server_method_take_connection>` **(** **)**                                                        |
-+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                   | :ref:`is_connection_available <class_TCP_Server_method_is_connection_available>` **(** **)** const                                    |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`                   | :ref:`is_listening <class_TCP_Server_method_is_listening>` **(** **)** const                                                          |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>`     | :ref:`listen <class_TCP_Server_method_listen>` **(** :ref:`int <class_int>` port, :ref:`String <class_String>` bind_address="*" **)** |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| void                                       | :ref:`stop <class_TCP_Server_method_stop>` **(** **)**                                                                                |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`StreamPeerTCP <class_StreamPeerTCP>` | :ref:`take_connection <class_TCP_Server_method_take_connection>` **(** **)**                                                          |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_TCP_Server_method_is_connection_available:
 
-- :ref:`bool<class_bool>` **is_connection_available** **(** **)** const
+- :ref:`bool <class_bool>` **is_connection_available** **(** **)** const
 
 Returns ``true`` if a connection is available for taking.
 
@@ -46,7 +46,7 @@ Returns ``true`` if a connection is available for taking.
 
 .. _class_TCP_Server_method_is_listening:
 
-- :ref:`bool<class_bool>` **is_listening** **(** **)** const
+- :ref:`bool <class_bool>` **is_listening** **(** **)** const
 
 Returns ``true`` if the server is currently listening for connections.
 
@@ -54,7 +54,7 @@ Returns ``true`` if the server is currently listening for connections.
 
 .. _class_TCP_Server_method_listen:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address="*" **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **listen** **(** :ref:`int <class_int>` port, :ref:`String <class_String>` bind_address="*" **)**
 
 Listen on the ``port`` binding to ``bind_address``.
 
@@ -76,7 +76,7 @@ Stops listening.
 
 .. _class_TCP_Server_method_take_connection:
 
-- :ref:`StreamPeerTCP<class_StreamPeerTCP>` **take_connection** **(** **)**
+- :ref:`StreamPeerTCP <class_StreamPeerTCP>` **take_connection** **(** **)**
 
 If a connection is available, returns a StreamPeerTCP with the connection.
 

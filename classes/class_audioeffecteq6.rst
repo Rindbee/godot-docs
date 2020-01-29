@@ -9,7 +9,7 @@
 AudioEffectEQ6
 ==============
 
-**Inherits:** :ref:`AudioEffectEQ<class_AudioEffectEQ>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`AudioEffectEQ <class_AudioEffectEQ>` **<** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Adds a 6-band equalizer audio effect to an Audio bus. Gives you control over frequencies from 32 Hz to 10000 Hz.
 
@@ -32,5 +32,5 @@ Band 5: 3200 Hz
 
 Band 6: 10000 Hz
 
-See also :ref:`AudioEffectEQ<class_AudioEffectEQ>`, :ref:`AudioEffectEQ10<class_AudioEffectEQ10>`, :ref:`AudioEffectEQ21<class_AudioEffectEQ21>`.
+See also :ref:`AudioEffectEQ <class_AudioEffectEQ>`, :ref:`AudioEffectEQ10 <class_AudioEffectEQ10>`, :ref:`AudioEffectEQ21 <class_AudioEffectEQ21>`.
 

@@ -9,7 +9,7 @@
 EditorVCSInterface
 ==================
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 Version Control System (VCS) interface which reads and writes to the local VCS in use.
 
@@ -21,36 +21,36 @@ Used by the editor to display VCS extracted information in the editor. The imple
 Methods
 -------
 
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| void                                | :ref:`commit<class_EditorVCSInterface_method_commit>` **(** :ref:`String<class_String>` msg **)**                       |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>`           | :ref:`get_file_diff<class_EditorVCSInterface_method_get_file_diff>` **(** :ref:`String<class_String>` file_path **)**   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`Dictionary<class_Dictionary>` | :ref:`get_modified_files_data<class_EditorVCSInterface_method_get_modified_files_data>` **(** **)**                     |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`         | :ref:`get_project_name<class_EditorVCSInterface_method_get_project_name>` **(** **)**                                   |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`String<class_String>`         | :ref:`get_vcs_name<class_EditorVCSInterface_method_get_vcs_name>` **(** **)**                                           |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`             | :ref:`initialize<class_EditorVCSInterface_method_initialize>` **(** :ref:`String<class_String>` project_root_path **)** |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`             | :ref:`is_addon_ready<class_EditorVCSInterface_method_is_addon_ready>` **(** **)**                                       |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`             | :ref:`is_vcs_initialized<class_EditorVCSInterface_method_is_vcs_initialized>` **(** **)**                               |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| :ref:`bool<class_bool>`             | :ref:`shut_down<class_EditorVCSInterface_method_shut_down>` **(** **)**                                                 |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| void                                | :ref:`stage_file<class_EditorVCSInterface_method_stage_file>` **(** :ref:`String<class_String>` file_path **)**         |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-| void                                | :ref:`unstage_file<class_EditorVCSInterface_method_unstage_file>` **(** :ref:`String<class_String>` file_path **)**     |
-+-------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`commit <class_EditorVCSInterface_method_commit>` **(** :ref:`String <class_String>` msg **)**                       |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>`           | :ref:`get_file_diff <class_EditorVCSInterface_method_get_file_diff>` **(** :ref:`String <class_String>` file_path **)**   |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`Dictionary <class_Dictionary>` | :ref:`get_modified_files_data <class_EditorVCSInterface_method_get_modified_files_data>` **(** **)**                      |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`         | :ref:`get_project_name <class_EditorVCSInterface_method_get_project_name>` **(** **)**                                    |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`String <class_String>`         | :ref:`get_vcs_name <class_EditorVCSInterface_method_get_vcs_name>` **(** **)**                                            |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`initialize <class_EditorVCSInterface_method_initialize>` **(** :ref:`String <class_String>` project_root_path **)** |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`is_addon_ready <class_EditorVCSInterface_method_is_addon_ready>` **(** **)**                                        |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`is_vcs_initialized <class_EditorVCSInterface_method_is_vcs_initialized>` **(** **)**                                |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| :ref:`bool <class_bool>`             | :ref:`shut_down <class_EditorVCSInterface_method_shut_down>` **(** **)**                                                  |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`stage_file <class_EditorVCSInterface_method_stage_file>` **(** :ref:`String <class_String>` file_path **)**         |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+| void                                 | :ref:`unstage_file <class_EditorVCSInterface_method_unstage_file>` **(** :ref:`String <class_String>` file_path **)**     |
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
 
 Method Descriptions
 -------------------
 
 .. _class_EditorVCSInterface_method_commit:
 
-- void **commit** **(** :ref:`String<class_String>` msg **)**
+- void **commit** **(** :ref:`String <class_String>` msg **)**
 
 Creates a version commit if the addon is initialized, else returns without doing anything. Uses the files which have been staged previously, with the commit message set to a value as provided as in the argument.
 
@@ -58,15 +58,15 @@ Creates a version commit if the addon is initialized, else returns without doing
 
 .. _class_EditorVCSInterface_method_get_file_diff:
 
-- :ref:`Array<class_Array>` **get_file_diff** **(** :ref:`String<class_String>` file_path **)**
+- :ref:`Array <class_Array>` **get_file_diff** **(** :ref:`String <class_String>` file_path **)**
 
-Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` objects containing the diff output from the VCS in use, if a VCS addon is initialized, else returns an empty :ref:`Array<class_Array>` object. The diff contents also consist of some contextual lines which provide context to the observed line change in the file.
+Returns an :ref:`Array <class_Array>` of :ref:`Dictionary <class_Dictionary>` objects containing the diff output from the VCS in use, if a VCS addon is initialized, else returns an empty :ref:`Array <class_Array>` object. The diff contents also consist of some contextual lines which provide context to the observed line change in the file.
 
-Each :ref:`Dictionary<class_Dictionary>` object has the line diff contents under the keys:
+Each :ref:`Dictionary <class_Dictionary>` object has the line diff contents under the keys:
 
-- ``"content"`` to store a :ref:`String<class_String>` containing the line contents
+- ``"content"`` to store a :ref:`String <class_String>` containing the line contents
 
-- ``"status"`` to store a :ref:`String<class_String>` which contains ``"+"`` in case the content is a line addition but it stores a ``"-"`` in case of deletion and an empty string in the case the line content is neither an addition nor a deletion.
+- ``"status"`` to store a :ref:`String <class_String>` which contains ``"+"`` in case the content is a line addition but it stores a ``"-"`` in case of deletion and an empty string in the case the line content is neither an addition nor a deletion.
 
 - ``"new_line_number"`` to store an integer containing the new line number of the line content.
 
@@ -80,9 +80,9 @@ Each :ref:`Dictionary<class_Dictionary>` object has the line diff contents under
 
 .. _class_EditorVCSInterface_method_get_modified_files_data:
 
-- :ref:`Dictionary<class_Dictionary>` **get_modified_files_data** **(** **)**
+- :ref:`Dictionary <class_Dictionary>` **get_modified_files_data** **(** **)**
 
-Returns a :ref:`Dictionary<class_Dictionary>` containing the path of the detected file change mapped to an integer signifying what kind of a change the corresponding file has experienced.
+Returns a :ref:`Dictionary <class_Dictionary>` containing the path of the detected file change mapped to an integer signifying what kind of a change the corresponding file has experienced.
 
 The following integer values are being used to signify that the detected file is:
 
@@ -100,7 +100,7 @@ The following integer values are being used to signify that the detected file is
 
 .. _class_EditorVCSInterface_method_get_project_name:
 
-- :ref:`String<class_String>` **get_project_name** **(** **)**
+- :ref:`String <class_String>` **get_project_name** **(** **)**
 
 Returns the project name of the VCS working directory.
 
@@ -108,7 +108,7 @@ Returns the project name of the VCS working directory.
 
 .. _class_EditorVCSInterface_method_get_vcs_name:
 
-- :ref:`String<class_String>` **get_vcs_name** **(** **)**
+- :ref:`String <class_String>` **get_vcs_name** **(** **)**
 
 Returns the name of the VCS if the VCS has been initialized, else return an empty string.
 
@@ -116,7 +116,7 @@ Returns the name of the VCS if the VCS has been initialized, else return an empt
 
 .. _class_EditorVCSInterface_method_initialize:
 
-- :ref:`bool<class_bool>` **initialize** **(** :ref:`String<class_String>` project_root_path **)**
+- :ref:`bool <class_bool>` **initialize** **(** :ref:`String <class_String>` project_root_path **)**
 
 Initializes the VCS addon if not already. Uses the argument value as the path to the working directory of the project. Creates the initial commit if required. Returns ``true`` if no failure occurs, else returns ``false``.
 
@@ -124,7 +124,7 @@ Initializes the VCS addon if not already. Uses the argument value as the path to
 
 .. _class_EditorVCSInterface_method_is_addon_ready:
 
-- :ref:`bool<class_bool>` **is_addon_ready** **(** **)**
+- :ref:`bool <class_bool>` **is_addon_ready** **(** **)**
 
 Returns ``true`` if the addon is ready to respond to function calls, else returns ``false``.
 
@@ -132,7 +132,7 @@ Returns ``true`` if the addon is ready to respond to function calls, else return
 
 .. _class_EditorVCSInterface_method_is_vcs_initialized:
 
-- :ref:`bool<class_bool>` **is_vcs_initialized** **(** **)**
+- :ref:`bool <class_bool>` **is_vcs_initialized** **(** **)**
 
 Returns ``true`` if the VCS addon has been initialized, else returns ``false``.
 
@@ -140,7 +140,7 @@ Returns ``true`` if the VCS addon has been initialized, else returns ``false``.
 
 .. _class_EditorVCSInterface_method_shut_down:
 
-- :ref:`bool<class_bool>` **shut_down** **(** **)**
+- :ref:`bool <class_bool>` **shut_down** **(** **)**
 
 Shuts down the VCS addon to allow cleanup code to run on call. Returns ``true`` is no failure occurs, else returns ``false``.
 
@@ -148,15 +148,15 @@ Shuts down the VCS addon to allow cleanup code to run on call. Returns ``true`` 
 
 .. _class_EditorVCSInterface_method_stage_file:
 
-- void **stage_file** **(** :ref:`String<class_String>` file_path **)**
+- void **stage_file** **(** :ref:`String <class_String>` file_path **)**
 
-Stages the file which should be committed when :ref:`commit<class_EditorVCSInterface_method_commit>` is called. Argument should contain the absolute path.
+Stages the file which should be committed when :ref:`commit <class_EditorVCSInterface_method_commit>` is called. Argument should contain the absolute path.
 
 ----
 
 .. _class_EditorVCSInterface_method_unstage_file:
 
-- void **unstage_file** **(** :ref:`String<class_String>` file_path **)**
+- void **unstage_file** **(** :ref:`String <class_String>` file_path **)**
 
-Unstages the file which was staged previously to be committed, so that it is no longer committed when :ref:`commit<class_EditorVCSInterface_method_commit>` is called. Argument should contain the absolute path.
+Unstages the file which was staged previously to be committed, so that it is no longer committed when :ref:`commit <class_EditorVCSInterface_method_commit>` is called. Argument should contain the absolute path.
 

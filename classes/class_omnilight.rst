@@ -9,14 +9,14 @@
 OmniLight
 =========
 
-**Inherits:** :ref:`Light<class_Light>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Light <class_Light>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Omnidirectional light, such as a light bulb or a candle.
 
 Description
 -----------
 
-An Omnidirectional light is a type of :ref:`Light<class_Light>` that emits light in all directions. The light is attenuated by distance and this attenuation can be configured by changing its energy, radius, and attenuation parameters.
+An Omnidirectional light is a type of :ref:`Light <class_Light>` that emits light in all directions. The light is attenuated by distance and this attenuation can be configured by changing its energy, radius, and attenuation parameters.
 
 Tutorials
 ---------
@@ -26,15 +26,13 @@ Tutorials
 Properties
 ----------
 
-+--------------------------------------------------+------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>`                        | :ref:`omni_attenuation<class_OmniLight_property_omni_attenuation>`     | ``1.0`` |
-+--------------------------------------------------+------------------------------------------------------------------------+---------+
-| :ref:`float<class_float>`                        | :ref:`omni_range<class_OmniLight_property_omni_range>`                 | ``5.0`` |
-+--------------------------------------------------+------------------------------------------------------------------------+---------+
-| :ref:`ShadowDetail<enum_OmniLight_ShadowDetail>` | :ref:`omni_shadow_detail<class_OmniLight_property_omni_shadow_detail>` | ``1``   |
-+--------------------------------------------------+------------------------------------------------------------------------+---------+
-| :ref:`ShadowMode<enum_OmniLight_ShadowMode>`     | :ref:`omni_shadow_mode<class_OmniLight_property_omni_shadow_mode>`     | ``1``   |
-+--------------------------------------------------+------------------------------------------------------------------------+---------+
++-----------------------------------------------+---------------------------------------------------------------------+---------+
+| :ref:`float <class_float>`                    | :ref:`omni_attenuation <class_OmniLight_property_omni_attenuation>` | ``1.0`` |
++-----------------------------------------------+---------------------------------------------------------------------+---------+
+| :ref:`float <class_float>`                    | :ref:`omni_range <class_OmniLight_property_omni_range>`             | ``5.0`` |
++-----------------------------------------------+---------------------------------------------------------------------+---------+
+| :ref:`ShadowMode <enum_OmniLight_ShadowMode>` | :ref:`omni_shadow_mode <class_OmniLight_property_omni_shadow_mode>` | ``1``   |
++-----------------------------------------------+---------------------------------------------------------------------+---------+
 
 Enumerations
 ------------
@@ -47,30 +45,16 @@ Enumerations
 
 enum **ShadowMode**:
 
-- **SHADOW_DUAL_PARABOLOID** = **0** --- Shadows are rendered to a dual-paraboloid texture. Faster than :ref:`SHADOW_CUBE<class_OmniLight_constant_SHADOW_CUBE>`, but lower-quality.
+- **SHADOW_DUAL_PARABOLOID** = **0** --- Shadows are rendered to a dual-paraboloid texture. Faster than :ref:`SHADOW_CUBE <class_OmniLight_constant_SHADOW_CUBE>`, but lower-quality.
 
-- **SHADOW_CUBE** = **1** --- Shadows are rendered to a cubemap. Slower than :ref:`SHADOW_DUAL_PARABOLOID<class_OmniLight_constant_SHADOW_DUAL_PARABOLOID>`, but higher-quality.
-
-----
-
-.. _enum_OmniLight_ShadowDetail:
-
-.. _class_OmniLight_constant_SHADOW_DETAIL_VERTICAL:
-
-.. _class_OmniLight_constant_SHADOW_DETAIL_HORIZONTAL:
-
-enum **ShadowDetail**:
-
-- **SHADOW_DETAIL_VERTICAL** = **0** --- Use more detail vertically when computing the shadow.
-
-- **SHADOW_DETAIL_HORIZONTAL** = **1** --- Use more detail horizontally when computing the shadow.
+- **SHADOW_CUBE** = **1** --- Shadows are rendered to a cubemap. Slower than :ref:`SHADOW_DUAL_PARABOLOID <class_OmniLight_constant_SHADOW_DUAL_PARABOLOID>`, but higher-quality.
 
 Property Descriptions
 ---------------------
 
 .. _class_OmniLight_property_omni_attenuation:
 
-- :ref:`float<class_float>` **omni_attenuation**
+- :ref:`float <class_float>` **omni_attenuation**
 
 +-----------+------------------+
 | *Default* | ``1.0``          |
@@ -86,7 +70,7 @@ The light's attenuation (drop-off) curve. A number of presets are available in t
 
 .. _class_OmniLight_property_omni_range:
 
-- :ref:`float<class_float>` **omni_range**
+- :ref:`float <class_float>` **omni_range**
 
 +-----------+------------------+
 | *Default* | ``5.0``          |
@@ -100,25 +84,9 @@ The light's radius.
 
 ----
 
-.. _class_OmniLight_property_omni_shadow_detail:
-
-- :ref:`ShadowDetail<enum_OmniLight_ShadowDetail>` **omni_shadow_detail**
-
-+-----------+--------------------------+
-| *Default* | ``1``                    |
-+-----------+--------------------------+
-| *Setter*  | set_shadow_detail(value) |
-+-----------+--------------------------+
-| *Getter*  | get_shadow_detail()      |
-+-----------+--------------------------+
-
-See :ref:`ShadowDetail<enum_OmniLight_ShadowDetail>`.
-
-----
-
 .. _class_OmniLight_property_omni_shadow_mode:
 
-- :ref:`ShadowMode<enum_OmniLight_ShadowMode>` **omni_shadow_mode**
+- :ref:`ShadowMode <enum_OmniLight_ShadowMode>` **omni_shadow_mode**
 
 +-----------+------------------------+
 | *Default* | ``1``                  |
@@ -128,5 +96,5 @@ See :ref:`ShadowDetail<enum_OmniLight_ShadowDetail>`.
 | *Getter*  | get_shadow_mode()      |
 +-----------+------------------------+
 
-See :ref:`ShadowMode<enum_OmniLight_ShadowMode>`.
+See :ref:`ShadowMode <enum_OmniLight_ShadowMode>`.
 

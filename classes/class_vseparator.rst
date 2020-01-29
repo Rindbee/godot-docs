@@ -9,21 +9,21 @@
 VSeparator
 ==========
 
-**Inherits:** :ref:`Separator<class_Separator>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Separator <class_Separator>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-Vertical version of :ref:`Separator<class_Separator>`.
+Vertical version of :ref:`Separator <class_Separator>`.
 
 Description
 -----------
 
-Vertical version of :ref:`Separator<class_Separator>`. Even though it looks vertical, it is used to separate objects horizontally.
+Vertical version of :ref:`Separator <class_Separator>`. Even though it looks vertical, it is used to separate objects horizontally.
 
 Theme Properties
 ----------------
 
-+---------------------------------+------------+---+
-| :ref:`int<class_int>`           | separation | 4 |
-+---------------------------------+------------+---+
-| :ref:`StyleBox<class_StyleBox>` | separator  |   |
-+---------------------------------+------------+---+
++----------------------------------+------------+---+
+| :ref:`int <class_int>`           | separation | 4 |
++----------------------------------+------------+---+
+| :ref:`StyleBox <class_StyleBox>` | separator  |   |
++----------------------------------+------------+---+
 

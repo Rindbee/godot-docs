@@ -9,14 +9,14 @@
 Mutex
 =====
 
-**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A synchronization mutex (mutual exclusion).
 
 Description
 -----------
 
-A synchronization mutex (mutual exclusion). This is used to synchronize multiple :ref:`Thread<class_Thread>`\ s, and is equivalent to a binary :ref:`Semaphore<class_Semaphore>`. It guarantees that only one thread can ever acquire the lock at a time. A mutex can be used to protect a critical section; however, be careful to avoid deadlocks.
+A synchronization mutex (mutual exclusion). This is used to synchronize multiple :ref:`Thread <class_Thread>`\ s, and is equivalent to a binary :ref:`Semaphore <class_Semaphore>`. It guarantees that only one thread can ever acquire the lock at a time. A mutex can be used to protect a critical section; however, be careful to avoid deadlocks.
 
 Tutorials
 ---------
@@ -26,13 +26,13 @@ Tutorials
 Methods
 -------
 
-+---------------------------------------+----------------------------------------------------------+
-| void                                  | :ref:`lock<class_Mutex_method_lock>` **(** **)**         |
-+---------------------------------------+----------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`try_lock<class_Mutex_method_try_lock>` **(** **)** |
-+---------------------------------------+----------------------------------------------------------+
-| void                                  | :ref:`unlock<class_Mutex_method_unlock>` **(** **)**     |
-+---------------------------------------+----------------------------------------------------------+
++----------------------------------------+-----------------------------------------------------------+
+| void                                   | :ref:`lock <class_Mutex_method_lock>` **(** **)**         |
++----------------------------------------+-----------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`try_lock <class_Mutex_method_try_lock>` **(** **)** |
++----------------------------------------+-----------------------------------------------------------+
+| void                                   | :ref:`unlock <class_Mutex_method_unlock>` **(** **)**     |
++----------------------------------------+-----------------------------------------------------------+
 
 Method Descriptions
 -------------------
@@ -47,9 +47,9 @@ Locks this ``Mutex``, blocks until it is unlocked by the current owner.
 
 .. _class_Mutex_method_try_lock:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **try_lock** **(** **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **try_lock** **(** **)**
 
-Tries locking this ``Mutex``, but does not block. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` otherwise.
+Tries locking this ``Mutex``, but does not block. Returns :ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_BUSY <class_@GlobalScope_constant_ERR_BUSY>` otherwise.
 
 ----
 

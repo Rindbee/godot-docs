@@ -9,7 +9,7 @@
 VisualScriptComposeArray
 ========================
 
-**Inherits:** :ref:`VisualScriptLists<class_VisualScriptLists>` **<** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualScriptLists <class_VisualScriptLists>` **<** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A Visual Script Node used to create array from a list of items.
 

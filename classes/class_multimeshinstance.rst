@@ -9,14 +9,14 @@
 MultiMeshInstance
 =================
 
-**Inherits:** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`GeometryInstance <class_GeometryInstance>` **<** :ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
-Node that instances a :ref:`MultiMesh<class_MultiMesh>`.
+Node that instances a :ref:`MultiMesh <class_MultiMesh>`.
 
 Description
 -----------
 
-``MultiMeshInstance`` is a specialized node to instance :ref:`GeometryInstance<class_GeometryInstance>`\ s based on a :ref:`MultiMesh<class_MultiMesh>` resource.
+``MultiMeshInstance`` is a specialized node to instance :ref:`GeometryInstance <class_GeometryInstance>`\ s based on a :ref:`MultiMesh <class_MultiMesh>` resource.
 
 This is useful to optimize the rendering of a high amount of instances of a given mesh (for example trees in a forest or grass strands).
 
@@ -32,16 +32,16 @@ Tutorials
 Properties
 ----------
 
-+-----------------------------------+--------------------------------------------------------------+
-| :ref:`MultiMesh<class_MultiMesh>` | :ref:`multimesh<class_MultiMeshInstance_property_multimesh>` |
-+-----------------------------------+--------------------------------------------------------------+
++------------------------------------+---------------------------------------------------------------+
+| :ref:`MultiMesh <class_MultiMesh>` | :ref:`multimesh <class_MultiMeshInstance_property_multimesh>` |
++------------------------------------+---------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_MultiMeshInstance_property_multimesh:
 
-- :ref:`MultiMesh<class_MultiMesh>` **multimesh**
+- :ref:`MultiMesh <class_MultiMesh>` **multimesh**
 
 +----------+----------------------+
 | *Setter* | set_multimesh(value) |
@@ -49,5 +49,5 @@ Property Descriptions
 | *Getter* | get_multimesh()      |
 +----------+----------------------+
 
-The :ref:`MultiMesh<class_MultiMesh>` resource that will be used and shared among all instances of the ``MultiMeshInstance``.
+The :ref:`MultiMesh <class_MultiMesh>` resource that will be used and shared among all instances of the ``MultiMeshInstance``.
 

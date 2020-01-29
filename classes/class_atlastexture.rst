@@ -9,36 +9,34 @@
 AtlasTexture
 ============
 
-**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture <class_Texture>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 Packs multiple small textures in a single, bigger one. Helps to optimize video memory costs and render calls.
 
 Description
 -----------
 
-:ref:`Texture<class_Texture>` resource aimed at managing big textures files that pack multiple smaller textures. Consists of a :ref:`Texture<class_Texture>`, a margin that defines the border width, and a region that defines the actual area of the AtlasTexture.
+:ref:`Texture2D <class_Texture2D>` resource aimed at managing big textures files that pack multiple smaller textures. Consists of a :ref:`Texture2D <class_Texture2D>`, a margin that defines the border width, and a region that defines the actual area of the AtlasTexture.
 
 Properties
 ----------
 
-+-------------------------------+-------------------------------------------------------------+-------------------------+
-| :ref:`Texture<class_Texture>` | :ref:`atlas<class_AtlasTexture_property_atlas>`             |                         |
-+-------------------------------+-------------------------------------------------------------+-------------------------+
-| :ref:`bool<class_bool>`       | :ref:`filter_clip<class_AtlasTexture_property_filter_clip>` | ``false``               |
-+-------------------------------+-------------------------------------------------------------+-------------------------+
-| :ref:`int<class_int>`         | flags                                                       | **O:** ``0``            |
-+-------------------------------+-------------------------------------------------------------+-------------------------+
-| :ref:`Rect2<class_Rect2>`     | :ref:`margin<class_AtlasTexture_property_margin>`           | ``Rect2( 0, 0, 0, 0 )`` |
-+-------------------------------+-------------------------------------------------------------+-------------------------+
-| :ref:`Rect2<class_Rect2>`     | :ref:`region<class_AtlasTexture_property_region>`           | ``Rect2( 0, 0, 0, 0 )`` |
-+-------------------------------+-------------------------------------------------------------+-------------------------+
++------------------------------------+--------------------------------------------------------------+-------------------------+
+| :ref:`Texture2D <class_Texture2D>` | :ref:`atlas <class_AtlasTexture_property_atlas>`             |                         |
++------------------------------------+--------------------------------------------------------------+-------------------------+
+| :ref:`bool <class_bool>`           | :ref:`filter_clip <class_AtlasTexture_property_filter_clip>` | ``false``               |
++------------------------------------+--------------------------------------------------------------+-------------------------+
+| :ref:`Rect2 <class_Rect2>`         | :ref:`margin <class_AtlasTexture_property_margin>`           | ``Rect2( 0, 0, 0, 0 )`` |
++------------------------------------+--------------------------------------------------------------+-------------------------+
+| :ref:`Rect2 <class_Rect2>`         | :ref:`region <class_AtlasTexture_property_region>`           | ``Rect2( 0, 0, 0, 0 )`` |
++------------------------------------+--------------------------------------------------------------+-------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_AtlasTexture_property_atlas:
 
-- :ref:`Texture<class_Texture>` **atlas**
+- :ref:`Texture2D <class_Texture2D>` **atlas**
 
 +----------+------------------+
 | *Setter* | set_atlas(value) |
@@ -46,13 +44,13 @@ Property Descriptions
 | *Getter* | get_atlas()      |
 +----------+------------------+
 
-The texture that contains the atlas. Can be any :ref:`Texture<class_Texture>` subtype.
+The texture that contains the atlas. Can be any :ref:`Texture2D <class_Texture2D>` subtype.
 
 ----
 
 .. _class_AtlasTexture_property_filter_clip:
 
-- :ref:`bool<class_bool>` **filter_clip**
+- :ref:`bool <class_bool>` **filter_clip**
 
 +-----------+------------------------+
 | *Default* | ``false``              |
@@ -68,7 +66,7 @@ If ``true``, clips the area outside of the region to avoid bleeding of the surro
 
 .. _class_AtlasTexture_property_margin:
 
-- :ref:`Rect2<class_Rect2>` **margin**
+- :ref:`Rect2 <class_Rect2>` **margin**
 
 +-----------+-------------------------+
 | *Default* | ``Rect2( 0, 0, 0, 0 )`` |
@@ -78,13 +76,13 @@ If ``true``, clips the area outside of the region to avoid bleeding of the surro
 | *Getter*  | get_margin()            |
 +-----------+-------------------------+
 
-The margin around the region. The :ref:`Rect2<class_Rect2>`'s :ref:`Rect2.size<class_Rect2_property_size>` parameter ("w" and "h" in the editor) resizes the texture so it fits within the margin.
+The margin around the region. The :ref:`Rect2 <class_Rect2>`'s :ref:`Rect2.size <class_Rect2_property_size>` parameter ("w" and "h" in the editor) resizes the texture so it fits within the margin.
 
 ----
 
 .. _class_AtlasTexture_property_region:
 
-- :ref:`Rect2<class_Rect2>` **region**
+- :ref:`Rect2 <class_Rect2>` **region**
 
 +-----------+-------------------------+
 | *Default* | ``Rect2( 0, 0, 0, 0 )`` |

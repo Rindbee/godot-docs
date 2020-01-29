@@ -9,7 +9,7 @@
 EditorSelection
 ===============
 
-**Inherits:** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Object <class_Object>`
 
 Manages the SceneTree selection in the editor.
 
@@ -21,17 +21,17 @@ This object manages the SceneTree selection in the editor.
 Methods
 -------
 
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`add_node<class_EditorSelection_method_add_node>` **(** :ref:`Node<class_Node>` node **)**                    |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`clear<class_EditorSelection_method_clear>` **(** **)**                                                       |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>` | :ref:`get_selected_nodes<class_EditorSelection_method_get_selected_nodes>` **(** **)**                             |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
-| :ref:`Array<class_Array>` | :ref:`get_transformable_selected_nodes<class_EditorSelection_method_get_transformable_selected_nodes>` **(** **)** |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
-| void                      | :ref:`remove_node<class_EditorSelection_method_remove_node>` **(** :ref:`Node<class_Node>` node **)**              |
-+---------------------------+--------------------------------------------------------------------------------------------------------------------+
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`add_node <class_EditorSelection_method_add_node>` **(** :ref:`Node <class_Node>` node **)**                   |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`clear <class_EditorSelection_method_clear>` **(** **)**                                                       |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>` | :ref:`get_selected_nodes <class_EditorSelection_method_get_selected_nodes>` **(** **)**                             |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+| :ref:`Array <class_Array>` | :ref:`get_transformable_selected_nodes <class_EditorSelection_method_get_transformable_selected_nodes>` **(** **)** |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
+| void                       | :ref:`remove_node <class_EditorSelection_method_remove_node>` **(** :ref:`Node <class_Node>` node **)**             |
++----------------------------+---------------------------------------------------------------------------------------------------------------------+
 
 Signals
 -------
@@ -47,7 +47,7 @@ Method Descriptions
 
 .. _class_EditorSelection_method_add_node:
 
-- void **add_node** **(** :ref:`Node<class_Node>` node **)**
+- void **add_node** **(** :ref:`Node <class_Node>` node **)**
 
 Adds a node to the selection.
 
@@ -63,7 +63,7 @@ Clear the selection.
 
 .. _class_EditorSelection_method_get_selected_nodes:
 
-- :ref:`Array<class_Array>` **get_selected_nodes** **(** **)**
+- :ref:`Array <class_Array>` **get_selected_nodes** **(** **)**
 
 Gets the list of selected nodes.
 
@@ -71,7 +71,7 @@ Gets the list of selected nodes.
 
 .. _class_EditorSelection_method_get_transformable_selected_nodes:
 
-- :ref:`Array<class_Array>` **get_transformable_selected_nodes** **(** **)**
+- :ref:`Array <class_Array>` **get_transformable_selected_nodes** **(** **)**
 
 Gets the list of selected nodes, optimized for transform operations (i.e. moving them, rotating, etc). This list avoids situations where a node is selected and also child/grandchild.
 
@@ -79,7 +79,7 @@ Gets the list of selected nodes, optimized for transform operations (i.e. moving
 
 .. _class_EditorSelection_method_remove_node:
 
-- void **remove_node** **(** :ref:`Node<class_Node>` node **)**
+- void **remove_node** **(** :ref:`Node <class_Node>` node **)**
 
 Removes a node from the selection.
 

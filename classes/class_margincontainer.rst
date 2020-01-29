@@ -9,16 +9,16 @@
 MarginContainer
 ===============
 
-**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`
 
 Simple margin container.
 
 Description
 -----------
 
-Adds a top, left, bottom, and right margin to all :ref:`Control<class_Control>` nodes that are direct children of the container. To control the ``MarginContainer``'s margin, use the ``margin_*`` theme properties listed below.
+Adds a top, left, bottom, and right margin to all :ref:`Control <class_Control>` nodes that are direct children of the container. To control the ``MarginContainer``'s margin, use the ``margin_*`` theme properties listed below.
 
-**Note:** Be careful, :ref:`Control<class_Control>` margin values are different than the constant margin values. If you want to change the custom margin values of the ``MarginContainer`` by code, you should use the following examples:
+**Note:** Be careful, :ref:`Control <class_Control>` margin values are different than the constant margin values. If you want to change the custom margin values of the ``MarginContainer`` by code, you should use the following examples:
 
 ::
 
@@ -31,13 +31,13 @@ Adds a top, left, bottom, and right margin to all :ref:`Control<class_Control>` 
 Theme Properties
 ----------------
 
-+-----------------------+---------------+---+
-| :ref:`int<class_int>` | margin_bottom | 0 |
-+-----------------------+---------------+---+
-| :ref:`int<class_int>` | margin_left   | 0 |
-+-----------------------+---------------+---+
-| :ref:`int<class_int>` | margin_right  | 0 |
-+-----------------------+---------------+---+
-| :ref:`int<class_int>` | margin_top    | 0 |
-+-----------------------+---------------+---+
++------------------------+---------------+---+
+| :ref:`int <class_int>` | margin_bottom | 0 |
++------------------------+---------------+---+
+| :ref:`int <class_int>` | margin_left   | 0 |
++------------------------+---------------+---+
+| :ref:`int <class_int>` | margin_right  | 0 |
++------------------------+---------------+---+
+| :ref:`int <class_int>` | margin_top    | 0 |
++------------------------+---------------+---+
 

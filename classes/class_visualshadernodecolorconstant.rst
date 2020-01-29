@@ -9,30 +9,30 @@
 VisualShaderNodeColorConstant
 =============================
 
-**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
-A :ref:`Color<class_Color>` constant to be used within the visual shader graph.
+A :ref:`Color <class_Color>` constant to be used within the visual shader graph.
 
 Description
 -----------
 
-Has two output ports representing RGB and alpha channels of :ref:`Color<class_Color>`.
+Has two output ports representing RGB and alpha channels of :ref:`Color <class_Color>`.
 
 Translated to ``vec3 rgb`` and ``float alpha`` in the shader language.
 
 Properties
 ----------
 
-+---------------------------+------------------------------------------------------------------------+-------------------------+
-| :ref:`Color<class_Color>` | :ref:`constant<class_VisualShaderNodeColorConstant_property_constant>` | ``Color( 1, 1, 1, 1 )`` |
-+---------------------------+------------------------------------------------------------------------+-------------------------+
++----------------------------+-------------------------------------------------------------------------+-------------------------+
+| :ref:`Color <class_Color>` | :ref:`constant <class_VisualShaderNodeColorConstant_property_constant>` | ``Color( 1, 1, 1, 1 )`` |
++----------------------------+-------------------------------------------------------------------------+-------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_VisualShaderNodeColorConstant_property_constant:
 
-- :ref:`Color<class_Color>` **constant**
+- :ref:`Color <class_Color>` **constant**
 
 +-----------+-------------------------+
 | *Default* | ``Color( 1, 1, 1, 1 )`` |
@@ -42,5 +42,5 @@ Property Descriptions
 | *Getter*  | get_constant()          |
 +-----------+-------------------------+
 
-A :ref:`Color<class_Color>` constant which represents a state of this node.
+A :ref:`Color <class_Color>` constant which represents a state of this node.
 

@@ -9,7 +9,7 @@
 StreamTexture
 =============
 
-**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`
+**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture <class_Texture>` **<** :ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`
 
 A ``.stex`` texture.
 
@@ -21,25 +21,23 @@ A texture that is loaded from a ``.stex`` file.
 Properties
 ----------
 
-+-----------------------------+----------------------------------------------------------+--------------+
-| :ref:`int<class_int>`       | flags                                                    | **O:** ``0`` |
-+-----------------------------+----------------------------------------------------------+--------------+
-| :ref:`String<class_String>` | :ref:`load_path<class_StreamTexture_property_load_path>` | ``""``       |
-+-----------------------------+----------------------------------------------------------+--------------+
++------------------------------+-----------------------------------------------------------+--------+
+| :ref:`String <class_String>` | :ref:`load_path <class_StreamTexture_property_load_path>` | ``""`` |
++------------------------------+-----------------------------------------------------------+--------+
 
 Methods
 -------
 
-+---------------------------------------+-------------------------------------------------------------------------------------------+
-| :ref:`Error<enum_@GlobalScope_Error>` | :ref:`load<class_StreamTexture_method_load>` **(** :ref:`String<class_String>` path **)** |
-+---------------------------------------+-------------------------------------------------------------------------------------------+
++----------------------------------------+---------------------------------------------------------------------------------------------+
+| :ref:`Error <enum_@GlobalScope_Error>` | :ref:`load <class_StreamTexture_method_load>` **(** :ref:`String <class_String>` path **)** |
++----------------------------------------+---------------------------------------------------------------------------------------------+
 
 Property Descriptions
 ---------------------
 
 .. _class_StreamTexture_property_load_path:
 
-- :ref:`String<class_String>` **load_path**
+- :ref:`String <class_String>` **load_path**
 
 +-----------+-----------------+
 | *Default* | ``""``          |
@@ -56,5 +54,5 @@ Method Descriptions
 
 .. _class_StreamTexture_method_load:
 
-- :ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**
+- :ref:`Error <enum_@GlobalScope_Error>` **load** **(** :ref:`String <class_String>` path **)**
 
