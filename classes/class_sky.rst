@@ -22,7 +22,7 @@ Properties
 ----------
 
 +--------------------------------------------+--------------------------------------------------------+-------+
-| :ref:`ProcessMode<enum_Sky_ProcessMode>`   | :ref:`process_mode<class_Sky_property_process_mode>`   | ``0`` |
+| :ref:`ProcessMode<enum_Sky_ProcessMode>`   | :ref:`process_mode<class_Sky_property_process_mode>`   | ``3`` |
 +--------------------------------------------+--------------------------------------------------------+-------+
 | :ref:`RadianceSize<enum_Sky_RadianceSize>` | :ref:`radiance_size<class_Sky_property_radiance_size>` | ``3`` |
 +--------------------------------------------+--------------------------------------------------------+-------+
@@ -100,7 +100,7 @@ Property Descriptions
 - :ref:`ProcessMode<enum_Sky_ProcessMode>` **process_mode**
 
 +-----------+-------------------------+
-| *Default* | ``0``                   |
+| *Default* | ``3``                   |
 +-----------+-------------------------+
 | *Setter*  | set_process_mode(value) |
 +-----------+-------------------------+

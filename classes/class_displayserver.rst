@@ -129,6 +129,8 @@ Methods
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | :ref:`Vector2i<class_Vector2i>`                                | :ref:`screen_get_position<class_DisplayServer_method_screen_get_position>` **(** :ref:`int<class_int>` screen=-1 **)** |const|                                                                                                                                                                                                                        |
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| :ref:`float<class_float>`                                      | :ref:`screen_get_refresh_rate<class_DisplayServer_method_screen_get_refresh_rate>` **(** :ref:`int<class_int>` screen=-1 **)** |const|                                                                                                                                                                                                                |
++----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | :ref:`float<class_float>`                                      | :ref:`screen_get_scale<class_DisplayServer_method_screen_get_scale>` **(** :ref:`int<class_int>` screen=-1 **)** |const|                                                                                                                                                                                                                              |
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | :ref:`Vector2i<class_Vector2i>`                                | :ref:`screen_get_size<class_DisplayServer_method_screen_get_size>` **(** :ref:`int<class_int>` screen=-1 **)** |const|                                                                                                                                                                                                                                |
@@ -194,6 +196,8 @@ Methods
 | void                                                           | :ref:`window_set_current_screen<class_DisplayServer_method_window_set_current_screen>` **(** :ref:`int<class_int>` screen, :ref:`int<class_int>` window_id=0 **)**                                                                                                                                                                                    |
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | void                                                           | :ref:`window_set_drop_files_callback<class_DisplayServer_method_window_set_drop_files_callback>` **(** :ref:`Callable<class_Callable>` callback, :ref:`int<class_int>` window_id=0 **)**                                                                                                                                                              |
++----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| void                                                           | :ref:`window_set_exclusive<class_DisplayServer_method_window_set_exclusive>` **(** :ref:`int<class_int>` window_id, :ref:`bool<class_bool>` exclusive **)**                                                                                                                                                                                           |
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | void                                                           | :ref:`window_set_flag<class_DisplayServer_method_window_set_flag>` **(** :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` flag, :ref:`bool<class_bool>` enabled, :ref:`int<class_int>` window_id=0 **)**                                                                                                                                            |
 +----------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -459,6 +463,8 @@ enum **CursorShape**:
 
 .. _class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN:
 
+.. _class_DisplayServer_constant_WINDOW_MODE_EXCLUSIVE_FULLSCREEN:
+
 enum **WindowMode**:
 
 - **WINDOW_MODE_WINDOWED** = **0**
@@ -468,6 +474,12 @@ enum **WindowMode**:
 - **WINDOW_MODE_MAXIMIZED** = **2**
 
 - **WINDOW_MODE_FULLSCREEN** = **3** --- Fullscreen window mode. Note that this is not *exclusive* fullscreen. On Windows and Linux, a borderless window is used to emulate fullscreen. On macOS, a new desktop is used to display the running project.
+
+Regardless of the platform, enabling fullscreen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling fullscreen mode.
+
+- **WINDOW_MODE_EXCLUSIVE_FULLSCREEN** = **4** --- Exclusive fullscreen window mode. This mode is implemented on Windows only. On other platforms, it is equivalent to :ref:`WINDOW_MODE_FULLSCREEN<class_DisplayServer_constant_WINDOW_MODE_FULLSCREEN>`.
+
+Only one window in exclusive fullscreen mode can be visible on a given screen at a time. If multiple windows are in exclusive fullscreen mode for the same screen, the last one being set to this mode takes precedence.
 
 Regardless of the platform, enabling fullscreen will change the window size to match the monitor's size. Therefore, make sure your project supports :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` when enabling fullscreen mode.
 
@@ -1012,6 +1024,24 @@ Returns the greatest scale factor of all screens.
 
 ----
 
+.. _class_DisplayServer_method_screen_get_refresh_rate:
+
+- :ref:`float<class_float>` **screen_get_refresh_rate** **(** :ref:`int<class_int>` screen=-1 **)** |const|
+
+Returns the current refresh rate of the specified screen. If ``screen`` is :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>` (the default value), a screen with the main window will be used.
+
+\ **Note:** Returns ``-1.0`` if the DisplayServer fails to find the refresh rate for the specified screen. On HTML5, :ref:`screen_get_refresh_rate<class_DisplayServer_method_screen_get_refresh_rate>` will always return ``-1.0`` as there is no way to retrieve the refresh rate on that platform.
+
+To fallback to a default refresh rate if the method fails, try:
+
+::
+
+    var refresh_rate = DisplayServer.screen_get_refresh_rate()
+    if refresh_rate < 0:
+        refresh_rate = 60.0
+
+----
+
 .. _class_DisplayServer_method_screen_get_scale:
 
 - :ref:`float<class_float>` **screen_get_scale** **(** :ref:`int<class_int>` screen=-1 **)** |const|
@@ -1261,6 +1291,18 @@ Returns the VSync mode of the given window.
 .. _class_DisplayServer_method_window_set_drop_files_callback:
 
 - void **window_set_drop_files_callback** **(** :ref:`Callable<class_Callable>` callback, :ref:`int<class_int>` window_id=0 **)**
+
+----
+
+.. _class_DisplayServer_method_window_set_exclusive:
+
+- void **window_set_exclusive** **(** :ref:`int<class_int>` window_id, :ref:`bool<class_bool>` exclusive **)**
+
+If set to ``true``, this window will always stay on top of its parent window, parent window will ignore input while this window is opened.
+
+\ **Note:** On macOS, exclusive windows are confined to the same space (virtual desktop or screen) as the parent window.
+
+\ **Note:** This method is implemented on macOS and Windows.
 
 ----
 
