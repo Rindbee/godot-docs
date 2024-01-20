@@ -57,7 +57,7 @@ Methods
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                       | :ref:`_debug_parse_stack_level_expression<class_ScriptLanguageExtension_private_method__debug_parse_stack_level_expression>` **(** :ref:`int<class_int>` level, :ref:`String<class_String>` expression, :ref:`int<class_int>` max_subitems, :ref:`int<class_int>` max_depth **)** |virtual|                                                              |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                             | :ref:`_find_function<class_ScriptLanguageExtension_private_method__find_function>` **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` function_name **)** |virtual| |const|                                                                                                                                                       |
+   | :ref:`int<class_int>`                             | :ref:`_find_function<class_ScriptLanguageExtension_private_method__find_function>` **(** :ref:`String<class_String>` function, :ref:`String<class_String>` code **)** |virtual| |const|                                                                                                                                                                  |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | void                                              | :ref:`_finish<class_ScriptLanguageExtension_private_method__finish>` **(** **)** |virtual|                                                                                                                                                                                                                                                               |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -159,6 +159,10 @@ enum **LookupResultType**:
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_SCRIPT_LOCATION** = ``0``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_LOOKUP_RESULT_CLASS:
@@ -166,6 +170,10 @@ enum **LookupResultType**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS** = ``1``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -175,6 +183,10 @@ enum **LookupResultType**:
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_CONSTANT** = ``2``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_LOOKUP_RESULT_CLASS_PROPERTY:
@@ -182,6 +194,10 @@ enum **LookupResultType**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_PROPERTY** = ``3``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -191,6 +207,10 @@ enum **LookupResultType**:
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_METHOD** = ``4``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_LOOKUP_RESULT_CLASS_SIGNAL:
@@ -198,6 +218,10 @@ enum **LookupResultType**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_SIGNAL** = ``5``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -207,6 +231,10 @@ enum **LookupResultType**:
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_ENUM** = ``6``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_LOOKUP_RESULT_CLASS_TBD_GLOBALSCOPE:
@@ -214,6 +242,10 @@ enum **LookupResultType**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_TBD_GLOBALSCOPE** = ``7``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -223,6 +255,10 @@ enum **LookupResultType**:
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_CLASS_ANNOTATION** = ``8``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_LOOKUP_RESULT_MAX:
@@ -230,6 +266,10 @@ enum **LookupResultType**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`LookupResultType<enum_ScriptLanguageExtension_LookupResultType>` **LOOKUP_RESULT_MAX** = ``9``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -291,6 +331,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_CLASS** = ``0``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_FUNCTION:
@@ -298,6 +342,10 @@ enum **CodeCompletionKind**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_FUNCTION** = ``1``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -307,6 +355,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_SIGNAL** = ``2``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_VARIABLE:
@@ -314,6 +366,10 @@ enum **CodeCompletionKind**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_VARIABLE** = ``3``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -323,6 +379,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_MEMBER** = ``4``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_ENUM:
@@ -330,6 +390,10 @@ enum **CodeCompletionKind**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_ENUM** = ``5``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -339,6 +403,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_CONSTANT** = ``6``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_NODE_PATH:
@@ -346,6 +414,10 @@ enum **CodeCompletionKind**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_NODE_PATH** = ``7``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -355,6 +427,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_FILE_PATH** = ``8``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_PLAIN_TEXT:
@@ -363,6 +439,10 @@ enum **CodeCompletionKind**:
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_PLAIN_TEXT** = ``9``
 
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+
 
 
 .. _class_ScriptLanguageExtension_constant_CODE_COMPLETION_KIND_MAX:
@@ -370,6 +450,10 @@ enum **CodeCompletionKind**:
 .. rst-class:: classref-enumeration-constant
 
 :ref:`CodeCompletionKind<enum_ScriptLanguageExtension_CodeCompletionKind>` **CODE_COMPLETION_KIND_MAX** = ``10``
+
+.. container:: contribute
+
+	There is currently no description for this enum. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
 
 
 
@@ -610,11 +694,9 @@ void* **_debug_get_stack_level_instance** **(** :ref:`int<class_int>` level **)*
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **_find_function** **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` function_name **)** |virtual| |const|
+:ref:`int<class_int>` **_find_function** **(** :ref:`String<class_String>` function, :ref:`String<class_String>` code **)** |virtual| |const|
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by :ref:`contributing one <doc_updating_the_class_reference>`!
+Returns the line where the function is defined in the code, or ``-1`` if the function is not present.
 
 .. rst-class:: classref-item-separator
 
