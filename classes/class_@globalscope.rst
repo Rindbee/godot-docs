@@ -5480,20 +5480,10 @@ Clamps the ``value``, returning a :ref:`Variant<class_Variant>` not less than ``
     
     var b = clamp(8.1, 0.9, 5.5)
     # b is 5.5
-    
-    var c = clamp(Vector2(-3.5, -4), Vector2(-3.2, -2), Vector2(2, 6.5))
-    # c is (-3.2, -2)
-    
-    var d = clamp(Vector2i(7, 8), Vector2i(-3, -2), Vector2i(2, 6))
-    # d is (2, 6)
-    
-    var e = clamp(Vector3(-7, 8.5, -3.8), Vector3(-3, -2, 5.4), Vector3(-2, 6, -4.1))
-    # e is (-3, -2, 5.4)
-    
-    var f = clamp(Vector3i(-7, -8, -9), Vector3i(-1, 2, 3), Vector3i(-4, -5, -6))
-    # f is (-4, -5, -6)
 
-\ **Note:** For better type safety, use :ref:`clampf<class_@GlobalScope_method_clampf>`, :ref:`clampi<class_@GlobalScope_method_clampi>`, :ref:`Vector2.clamp<class_Vector2_method_clamp>`, :ref:`Vector2i.clamp<class_Vector2i_method_clamp>`, :ref:`Vector3.clamp<class_Vector3_method_clamp>`, :ref:`Vector3i.clamp<class_Vector3i_method_clamp>`, :ref:`Vector4.clamp<class_Vector4_method_clamp>`, :ref:`Vector4i.clamp<class_Vector4i_method_clamp>`, or :ref:`Color.clamp<class_Color_method_clamp>`.
+\ **Note:** For better type safety, use :ref:`clampf<class_@GlobalScope_method_clampf>`, :ref:`clampi<class_@GlobalScope_method_clampi>`, :ref:`Vector2.clamp<class_Vector2_method_clamp>`, :ref:`Vector2i.clamp<class_Vector2i_method_clamp>`, :ref:`Vector3.clamp<class_Vector3_method_clamp>`, :ref:`Vector3i.clamp<class_Vector3i_method_clamp>`, :ref:`Vector4.clamp<class_Vector4_method_clamp>`, :ref:`Vector4i.clamp<class_Vector4i_method_clamp>`, or :ref:`Color.clamp<class_Color_method_clamp>` (not currently supported by this method).
+
+\ **Note:** When using this on vectors it will *not* perform component-wise clamping, and will pick ``min`` if ``value < min`` or ``max`` if ``value > max``. To perform component-wise clamping use the methods listed above.
 
 .. rst-class:: classref-item-separator
 
@@ -6417,6 +6407,8 @@ When printing to standard output, the supported subset of BBCode is converted to
 \ **Note:** Consider using :ref:`push_error<class_@GlobalScope_method_push_error>` and :ref:`push_warning<class_@GlobalScope_method_push_warning>` to print error and warning messages instead of :ref:`print<class_@GlobalScope_method_print>` or :ref:`print_rich<class_@GlobalScope_method_print_rich>`. This distinguishes them from print messages used for debugging purposes, while also displaying a stack trace when an error or warning is printed.
 
 \ **Note:** On Windows, only Windows 10 and later correctly displays ANSI escape codes in standard output.
+
+\ **Note:** Output displayed in the editor supports clickable ``[url=address]text[/url]`` tags. The ``[url]`` tag's ``address`` value is handled by :ref:`OS.shell_open<class_OS_method_shell_open>` when clicked.
 
 .. rst-class:: classref-item-separator
 
