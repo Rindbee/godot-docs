@@ -203,9 +203,9 @@ Emitted when user changes the workspace (**2D**, **3D**, **Script**, **AssetLib*
 
 **project_settings_changed** **(** **)**
 
-Emitted when any project setting has changed.
+**Deprecated:** Use :ref:`ProjectSettings.settings_changed<class_ProjectSettings_signal_settings_changed>` instead.
 
-\ *Deprecated.* Use :ref:`ProjectSettings.settings_changed<class_ProjectSettings_signal_settings_changed>` instead.
+Emitted when any project setting has changed.
 
 .. rst-class:: classref-item-separator
 
@@ -982,7 +982,7 @@ Implement this function if your plugin edits a specific type of object (Resource
 
 Returns ``true`` if this is a main screen editor plugin (it goes in the workspace selector together with **2D**, **3D**, **Script** and **AssetLib**).
 
-When the plugin's workspace is selected, other main screen plugins will be hidden, but your plugin will not appear automatically. It needs to be added as a child of :ref:`EditorInterface.get_base_control<class_EditorInterface_method_get_base_control>` and made visible inside :ref:`_make_visible<class_EditorPlugin_private_method__make_visible>`.
+When the plugin's workspace is selected, other main screen plugins will be hidden, but your plugin will not appear automatically. It needs to be added as a child of :ref:`EditorInterface.get_editor_main_screen<class_EditorInterface_method_get_editor_main_screen>` and made visible inside :ref:`_make_visible<class_EditorPlugin_private_method__make_visible>`.
 
 Use :ref:`_get_plugin_name<class_EditorPlugin_private_method__get_plugin_name>` and :ref:`_get_plugin_icon<class_EditorPlugin_private_method__get_plugin_icon>` to customize the plugin button's appearance.
 
@@ -1339,9 +1339,9 @@ The callback should have 4 arguments: :ref:`Object<class_Object>` ``undo_redo``,
 
 :ref:`EditorInterface<class_EditorInterface>` **get_editor_interface** **(** **)**
 
-Returns the :ref:`EditorInterface<class_EditorInterface>` singleton instance.
+**Deprecated:** :ref:`EditorInterface<class_EditorInterface>` is a global singleton and can be accessed directly by its name.
 
-\ *Deprecated.* :ref:`EditorInterface<class_EditorInterface>` is a global singleton and can be accessed directly by its name.
+Returns the :ref:`EditorInterface<class_EditorInterface>` singleton instance.
 
 .. rst-class:: classref-item-separator
 
